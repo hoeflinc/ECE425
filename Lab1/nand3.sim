@@ -1,0 +1,7 @@
+| sim circuit "Page 1" from XCircuit v3.90 rev 60
+n B ext14 ext9
+n C GND ext14
+p C Vdd Y
+p B Vdd Y
+n A ext9 Y
+p A Vdd Y
