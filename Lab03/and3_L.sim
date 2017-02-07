@@ -1,0 +1,21 @@
+| units: 30 tech: scmos format: MIT
+p inv_1x_0/a Vdd! Y 2 10 43 77
+n inv_1x_0/a Gnd! Y 2 7 43 11
+p A Vdd! inv_1x_0/a 2 13 11 73
+p B inv_1x_0/a Vdd! 2 13 19 73
+p C Vdd! inv_1x_0/a 2 13 27 73
+n A Gnd! nand3_L_0/a_7_6# 2 16 11 10
+n B nand3_L_0/a_7_6# nand3_L_0/a_12_6# 2 16 16 10
+n C nand3_L_0/a_12_6# inv_1x_0/a 2 16 21 10
+C Y Vdd! 2.1
+C inv_1x_0/a Vdd! 3.5
+R nand3_L_0/a_12_6# 438
+R nand3_L_0/a_7_6# 438
+R C 946
+R B 913
+R A 968
+R Gnd! 2913
+R Y 327
+C inv_1x_0/a GND 2.3
+R inv_1x_0/a 1929
+R Vdd! 3869
