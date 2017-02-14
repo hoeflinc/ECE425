@@ -1,0 +1,106 @@
+magic
+tech scmos
+timestamp 1487104487
+<< m2contact >>
+rect 30 62 34 67
+rect 14 53 18 57
+<< metal2 >>
+rect 6 36 10 42
+rect 6 31 10 32
+rect 22 26 26 73
+rect 38 46 42 63
+rect 70 36 74 57
+rect 86 38 90 53
+rect 118 26 122 64
+rect 142 36 146 40
+rect 278 36 282 47
+rect 286 46 290 56
+rect 342 6 346 46
+<< m3contact >>
+rect 22 73 26 77
+rect 14 53 18 57
+rect 6 42 10 46
+rect 6 32 10 36
+rect 30 62 34 67
+rect 38 63 42 67
+rect 86 53 90 57
+rect 70 32 74 36
+rect 22 22 26 26
+rect 135 42 139 46
+rect 150 42 154 46
+rect 286 42 290 46
+rect 142 32 146 36
+rect 246 32 250 36
+rect 278 32 282 36
+rect 118 22 122 26
+rect 342 2 346 6
+<< metal3 >>
+rect -5 77 27 78
+rect -5 73 22 77
+rect 26 73 27 77
+rect -5 72 27 73
+rect 29 67 43 68
+rect 29 62 30 67
+rect 34 63 38 67
+rect 42 63 43 67
+rect 34 62 43 63
+rect 29 61 43 62
+rect 13 57 91 58
+rect 13 53 14 57
+rect 18 53 86 57
+rect 90 53 91 57
+rect 13 52 91 53
+rect -5 46 11 47
+rect -5 42 6 46
+rect 10 42 11 46
+rect -5 41 11 42
+rect 134 46 291 47
+rect 134 42 135 46
+rect 139 42 150 46
+rect 154 42 286 46
+rect 290 42 291 46
+rect 134 41 291 42
+rect 5 36 147 37
+rect 5 32 6 36
+rect 10 32 70 36
+rect 74 32 142 36
+rect 146 32 147 36
+rect 5 31 147 32
+rect 245 36 283 37
+rect 245 32 246 36
+rect 250 32 278 36
+rect 282 32 283 36
+rect 245 31 283 32
+rect 21 26 123 27
+rect 21 22 22 26
+rect 26 22 118 26
+rect 122 22 123 26
+rect 21 21 123 22
+rect -3 6 347 7
+rect -3 2 342 6
+rect 346 2 347 6
+rect -3 1 347 2
+use inv_1x  inv_1x_0
+timestamp 1484418501
+transform 1 0 6 0 1 4
+box -6 -4 18 96
+use inv_1x  inv_1x_1
+timestamp 1484418501
+transform 1 0 22 0 1 4
+box -6 -4 18 96
+use mux4_dp_1x  mux4_dp_1x_0
+timestamp 1484419186
+transform 1 0 38 0 1 4
+box -6 -4 106 96
+use fulladder  fulladder_0
+timestamp 1484419411
+transform 1 0 144 0 1 4
+box -8 -4 128 96
+use mux3_dp_1x  mux3_dp_1x_0
+timestamp 1484514831
+transform 1 0 270 0 1 4
+box -6 -4 82 96
+<< labels >>
+rlabel metal3 -3 75 -3 75 3 b
+rlabel metal3 -3 44 -3 44 3 a
+<< end >>
