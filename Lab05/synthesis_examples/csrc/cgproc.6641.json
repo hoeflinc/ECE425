@@ -1,0 +1,43 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "decoder_bench": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "checksum": 4294967295,
+            "out": "objs/amcQw_d.o",
+            "bytes": 7155,
+            "mode": 4
+        },
+        "fsNIE_d": {
+            "mod": "decoder_bench",
+            "checksum": 4294967295,
+            "out": "fsNIE_d.o",
+            "bytes": 17324,
+            "mode": 4,
+            "archive": "archive.0/_6641_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_6641_archive_1.a",
+            "objects": [
+                [
+                    "fsNIE_d.o",
+                    17324
+                ],
+                [
+                    "amcQwB.o",
+                    88307
+                ]
+            ],
+            "size": 105631
+        }
+    ],
+    "reusePaths": {}
+}

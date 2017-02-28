@@ -1,0 +1,87 @@
+magic
+tech scmos
+timestamp 1488313098
+<< metal2 >>
+rect 49 1761 53 1764
+rect 121 1761 125 1764
+rect 202 1760 205 1764
+rect 274 1760 277 1764
+rect 354 1760 357 1764
+rect 425 1761 429 1764
+rect 97 888 101 984
+rect 105 980 117 984
+rect 105 888 109 980
+rect 137 888 141 984
+rect 153 888 157 984
+rect 170 888 174 984
+<< metal3 >>
+rect 8 1701 13 1706
+rect 8 1041 13 1046
+rect 39 843 43 847
+rect 39 812 43 816
+rect 41 772 45 776
+rect 14 733 18 737
+rect 9 702 13 706
+rect 41 662 45 666
+rect 11 623 15 627
+rect 2 592 6 596
+rect 41 552 45 556
+rect 2 513 6 517
+rect 2 482 6 486
+rect 41 442 45 446
+rect 1 403 5 407
+rect 1 372 5 376
+rect 1 360 5 364
+rect 34 332 38 336
+rect 16 293 20 297
+rect 7 262 11 266
+rect 18 222 22 226
+rect 16 183 20 187
+rect 10 152 14 156
+rect 34 112 38 116
+rect 16 73 20 77
+rect 3 42 7 46
+rect 18 2 22 6
+use aludecoder  aludecoder_0
+timestamp 1488310061
+transform 1 0 8 0 1 984
+box 0 0 434 780
+use alt_alu  alt_alu_0
+timestamp 1488311221
+transform 1 0 43 0 1 0
+box -43 0 352 986
+<< labels >>
+rlabel metal3 10 1045 10 1045 1 alu_op1
+rlabel metal3 9 1704 9 1704 1 alu_op0
+rlabel metal2 428 1763 428 1763 5 funct0
+rlabel metal2 356 1763 356 1763 5 funct1
+rlabel metal2 276 1763 276 1763 5 funct2
+rlabel metal2 204 1763 204 1763 5 funct3
+rlabel metal2 124 1763 124 1763 5 funct4
+rlabel metal2 52 1763 52 1763 5 funct5
+rlabel metal3 43 774 43 774 1 result7
+rlabel metal3 43 664 43 664 1 result6
+rlabel metal3 43 554 43 554 1 result5
+rlabel metal3 43 444 43 444 1 result4
+rlabel metal3 36 334 36 334 1 result3
+rlabel metal3 20 224 20 224 1 result2
+rlabel metal3 36 114 36 114 1 result1
+rlabel metal3 20 4 20 4 1 result0
+rlabel metal3 3 362 3 362 3 zero
+rlabel metal3 41 845 41 845 1 b7
+rlabel metal3 41 814 41 814 1 a7
+rlabel metal3 16 735 16 735 1 b6
+rlabel metal3 11 704 11 704 1 a6
+rlabel metal3 13 625 13 625 1 b5
+rlabel metal3 4 594 4 594 3 a5
+rlabel metal3 4 515 4 515 3 b4
+rlabel metal3 4 484 4 484 3 a4
+rlabel metal3 3 405 3 405 3 b3
+rlabel metal3 3 374 3 374 3 a3
+rlabel metal3 9 264 9 264 1 a2
+rlabel metal3 18 295 18 295 1 b2
+rlabel metal3 18 185 18 185 1 b1
+rlabel metal3 12 154 12 154 1 a1
+rlabel metal3 18 75 18 75 1 b0
+rlabel metal3 5 44 5 44 3 a0
+<< end >>

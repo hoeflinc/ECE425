@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : aludecoder
+Version: L-2016.03-SP5-2
+Date   : Tue Feb 28 14:01:39 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu05_stdcells (File: /home/shared/OSU/synopsys/lib/ami05/osu05_stdcells.db)
+
+Number of ports:                           15
+Number of nets:                            39
+Number of cells:                           31
+Number of combinational cells:             31
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         10
+Number of references:                       8
+
+Combinational area:               6651.000000
+Buf/Inv area:                     1440.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  6651.000000
+Total area:                 undefined
+1

@@ -1,0 +1,1663 @@
+magic
+tech scmos
+timestamp 1488310061
+<< metal1 >>
+rect 30 725 434 740
+rect 55 700 409 715
+rect 55 687 409 693
+rect 154 661 181 664
+rect 267 645 277 648
+rect 115 639 125 642
+rect 106 598 115 602
+rect 186 598 195 602
+rect 258 598 267 602
+rect 30 587 434 593
+rect 234 526 245 529
+rect 322 518 326 527
+rect 55 487 409 493
+rect 99 478 133 481
+rect 274 448 278 457
+rect 106 445 149 448
+rect 242 445 253 448
+rect 322 438 333 441
+rect 171 398 181 401
+rect 203 398 237 401
+rect 30 387 434 393
+rect 307 378 333 381
+rect 251 341 269 344
+rect 146 339 181 341
+rect 130 338 181 339
+rect 130 336 149 338
+rect 241 323 246 332
+rect 55 287 409 293
+rect 98 255 113 258
+rect 139 248 149 251
+rect 186 248 199 253
+rect 273 248 278 257
+rect 178 235 189 238
+rect 279 228 286 236
+rect 30 187 434 193
+rect 98 148 113 151
+rect 338 148 349 151
+rect 106 144 113 148
+rect 314 128 349 131
+rect 131 125 141 128
+rect 90 98 109 101
+rect 55 87 409 93
+rect 55 65 409 80
+rect 30 40 434 55
+<< metal2 >>
+rect 18 777 45 780
+rect 106 777 117 780
+rect 18 548 21 777
+rect 30 40 45 740
+rect 55 65 70 715
+rect 106 671 109 777
+rect 98 668 109 671
+rect 106 568 109 601
+rect 90 321 93 454
+rect 106 445 109 501
+rect 122 461 125 721
+rect 130 478 133 531
+rect 146 525 149 571
+rect 154 508 157 664
+rect 194 639 197 780
+rect 250 662 254 672
+rect 114 458 125 461
+rect 90 318 109 321
+rect 98 255 101 318
+rect 90 0 93 101
+rect 106 0 109 311
+rect 114 247 117 458
+rect 138 328 141 411
+rect 154 368 157 452
+rect 146 248 149 341
+rect 170 338 173 464
+rect 122 135 125 201
+rect 130 0 133 231
+rect 138 125 141 241
+rect 178 235 181 401
+rect 186 298 189 601
+rect 234 528 237 641
+rect 258 551 261 601
+rect 242 548 261 551
+rect 202 428 205 501
+rect 242 445 245 548
+rect 186 228 189 251
+rect 146 0 149 211
+rect 162 0 165 122
+rect 194 119 197 331
+rect 202 208 205 244
+rect 210 238 213 441
+rect 234 335 237 401
+rect 250 338 253 501
+rect 258 438 261 531
+rect 266 381 269 780
+rect 346 651 349 780
+rect 378 777 421 780
+rect 346 648 357 651
+rect 274 518 277 541
+rect 282 508 285 522
+rect 258 378 269 381
+rect 282 378 285 442
+rect 242 138 245 301
+rect 250 58 253 321
+rect 258 148 261 378
+rect 266 308 269 344
+rect 298 325 301 381
+rect 314 148 317 601
+rect 330 537 333 611
+rect 354 551 357 648
+rect 378 608 381 777
+rect 346 548 357 551
+rect 322 508 325 521
+rect 338 518 341 544
+rect 354 528 357 538
+rect 322 438 325 501
+rect 338 448 341 501
+rect 338 421 341 444
+rect 330 418 341 421
+rect 330 378 333 418
+rect 354 309 357 401
+rect 322 298 349 301
+rect 282 0 285 121
+rect 322 0 325 298
+rect 330 228 333 251
+rect 346 131 349 254
+rect 362 248 365 551
+rect 370 528 373 601
+rect 354 178 357 211
+rect 346 128 365 131
+rect 346 118 349 128
+rect 394 65 409 715
+rect 419 40 434 740
+<< metal3 >>
+rect 0 717 126 722
+rect 249 667 270 672
+rect 273 647 350 652
+rect 193 637 238 642
+rect 329 607 382 612
+rect 105 567 150 572
+rect 17 547 166 552
+rect 345 547 366 552
+rect 97 527 214 532
+rect 257 527 374 532
+rect 113 517 342 522
+rect 153 507 198 512
+rect 281 507 326 512
+rect 121 457 198 462
+rect 273 447 342 452
+rect 209 437 262 442
+rect 201 427 350 432
+rect 137 407 278 412
+rect 265 377 302 382
+rect 153 367 190 372
+rect 169 337 198 342
+rect 249 337 342 342
+rect 193 332 198 337
+rect 193 327 246 332
+rect 97 317 254 322
+rect 105 307 134 312
+rect 265 307 358 312
+rect 185 297 246 302
+rect 129 247 278 252
+rect 329 247 366 252
+rect 137 237 270 242
+rect 129 227 190 232
+rect 281 227 318 232
+rect 121 207 150 212
+rect 201 207 358 212
+rect 121 197 342 202
+rect 97 147 190 152
+rect 313 147 342 152
+rect 265 127 310 132
+rect 161 118 198 123
+rect 281 117 350 122
+rect 0 57 254 62
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_0
+timestamp 1488310061
+transform 1 0 37 0 1 732
+box -7 -7 7 7
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_1
+timestamp 1488310061
+transform 1 0 426 0 1 732
+box -7 -7 7 7
+use $$M3_M2  $$M3_M2_0
+timestamp 1488310061
+transform 1 0 124 0 1 720
+box -3 -3 3 3
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_2
+timestamp 1488310061
+transform 1 0 62 0 1 707
+box -7 -7 7 7
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_3
+timestamp 1488310061
+transform 1 0 401 0 1 707
+box -7 -7 7 7
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_0
+timestamp 1488310061
+transform 1 0 62 0 1 690
+box -7 -2 7 2
+use $$M2_M1  $$M2_M1_0
+timestamp 1488310061
+transform 1 0 100 0 1 669
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_3
+timestamp 1488310061
+transform 1 0 108 0 1 600
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_2
+timestamp 1488310061
+transform 1 0 124 0 1 641
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_1
+timestamp 1488310061
+transform 1 0 156 0 1 663
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_4
+timestamp 1488310061
+transform 1 0 196 0 1 641
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_1
+timestamp 1488310061
+transform 1 0 196 0 1 640
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_7
+timestamp 1488310061
+transform 1 0 188 0 1 600
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_5
+timestamp 1488310061
+transform 1 0 236 0 1 640
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_2
+timestamp 1488310061
+transform 1 0 252 0 1 670
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_5
+timestamp 1488310061
+transform 1 0 252 0 1 664
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_3
+timestamp 1488310061
+transform 1 0 268 0 1 670
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_8
+timestamp 1488310061
+transform 1 0 260 0 1 600
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_4
+timestamp 1488310061
+transform 1 0 276 0 1 650
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_6
+timestamp 1488310061
+transform 1 0 276 0 1 647
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_9
+timestamp 1488310061
+transform 1 0 324 0 1 653
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_6
+timestamp 1488310061
+transform 1 0 324 0 1 650
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_11
+timestamp 1488310061
+transform 1 0 316 0 1 600
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_8
+timestamp 1488310061
+transform 1 0 332 0 1 610
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_7
+timestamp 1488310061
+transform 1 0 348 0 1 650
+box -3 -3 3 3
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_1
+timestamp 1488310061
+transform 1 0 401 0 1 690
+box -7 -2 7 2
+use $$M2_M1  $$M2_M1_10
+timestamp 1488310061
+transform 1 0 380 0 1 653
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_9
+timestamp 1488310061
+transform 1 0 380 0 1 610
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_12
+timestamp 1488310061
+transform 1 0 372 0 1 600
+box -2 -2 2 2
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_2
+timestamp 1488310061
+transform 1 0 37 0 1 590
+box -7 -2 7 2
+use FILL  FILL_0
+timestamp 1488310061
+transform 1 0 80 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_1
+timestamp 1488310061
+transform 1 0 88 0 -1 690
+box -8 -3 16 105
+use NOR2X1  NOR2X1_0
+timestamp 1488310061
+transform 1 0 96 0 -1 690
+box -8 -3 32 105
+use FILL  FILL_2
+timestamp 1488310061
+transform 1 0 120 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_3
+timestamp 1488310061
+transform 1 0 128 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_4
+timestamp 1488310061
+transform 1 0 136 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_5
+timestamp 1488310061
+transform 1 0 144 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_6
+timestamp 1488310061
+transform 1 0 152 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_7
+timestamp 1488310061
+transform 1 0 160 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_8
+timestamp 1488310061
+transform 1 0 168 0 -1 690
+box -8 -3 16 105
+use NOR2X1  NOR2X1_1
+timestamp 1488310061
+transform 1 0 176 0 -1 690
+box -8 -3 32 105
+use FILL  FILL_9
+timestamp 1488310061
+transform 1 0 200 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_10
+timestamp 1488310061
+transform 1 0 208 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_11
+timestamp 1488310061
+transform 1 0 216 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_12
+timestamp 1488310061
+transform 1 0 224 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_13
+timestamp 1488310061
+transform 1 0 232 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_14
+timestamp 1488310061
+transform 1 0 240 0 -1 690
+box -8 -3 16 105
+use NOR2X1  NOR2X1_2
+timestamp 1488310061
+transform 1 0 248 0 -1 690
+box -8 -3 32 105
+use FILL  FILL_15
+timestamp 1488310061
+transform 1 0 272 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_16
+timestamp 1488310061
+transform 1 0 280 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_17
+timestamp 1488310061
+transform 1 0 288 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_18
+timestamp 1488310061
+transform 1 0 296 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_19
+timestamp 1488310061
+transform 1 0 304 0 -1 690
+box -8 -3 16 105
+use INVX2  INVX2_0
+timestamp 1488310061
+transform -1 0 328 0 -1 690
+box -9 -3 26 105
+use FILL  FILL_20
+timestamp 1488310061
+transform 1 0 328 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_21
+timestamp 1488310061
+transform 1 0 336 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_22
+timestamp 1488310061
+transform 1 0 344 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_23
+timestamp 1488310061
+transform 1 0 352 0 -1 690
+box -8 -3 16 105
+use FILL  FILL_24
+timestamp 1488310061
+transform 1 0 360 0 -1 690
+box -8 -3 16 105
+use INVX2  INVX2_1
+timestamp 1488310061
+transform -1 0 384 0 -1 690
+box -9 -3 26 105
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_4
+timestamp 1488310061
+transform 1 0 426 0 1 590
+box -7 -2 7 2
+use $$M3_M2  $$M3_M2_11
+timestamp 1488310061
+transform 1 0 20 0 1 550
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_10
+timestamp 1488310061
+transform 1 0 108 0 1 570
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_13
+timestamp 1488310061
+transform 1 0 100 0 1 533
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_14
+timestamp 1488310061
+transform 1 0 100 0 1 530
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_16
+timestamp 1488310061
+transform 1 0 116 0 1 520
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_15
+timestamp 1488310061
+transform 1 0 116 0 1 517
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_16
+timestamp 1488310061
+transform 1 0 108 0 1 500
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_15
+timestamp 1488310061
+transform 1 0 132 0 1 530
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_12
+timestamp 1488310061
+transform 1 0 148 0 1 570
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_17
+timestamp 1488310061
+transform 1 0 148 0 1 527
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_14
+timestamp 1488310061
+transform 1 0 164 0 1 550
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_13
+timestamp 1488310061
+transform 1 0 164 0 1 550
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_18
+timestamp 1488310061
+transform 1 0 156 0 1 520
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_17
+timestamp 1488310061
+transform 1 0 156 0 1 510
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_20
+timestamp 1488310061
+transform 1 0 196 0 1 511
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_19
+timestamp 1488310061
+transform 1 0 196 0 1 510
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_19
+timestamp 1488310061
+transform 1 0 212 0 1 533
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_18
+timestamp 1488310061
+transform 1 0 212 0 1 530
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_21
+timestamp 1488310061
+transform 1 0 204 0 1 500
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_22
+timestamp 1488310061
+transform 1 0 236 0 1 530
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_20
+timestamp 1488310061
+transform 1 0 260 0 1 530
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_23
+timestamp 1488310061
+transform 1 0 252 0 1 500
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_24
+timestamp 1488310061
+transform 1 0 276 0 1 540
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_21
+timestamp 1488310061
+transform 1 0 276 0 1 520
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_25
+timestamp 1488310061
+transform 1 0 284 0 1 521
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_22
+timestamp 1488310061
+transform 1 0 284 0 1 510
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_23
+timestamp 1488310061
+transform 1 0 348 0 1 550
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_24
+timestamp 1488310061
+transform 1 0 364 0 1 550
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_26
+timestamp 1488310061
+transform 1 0 340 0 1 543
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_27
+timestamp 1488310061
+transform 1 0 332 0 1 539
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_28
+timestamp 1488310061
+transform 1 0 356 0 1 537
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_25
+timestamp 1488310061
+transform 1 0 356 0 1 530
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_30
+timestamp 1488310061
+transform 1 0 324 0 1 520
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_27
+timestamp 1488310061
+transform 1 0 340 0 1 520
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_31
+timestamp 1488310061
+transform 1 0 316 0 1 511
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_28
+timestamp 1488310061
+transform 1 0 324 0 1 510
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_32
+timestamp 1488310061
+transform 1 0 324 0 1 500
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_33
+timestamp 1488310061
+transform 1 0 340 0 1 500
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_26
+timestamp 1488310061
+transform 1 0 372 0 1 530
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_29
+timestamp 1488310061
+transform 1 0 364 0 1 523
+box -2 -2 2 2
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_3
+timestamp 1488310061
+transform 1 0 62 0 1 490
+box -7 -2 7 2
+use FILL  FILL_25
+timestamp 1488310061
+transform -1 0 88 0 1 490
+box -8 -3 16 105
+use FILL  FILL_26
+timestamp 1488310061
+transform -1 0 96 0 1 490
+box -8 -3 16 105
+use NOR2X1  NOR2X1_3
+timestamp 1488310061
+transform -1 0 120 0 1 490
+box -8 -3 32 105
+use FILL  FILL_27
+timestamp 1488310061
+transform -1 0 128 0 1 490
+box -8 -3 16 105
+use FILL  FILL_28
+timestamp 1488310061
+transform -1 0 136 0 1 490
+box -8 -3 16 105
+use FILL  FILL_29
+timestamp 1488310061
+transform -1 0 144 0 1 490
+box -8 -3 16 105
+use NAND2X1  NAND2X1_0
+timestamp 1488310061
+transform 1 0 144 0 1 490
+box -8 -3 32 105
+use FILL  FILL_30
+timestamp 1488310061
+transform -1 0 176 0 1 490
+box -8 -3 16 105
+use FILL  FILL_31
+timestamp 1488310061
+transform -1 0 184 0 1 490
+box -8 -3 16 105
+use FILL  FILL_32
+timestamp 1488310061
+transform -1 0 192 0 1 490
+box -8 -3 16 105
+use NOR2X1  NOR2X1_4
+timestamp 1488310061
+transform 1 0 192 0 1 490
+box -8 -3 32 105
+use FILL  FILL_33
+timestamp 1488310061
+transform -1 0 224 0 1 490
+box -8 -3 16 105
+use FILL  FILL_34
+timestamp 1488310061
+transform -1 0 232 0 1 490
+box -8 -3 16 105
+use FILL  FILL_35
+timestamp 1488310061
+transform -1 0 240 0 1 490
+box -8 -3 16 105
+use INVX2  INVX2_2
+timestamp 1488310061
+transform 1 0 240 0 1 490
+box -9 -3 26 105
+use FILL  FILL_36
+timestamp 1488310061
+transform -1 0 264 0 1 490
+box -8 -3 16 105
+use FILL  FILL_37
+timestamp 1488310061
+transform -1 0 272 0 1 490
+box -8 -3 16 105
+use INVX2  INVX2_3
+timestamp 1488310061
+transform -1 0 288 0 1 490
+box -9 -3 26 105
+use FILL  FILL_38
+timestamp 1488310061
+transform -1 0 296 0 1 490
+box -8 -3 16 105
+use FILL  FILL_39
+timestamp 1488310061
+transform -1 0 304 0 1 490
+box -8 -3 16 105
+use FILL  FILL_40
+timestamp 1488310061
+transform -1 0 312 0 1 490
+box -8 -3 16 105
+use NOR2X1  NOR2X1_5
+timestamp 1488310061
+transform 1 0 312 0 1 490
+box -8 -3 32 105
+use OAI21X1  OAI21X1_0
+timestamp 1488310061
+transform -1 0 368 0 1 490
+box -8 -3 34 105
+use FILL  FILL_59
+timestamp 1488310061
+transform -1 0 376 0 1 490
+box -8 -3 16 105
+use FILL  FILL_60
+timestamp 1488310061
+transform -1 0 384 0 1 490
+box -8 -3 16 105
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_5
+timestamp 1488310061
+transform 1 0 401 0 1 490
+box -7 -2 7 2
+use $$M2_M1  $$M2_M1_36
+timestamp 1488310061
+transform 1 0 92 0 1 453
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_37
+timestamp 1488310061
+transform 1 0 108 0 1 447
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_34
+timestamp 1488310061
+transform 1 0 132 0 1 480
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_29
+timestamp 1488310061
+transform 1 0 124 0 1 460
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_33
+timestamp 1488310061
+transform 1 0 140 0 1 410
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_35
+timestamp 1488310061
+transform 1 0 172 0 1 463
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_39
+timestamp 1488310061
+transform 1 0 156 0 1 451
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_40
+timestamp 1488310061
+transform 1 0 180 0 1 400
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_38
+timestamp 1488310061
+transform 1 0 196 0 1 459
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_30
+timestamp 1488310061
+transform 1 0 196 0 1 460
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_31
+timestamp 1488310061
+transform 1 0 212 0 1 440
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_32
+timestamp 1488310061
+transform 1 0 204 0 1 430
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_43
+timestamp 1488310061
+transform 1 0 244 0 1 447
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_46
+timestamp 1488310061
+transform 1 0 236 0 1 400
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_41
+timestamp 1488310061
+transform 1 0 260 0 1 452
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_42
+timestamp 1488310061
+transform 1 0 276 0 1 450
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_34
+timestamp 1488310061
+transform 1 0 276 0 1 450
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_35
+timestamp 1488310061
+transform 1 0 260 0 1 440
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_44
+timestamp 1488310061
+transform 1 0 284 0 1 441
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_45
+timestamp 1488310061
+transform 1 0 276 0 1 410
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_36
+timestamp 1488310061
+transform 1 0 276 0 1 410
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_48
+timestamp 1488310061
+transform 1 0 324 0 1 440
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_37
+timestamp 1488310061
+transform 1 0 340 0 1 450
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_47
+timestamp 1488310061
+transform 1 0 340 0 1 443
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_49
+timestamp 1488310061
+transform 1 0 348 0 1 430
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_38
+timestamp 1488310061
+transform 1 0 348 0 1 430
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_50
+timestamp 1488310061
+transform 1 0 356 0 1 400
+box -2 -2 2 2
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_6
+timestamp 1488310061
+transform 1 0 37 0 1 390
+box -7 -2 7 2
+use FILL  FILL_41
+timestamp 1488310061
+transform 1 0 80 0 -1 490
+box -8 -3 16 105
+use INVX2  INVX2_4
+timestamp 1488310061
+transform 1 0 88 0 -1 490
+box -9 -3 26 105
+use FILL  FILL_42
+timestamp 1488310061
+transform 1 0 104 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_43
+timestamp 1488310061
+transform 1 0 112 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_44
+timestamp 1488310061
+transform 1 0 120 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_45
+timestamp 1488310061
+transform 1 0 128 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_46
+timestamp 1488310061
+transform 1 0 136 0 -1 490
+box -8 -3 16 105
+use AOI21X1  AOI21X1_0
+timestamp 1488310061
+transform 1 0 144 0 -1 490
+box -7 -3 39 105
+use FILL  FILL_47
+timestamp 1488310061
+transform 1 0 176 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_48
+timestamp 1488310061
+transform 1 0 184 0 -1 490
+box -8 -3 16 105
+use INVX2  INVX2_5
+timestamp 1488310061
+transform 1 0 192 0 -1 490
+box -9 -3 26 105
+use FILL  FILL_49
+timestamp 1488310061
+transform 1 0 208 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_50
+timestamp 1488310061
+transform 1 0 216 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_51
+timestamp 1488310061
+transform 1 0 224 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_52
+timestamp 1488310061
+transform 1 0 232 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_53
+timestamp 1488310061
+transform 1 0 240 0 -1 490
+box -8 -3 16 105
+use AOI22X1  AOI22X1_0
+timestamp 1488310061
+transform 1 0 248 0 -1 490
+box -8 -3 46 105
+use FILL  FILL_54
+timestamp 1488310061
+transform 1 0 288 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_55
+timestamp 1488310061
+transform 1 0 296 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_56
+timestamp 1488310061
+transform 1 0 304 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_57
+timestamp 1488310061
+transform 1 0 312 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_58
+timestamp 1488310061
+transform 1 0 320 0 -1 490
+box -8 -3 16 105
+use NAND3X1  NAND3X1_0
+timestamp 1488310061
+transform 1 0 328 0 -1 490
+box -8 -3 40 105
+use FILL  FILL_61
+timestamp 1488310061
+transform 1 0 360 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_62
+timestamp 1488310061
+transform 1 0 368 0 -1 490
+box -8 -3 16 105
+use FILL  FILL_63
+timestamp 1488310061
+transform 1 0 376 0 -1 490
+box -8 -3 16 105
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_7
+timestamp 1488310061
+transform 1 0 426 0 1 390
+box -7 -2 7 2
+use $$M2_M1  $$M2_M1_52
+timestamp 1488310061
+transform 1 0 116 0 1 331
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_51
+timestamp 1488310061
+transform 1 0 148 0 1 340
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_41
+timestamp 1488310061
+transform 1 0 100 0 1 320
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_54
+timestamp 1488310061
+transform 1 0 108 0 1 323
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_53
+timestamp 1488310061
+transform 1 0 140 0 1 330
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_42
+timestamp 1488310061
+transform 1 0 108 0 1 310
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_55
+timestamp 1488310061
+transform 1 0 132 0 1 310
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_43
+timestamp 1488310061
+transform 1 0 132 0 1 310
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_39
+timestamp 1488310061
+transform 1 0 156 0 1 370
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_44
+timestamp 1488310061
+transform 1 0 172 0 1 340
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_40
+timestamp 1488310061
+transform 1 0 188 0 1 370
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_45
+timestamp 1488310061
+transform 1 0 196 0 1 330
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_56
+timestamp 1488310061
+transform 1 0 188 0 1 321
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_46
+timestamp 1488310061
+transform 1 0 188 0 1 300
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_58
+timestamp 1488310061
+transform 1 0 236 0 1 337
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_50
+timestamp 1488310061
+transform 1 0 252 0 1 340
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_59
+timestamp 1488310061
+transform 1 0 244 0 1 330
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_51
+timestamp 1488310061
+transform 1 0 244 0 1 330
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_60
+timestamp 1488310061
+transform 1 0 228 0 1 323
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_52
+timestamp 1488310061
+transform 1 0 228 0 1 320
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_53
+timestamp 1488310061
+transform 1 0 252 0 1 320
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_55
+timestamp 1488310061
+transform 1 0 244 0 1 300
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_47
+timestamp 1488310061
+transform 1 0 268 0 1 380
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_57
+timestamp 1488310061
+transform 1 0 268 0 1 343
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_54
+timestamp 1488310061
+transform 1 0 268 0 1 310
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_48
+timestamp 1488310061
+transform 1 0 284 0 1 380
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_49
+timestamp 1488310061
+transform 1 0 300 0 1 380
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_61
+timestamp 1488310061
+transform 1 0 300 0 1 327
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_62
+timestamp 1488310061
+transform 1 0 332 0 1 380
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_63
+timestamp 1488310061
+transform 1 0 340 0 1 339
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_56
+timestamp 1488310061
+transform 1 0 340 0 1 340
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_64
+timestamp 1488310061
+transform 1 0 356 0 1 311
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_57
+timestamp 1488310061
+transform 1 0 356 0 1 310
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_65
+timestamp 1488310061
+transform 1 0 348 0 1 300
+box -2 -2 2 2
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_8
+timestamp 1488310061
+transform 1 0 62 0 1 290
+box -7 -2 7 2
+use FILL  FILL_64
+timestamp 1488310061
+transform -1 0 88 0 1 290
+box -8 -3 16 105
+use FILL  FILL_65
+timestamp 1488310061
+transform -1 0 96 0 1 290
+box -8 -3 16 105
+use FILL  FILL_66
+timestamp 1488310061
+transform -1 0 104 0 1 290
+box -8 -3 16 105
+use OAI22X1  OAI22X1_0
+timestamp 1488310061
+transform 1 0 104 0 1 290
+box -8 -3 46 105
+use FILL  FILL_67
+timestamp 1488310061
+transform -1 0 152 0 1 290
+box -8 -3 16 105
+use FILL  FILL_68
+timestamp 1488310061
+transform -1 0 160 0 1 290
+box -8 -3 16 105
+use FILL  FILL_69
+timestamp 1488310061
+transform -1 0 168 0 1 290
+box -8 -3 16 105
+use FILL  FILL_70
+timestamp 1488310061
+transform -1 0 176 0 1 290
+box -8 -3 16 105
+use INVX2  INVX2_6
+timestamp 1488310061
+transform -1 0 192 0 1 290
+box -9 -3 26 105
+use FILL  FILL_71
+timestamp 1488310061
+transform -1 0 200 0 1 290
+box -8 -3 16 105
+use FILL  FILL_72
+timestamp 1488310061
+transform -1 0 208 0 1 290
+box -8 -3 16 105
+use FILL  FILL_73
+timestamp 1488310061
+transform -1 0 216 0 1 290
+box -8 -3 16 105
+use FILL  FILL_74
+timestamp 1488310061
+transform -1 0 224 0 1 290
+box -8 -3 16 105
+use OAI21X1  OAI21X1_1
+timestamp 1488310061
+transform 1 0 224 0 1 290
+box -8 -3 34 105
+use FILL  FILL_75
+timestamp 1488310061
+transform -1 0 264 0 1 290
+box -8 -3 16 105
+use FILL  FILL_76
+timestamp 1488310061
+transform -1 0 272 0 1 290
+box -8 -3 16 105
+use FILL  FILL_77
+timestamp 1488310061
+transform -1 0 280 0 1 290
+box -8 -3 16 105
+use FILL  FILL_78
+timestamp 1488310061
+transform -1 0 288 0 1 290
+box -8 -3 16 105
+use FILL  FILL_79
+timestamp 1488310061
+transform -1 0 296 0 1 290
+box -8 -3 16 105
+use INVX2  INVX2_7
+timestamp 1488310061
+transform 1 0 296 0 1 290
+box -9 -3 26 105
+use FILL  FILL_80
+timestamp 1488310061
+transform -1 0 320 0 1 290
+box -8 -3 16 105
+use FILL  FILL_81
+timestamp 1488310061
+transform -1 0 328 0 1 290
+box -8 -3 16 105
+use FILL  FILL_82
+timestamp 1488310061
+transform -1 0 336 0 1 290
+box -8 -3 16 105
+use NOR2X1  NOR2X1_6
+timestamp 1488310061
+transform -1 0 360 0 1 290
+box -8 -3 32 105
+use FILL  FILL_83
+timestamp 1488310061
+transform -1 0 368 0 1 290
+box -8 -3 16 105
+use FILL  FILL_84
+timestamp 1488310061
+transform -1 0 376 0 1 290
+box -8 -3 16 105
+use FILL  FILL_85
+timestamp 1488310061
+transform -1 0 384 0 1 290
+box -8 -3 16 105
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_9
+timestamp 1488310061
+transform 1 0 401 0 1 290
+box -7 -2 7 2
+use $$M2_M1  $$M2_M1_66
+timestamp 1488310061
+transform 1 0 100 0 1 257
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_68
+timestamp 1488310061
+transform 1 0 116 0 1 249
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_69
+timestamp 1488310061
+transform 1 0 132 0 1 249
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_58
+timestamp 1488310061
+transform 1 0 132 0 1 250
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_67
+timestamp 1488310061
+transform 1 0 148 0 1 250
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_59
+timestamp 1488310061
+transform 1 0 140 0 1 240
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_61
+timestamp 1488310061
+transform 1 0 132 0 1 230
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_74
+timestamp 1488310061
+transform 1 0 124 0 1 210
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_62
+timestamp 1488310061
+transform 1 0 124 0 1 210
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_64
+timestamp 1488310061
+transform 1 0 124 0 1 200
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_63
+timestamp 1488310061
+transform 1 0 148 0 1 210
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_73
+timestamp 1488310061
+transform 1 0 180 0 1 237
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_71
+timestamp 1488310061
+transform 1 0 188 0 1 250
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_70
+timestamp 1488310061
+transform 1 0 212 0 1 253
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_72
+timestamp 1488310061
+transform 1 0 204 0 1 243
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_65
+timestamp 1488310061
+transform 1 0 188 0 1 230
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_60
+timestamp 1488310061
+transform 1 0 212 0 1 240
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_66
+timestamp 1488310061
+transform 1 0 204 0 1 210
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_75
+timestamp 1488310061
+transform 1 0 260 0 1 253
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_76
+timestamp 1488310061
+transform 1 0 276 0 1 250
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_67
+timestamp 1488310061
+transform 1 0 276 0 1 250
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_77
+timestamp 1488310061
+transform 1 0 268 0 1 242
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_68
+timestamp 1488310061
+transform 1 0 268 0 1 240
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_79
+timestamp 1488310061
+transform 1 0 284 0 1 230
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_71
+timestamp 1488310061
+transform 1 0 284 0 1 230
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_72
+timestamp 1488310061
+transform 1 0 316 0 1 230
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_69
+timestamp 1488310061
+transform 1 0 332 0 1 250
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_80
+timestamp 1488310061
+transform 1 0 332 0 1 230
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_78
+timestamp 1488310061
+transform 1 0 348 0 1 253
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_81
+timestamp 1488310061
+transform 1 0 340 0 1 200
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_74
+timestamp 1488310061
+transform 1 0 340 0 1 200
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_70
+timestamp 1488310061
+transform 1 0 364 0 1 250
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_73
+timestamp 1488310061
+transform 1 0 356 0 1 210
+box -3 -3 3 3
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_10
+timestamp 1488310061
+transform 1 0 37 0 1 190
+box -7 -2 7 2
+use FILL  FILL_86
+timestamp 1488310061
+transform 1 0 80 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_87
+timestamp 1488310061
+transform 1 0 88 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_88
+timestamp 1488310061
+transform 1 0 96 0 -1 290
+box -8 -3 16 105
+use OAI22X1  OAI22X1_1
+timestamp 1488310061
+transform 1 0 104 0 -1 290
+box -8 -3 46 105
+use FILL  FILL_89
+timestamp 1488310061
+transform 1 0 144 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_90
+timestamp 1488310061
+transform 1 0 152 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_91
+timestamp 1488310061
+transform 1 0 160 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_92
+timestamp 1488310061
+transform 1 0 168 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_93
+timestamp 1488310061
+transform 1 0 176 0 -1 290
+box -8 -3 16 105
+use OAI21X1  OAI21X1_2
+timestamp 1488310061
+transform -1 0 216 0 -1 290
+box -8 -3 34 105
+use FILL  FILL_94
+timestamp 1488310061
+transform 1 0 216 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_95
+timestamp 1488310061
+transform 1 0 224 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_96
+timestamp 1488310061
+transform 1 0 232 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_97
+timestamp 1488310061
+transform 1 0 240 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_98
+timestamp 1488310061
+transform 1 0 248 0 -1 290
+box -8 -3 16 105
+use OAI21X1  OAI21X1_3
+timestamp 1488310061
+transform 1 0 256 0 -1 290
+box -8 -3 34 105
+use FILL  FILL_99
+timestamp 1488310061
+transform 1 0 288 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_100
+timestamp 1488310061
+transform 1 0 296 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_101
+timestamp 1488310061
+transform 1 0 304 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_102
+timestamp 1488310061
+transform 1 0 312 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_103
+timestamp 1488310061
+transform 1 0 320 0 -1 290
+box -8 -3 16 105
+use NAND2X1  NAND2X1_1
+timestamp 1488310061
+transform -1 0 352 0 -1 290
+box -8 -3 32 105
+use FILL  FILL_104
+timestamp 1488310061
+transform 1 0 352 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_105
+timestamp 1488310061
+transform 1 0 360 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_106
+timestamp 1488310061
+transform 1 0 368 0 -1 290
+box -8 -3 16 105
+use FILL  FILL_107
+timestamp 1488310061
+transform 1 0 376 0 -1 290
+box -8 -3 16 105
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_11
+timestamp 1488310061
+transform 1 0 426 0 1 190
+box -7 -2 7 2
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_12
+timestamp 1488310061
+transform 1 0 62 0 1 90
+box -7 -2 7 2
+use $$M2_M1  $$M2_M1_82
+timestamp 1488310061
+transform 1 0 100 0 1 150
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_75
+timestamp 1488310061
+transform 1 0 100 0 1 150
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_85
+timestamp 1488310061
+transform 1 0 92 0 1 100
+box -2 -2 2 2
+use FILL  FILL_108
+timestamp 1488310061
+transform -1 0 88 0 1 90
+box -8 -3 16 105
+use FILL  FILL_109
+timestamp 1488310061
+transform -1 0 96 0 1 90
+box -8 -3 16 105
+use FILL  FILL_110
+timestamp 1488310061
+transform -1 0 104 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_83
+timestamp 1488310061
+transform 1 0 124 0 1 137
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_84
+timestamp 1488310061
+transform 1 0 140 0 1 127
+box -2 -2 2 2
+use OAI21X1  OAI21X1_4
+timestamp 1488310061
+transform -1 0 136 0 1 90
+box -8 -3 34 105
+use FILL  FILL_111
+timestamp 1488310061
+transform -1 0 144 0 1 90
+box -8 -3 16 105
+use FILL  FILL_112
+timestamp 1488310061
+transform -1 0 152 0 1 90
+box -8 -3 16 105
+use $$M3_M2  $$M3_M2_77
+timestamp 1488310061
+transform 1 0 164 0 1 121
+box -3 -3 3 3
+use FILL  FILL_113
+timestamp 1488310061
+transform -1 0 160 0 1 90
+box -8 -3 16 105
+use FILL  FILL_114
+timestamp 1488310061
+transform -1 0 168 0 1 90
+box -8 -3 16 105
+use FILL  FILL_115
+timestamp 1488310061
+transform -1 0 176 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_86
+timestamp 1488310061
+transform 1 0 188 0 1 150
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_76
+timestamp 1488310061
+transform 1 0 188 0 1 150
+box -3 -3 3 3
+use FILL  FILL_116
+timestamp 1488310061
+transform -1 0 184 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_87
+timestamp 1488310061
+transform 1 0 196 0 1 121
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_78
+timestamp 1488310061
+transform 1 0 196 0 1 121
+box -3 -3 3 3
+use INVX2  INVX2_8
+timestamp 1488310061
+transform -1 0 200 0 1 90
+box -9 -3 26 105
+use FILL  FILL_117
+timestamp 1488310061
+transform -1 0 208 0 1 90
+box -8 -3 16 105
+use FILL  FILL_118
+timestamp 1488310061
+transform -1 0 216 0 1 90
+box -8 -3 16 105
+use FILL  FILL_119
+timestamp 1488310061
+transform -1 0 224 0 1 90
+box -8 -3 16 105
+use FILL  FILL_120
+timestamp 1488310061
+transform -1 0 232 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_88
+timestamp 1488310061
+transform 1 0 260 0 1 150
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_89
+timestamp 1488310061
+transform 1 0 244 0 1 140
+box -2 -2 2 2
+use FILL  FILL_121
+timestamp 1488310061
+transform -1 0 240 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_90
+timestamp 1488310061
+transform 1 0 252 0 1 134
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_91
+timestamp 1488310061
+transform 1 0 268 0 1 130
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_79
+timestamp 1488310061
+transform 1 0 268 0 1 130
+box -3 -3 3 3
+use NAND3X1  NAND3X1_1
+timestamp 1488310061
+transform 1 0 240 0 1 90
+box -8 -3 40 105
+use $$M3_M2  $$M3_M2_82
+timestamp 1488310061
+transform 1 0 284 0 1 120
+box -3 -3 3 3
+use FILL  FILL_122
+timestamp 1488310061
+transform -1 0 280 0 1 90
+box -8 -3 16 105
+use FILL  FILL_123
+timestamp 1488310061
+transform -1 0 288 0 1 90
+box -8 -3 16 105
+use FILL  FILL_124
+timestamp 1488310061
+transform -1 0 296 0 1 90
+box -8 -3 16 105
+use $$M3_M2  $$M3_M2_80
+timestamp 1488310061
+transform 1 0 316 0 1 150
+box -3 -3 3 3
+use $$M3_M2  $$M3_M2_81
+timestamp 1488310061
+transform 1 0 308 0 1 130
+box -3 -3 3 3
+use $$M2_M1  $$M2_M1_92
+timestamp 1488310061
+transform 1 0 308 0 1 127
+box -2 -2 2 2
+use FILL  FILL_125
+timestamp 1488310061
+transform -1 0 304 0 1 90
+box -8 -3 16 105
+use INVX2  INVX2_9
+timestamp 1488310061
+transform 1 0 304 0 1 90
+box -9 -3 26 105
+use FILL  FILL_126
+timestamp 1488310061
+transform -1 0 328 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_94
+timestamp 1488310061
+transform 1 0 340 0 1 150
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_83
+timestamp 1488310061
+transform 1 0 340 0 1 150
+box -3 -3 3 3
+use FILL  FILL_127
+timestamp 1488310061
+transform -1 0 336 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_93
+timestamp 1488310061
+transform 1 0 356 0 1 180
+box -2 -2 2 2
+use $$M2_M1  $$M2_M1_95
+timestamp 1488310061
+transform 1 0 348 0 1 130
+box -2 -2 2 2
+use $$M3_M2  $$M3_M2_84
+timestamp 1488310061
+transform 1 0 348 0 1 120
+box -3 -3 3 3
+use FILL  FILL_128
+timestamp 1488310061
+transform -1 0 344 0 1 90
+box -8 -3 16 105
+use $$M2_M1  $$M2_M1_96
+timestamp 1488310061
+transform 1 0 364 0 1 129
+box -2 -2 2 2
+use NAND2X1  NAND2X1_2
+timestamp 1488310061
+transform -1 0 368 0 1 90
+box -8 -3 32 105
+use FILL  FILL_129
+timestamp 1488310061
+transform -1 0 376 0 1 90
+box -8 -3 16 105
+use FILL  FILL_130
+timestamp 1488310061
+transform -1 0 384 0 1 90
+box -8 -3 16 105
+use $$M2_M1_1500_1500_3_1  $$M2_M1_1500_1500_3_1_13
+timestamp 1488310061
+transform 1 0 401 0 1 90
+box -7 -2 7 2
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_4
+timestamp 1488310061
+transform 1 0 62 0 1 72
+box -7 -7 7 7
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_5
+timestamp 1488310061
+transform 1 0 401 0 1 72
+box -7 -7 7 7
+use $$M3_M2  $$M3_M2_85
+timestamp 1488310061
+transform 1 0 252 0 1 60
+box -3 -3 3 3
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_6
+timestamp 1488310061
+transform 1 0 37 0 1 47
+box -7 -7 7 7
+use $$M2_M1_1500_1500_3_3  $$M2_M1_1500_1500_3_3_7
+timestamp 1488310061
+transform 1 0 426 0 1 47
+box -7 -7 7 7
+<< labels >>
+flabel metal3 2 720 2 720 4 FreeSans 26 0 0 0 alu_op[0]
+flabel metal3 2 60 2 60 4 FreeSans 26 0 0 0 alu_op[1]
+flabel metal2 196 778 196 778 4 FreeSans 26 0 0 0 funct[3]
+flabel metal2 268 778 268 778 4 FreeSans 26 0 0 0 funct[2]
+flabel metal2 348 778 348 778 4 FreeSans 26 0 0 0 funct[1]
+flabel metal2 420 778 420 778 4 FreeSans 26 0 0 0 funct[0]
+flabel metal2 116 778 116 778 4 FreeSans 26 0 0 0 funct[4]
+flabel metal2 44 778 44 778 4 FreeSans 26 0 0 0 funct[5]
+flabel metal2 284 1 284 1 4 FreeSans 26 0 0 0 op[0]
+flabel metal2 164 1 164 1 4 FreeSans 26 0 0 0 op[2]
+flabel metal2 324 1 324 1 4 FreeSans 26 0 0 0 op[1]
+flabel metal2 148 1 148 1 4 FreeSans 26 0 0 0 op[3]
+flabel metal2 132 1 132 1 4 FreeSans 26 0 0 0 op[4]
+flabel metal2 108 1 108 1 4 FreeSans 26 0 0 0 op[5]
+flabel metal2 92 1 92 1 4 FreeSans 26 0 0 0 op[6]
+rlabel metal1 231 731 231 731 1 Vdd!
+rlabel metal1 233 707 233 707 1 Gnd!
+<< end >>
