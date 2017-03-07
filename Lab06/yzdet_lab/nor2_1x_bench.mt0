@@ -1,0 +1,12 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP2-1 linux64' PARAM_COUNT=0
+.TITLE '* nor2_1x_bench.sp'
+ tpdf1            tpdr1            tpd1             tfall1          
+ trise1           tpdf2            tpdr2            tpd2            
+ tfall2           trise2           tpdf3a           tpdr3a          
+ tpd3a            tpdf3b           tpdr3b           tpd3b           
+ tfall3           trise3           temper           alter#          
+  1.551e-10        2.204e-10        1.878e-10        1.528e-10      
+  2.914e-10        1.817e-10        2.390e-10        2.104e-10      
+  1.944e-10        2.936e-10        9.089e-11        2.499e-10      
+  1.704e-10        9.003e-11        2.529e-10        1.715e-10      
+  9.909e-11        2.938e-10         70.0000        1               

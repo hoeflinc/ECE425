@@ -2273,3 +2273,4 @@ Information: Performing CEL netlist consistency check. (MWDC-118)
 Information: CEL consistency check PASSED. (MWDC-119)
 Information: Saved design named aludecoder. (UIG-5)
 icc_shell> 
+Exit IC Compiler!
