@@ -1,0 +1,60 @@
+### Custom WaveView ADV log file, revision L-2016.06-SP2 (build Nov 14, ) ###
+### created at 15:06:07 on Tue Mar 21 2017 (Linux AMD64) ###
+### Host Name: localhost.localdomain   User ID: hoeflinc   PID: 3838   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window CustomWaveView 0 0
+wv_resize_window CustomWaveView 800 400
+wv_move_window CustomWaveView 557 315
+wv_move_window CustomWaveView -3 1
+wv_resize_window CustomWaveView 1920 971
+wv_move_window CustomWaveView -3 31
+sx_open_sim_file_read {yzdet_8_bench_pwr.tr0}
+wv_expand_tree_item MainWindow.hierview {D0:yzdet_8_bench_pwr.tr0}
+wv_select_tree_item MainWindow.hierview {D0:yzdet_8_bench_pwr.tr0}
+wv_select_tree_item MainWindow.hierview {D0:yzdet_8_bench_pwr.tr0/toplevel}
+wv_select_list_item MainWindow.sigview v(0)
+wv_horz_scroll MainWindow.sigview 6
+wv_select_list_item MainWindow.sigview v(nor2_1x_1/y)
+wv_select_list_item MainWindow.sigview power(vdd)
+wv_drag_list_item MainWindow.sigview power(vdd)
+wv_drag_enter WV1
+wv_horz_scroll MainWindow.sigview 0
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(zero)
+wv_drag_list_item MainWindow.sigview v(zero)
+wv_drag_enter WV1
+wv_drag_to WV1 5 484
+wv_drag_to WV1 228 198
+wv_horz_scroll MainWindow.sigview 6
+wv_drag_to WV1 529 210
+wv_drag_to WV1 499 188
+wv_drag_leave WV1
+wv_drag_enter WV1
+wv_drag_to WV1 40 216
+wv_drag_to WV1 35 678
+wv_drag_to WV1 29 673
+wv_drag_to WV1 181 199
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_0_)
+wv_drag_list_item MainWindow.sigview v(a_0_)
+wv_drag_enter WV1
+wv_drag_to WV1 4 496
+wv_drag_to WV1 194 350
+wv_horz_scroll MainWindow.sigview 0
+wv_drop_on WV1
+wv_select_list_item MainWindow.sigview v(a_7_)
+wv_drag_list_item MainWindow.sigview v(a_7_)
+wv_drag_enter WV1
+wv_drag_to WV1 27 564
+wv_drag_to WV1 95 508
+wv_drag_to WV1 270 351
+wv_drop_on WV1
+wv_close_window CustomWaveView
+wv_move_dialog Confirmation 866 464
+wv_select_dialog Confirmation
+wv_move_dialog Confirmation 869 498
+# wv_press_button Confirmation.Ok

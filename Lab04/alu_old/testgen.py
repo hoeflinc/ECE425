@@ -34,7 +34,7 @@ for op in oplist:
             f.write("s\n")
             f.write("assert result "+format(result, '08b')+"\n")
             if (result == 0):
-                f.write("assert zero 1\n")
+                f.write("assert zero 0\n")
             else:
                 f.write("assert zero 0\n")
 

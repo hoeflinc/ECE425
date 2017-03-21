@@ -1,0 +1,12 @@
+$DATA1 SOURCE='HSPICE' VERSION='L-2016.06-SP2-1 linux64' PARAM_COUNT=0
+.TITLE ''
+ tpdf1            tpdr1            tpd1             tfall1          
+ trise1           tpdf2            tpdr2            tpd2            
+ tfall2           trise2           tpdf3            tpdr3           
+ tpd3             tfall3           trise3           temper          
+ alter#          
+  3.123e-10        7.626e-10        5.375e-10        8.105e-11      
+  2.850e-10        6.303e-10        6.596e-10        6.450e-10      
+  1.752e-10        2.777e-10        6.186e-10        6.589e-10      
+  6.387e-10        2.007e-10        2.794e-10         70.0000       
+1               

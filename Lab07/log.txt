@@ -1,0 +1,510 @@
+| a=00000000 zero=1 
+| time = 50.000ns
+| a=00000001 zero=0 
+| time = 100.000ns
+| a=00000010 zero=0 
+| time = 150.000ns
+| a=00000011 zero=0 
+| time = 200.000ns
+| a=00000100 zero=0 
+| time = 250.000ns
+| a=00000101 zero=0 
+| time = 300.000ns
+| a=00000110 zero=0 
+| time = 350.000ns
+| a=00000111 zero=0 
+| time = 400.000ns
+| a=00001000 zero=0 
+| time = 450.000ns
+| a=00001001 zero=0 
+| time = 500.000ns
+| a=00001010 zero=0 
+| time = 550.000ns
+| a=00001011 zero=0 
+| time = 600.000ns
+| a=00001100 zero=0 
+| time = 650.000ns
+| a=00001101 zero=0 
+| time = 700.000ns
+| a=00001110 zero=0 
+| time = 750.000ns
+| a=00001111 zero=0 
+| time = 800.000ns
+| a=00010000 zero=0 
+| time = 850.000ns
+| a=00010001 zero=0 
+| time = 900.000ns
+| a=00010010 zero=0 
+| time = 950.000ns
+| a=00010011 zero=0 
+| time = 1000.000ns
+| a=00010100 zero=0 
+| time = 1050.000ns
+| a=00010101 zero=0 
+| time = 1100.000ns
+| a=00010110 zero=0 
+| time = 1150.000ns
+| a=00010111 zero=0 
+| time = 1200.000ns
+| a=00011000 zero=0 
+| time = 1250.000ns
+| a=00011001 zero=0 
+| time = 1300.000ns
+| a=00011010 zero=0 
+| time = 1350.000ns
+| a=00011011 zero=0 
+| time = 1400.000ns
+| a=00011100 zero=0 
+| time = 1450.000ns
+| a=00011101 zero=0 
+| time = 1500.000ns
+| a=00011110 zero=0 
+| time = 1550.000ns
+| a=00011111 zero=0 
+| time = 1600.000ns
+| a=00100000 zero=0 
+| time = 1650.000ns
+| a=00100001 zero=0 
+| time = 1700.000ns
+| a=00100010 zero=0 
+| time = 1750.000ns
+| a=00100011 zero=0 
+| time = 1800.000ns
+| a=00100100 zero=0 
+| time = 1850.000ns
+| a=00100101 zero=0 
+| time = 1900.000ns
+| a=00100110 zero=0 
+| time = 1950.000ns
+| a=00100111 zero=0 
+| time = 2000.000ns
+| a=00101000 zero=0 
+| time = 2050.000ns
+| a=00101001 zero=0 
+| time = 2100.000ns
+| a=00101010 zero=0 
+| time = 2150.000ns
+| a=00101011 zero=0 
+| time = 2200.000ns
+| a=00101100 zero=0 
+| time = 2250.000ns
+| a=00101101 zero=0 
+| time = 2300.000ns
+| a=00101110 zero=0 
+| time = 2350.000ns
+| a=00101111 zero=0 
+| time = 2400.000ns
+| a=00110000 zero=0 
+| time = 2450.000ns
+| a=00110001 zero=0 
+| time = 2500.000ns
+| a=00110010 zero=0 
+| time = 2550.000ns
+| a=00110011 zero=0 
+| time = 2600.000ns
+| a=00110100 zero=0 
+| time = 2650.000ns
+| a=00110101 zero=0 
+| time = 2700.000ns
+| a=00110110 zero=0 
+| time = 2750.000ns
+| a=00110111 zero=0 
+| time = 2800.000ns
+| a=00111000 zero=0 
+| time = 2850.000ns
+| a=00111001 zero=0 
+| time = 2900.000ns
+| a=00111010 zero=0 
+| time = 2950.000ns
+| a=00111011 zero=0 
+| time = 3000.000ns
+| a=00111100 zero=0 
+| time = 3050.000ns
+| a=00111101 zero=0 
+| time = 3100.000ns
+| a=00111110 zero=0 
+| time = 3150.000ns
+| a=00111111 zero=0 
+| time = 3200.000ns
+| a=01000000 zero=0 
+| time = 3250.000ns
+| a=01000001 zero=0 
+| time = 3300.000ns
+| a=01000010 zero=0 
+| time = 3350.000ns
+| a=01000011 zero=0 
+| time = 3400.000ns
+| a=01000100 zero=0 
+| time = 3450.000ns
+| a=01000101 zero=0 
+| time = 3500.000ns
+| a=01000110 zero=0 
+| time = 3550.000ns
+| a=01000111 zero=0 
+| time = 3600.000ns
+| a=01001000 zero=0 
+| time = 3650.000ns
+| a=01001001 zero=0 
+| time = 3700.000ns
+| a=01001010 zero=0 
+| time = 3750.000ns
+| a=01001011 zero=0 
+| time = 3800.000ns
+| a=01001100 zero=0 
+| time = 3850.000ns
+| a=01001101 zero=0 
+| time = 3900.000ns
+| a=01001110 zero=0 
+| time = 3950.000ns
+| a=01001111 zero=0 
+| time = 4000.000ns
+| a=01010000 zero=0 
+| time = 4050.000ns
+| a=01010001 zero=0 
+| time = 4100.000ns
+| a=01010010 zero=0 
+| time = 4150.000ns
+| a=01010011 zero=0 
+| time = 4200.000ns
+| a=01010100 zero=0 
+| time = 4250.000ns
+| a=01010101 zero=0 
+| time = 4300.000ns
+| a=01010110 zero=0 
+| time = 4350.000ns
+| a=01010111 zero=0 
+| time = 4400.000ns
+| a=01011000 zero=0 
+| time = 4450.000ns
+| a=01011001 zero=0 
+| time = 4500.000ns
+| a=01011010 zero=0 
+| time = 4550.000ns
+| a=01011011 zero=0 
+| time = 4600.000ns
+| a=01011100 zero=0 
+| time = 4650.000ns
+| a=01011101 zero=0 
+| time = 4700.000ns
+| a=01011110 zero=0 
+| time = 4750.000ns
+| a=01011111 zero=0 
+| time = 4800.000ns
+| a=01100000 zero=0 
+| time = 4850.000ns
+| a=01100001 zero=0 
+| time = 4900.000ns
+| a=01100010 zero=0 
+| time = 4950.000ns
+| a=01100011 zero=0 
+| time = 5000.000ns
+| a=01100100 zero=0 
+| time = 5050.000ns
+| a=01100101 zero=0 
+| time = 5100.000ns
+| a=01100110 zero=0 
+| time = 5150.000ns
+| a=01100111 zero=0 
+| time = 5200.000ns
+| a=01101000 zero=0 
+| time = 5250.000ns
+| a=01101001 zero=0 
+| time = 5300.000ns
+| a=01101010 zero=0 
+| time = 5350.000ns
+| a=01101011 zero=0 
+| time = 5400.000ns
+| a=01101100 zero=0 
+| time = 5450.000ns
+| a=01101101 zero=0 
+| time = 5500.000ns
+| a=01101110 zero=0 
+| time = 5550.000ns
+| a=01101111 zero=0 
+| time = 5600.000ns
+| a=01110000 zero=0 
+| time = 5650.000ns
+| a=01110001 zero=0 
+| time = 5700.000ns
+| a=01110010 zero=0 
+| time = 5750.000ns
+| a=01110011 zero=0 
+| time = 5800.000ns
+| a=01110100 zero=0 
+| time = 5850.000ns
+| a=01110101 zero=0 
+| time = 5900.000ns
+| a=01110110 zero=0 
+| time = 5950.000ns
+| a=01110111 zero=0 
+| time = 6000.000ns
+| a=01111000 zero=0 
+| time = 6050.000ns
+| a=01111001 zero=0 
+| time = 6100.000ns
+| a=01111010 zero=0 
+| time = 6150.000ns
+| a=01111011 zero=0 
+| time = 6200.000ns
+| a=01111100 zero=0 
+| time = 6250.000ns
+| a=01111101 zero=0 
+| time = 6300.000ns
+| a=01111110 zero=0 
+| time = 6350.000ns
+| a=01111111 zero=0 
+| time = 6400.000ns
+| a=10000000 zero=0 
+| time = 6450.000ns
+| a=10000001 zero=0 
+| time = 6500.000ns
+| a=10000010 zero=0 
+| time = 6550.000ns
+| a=10000011 zero=0 
+| time = 6600.000ns
+| a=10000100 zero=0 
+| time = 6650.000ns
+| a=10000101 zero=0 
+| time = 6700.000ns
+| a=10000110 zero=0 
+| time = 6750.000ns
+| a=10000111 zero=0 
+| time = 6800.000ns
+| a=10001000 zero=0 
+| time = 6850.000ns
+| a=10001001 zero=0 
+| time = 6900.000ns
+| a=10001010 zero=0 
+| time = 6950.000ns
+| a=10001011 zero=0 
+| time = 7000.000ns
+| a=10001100 zero=0 
+| time = 7050.000ns
+| a=10001101 zero=0 
+| time = 7100.000ns
+| a=10001110 zero=0 
+| time = 7150.000ns
+| a=10001111 zero=0 
+| time = 7200.000ns
+| a=10010000 zero=0 
+| time = 7250.000ns
+| a=10010001 zero=0 
+| time = 7300.000ns
+| a=10010010 zero=0 
+| time = 7350.000ns
+| a=10010011 zero=0 
+| time = 7400.000ns
+| a=10010100 zero=0 
+| time = 7450.000ns
+| a=10010101 zero=0 
+| time = 7500.000ns
+| a=10010110 zero=0 
+| time = 7550.000ns
+| a=10010111 zero=0 
+| time = 7600.000ns
+| a=10011000 zero=0 
+| time = 7650.000ns
+| a=10011001 zero=0 
+| time = 7700.000ns
+| a=10011010 zero=0 
+| time = 7750.000ns
+| a=10011011 zero=0 
+| time = 7800.000ns
+| a=10011100 zero=0 
+| time = 7850.000ns
+| a=10011101 zero=0 
+| time = 7900.000ns
+| a=10011110 zero=0 
+| time = 7950.000ns
+| a=10011111 zero=0 
+| time = 8000.000ns
+| a=10100000 zero=0 
+| time = 8050.000ns
+| a=10100001 zero=0 
+| time = 8100.000ns
+| a=10100010 zero=0 
+| time = 8150.000ns
+| a=10100011 zero=0 
+| time = 8200.000ns
+| a=10100100 zero=0 
+| time = 8250.000ns
+| a=10100101 zero=0 
+| time = 8300.000ns
+| a=10100110 zero=0 
+| time = 8350.000ns
+| a=10100111 zero=0 
+| time = 8400.000ns
+| a=10101000 zero=0 
+| time = 8450.000ns
+| a=10101001 zero=0 
+| time = 8500.000ns
+| a=10101010 zero=0 
+| time = 8550.000ns
+| a=10101011 zero=0 
+| time = 8600.000ns
+| a=10101100 zero=0 
+| time = 8650.000ns
+| a=10101101 zero=0 
+| time = 8700.000ns
+| a=10101110 zero=0 
+| time = 8750.000ns
+| a=10101111 zero=0 
+| time = 8800.000ns
+| a=10110000 zero=0 
+| time = 8850.000ns
+| a=10110001 zero=0 
+| time = 8900.000ns
+| a=10110010 zero=0 
+| time = 8950.000ns
+| a=10110011 zero=0 
+| time = 9000.000ns
+| a=10110100 zero=0 
+| time = 9050.000ns
+| a=10110101 zero=0 
+| time = 9100.000ns
+| a=10110110 zero=0 
+| time = 9150.000ns
+| a=10110111 zero=0 
+| time = 9200.000ns
+| a=10111000 zero=0 
+| time = 9250.000ns
+| a=10111001 zero=0 
+| time = 9300.000ns
+| a=10111010 zero=0 
+| time = 9350.000ns
+| a=10111011 zero=0 
+| time = 9400.000ns
+| a=10111100 zero=0 
+| time = 9450.000ns
+| a=10111101 zero=0 
+| time = 9500.000ns
+| a=10111110 zero=0 
+| time = 9550.000ns
+| a=10111111 zero=0 
+| time = 9600.000ns
+| a=11000000 zero=0 
+| time = 9650.000ns
+| a=11000001 zero=0 
+| time = 9700.000ns
+| a=11000010 zero=0 
+| time = 9750.000ns
+| a=11000011 zero=0 
+| time = 9800.000ns
+| a=11000100 zero=0 
+| time = 9850.000ns
+| a=11000101 zero=0 
+| time = 9900.000ns
+| a=11000110 zero=0 
+| time = 9950.000ns
+| a=11000111 zero=0 
+| time = 10000.000ns
+| a=11001000 zero=0 
+| time = 10050.000ns
+| a=11001001 zero=0 
+| time = 10100.000ns
+| a=11001010 zero=0 
+| time = 10150.000ns
+| a=11001011 zero=0 
+| time = 10200.000ns
+| a=11001100 zero=0 
+| time = 10250.000ns
+| a=11001101 zero=0 
+| time = 10300.000ns
+| a=11001110 zero=0 
+| time = 10350.000ns
+| a=11001111 zero=0 
+| time = 10400.000ns
+| a=11010000 zero=0 
+| time = 10450.000ns
+| a=11010001 zero=0 
+| time = 10500.000ns
+| a=11010010 zero=0 
+| time = 10550.000ns
+| a=11010011 zero=0 
+| time = 10600.000ns
+| a=11010100 zero=0 
+| time = 10650.000ns
+| a=11010101 zero=0 
+| time = 10700.000ns
+| a=11010110 zero=0 
+| time = 10750.000ns
+| a=11010111 zero=0 
+| time = 10800.000ns
+| a=11011000 zero=0 
+| time = 10850.000ns
+| a=11011001 zero=0 
+| time = 10900.000ns
+| a=11011010 zero=0 
+| time = 10950.000ns
+| a=11011011 zero=0 
+| time = 11000.000ns
+| a=11011100 zero=0 
+| time = 11050.000ns
+| a=11011101 zero=0 
+| time = 11100.000ns
+| a=11011110 zero=0 
+| time = 11150.000ns
+| a=11011111 zero=0 
+| time = 11200.000ns
+| a=11100000 zero=0 
+| time = 11250.000ns
+| a=11100001 zero=0 
+| time = 11300.000ns
+| a=11100010 zero=0 
+| time = 11350.000ns
+| a=11100011 zero=0 
+| time = 11400.000ns
+| a=11100100 zero=0 
+| time = 11450.000ns
+| a=11100101 zero=0 
+| time = 11500.000ns
+| a=11100110 zero=0 
+| time = 11550.000ns
+| a=11100111 zero=0 
+| time = 11600.000ns
+| a=11101000 zero=0 
+| time = 11650.000ns
+| a=11101001 zero=0 
+| time = 11700.000ns
+| a=11101010 zero=0 
+| time = 11750.000ns
+| a=11101011 zero=0 
+| time = 11800.000ns
+| a=11101100 zero=0 
+| time = 11850.000ns
+| a=11101101 zero=0 
+| time = 11900.000ns
+| a=11101110 zero=0 
+| time = 11950.000ns
+| a=11101111 zero=0 
+| time = 12000.000ns
+| a=11110000 zero=0 
+| time = 12050.000ns
+| a=11110001 zero=0 
+| time = 12100.000ns
+| a=11110010 zero=0 
+| time = 12150.000ns
+| a=11110011 zero=0 
+| time = 12200.000ns
+| a=11110100 zero=0 
+| time = 12250.000ns
+| a=11110101 zero=0 
+| time = 12300.000ns
+| a=11110110 zero=0 
+| time = 12350.000ns
+| a=11110111 zero=0 
+| time = 12400.000ns
+| a=11111000 zero=0 
+| time = 12450.000ns
+| a=11111001 zero=0 
+| time = 12500.000ns
+| a=11111010 zero=0 
+| time = 12550.000ns
+| a=11111011 zero=0 
+| time = 12600.000ns
+| a=11111100 zero=0 
+| time = 12650.000ns
+| a=11111101 zero=0 
+| time = 12700.000ns
+| a=11111110 zero=0 
+| time = 12750.000ns
