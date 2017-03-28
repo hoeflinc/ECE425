@@ -1,0 +1,4 @@
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+$finish called at time : 691 ns : File "/home/hoeflinc/ECE425/Lab08/lab08/lab08.srcs/sim_1/new/mips_fsm_bench.sv" Line 63
+$finish called at time : 691 ns : File "/home/hoeflinc/ECE425/Lab08/lab08/lab08.srcs/sim_1/new/mips_fsm_bench.sv" Line 63
