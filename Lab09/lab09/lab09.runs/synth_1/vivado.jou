@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Apr  4 15:18:53 2017
+# Process ID: 6797
+# Current directory: /home/hoeflinc/ECE425/Lab09/lab09/lab09.runs/synth_1
+# Command line: vivado -log testbench.vds -mode batch -messageDb vivado.pb -notrace -source testbench.tcl
+# Log file: /home/hoeflinc/ECE425/Lab09/lab09/lab09.runs/synth_1/testbench.vds
+# Journal file: /home/hoeflinc/ECE425/Lab09/lab09/lab09.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source testbench.tcl -notrace
