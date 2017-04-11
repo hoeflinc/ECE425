@@ -1,0 +1,808 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 72 72 469 720
+%%DocumentNeededResources: font /Helvetica font /HelveticaBold
+%%EndComments
+%%BeginProlog
+%
+%  PostScript prolog for output from magic plot
+%  Version: 1.0
+%  written by Tim Edwards 4/05/00  JHU Applied Physics Laboratory
+%
+%%BeginResource: procset MAGICproc 1.0 1
+% supporting definitions
+
+/MAGICsave save def
+
+/bop { 1 setlinecap 0 setlinejoin 6 setmiterlimit 0 setgray } def
+/ninit { /nChars matrix currentmatrix dup 0 get 0 eq {1} {0}
+   ifelse get abs 72 8.5 mul mul 64 div ceiling cvi def } def
+/minit { 1 1 dtransform abs dup 1 exch div /onePix exch def
+   dup /resY exch def 1 exch div /iresY exch def
+   abs dup /resX exch def 1 exch div /iresX exch def
+   /bX 64 iresX mul def /bY 64 iresY mul def
+   /pattFont StipplePattern definefont pop
+   /patterns /pattFont findfont [iresX 64 mul 0 0 iresY 64 mul 0 0] makefont def
+   /ca nChars 1 add string def
+   } def
+/StipplePattern 45 dict def
+StipplePattern begin
+ /FontType 3 def
+ /FontMatrix [1 0 0 1 0 0] def
+ /FontBBox [0 0 1 1] def
+ /Encoding 256 array def
+ /PattName (P0) def
+ /tmpStr 1 string def
+ /NoPatt {<00>} def
+ 0 1 255 { Encoding exch /NoPatt put } for
+ /BuildChar {
+   1 0 0 0 1 1 setcachedevice exch begin Encoding exch get load
+   64 64 true [64 0 0 64 0 0] 5 -1 roll imagemask end } def
+end  
+/dp { StipplePattern begin dup 30 tmpStr cvrs PattName exch 1 exch
+   putinterval PattName cvn dup Encoding exch 4 -1 roll exch put exch
+   store end } def
+/sf { findfont exch scalefont setfont } bind def
+/sp { patterns setfont 2 setlinewidth } def
+/lb { gsave translate 0 0 moveto /just exch def gsave dup true charpath
+	flattenpath pathbbox grestore exch 4 -1 roll exch sub 3 1 roll sub
+	just 4 and 0 gt {just 8 and 0 eq {0.5 mul} if}{pop 0} ifelse exch
+	just 1 and 0 gt {just 2 and 0 eq {0.5 mul} if}{pop 0} ifelse exch
+	rmoveto show grestore } def
+/sl { 0 1 nChars { exch dup 3 1 roll ca 3 1 roll put } for pop } def
+/sc { setcmykcolor } bind def
+/l1 { onePix setlinewidth } def
+/l2 { onePix 2 mul setlinewidth } def
+/l3 { onePix 3 mul setlinewidth } def
+/ml { moveto lineto stroke } bind def
+/vl { moveto 0 exch rlineto stroke } bind def
+/hl { moveto 0 rlineto stroke } bind def
+/mr { rectstroke } bind def
+/ms { rectfill } bind def
+/mx { 4 copy rectstroke 4 -1 roll 4 -1 roll 4 copy moveto rlineto stroke
+   3 -1 roll dup neg 4 1 roll add moveto rlineto stroke } bind def
+/pl { gsave translate /d exch def 0 d neg moveto 0 d lineto stroke
+   d neg 0 moveto d 0 lineto stroke grestore } bind def
+/bx { x resX mul cvi 63 not and dup iresX mul exch
+   w resX mul sub abs 63 add cvi 64 idiv /w exch def
+   y resY mul cvi 63 not and dup iresY mul exch
+   h resY mul sub abs 63 add cvi 64 idiv /h exch def
+   /ch ca 0 w getinterval def
+   moveto h { ch gsave show grestore 0 bY rmoveto } repeat grestore } def
+/fb {/h exch def /w exch def /y exch def /x exch def gsave newpath
+   x y moveto w y lineto w h lineto x h lineto closepath clip bx } def
+/tb {1 sub 3 1 roll gsave newpath moveto {lineto} repeat closepath clip pathbbox
+   /h exch def /w exch def /y exch def /x exch def bx } def
+
+/f1 { 1.881 /Helvetica sf } def
+/f2 { 1.881 /HelveticaBold sf } def
+/f3 { 1.254 /Helvetica sf } def
+/col18 {0.000 1.000 0.000 0.000 sc} bind def
+/col17 {0.090 0.686 0.718 0.000 sc} bind def
+/col16 {0.435 0.592 0.957 0.000 sc} bind def
+/col15 {0.749 0.498 0.247 0.000 sc} bind def
+/col14 {0.000 0.000 0.000 1.000 sc} bind def
+/col13 {0.373 0.875 0.247 0.000 sc} bind def
+/col12 {0.749 0.498 0.000 0.000 sc} bind def
+/col11 {0.000 0.000 1.000 0.000 sc} bind def
+/col10 {0.000 1.000 1.000 0.000 sc} bind def
+/col9 {0.875 0.184 0.875 0.000 sc} bind def
+/col8 {0.000 0.000 0.000 0.498 sc} bind def
+/col7 {1.000 0.247 1.000 0.000 sc} bind def
+/col6 {0.247 0.373 0.749 0.000 sc} bind def
+/col5 {0.122 0.435 1.000 0.000 sc} bind def
+/col4 {0.122 0.435 0.122 0.000 sc} bind def
+/col3 {0.000 0.000 0.000 0.753 sc} bind def
+/col2 {0.875 0.122 0.875 0.000 sc} bind def
+/col1 {0.184 0.373 0.435 0.000 sc} bind def
+{<000000000000000000000000000000003333333333333333333333333333333300000000000000000000000000000000cccccccccccccccccccccccccccccccc>} 13 dp
+{<00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000>} 12 dp
+{<010000800100008002000040020000400c0000300c000030f000000ff000000f000ff000000ff00000300c0000300c0000400200004002000080010000800100>} 11 dp
+{<f0f0f0f0f0f0f0f0606060606060606006060606060606060f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f06060606060606066060606060606060f0f0f0f0f0f0f0f0>} 10 dp
+{<18181818181818183c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c18181818181818188181818181818181c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c38181818181818181>} 9 dp
+{<18181818181818180c0c0c0c0c0c0c0c060606060606060603030303030303038181818181818181c0c0c0c0c0c0c0c060606060606060603030303030303030>} 8 dp
+{<181818181818181830303030303030306060606060606060c0c0c0c0c0c0c0c08181818181818181030303030303030306060606060606060c0c0c0c0c0c0c0c>} 7 dp
+{<07070707070707070e0e0e0e0e0e0e0e1c1c1c1c1c1c1c1c38383838383838387070707070707070e0e0e0e0e0e0e0e0c1c1c1c1c1c1c1c18383838383838383>} 6 dp
+{<ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff>} 5 dp
+{<00000000000000000000000000000000c0c0c0c0c0c0c0c00000000000000000000000000000000000000000000000000c0c0c0c0c0c0c0c0000000000000000>} 4 dp
+{<0003000300030003000c000c000c000c003000300030003000c000c000c000c003000300030003000c000c000c000c003000300030003000c000c000c000c000>} 3 dp
+{<a0a0a0a0a0a0a0a00a0a0a0a0a0a0a0aa0a0a0a0a0a0a0a00a0a0a0a0a0a0a0aa0a0a0a0a0a0a0a00a0a0a0a0a0a0a0aa0a0a0a0a0a0a0a00a0a0a0a0a0a0a0a>} 2 dp
+{<c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0000000000000000000000000000000000c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c00000000000000000000000000000000>} 1 dp
+%%EndResource
+%%EndProlog
+
+%%Page: 1 1
+/pgsave save def bop
+% 0 0 offsets
+ninit
+86 72 translate
+6.380 6.380 scale
+minit
+0 0 56 100 gsave rectclip
+l2
+sp
+
+col2
+4 sl
+l1
+40 1 45 hl
+56 1 45 vl
+1 45 41 100 fb
+56 41 45 vl
+col1
+4 sl
+col9
+5 sl
+2 7 25 vl
+5 7 27 hl
+7 25 12 27 fb
+2 12 25 vl
+12 7 13 vl
+12 12 13 vl
+5 7 11 hl
+2 7 11 vl
+7 11 12 25 fb
+2 12 11 vl
+3 14 11 hl
+16 14 11 vl
+3 14 27 hl
+14 11 17 27 fb
+16 17 11 vl
+3 19 11 hl
+16 19 11 vl
+3 19 27 hl
+19 11 22 27 fb
+16 22 11 vl
+2 24 25 vl
+5 24 27 hl
+24 25 29 27 fb
+2 29 25 vl
+12 24 13 vl
+12 29 13 vl
+5 24 11 hl
+2 24 11 vl
+24 11 29 25 fb
+2 29 11 vl
+4 7 13 hl
+12 7 13 vl
+4 7 25 hl
+7 13 11 25 fb
+12 11 13 vl
+4 25 13 hl
+12 25 13 vl
+4 25 25 hl
+25 13 29 25 fb
+12 29 13 vl
+col1
+5 sl
+1 7 86 vl
+5 7 87 hl
+7 86 12 87 fb
+1 12 86 vl
+4 7 74 hl
+12 7 74 vl
+1 11 74 hl
+7 74 12 86 fb
+12 12 74 vl
+1 14 86 vl
+6 14 87 hl
+14 86 20 87 fb
+1 20 86 vl
+1 14 74 hl
+12 14 74 vl
+5 15 74 hl
+14 74 20 86 fb
+12 20 74 vl
+1 22 86 vl
+6 22 87 hl
+22 86 28 87 fb
+1 28 86 vl
+1 22 74 hl
+12 22 74 vl
+5 23 74 hl
+22 74 28 86 fb
+12 28 74 vl
+1 30 86 vl
+5 30 87 hl
+30 86 35 87 fb
+1 35 86 vl
+1 30 74 hl
+12 30 74 vl
+4 31 74 hl
+30 74 35 86 fb
+12 35 74 vl
+4 7 74 hl
+12 7 74 vl
+4 7 86 hl
+7 74 11 86 fb
+12 11 74 vl
+4 15 74 hl
+12 15 74 vl
+4 15 86 hl
+15 74 19 86 fb
+12 19 74 vl
+4 23 74 hl
+12 23 74 vl
+4 23 86 hl
+23 74 27 86 fb
+12 27 74 vl
+4 31 74 hl
+12 31 74 vl
+4 31 86 hl
+31 74 35 86 fb
+12 35 74 vl
+col17
+5 sl
+2 12 74 hl
+13 12 74 vl
+2 12 87 hl
+12 74 14 87 fb
+13 14 74 vl
+2 20 74 hl
+13 20 74 vl
+2 20 87 hl
+20 74 22 87 fb
+13 22 74 vl
+2 28 74 hl
+13 28 74 vl
+2 28 87 hl
+28 74 30 87 fb
+13 30 74 vl
+col16
+5 sl
+2 12 11 hl
+16 12 11 vl
+2 12 27 hl
+12 11 14 27 fb
+16 14 11 vl
+2 17 11 hl
+16 17 11 vl
+2 17 27 hl
+17 11 19 27 fb
+16 19 11 vl
+2 22 11 hl
+16 22 11 vl
+2 22 27 hl
+22 11 24 27 fb
+16 24 11 vl
+col10
+5 sl
+2 12 87 hl
+2 12 87 vl
+2 12 89 hl
+12 87 14 89 fb
+2 14 87 vl
+2 20 87 hl
+2 20 87 vl
+2 20 89 hl
+20 87 22 89 fb
+2 22 87 vl
+2 28 87 hl
+2 28 87 vl
+2 28 89 hl
+28 87 30 89 fb
+2 30 87 vl
+4 12 70 vl
+2 12 74 hl
+12 70 14 74 fb
+4 14 70 vl
+4 20 70 vl
+2 20 74 hl
+20 70 22 74 fb
+4 22 70 vl
+4 10 68 hl
+2 8 68 vl
+4 8 70 hl
+8 68 14 70 fb
+2 14 68 vl
+3 19 68 hl
+2 17 68 vl
+3 17 70 hl
+17 68 22 70 fb
+2 22 68 vl
+16 8 52 vl
+8 52 10 68 fb
+16 10 52 vl
+16 17 52 vl
+17 52 19 68 fb
+16 19 52 vl
+11 28 63 vl
+2 28 74 hl
+28 63 30 74 fb
+11 30 63 vl
+1 29 61 hl
+2 27 61 vl
+1 27 63 hl
+27 61 30 63 fb
+2 30 61 vl
+1 7 48 hl
+1 10 48 hl
+4 7 48 vl
+1 10 52 hl
+1 7 52 hl
+7 48 11 52 fb
+4 11 48 vl
+2 15 48 hl
+4 15 48 vl
+2 15 52 hl
+15 48 19 52 fb
+4 19 48 vl
+4 23 48 hl
+4 23 48 vl
+23 48 27 52 fb
+4 23 52 hl
+18 8 30 vl
+8 30 10 48 fb
+18 10 30 vl
+4 8 28 hl
+2 8 28 vl
+4 10 30 hl
+8 28 14 30 fb
+2 14 28 vl
+2 12 27 hl
+1 12 27 vl
+12 27 14 28 fb
+1 14 27 vl
+2 17 27 hl
+21 17 27 vl
+17 27 19 48 fb
+21 19 27 vl
+18 27 30 vl
+9 27 52 vl
+27 30 29 61 fb
+31 29 30 vl
+5 24 28 hl
+2 22 28 vl
+5 22 30 hl
+22 28 29 30 fb
+2 29 28 vl
+2 22 27 hl
+1 22 27 vl
+22 27 24 28 fb
+1 24 27 vl
+2 12 9 hl
+2 12 9 vl
+2 12 11 hl
+12 9 14 11 fb
+2 14 9 vl
+2 17 9 hl
+2 17 9 vl
+2 17 11 hl
+17 9 19 11 fb
+2 19 9 vl
+2 22 9 hl
+2 22 9 vl
+2 22 11 hl
+22 9 24 11 fb
+2 24 9 vl
+col1
+7 sl
+2 12 74 hl
+13 12 74 vl
+2 12 87 hl
+12 74 14 87 fb
+13 14 74 vl
+2 20 74 hl
+13 20 74 vl
+2 20 87 hl
+20 74 22 87 fb
+13 22 74 vl
+2 28 74 hl
+13 28 74 vl
+2 28 87 hl
+28 74 30 87 fb
+13 30 74 vl
+col9
+8 sl
+2 12 11 hl
+16 12 11 vl
+2 12 27 hl
+12 11 14 27 fb
+16 14 11 vl
+2 17 11 hl
+16 17 11 vl
+2 17 27 hl
+17 11 19 27 fb
+16 19 11 vl
+2 22 11 hl
+16 22 11 vl
+2 22 27 hl
+22 11 24 27 fb
+16 24 11 vl
+col6
+1 sl
+4 7 3 hl
+4 7 3 vl
+4 7 7 hl
+7 3 11 7 fb
+4 11 3 vl
+4 15 3 hl
+4 15 3 vl
+4 15 7 hl
+15 3 19 7 fb
+4 19 3 vl
+4 23 3 hl
+4 23 3 vl
+4 23 7 hl
+23 3 27 7 fb
+4 27 3 vl
+4 31 3 hl
+4 31 3 vl
+4 31 7 hl
+31 3 35 7 fb
+4 35 3 vl
+4 7 3 hl
+4 7 3 vl
+4 7 7 hl
+7 3 11 7 fb
+4 11 3 vl
+4 15 3 hl
+4 15 3 vl
+4 15 7 hl
+15 3 19 7 fb
+4 19 3 vl
+4 23 3 hl
+4 23 3 vl
+4 23 7 hl
+23 3 27 7 fb
+4 27 3 vl
+4 31 3 hl
+4 31 3 vl
+4 31 7 hl
+31 3 35 7 fb
+4 35 3 vl
+col7
+1 sl
+4 7 93 hl
+4 7 93 vl
+4 7 97 hl
+7 93 11 97 fb
+4 11 93 vl
+4 15 93 hl
+4 15 93 vl
+4 15 97 hl
+15 93 19 97 fb
+4 19 93 vl
+4 23 93 hl
+4 23 93 vl
+4 23 97 hl
+23 93 27 97 fb
+4 27 93 vl
+4 31 93 hl
+4 31 93 vl
+4 31 97 hl
+31 93 35 97 fb
+4 35 93 vl
+4 7 93 hl
+4 7 93 vl
+4 7 97 hl
+7 93 11 97 fb
+4 11 93 vl
+4 15 93 hl
+4 15 93 vl
+4 15 97 hl
+15 93 19 97 fb
+4 19 93 vl
+4 23 93 hl
+4 23 93 vl
+4 23 97 hl
+23 93 27 97 fb
+4 27 93 vl
+4 31 93 hl
+4 31 93 vl
+4 31 97 hl
+31 93 35 97 fb
+4 35 93 vl
+col11
+7 sl
+col12
+9 sl
+4 7 93 hl
+4 7 93 vl
+4 7 97 hl
+7 93 11 97 fb
+4 11 93 vl
+4 15 93 hl
+4 15 93 vl
+4 15 97 hl
+15 93 19 97 fb
+4 19 93 vl
+4 23 93 hl
+4 23 93 vl
+4 23 97 hl
+23 93 27 97 fb
+4 27 93 vl
+4 31 93 hl
+4 31 93 vl
+4 31 97 hl
+31 93 35 97 fb
+4 35 93 vl
+4 7 74 hl
+12 7 74 vl
+4 7 86 hl
+7 74 11 86 fb
+12 11 74 vl
+4 15 74 hl
+12 15 74 vl
+4 15 86 hl
+15 74 19 86 fb
+12 19 74 vl
+4 23 74 hl
+12 23 74 vl
+4 23 86 hl
+23 74 27 86 fb
+12 27 74 vl
+4 31 74 hl
+12 31 74 vl
+4 31 86 hl
+31 74 35 86 fb
+12 35 74 vl
+4 7 48 hl
+4 7 48 vl
+4 7 52 hl
+7 48 11 52 fb
+4 11 48 vl
+4 15 48 hl
+4 15 48 vl
+4 15 52 hl
+15 48 19 52 fb
+4 19 48 vl
+4 23 48 hl
+4 23 48 vl
+4 23 52 hl
+23 48 27 52 fb
+4 27 48 vl
+4 7 13 hl
+12 7 13 vl
+4 7 25 hl
+7 13 11 25 fb
+12 11 13 vl
+4 25 13 hl
+12 25 13 vl
+4 25 25 hl
+25 13 29 25 fb
+12 29 13 vl
+4 7 3 hl
+4 7 3 vl
+4 7 7 hl
+7 3 11 7 fb
+4 11 3 vl
+4 15 3 hl
+4 15 3 vl
+4 15 7 hl
+15 3 19 7 fb
+4 19 3 vl
+4 23 3 hl
+4 23 3 vl
+4 23 7 hl
+23 3 27 7 fb
+4 27 3 vl
+4 31 3 hl
+4 31 3 vl
+4 31 7 hl
+31 3 35 7 fb
+4 35 3 vl
+2 5 97 vl
+32 5 99 hl
+5 97 37 99 fb
+2 37 97 vl
+4 5 93 vl
+4 37 93 vl
+2 5 91 hl
+12 11 91 hl
+10 27 91 hl
+2 5 91 vl
+5 91 37 97 fb
+2 37 91 vl
+5 7 86 vl
+7 86 11 91 fb
+5 11 86 vl
+5 23 86 vl
+23 86 27 91 fb
+5 27 86 vl
+4 7 74 hl
+12 7 74 vl
+7 74 11 86 fb
+12 11 74 vl
+12 15 74 vl
+4 15 86 hl
+15 74 19 86 fb
+12 19 74 vl
+4 23 74 hl
+12 23 74 vl
+23 74 27 86 fb
+12 27 74 vl
+12 31 74 vl
+4 31 86 hl
+31 74 35 86 fb
+12 35 74 vl
+6 15 68 vl
+15 68 19 74 fb
+6 19 68 vl
+6 31 68 vl
+31 68 35 74 fb
+6 35 68 vl
+16 15 64 hl
+4 15 64 vl
+12 19 68 hl
+15 64 35 68 fb
+4 35 64 vl
+12 31 52 vl
+12 35 52 vl
+4 31 48 vl
+4 35 48 vl
+22 31 26 vl
+31 26 35 64 fb
+22 35 26 vl
+1 7 25 vl
+4 7 26 hl
+1 11 25 vl
+12 7 13 vl
+7 13 11 26 fb
+12 11 13 vl
+4 25 13 hl
+12 25 13 vl
+4 25 25 hl
+25 13 29 25 fb
+9 29 13 vl
+6 29 22 hl
+1 29 25 vl
+2 29 26 hl
+29 22 35 26 fb
+4 35 22 vl
+4 7 9 vl
+7 9 11 13 fb
+4 11 9 vl
+2 5 7 vl
+26 11 9 hl
+2 5 9 hl
+5 7 37 9 fb
+2 37 7 vl
+4 5 3 vl
+4 37 3 vl
+32 5 1 hl
+2 5 1 vl
+5 1 37 7 fb
+2 37 1 vl
+4 7 48 hl
+4 7 48 vl
+4 7 52 hl
+7 48 11 52 fb
+4 11 48 vl
+4 15 48 hl
+4 15 48 vl
+4 15 52 hl
+15 48 19 52 fb
+4 19 48 vl
+4 23 48 hl
+4 23 48 vl
+4 23 52 hl
+23 48 27 52 fb
+4 27 48 vl
+4 31 48 hl
+4 31 48 vl
+4 31 52 hl
+31 48 35 52 fb
+4 35 48 vl
+col18
+10 sl
+col13
+10 sl
+4 31 48 hl
+4 31 48 vl
+4 31 52 hl
+31 48 35 52 fb
+4 35 48 vl
+4 7 48 hl
+4 7 48 vl
+4 7 52 hl
+7 48 11 52 fb
+4 11 48 vl
+4 15 48 hl
+4 15 48 vl
+4 15 52 hl
+15 48 19 52 fb
+4 19 48 vl
+4 23 48 hl
+4 23 48 vl
+4 23 52 hl
+23 48 27 52 fb
+4 27 48 vl
+4 31 48 hl
+4 31 48 vl
+4 31 52 hl
+31 48 35 52 fb
+4 35 48 vl
+col18
+13 sl
+col14
+13 sl
+4 31 48 hl
+4 31 48 vl
+4 31 52 hl
+31 48 35 52 fb
+4 35 48 vl
+4 7 48 hl
+4 7 48 vl
+4 7 52 hl
+7 48 11 52 fb
+4 11 48 vl
+4 15 48 hl
+4 15 48 vl
+4 15 52 hl
+15 48 19 52 fb
+4 19 48 vl
+4 23 48 hl
+4 23 48 vl
+4 23 52 hl
+23 48 27 52 fb
+4 27 48 vl
+4 31 48 hl
+4 31 48 vl
+4 31 52 hl
+31 48 35 52 fb
+4 35 48 vl
+col14
+11 sl
+col14
+l2
+31 48 4 4 mr
+7 48 4 4 mr
+15 48 4 4 mr
+23 48 4 4 mr
+31 48 4 4 mr
+col14
+7 93 4 4 mx
+15 93 4 4 mx
+23 93 4 4 mx
+31 93 4 4 mx
+7 74 4 12 mx
+15 74 4 12 mx
+23 74 4 12 mx
+31 74 4 12 mx
+7 48 4 4 mx
+15 48 4 4 mx
+23 48 4 4 mx
+7 13 4 12 mx
+25 13 4 12 mx
+7 3 4 4 mx
+15 3 4 4 mx
+23 3 4 4 mx
+31 3 4 4 mx
+7 93 4 4 mx
+15 93 4 4 mx
+23 93 4 4 mx
+31 93 4 4 mx
+7 74 4 12 mx
+15 74 4 12 mx
+23 74 4 12 mx
+31 74 4 12 mx
+31 48 4 4 mx
+7 13 4 12 mx
+25 13 4 12 mx
+7 3 4 4 mx
+15 3 4 4 mx
+23 3 4 4 mx
+31 3 4 4 mx
+7 48 4 4 mx
+15 48 4 4 mx
+23 48 4 4 mx
+31 48 4 4 mx
+1 7 5 pl
+1 6 95 pl
+1 17 50 pl
+1 25 50 pl
+1 33 50 pl
+1 9 50 pl
+grestore
+f1 0 setgray
+(Gnd!) 1 7 6 lb
+(Vdd!) 4 7 95 lb
+(B) 1 17 51 lb
+(C) 1 25 51 lb
+(Y) 1 33 51 lb
+(A) 1 9 51 lb
+pgsave restore showpage
+
+%%Trailer
+MAGICsave restore
+%%EOF

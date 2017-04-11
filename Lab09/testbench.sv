@@ -34,6 +34,7 @@ module testbench #(parameter WIDTH = 8, REGBITS = 3)();
   always@(negedge clk)
     begin
       if(memwrite) begin
+        //Change these values for other tests
         assert(adr == 8'hfa & writedata == 8'h0f)
           $display("Simulation completed successfully");
         else $error("Simulation failed");

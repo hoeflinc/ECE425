@@ -11,6 +11,7 @@ module exmemory #(parameter WIDTH = 8)
   logic [WIDTH-2:0] wordadr;
 
   initial
+    //Change this to run other tests
     $readmemh("memfile_shift.dat", mem);
 
   assign bytesel = adr[1:0];
