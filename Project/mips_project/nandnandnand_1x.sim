@@ -1,0 +1,29 @@
+| units: 30 tech: scmos format: MIT
+p nand2_1x_0/Y Vdd! y 2 12 59 75
+p nand2_1x_1/Y y Vdd! 2 12 67 75
+n nand2_1x_0/Y Gnd! nand2_1x_2/a_7_7# 2 12 59 11
+n nand2_1x_1/Y nand2_1x_2/a_7_7# y 2 12 64 11
+p s1 Vdd! nand2_1x_1/Y 2 12 35 75
+p d1 nand2_1x_1/Y Vdd! 2 12 43 75
+n s1 Gnd! nand2_1x_1/a_7_7# 2 12 35 11
+n d1 nand2_1x_1/a_7_7# nand2_1x_1/Y 2 12 40 11
+p s0 Vdd! nand2_1x_0/Y 2 12 11 75
+p d0 nand2_1x_0/Y Vdd! 2 12 19 75
+n s0 Gnd! nand2_1x_0/a_7_7# 2 12 11 11
+n d0 nand2_1x_0/a_7_7# nand2_1x_0/Y 2 12 16 11
+C Vdd! nand2_1x_0/Y 2.5
+C nand2_1x_1/Y Vdd! 3.3
+R nand2_1x_0/a_7_7# 329
+R d0 913
+R s0 880
+R nand2_1x_1/a_7_7# 329
+R d1 913
+R s1 880
+R nand2_1x_2/a_7_7# 329
+R Gnd! 4592
+R y 410
+C nand2_1x_1/Y GND 3.2
+R nand2_1x_1/Y 1324
+C nand2_1x_0/Y GND 4.1
+R nand2_1x_0/Y 1291
+R Vdd! 6775

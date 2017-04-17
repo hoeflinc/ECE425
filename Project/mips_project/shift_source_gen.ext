@@ -1,0 +1,270 @@
+timestamp 1492462423
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use mux2_dp_1x mux2_dp_1x_0[1:1:56][1:8:110] 1 0 -10 0 1 774
+use invbuf_4x invbuf_4x_1 1 0 64 0 1 1544
+use and2_1x and2_1x_1 1 0 96 0 1 1544
+use invbuf_4x invbuf_4x_0 1 0 128 0 1 1544
+use and2_1x and2_1x_0[0:0:40][1:7:110] 1 0 6 0 1 4
+node "m2_31_65#" 0 1575.6 31 65 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_31_175#" 0 1575.6 31 175 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_31_285#" 0 1575.6 31 285 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_31_395#" 0 1575.6 31 395 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_31_505#" 0 1575.6 31 505 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_31_615#" 0 1575.6 31 615 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_31_725#" 0 1575.6 31 725 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 294 110
+node "m2_96_1582#" 1 1652.4 96 1582 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 228 88
+node "m2_22_34#" 37 61729.2 22 34 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6356 3202 516 196
+node "arith" 1 1726.8 121 1605 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 94 0 0
+node "right" 1 2582.4 64 1582 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 264 140 0 0
+node "m2_14_829#" 20 34005.6 14 829 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3236 1634 864 300
+node "m2_n2_820#" 19 31906.8 -2 820 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3192 1612 480 172
+node "m1_34_1582#" 0 1191.6 34 1582 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 16 16 0 0
+cap "m2_22_34#" "m2_14_829#" 409.44
+cap "m2_22_34#" "m2_31_175#" 409.44
+cap "m2_14_829#" "m2_n2_820#" 409.44
+cap "m2_31_725#" "m2_22_34#" 409.44
+cap "m2_22_34#" "m2_31_285#" 409.44
+cap "m2_31_65#" "m2_22_34#" 409.44
+cap "m2_22_34#" "m2_31_615#" 409.44
+cap "m2_31_505#" "m2_22_34#" 409.44
+cap "m2_31_395#" "m2_22_34#" 409.44
+cap "and2_1x_0[1]/b" "and2_1x_0[1]/a" 9.72
+cap "and2_1x_0[1]/a_5_5#" "and2_1x_0[1]/b" 9.72
+cap "and2_1x_0[1]/b" "and2_1x_0[1]/Vdd!" 97.2
+cap "and2_1x_0[1]/y" "and2_1x_0[1]/b" 25.92
+cap "and2_1x_0[1]/a_5_5#" "and2_1x_0[1]/a" 393.12
+cap "and2_1x_0[1]/a" "and2_1x_0[1]/Vdd!" 123.84
+cap "and2_1x_0[2]/b" "and2_1x_0[2]/a" 52.92
+cap "and2_1x_0[2]/a_5_5#" "and2_1x_0[2]/a" 393.12
+cap "and2_1x_0[2]/b" "and2_1x_0[2]/a_5_5#" 9.72
+cap "and2_1x_0[2]/Gnd!" "and2_1x_0[2]/a" 80.64
+cap "and2_1x_0[2]/y" "and2_1x_0[2]/b" 25.92
+cap "and2_1x_0[2]/Vdd!" "and2_1x_0[2]/a" 32.4
+cap "and2_1x_0[2]/Vdd!" "and2_1x_0[2]/b" 97.2
+cap "and2_1x_0[2]/a_15_7#" "and2_1x_0[2]/a" 16.2
+cap "and2_1x_0[3]/b" "and2_1x_0[3]/Vdd!" 97.2
+cap "and2_1x_0[3]/b" "and2_1x_0[3]/a" 52.92
+cap "and2_1x_0[3]/a" "and2_1x_0[3]/a_15_7#" 16.2
+cap "and2_1x_0[2]/Vdd!" "and2_1x_0[3]/a" 91.44
+cap "and2_1x_0[3]/b" "and2_1x_0[3]/a_5_5#" 9.72
+cap "and2_1x_0[3]/Vdd!" "and2_1x_0[3]/a" 16.2
+cap "and2_1x_0[3]/b" "and2_1x_0[3]/y" 25.92
+cap "and2_1x_0[3]/Gnd!" "and2_1x_0[3]/a" 80.64
+cap "and2_1x_0[3]/a_5_5#" "and2_1x_0[3]/a" 322.56
+cap "and2_1x_0[4]/a_5_5#" "and2_1x_0[4]/a" 221.76
+cap "and2_1x_0[3]/a_5_5#" "and2_1x_0[4]/a" 70.56
+cap "and2_1x_0[4]/b" "and2_1x_0[4]/y" 25.92
+cap "and2_1x_0[3]/Vdd!" "and2_1x_0[4]/a" 107.64
+cap "and2_1x_0[4]/b" "and2_1x_0[4]/a" 52.92
+cap "and2_1x_0[4]/b" "and2_1x_0[4]/a_5_5#" 9.72
+cap "and2_1x_0[4]/Vdd!" "and2_1x_0[4]/a" 16.2
+cap "and2_1x_0[4]/a_15_7#" "and2_1x_0[4]/a" 16.2
+cap "and2_1x_0[4]/a" "and2_1x_0[4]/Gnd!" 80.64
+cap "and2_1x_0[4]/b" "and2_1x_0[4]/Vdd!" 97.2
+cap "and2_1x_0[4]/Vdd!" "and2_1x_0[5]/a" 107.64
+cap "and2_1x_0[5]/a" "and2_1x_0[5]/Gnd!" 80.64
+cap "and2_1x_0[5]/a" "and2_1x_0[5]/a_5_5#" 120.96
+cap "and2_1x_0[5]/a_15_7#" "and2_1x_0[5]/a" 16.2
+cap "and2_1x_0[5]/b" "and2_1x_0[5]/a" 43.2
+cap "and2_1x_0[5]/a" "and2_1x_0[5]/Vdd!" 16.2
+cap "and2_1x_0[4]/a_5_5#" "and2_1x_0[5]/a" 171.36
+cap "and2_1x_0[6]/a" "and2_1x_0[5]/a_5_5#" 272.16
+cap "and2_1x_0[5]/Vdd!" "and2_1x_0[5]/b" 97.2
+cap "and2_1x_0[6]/a" "and2_1x_0[6]/Gnd!" 80.64
+cap "and2_1x_0[6]/a" "and2_1x_0[6]/Vdd!" 16.2
+cap "and2_1x_0[5]/b" "and2_1x_0[5]/a_5_5#" 9.72
+cap "and2_1x_0[5]/a" "and2_1x_0[5]/b" 9.72
+cap "and2_1x_0[6]/a" "and2_1x_0[6]/a_15_7#" 16.2
+cap "and2_1x_0[6]/a" "and2_1x_0[6]/a_5_5#" 20.16
+cap "and2_1x_0[6]/a" "and2_1x_0[6]/b" 43.2
+cap "and2_1x_0[6]/a" "and2_1x_0[5]/Vdd!" 107.64
+cap "and2_1x_0[5]/b" "and2_1x_0[5]/y" 25.92
+cap "and2_1x_0[7]/b" "and2_1x_0[7]/a" 43.2
+cap "and2_1x_0[6]/y" "and2_1x_0[6]/b" 25.92
+cap "and2_1x_0[7]/Gnd!" "and2_1x_0[7]/a" 80.64
+cap "and2_1x_0[7]/a" "and2_1x_0[6]/a_5_5#" 372.96
+cap "and2_1x_0[7]/a" "and2_1x_0[6]/Vdd!" 107.64
+cap "and2_1x_0[6]/a" "and2_1x_0[6]/b" 9.72
+cap "and2_1x_0[7]/a" "and2_1x_0[7]/a_15_7#" 16.2
+cap "and2_1x_0[6]/a_5_5#" "and2_1x_0[6]/b" 9.72
+cap "and2_1x_0[6]/Vdd!" "and2_1x_0[6]/b" 97.2
+cap "and2_1x_0[7]/b" "and2_1x_0[7]/Vdd!" 97.2
+cap "and2_1x_0[7]/b" "and2_1x_0[7]/a_5_5#" 9.72
+cap "and2_1x_0[7]/a" "and2_1x_0[7]/Vdd!" 123.84
+cap "and2_1x_0[7]/a" "and2_1x_0[7]/a_5_5#" 393.12
+cap "and2_1x_0[7]/a" "and2_1x_0[7]/b" 9.72
+cap "and2_1x_0[7]/b" "and2_1x_0[7]/y" 25.92
+cap "mux2_dp_1x_0[1]/sb" "mux2_dp_1x_0[1]/Vdd!" 205.38
+cap "mux2_dp_1x_0[1]/s" "mux2_dp_1x_0[2]/Gnd!" 80.64
+cap "mux2_dp_1x_0[1]/sb" "mux2_dp_1x_0[1]/d1" 64.8
+cap "mux2_dp_1x_0[1]/s" "mux2_dp_1x_0[1]/Vdd!" 165.69
+cap "mux2_dp_1x_0[1]/s" "mux2_dp_1x_0[2]/a_25_7#" 24.3
+cap "mux2_dp_1x_0[1]/sb" "mux2_dp_1x_0[2]/Gnd!" 111.42
+cap "mux2_dp_1x_0[2]/sb" "mux2_dp_1x_0[1]/s" 14.85
+cap "mux2_dp_1x_0[2]/d1" "mux2_dp_1x_0[1]/sb" 35.1
+cap "m2_22_34#" "mux2_dp_1x_0[1]/Vdd!" 151.2
+cap "mux2_dp_1x_0[1]/s" "mux2_dp_1x_0[1]/a_25_74#" 36.45
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[2]/d0" 38.7
+cap "mux2_dp_1x_0[2]/sb" "mux2_dp_1x_0[2]/Vdd!" 205.38
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[3]/Gnd!" 80.64
+cap "m2_22_34#" "mux2_dp_1x_0[2]/Vdd!" 151.2
+cap "mux2_dp_1x_0[3]/d1" "mux2_dp_1x_0[2]/sb" 2.7
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[2]/Vdd!" 225.09
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[3]/sb" 1.35
+cap "mux2_dp_1x_0[2]/sb" "mux2_dp_1x_0[3]/Gnd!" 85.68
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[2]/sb" 19.53
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[2]/a_17_7#" 37.8
+cap "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[2]/a_25_74#" 36.45
+cap "mux2_dp_1x_0[2]/d1" "mux2_dp_1x_0[2]/sb" 64.8
+cap "mux2_dp_1x_0[3]/a_25_7#" "mux2_dp_1x_0[3]/s" 24.3
+cap "mux2_dp_1x_0[3]/s" "mux2_dp_1x_0[3]/a_25_74#" 36.45
+cap "mux2_dp_1x_0[3]/a_17_7#" "mux2_dp_1x_0[3]/s" 37.8
+cap "mux2_dp_1x_0[3]/Vdd!" "mux2_dp_1x_0[3]/sb" 205.38
+cap "mux2_dp_1x_0[3]/d1" "mux2_dp_1x_0[3]/sb" 97.2
+cap "mux2_dp_1x_0[3]/s" "mux2_dp_1x_0[3]/Vdd!" 225.09
+cap "mux2_dp_1x_0[3]/s" "mux2_dp_1x_0[3]/d0" 38.7
+cap "m2_22_34#" "mux2_dp_1x_0[3]/Vdd!" 151.2
+cap "mux2_dp_1x_0[3]/sb" "mux2_dp_1x_0[3]/Gnd!" 25.74
+cap "mux2_dp_1x_0[3]/s" "mux2_dp_1x_0[3]/sb" 33.03
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/Vdd!" 225.09
+cap "mux2_dp_1x_0[4]/d1" "mux2_dp_1x_0[4]/sb" 99.9
+cap "mux2_dp_1x_0[4]/sb" "mux2_dp_1x_0[4]/Gnd!" 111.42
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/a_17_7#" 37.8
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/a_25_74#" 36.45
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/Gnd!" 80.64
+cap "mux2_dp_1x_0[4]/Vdd!" "m2_22_34#" 151.2
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/a_25_7#" 24.3
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/d0" 38.7
+cap "mux2_dp_1x_0[4]/Vdd!" "mux2_dp_1x_0[4]/sb" 205.38
+cap "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[4]/sb" 34.38
+cap "mux2_dp_1x_0[5]/d0" "mux2_dp_1x_0[5]/s" 38.7
+cap "mux2_dp_1x_0[5]/Gnd!" "mux2_dp_1x_0[5]/s" 80.64
+cap "mux2_dp_1x_0[5]/a_25_7#" "mux2_dp_1x_0[5]/s" 24.3
+cap "mux2_dp_1x_0[5]/d1" "mux2_dp_1x_0[5]/sb" 99.9
+cap "mux2_dp_1x_0[5]/a_25_74#" "mux2_dp_1x_0[5]/s" 36.45
+cap "mux2_dp_1x_0[5]/Gnd!" "mux2_dp_1x_0[5]/sb" 111.42
+cap "mux2_dp_1x_0[5]/a_17_7#" "mux2_dp_1x_0[5]/s" 37.8
+cap "mux2_dp_1x_0[5]/s" "mux2_dp_1x_0[5]/sb" 34.38
+cap "mux2_dp_1x_0[5]/Vdd!" "mux2_dp_1x_0[5]/s" 133.65
+cap "mux2_dp_1x_0[5]/Vdd!" "m2_22_34#" 124.2
+cap "mux2_dp_1x_0[5]/Vdd!" "mux2_dp_1x_0[5]/sb" 113.94
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[5]/Vdd!" 91.44
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/sb" 34.38
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/d0" 38.7
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/a_25_7#" 24.3
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/Gnd!" 80.64
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/a_17_7#" 37.8
+cap "mux2_dp_1x_0[6]/sb" "mux2_dp_1x_0[6]/d1" 75.6
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/Vdd!" 120.15
+cap "mux2_dp_1x_0[5]/Vdd!" "m2_22_34#" 27
+cap "mux2_dp_1x_0[6]/sb" "mux2_dp_1x_0[5]/Vdd!" 91.44
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[6]/a_25_74#" 8.1
+cap "mux2_dp_1x_0[6]/sb" "mux2_dp_1x_0[6]/Gnd!" 111.42
+cap "mux2_dp_1x_0[6]/Vdd!" "m2_22_34#" 97.2
+cap "mux2_dp_1x_0[6]/sb" "mux2_dp_1x_0[6]/Vdd!" 7.74
+cap "mux2_dp_1x_0[6]/sb" "mux2_dp_1x_0[6]/Vdd!" 64.8
+cap "mux2_dp_1x_0[7]/d0" "mux2_dp_1x_0[7]/s" 38.7
+cap "mux2_dp_1x_0[7]/d1" "mux2_dp_1x_0[7]/sb" 48.6
+cap "mux2_dp_1x_0[7]/a_17_7#" "mux2_dp_1x_0[7]/s" 37.8
+cap "mux2_dp_1x_0[6]/Vdd!" "m2_22_34#" 54
+cap "mux2_dp_1x_0[7]/sb" "mux2_dp_1x_0[7]/Vdd!" 43.2
+cap "mux2_dp_1x_0[7]/a_25_7#" "mux2_dp_1x_0[7]/s" 24.3
+cap "mux2_dp_1x_0[7]/sb" "mux2_dp_1x_0[6]/Vdd!" 132.84
+cap "mux2_dp_1x_0[7]/sb" "mux2_dp_1x_0[6]/d1" 24.3
+cap "mux2_dp_1x_0[7]/sb" "mux2_dp_1x_0[7]/Gnd!" 111.42
+cap "mux2_dp_1x_0[7]/Vdd!" "mux2_dp_1x_0[7]/s" 87.75
+cap "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[7]/s" 12.15
+cap "mux2_dp_1x_0[7]/sb" "mux2_dp_1x_0[7]/s" 34.38
+cap "mux2_dp_1x_0[6]/a_25_74#" "mux2_dp_1x_0[7]/s" 28.35
+cap "mux2_dp_1x_0[6]/Vdd!" "mux2_dp_1x_0[7]/s" 104.94
+cap "mux2_dp_1x_0[7]/Gnd!" "mux2_dp_1x_0[7]/s" 80.64
+cap "mux2_dp_1x_0[7]/Vdd!" "m2_22_34#" 70.2
+cap "mux2_dp_1x_0[8]/d0" "mux2_dp_1x_0[8]/sb" 9.72
+cap "mux2_dp_1x_0[7]/s" "mux2_dp_1x_0[8]/a_25_7#" 24.3
+cap "mux2_dp_1x_0[7]/s" "mux2_dp_1x_0[8]/Vdd!" 59.4
+cap "mux2_dp_1x_0[8]/sb" "mux2_dp_1x_0[7]/d1" 51.3
+cap "invbuf_4x_1/s_out" "mux2_dp_1x_0[7]/Vdd!" 81
+cap "mux2_dp_1x_0[8]/sb" "mux2_dp_1x_0[8]/d1" 35.1
+cap "mux2_dp_1x_0[7]/s" "mux2_dp_1x_0[7]/a_25_74#" 36.45
+cap "invbuf_4x_1/s" "mux2_dp_1x_0[7]/s" 9.72
+cap "mux2_dp_1x_0[8]/Gnd!" "mux2_dp_1x_0[7]/s" 116.46
+cap "mux2_dp_1x_0[8]/sb" "mux2_dp_1x_0[7]/Vdd!" 162.18
+cap "invbuf_4x_1/Gnd!" "mux2_dp_1x_0[7]/s" 56.79
+cap "invbuf_4x_1/Vdd!" "invbuf_4x_1/s" 100.8
+cap "mux2_dp_1x_0[8]/d0" "mux2_dp_1x_0[7]/s" 48.42
+cap "mux2_dp_1x_0[8]/sb" "mux2_dp_1x_0[8]/y" 25.92
+cap "mux2_dp_1x_0[7]/Vdd!" "mux2_dp_1x_0[7]/s" 137.34
+cap "mux2_dp_1x_0[8]/a_17_7#" "mux2_dp_1x_0[8]/sb" 87.48
+cap "invbuf_4x_1/s" "and2_1x_1/Vdd!" 21.6
+cap "invbuf_4x_1/s" "mux2_dp_1x_0[8]/sb" 9.72
+cap "mux2_dp_1x_0[7]/s" "mux2_dp_1x_0[7]/s" 25.65
+cap "mux2_dp_1x_0[8]/sb" "mux2_dp_1x_0[7]/s" 70.65
+cap "mux2_dp_1x_0[8]/Gnd!" "mux2_dp_1x_0[8]/sb" 111.42
+cap "mux2_dp_1x_0[8]/y" "mux2_dp_1x_0[8]/Vdd!" 32.4
+cap "invbuf_4x_1/Gnd!" "mux2_dp_1x_0[8]/sb" 31.86
+cap "mux2_dp_1x_0[7]/s" "mux2_dp_1x_0[8]/y" 26.55
+cap "mux2_dp_1x_0[8]/a_17_7#" "mux2_dp_1x_0[7]/s" 47.52
+cap "invbuf_4x_0/s_out" "and2_1x_1/y" 36.27
+cap "and2_1x_1/b" "invbuf_4x_1/s_out" 14.04
+cap "invbuf_4x_0/s_out" "invbuf_4x_0/sb_out" 36.27
+cap "and2_1x_1/y" "invbuf_4x_1/s_out" 38.88
+cap "invbuf_4x_0/s_out" "and2_1x_1/a_5_5#" 36.27
+cap "invbuf_4x_1/sb_out" "invbuf_4x_0/s_out" 9.72
+cap "invbuf_4x_0/s_out" "invbuf_4x_1/Gnd!" 102.51
+cap "invbuf_4x_1/s_out" "and2_1x_1/a_5_5#" 9.72
+cap "invbuf_4x_1/Gnd!" "invbuf_4x_1/s_out" 80.64
+cap "invbuf_4x_0/s_out" "invbuf_4x_1/s_out" 14.67
+cap "and2_1x_1/b" "and2_1x_1/y" 9.72
+cap "and2_1x_1/a_15_7#" "invbuf_4x_0/s_out" 14.85
+cap "invbuf_4x_0/Vdd!" "and2_1x_1/y" 55.8
+cap "and2_1x_1/b" "invbuf_4x_0/s_out" 9.72
+cap "and2_1x_1/y" "and2_1x_1/a_5_5#" 35.64
+cap "invbuf_4x_1/Vdd!" "right" 393.84
+cap "invbuf_4x_1/Vdd!" "arith" 236.43
+merge "invbuf_4x_0/s_out" "mux2_dp_1x_0[8]/s" -6206.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -148 -144 0 0
+merge "mux2_dp_1x_0[8]/s" "mux2_dp_1x_0[7]/s"
+merge "mux2_dp_1x_0[7]/s" "mux2_dp_1x_0[6]/s"
+merge "mux2_dp_1x_0[6]/s" "mux2_dp_1x_0[5]/s"
+merge "mux2_dp_1x_0[5]/s" "mux2_dp_1x_0[4]/s"
+merge "mux2_dp_1x_0[4]/s" "mux2_dp_1x_0[3]/s"
+merge "mux2_dp_1x_0[3]/s" "mux2_dp_1x_0[2]/s"
+merge "mux2_dp_1x_0[2]/s" "mux2_dp_1x_0[1]/s"
+merge "mux2_dp_1x_0[1]/s" "m2_14_829#"
+merge "and2_1x_1/a" "invbuf_4x_1/s_out" -31943.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2952 -1544 0 0
+merge "invbuf_4x_1/s_out" "and2_1x_0[7]/a"
+merge "and2_1x_0[7]/a" "and2_1x_0[6]/a"
+merge "and2_1x_0[6]/a" "and2_1x_0[5]/a"
+merge "and2_1x_0[5]/a" "and2_1x_0[4]/a"
+merge "and2_1x_0[4]/a" "and2_1x_0[3]/a"
+merge "and2_1x_0[3]/a" "and2_1x_0[2]/a"
+merge "and2_1x_0[2]/a" "and2_1x_0[1]/a"
+merge "and2_1x_0[1]/a" "m2_22_34#"
+merge "invbuf_4x_1/sb_out" "mux2_dp_1x_0[8]/sb" -6242.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -144 0 0
+merge "mux2_dp_1x_0[8]/sb" "mux2_dp_1x_0[7]/sb"
+merge "mux2_dp_1x_0[7]/sb" "mux2_dp_1x_0[6]/sb"
+merge "mux2_dp_1x_0[6]/sb" "mux2_dp_1x_0[5]/sb"
+merge "mux2_dp_1x_0[5]/sb" "mux2_dp_1x_0[4]/sb"
+merge "mux2_dp_1x_0[4]/sb" "mux2_dp_1x_0[3]/sb"
+merge "mux2_dp_1x_0[3]/sb" "mux2_dp_1x_0[2]/sb"
+merge "mux2_dp_1x_0[2]/sb" "mux2_dp_1x_0[1]/sb"
+merge "mux2_dp_1x_0[1]/sb" "m2_n2_820#"
+merge "and2_1x_0[4]/b" "m2_31_395#" -429 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -16 0 0
+merge "mux2_dp_1x_0[8]/y" "m1_34_1582#" -198 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "invbuf_4x_0/Gnd!" "and2_1x_1/Gnd!" -662.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
+merge "and2_1x_1/Gnd!" "invbuf_4x_1/Gnd!"
+merge "and2_1x_0[6]/b" "m2_31_615#" -434.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_0[2]/b" "m2_31_175#" -434.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_0[7]/b" "m2_31_725#" -434.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "invbuf_4x_1/s" "right" -589.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_0[3]/b" "m2_31_285#" -434.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "invbuf_4x_0/s" "and2_1x_1/y" -676.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "and2_1x_1/y" "m2_96_1582#"
+merge "invbuf_4x_0/Vdd!" "and2_1x_1/Vdd!" -2102.4 0 0 0 0 -400 -176 0 0 0 0 0 0 0 0 0 0 0 -32 0 0 0 0
+merge "and2_1x_1/Vdd!" "invbuf_4x_1/Vdd!"
+merge "and2_1x_0[1]/b" "m2_31_65#" -434.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "and2_1x_1/b" "arith" -432.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -16 0 0
+merge "and2_1x_0[5]/b" "m2_31_505#" -407.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -16 0 0

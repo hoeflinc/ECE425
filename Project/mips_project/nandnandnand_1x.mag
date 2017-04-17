@@ -1,0 +1,56 @@
+magic
+tech scmos
+timestamp 1492464959
+<< m2contact >>
+rect 38 63 42 67
+rect 22 55 26 59
+rect 46 55 50 59
+rect 62 47 66 51
+rect 6 39 10 43
+rect 30 39 34 43
+rect 19 30 23 34
+<< metal2 >>
+rect 70 55 74 63
+rect 46 46 50 55
+rect 54 34 58 43
+<< m3contact >>
+rect 38 63 42 67
+rect 70 63 74 67
+rect 46 42 50 46
+rect 19 30 23 34
+rect 54 30 58 34
+<< metal3 >>
+rect 37 67 75 68
+rect 37 63 38 67
+rect 42 63 70 67
+rect 74 63 75 67
+rect 37 62 75 63
+rect -9 54 27 60
+rect -9 46 51 47
+rect -9 42 46 46
+rect 50 42 51 46
+rect -9 41 51 42
+rect 18 34 59 35
+rect 18 30 19 34
+rect 23 30 54 34
+rect 58 30 59 34
+rect 18 29 59 30
+use nand2_1x  nand2_1x_0
+timestamp 1484411139
+transform 1 0 6 0 1 4
+box -6 -4 26 96
+use nand2_1x  nand2_1x_1
+timestamp 1484411139
+transform 1 0 30 0 1 4
+box -6 -4 26 96
+use nand2_1x  nand2_1x_2
+timestamp 1484411139
+transform 1 0 54 0 1 4
+box -6 -4 26 96
+<< labels >>
+rlabel m2contact 8 41 8 41 1 s0
+rlabel m2contact 32 41 32 41 1 s1
+rlabel m2contact 24 57 24 57 1 d0
+rlabel m2contact 48 57 48 57 1 d1
+rlabel m2contact 64 49 64 49 1 y
+<< end >>
