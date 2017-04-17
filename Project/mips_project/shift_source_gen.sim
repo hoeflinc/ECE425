@@ -1,282 +1,330 @@
 | units: 30 tech: scmos format: MIT
-p and2_1x_0[1]/a_5_5# and2_1x_0[1]/y Vdd! 2 10 11 77
+p and2_1x_0[1]/a_5_5# z0 Vdd! 2 10 11 77
 p and2_1x_1/a Vdd! and2_1x_0[1]/a_5_5# 2 6 19 81
-p and2_1x_0[1]/b and2_1x_0[1]/a_5_5# Vdd! 2 6 27 81
-n and2_1x_0[1]/a_5_5# and2_1x_0[1]/y Gnd! 2 7 11 11
+p a0 and2_1x_0[1]/a_5_5# Vdd! 2 6 27 81
+n and2_1x_0[1]/a_5_5# z0 Gnd! 2 7 11 11
 n and2_1x_1/a Gnd! and2_1x_0[1]/a_15_7# 2 6 19 11
-n and2_1x_0[1]/b and2_1x_0[1]/a_15_7# and2_1x_0[1]/a_5_5# 2 6 24 11
-p and2_1x_0[2]/a_5_5# and2_1x_0[2]/y Vdd! 2 10 11 187
+n a0 and2_1x_0[1]/a_15_7# and2_1x_0[1]/a_5_5# 2 6 24 11
+p and2_1x_0[2]/a_5_5# z1 Vdd! 2 10 11 187
 p and2_1x_1/a Vdd! and2_1x_0[2]/a_5_5# 2 6 19 191
-p and2_1x_0[2]/b and2_1x_0[2]/a_5_5# Vdd! 2 6 27 191
-n and2_1x_0[2]/a_5_5# and2_1x_0[2]/y Gnd! 2 7 11 121
+p a1 and2_1x_0[2]/a_5_5# Vdd! 2 6 27 191
+n and2_1x_0[2]/a_5_5# z1 Gnd! 2 7 11 121
 n and2_1x_1/a Gnd! and2_1x_0[2]/a_15_7# 2 6 19 121
-n and2_1x_0[2]/b and2_1x_0[2]/a_15_7# and2_1x_0[2]/a_5_5# 2 6 24 121
-p and2_1x_0[3]/a_5_5# and2_1x_0[3]/y Vdd! 2 10 11 297
+n a1 and2_1x_0[2]/a_15_7# and2_1x_0[2]/a_5_5# 2 6 24 121
+p and2_1x_0[3]/a_5_5# z2 Vdd! 2 10 11 297
 p and2_1x_1/a Vdd! and2_1x_0[3]/a_5_5# 2 6 19 301
-p and2_1x_0[3]/b and2_1x_0[3]/a_5_5# Vdd! 2 6 27 301
-n and2_1x_0[3]/a_5_5# and2_1x_0[3]/y Gnd! 2 7 11 231
+p a2 and2_1x_0[3]/a_5_5# Vdd! 2 6 27 301
+n and2_1x_0[3]/a_5_5# z2 Gnd! 2 7 11 231
 n and2_1x_1/a Gnd! and2_1x_0[3]/a_15_7# 2 6 19 231
-n and2_1x_0[3]/b and2_1x_0[3]/a_15_7# and2_1x_0[3]/a_5_5# 2 6 24 231
-p and2_1x_0[4]/a_5_5# and2_1x_0[4]/y Vdd! 2 10 11 407
+n a2 and2_1x_0[3]/a_15_7# and2_1x_0[3]/a_5_5# 2 6 24 231
+p and2_1x_0[4]/a_5_5# z3 Vdd! 2 10 11 407
 p and2_1x_1/a Vdd! and2_1x_0[4]/a_5_5# 2 6 19 411
-p and2_1x_0[4]/b and2_1x_0[4]/a_5_5# Vdd! 2 6 27 411
-n and2_1x_0[4]/a_5_5# and2_1x_0[4]/y Gnd! 2 7 11 341
+p a3 and2_1x_0[4]/a_5_5# Vdd! 2 6 27 411
+n and2_1x_0[4]/a_5_5# z3 Gnd! 2 7 11 341
 n and2_1x_1/a Gnd! and2_1x_0[4]/a_15_7# 2 6 19 341
-n and2_1x_0[4]/b and2_1x_0[4]/a_15_7# and2_1x_0[4]/a_5_5# 2 6 24 341
-p and2_1x_0[5]/a_5_5# and2_1x_0[5]/y Vdd! 2 10 11 517
+n a3 and2_1x_0[4]/a_15_7# and2_1x_0[4]/a_5_5# 2 6 24 341
+p and2_1x_0[5]/a_5_5# z4 Vdd! 2 10 11 517
 p and2_1x_1/a Vdd! and2_1x_0[5]/a_5_5# 2 6 19 521
-p and2_1x_0[5]/b and2_1x_0[5]/a_5_5# Vdd! 2 6 27 521
-n and2_1x_0[5]/a_5_5# and2_1x_0[5]/y Gnd! 2 7 11 451
+p a4 and2_1x_0[5]/a_5_5# Vdd! 2 6 27 521
+n and2_1x_0[5]/a_5_5# z4 Gnd! 2 7 11 451
 n and2_1x_1/a Gnd! and2_1x_0[5]/a_15_7# 2 6 19 451
-n and2_1x_0[5]/b and2_1x_0[5]/a_15_7# and2_1x_0[5]/a_5_5# 2 6 24 451
-p and2_1x_0[6]/a_5_5# and2_1x_0[6]/y Vdd! 2 10 11 627
+n a4 and2_1x_0[5]/a_15_7# and2_1x_0[5]/a_5_5# 2 6 24 451
+p and2_1x_0[6]/a_5_5# z5 Vdd! 2 10 11 627
 p and2_1x_1/a Vdd! and2_1x_0[6]/a_5_5# 2 6 19 631
-p and2_1x_0[6]/b and2_1x_0[6]/a_5_5# Vdd! 2 6 27 631
-n and2_1x_0[6]/a_5_5# and2_1x_0[6]/y Gnd! 2 7 11 561
+p a5 and2_1x_0[6]/a_5_5# Vdd! 2 6 27 631
+n and2_1x_0[6]/a_5_5# z5 Gnd! 2 7 11 561
 n and2_1x_1/a Gnd! and2_1x_0[6]/a_15_7# 2 6 19 561
-n and2_1x_0[6]/b and2_1x_0[6]/a_15_7# and2_1x_0[6]/a_5_5# 2 6 24 561
-p and2_1x_0[7]/a_5_5# and2_1x_0[7]/y Vdd! 2 10 11 737
+n a5 and2_1x_0[6]/a_15_7# and2_1x_0[6]/a_5_5# 2 6 24 561
+p and2_1x_0[7]/a_5_5# z6 Vdd! 2 10 11 737
 p and2_1x_1/a Vdd! and2_1x_0[7]/a_5_5# 2 6 19 741
-p and2_1x_0[7]/b and2_1x_0[7]/a_5_5# Vdd! 2 6 27 741
-n and2_1x_0[7]/a_5_5# and2_1x_0[7]/y Gnd! 2 7 11 671
+p a6 and2_1x_0[7]/a_5_5# Vdd! 2 6 27 741
+n and2_1x_0[7]/a_5_5# z6 Gnd! 2 7 11 671
 n and2_1x_1/a Gnd! and2_1x_0[7]/a_15_7# 2 6 19 671
-n and2_1x_0[7]/b and2_1x_0[7]/a_15_7# and2_1x_0[7]/a_5_5# 2 6 24 671
+n a6 and2_1x_0[7]/a_15_7# and2_1x_0[7]/a_5_5# 2 6 24 671
 p and2_1x_1/y Vdd! invbuf_4x_0/sb_out 2 37 133 1590
-p invbuf_4x_0/sb_out Vdd! mux2_dp_1x_0[1]/s 2 37 149 1590
+p invbuf_4x_0/sb_out Vdd! rightandarith 2 37 149 1590
 n and2_1x_1/y Gnd! invbuf_4x_0/sb_out 2 27 133 1551
-n invbuf_4x_0/sb_out Gnd! mux2_dp_1x_0[1]/s 2 27 149 1551
+n invbuf_4x_0/sb_out Gnd! rightandarith 2 27 149 1551
 p and2_1x_1/a_5_5# and2_1x_1/y Vdd! 2 10 101 1617
 p and2_1x_1/a Vdd! and2_1x_1/a_5_5# 2 6 109 1621
 p arith and2_1x_1/a_5_5# Vdd! 2 6 117 1621
 n and2_1x_1/a_5_5# and2_1x_1/y Gnd! 2 7 101 1551
 n and2_1x_1/a Gnd! and2_1x_1/a_15_7# 2 6 109 1551
 n arith and2_1x_1/a_15_7# and2_1x_1/a_5_5# 2 6 114 1551
-p right Vdd! mux2_dp_1x_0[1]/sb 2 37 69 1590
-p mux2_dp_1x_0[1]/sb Vdd! and2_1x_1/a 2 37 85 1590
-n right Gnd! mux2_dp_1x_0[1]/sb 2 27 69 1551
-n mux2_dp_1x_0[1]/sb Gnd! and2_1x_1/a 2 27 85 1551
-p mux2_dp_1x_0[1]/d1 Vdd! mux2_dp_1x_0[1]/a_12_74# 2 9 0 848
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[1]/a_12_74# mux2_dp_1x_0[1]/a_17_7# 2 9 5 848
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[1]/a_17_7# mux2_dp_1x_0[1]/a_25_74# 2 9 13 848
-p mux2_dp_1x_0[1]/d0 mux2_dp_1x_0[1]/a_25_74# Vdd! 2 9 18 848
-p mux2_dp_1x_0[1]/a_17_7# Vdd! mux2_dp_1x_0[1]/y 2 10 26 847
-n mux2_dp_1x_0[1]/d1 Gnd! mux2_dp_1x_0[1]/a_12_7# 2 6 0 781
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[1]/a_12_7# mux2_dp_1x_0[1]/a_17_7# 2 6 5 781
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[1]/a_17_7# mux2_dp_1x_0[1]/a_25_7# 2 6 13 781
-n mux2_dp_1x_0[1]/d0 mux2_dp_1x_0[1]/a_25_7# Gnd! 2 6 18 781
-n mux2_dp_1x_0[1]/a_17_7# Gnd! mux2_dp_1x_0[1]/y 2 7 26 781
-p mux2_dp_1x_0[2]/d1 Vdd! mux2_dp_1x_0[2]/a_12_74# 2 9 0 958
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[2]/a_12_74# mux2_dp_1x_0[2]/a_17_7# 2 9 5 958
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[2]/a_17_7# mux2_dp_1x_0[2]/a_25_74# 2 9 13 958
-p mux2_dp_1x_0[2]/d0 mux2_dp_1x_0[2]/a_25_74# Vdd! 2 9 18 958
-p mux2_dp_1x_0[2]/a_17_7# Vdd! mux2_dp_1x_0[2]/y 2 10 26 957
-n mux2_dp_1x_0[2]/d1 Gnd! mux2_dp_1x_0[2]/a_12_7# 2 6 0 891
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[2]/a_12_7# mux2_dp_1x_0[2]/a_17_7# 2 6 5 891
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[2]/a_17_7# mux2_dp_1x_0[2]/a_25_7# 2 6 13 891
-n mux2_dp_1x_0[2]/d0 mux2_dp_1x_0[2]/a_25_7# Gnd! 2 6 18 891
-n mux2_dp_1x_0[2]/a_17_7# Gnd! mux2_dp_1x_0[2]/y 2 7 26 891
-p mux2_dp_1x_0[3]/d1 Vdd! mux2_dp_1x_0[3]/a_12_74# 2 9 0 1068
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[3]/a_12_74# mux2_dp_1x_0[3]/a_17_7# 2 9 5 1068
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[3]/a_17_7# mux2_dp_1x_0[3]/a_25_74# 2 9 13 1068
-p mux2_dp_1x_0[3]/d0 mux2_dp_1x_0[3]/a_25_74# Vdd! 2 9 18 1068
-p mux2_dp_1x_0[3]/a_17_7# Vdd! mux2_dp_1x_0[3]/y 2 10 26 1067
-n mux2_dp_1x_0[3]/d1 Gnd! mux2_dp_1x_0[3]/a_12_7# 2 6 0 1001
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[3]/a_12_7# mux2_dp_1x_0[3]/a_17_7# 2 6 5 1001
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[3]/a_17_7# mux2_dp_1x_0[3]/a_25_7# 2 6 13 1001
-n mux2_dp_1x_0[3]/d0 mux2_dp_1x_0[3]/a_25_7# Gnd! 2 6 18 1001
-n mux2_dp_1x_0[3]/a_17_7# Gnd! mux2_dp_1x_0[3]/y 2 7 26 1001
-p mux2_dp_1x_0[4]/d1 Vdd! mux2_dp_1x_0[4]/a_12_74# 2 9 0 1178
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[4]/a_12_74# mux2_dp_1x_0[4]/a_17_7# 2 9 5 1178
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[4]/a_17_7# mux2_dp_1x_0[4]/a_25_74# 2 9 13 1178
-p mux2_dp_1x_0[4]/d0 mux2_dp_1x_0[4]/a_25_74# Vdd! 2 9 18 1178
-p mux2_dp_1x_0[4]/a_17_7# Vdd! mux2_dp_1x_0[4]/y 2 10 26 1177
-n mux2_dp_1x_0[4]/d1 Gnd! mux2_dp_1x_0[4]/a_12_7# 2 6 0 1111
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[4]/a_12_7# mux2_dp_1x_0[4]/a_17_7# 2 6 5 1111
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[4]/a_17_7# mux2_dp_1x_0[4]/a_25_7# 2 6 13 1111
-n mux2_dp_1x_0[4]/d0 mux2_dp_1x_0[4]/a_25_7# Gnd! 2 6 18 1111
-n mux2_dp_1x_0[4]/a_17_7# Gnd! mux2_dp_1x_0[4]/y 2 7 26 1111
-p mux2_dp_1x_0[5]/d1 Vdd! mux2_dp_1x_0[5]/a_12_74# 2 9 0 1288
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[5]/a_12_74# mux2_dp_1x_0[5]/a_17_7# 2 9 5 1288
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[5]/a_17_7# mux2_dp_1x_0[5]/a_25_74# 2 9 13 1288
-p mux2_dp_1x_0[5]/d0 mux2_dp_1x_0[5]/a_25_74# Vdd! 2 9 18 1288
-p mux2_dp_1x_0[5]/a_17_7# Vdd! mux2_dp_1x_0[5]/y 2 10 26 1287
-n mux2_dp_1x_0[5]/d1 Gnd! mux2_dp_1x_0[5]/a_12_7# 2 6 0 1221
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[5]/a_12_7# mux2_dp_1x_0[5]/a_17_7# 2 6 5 1221
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[5]/a_17_7# mux2_dp_1x_0[5]/a_25_7# 2 6 13 1221
-n mux2_dp_1x_0[5]/d0 mux2_dp_1x_0[5]/a_25_7# Gnd! 2 6 18 1221
-n mux2_dp_1x_0[5]/a_17_7# Gnd! mux2_dp_1x_0[5]/y 2 7 26 1221
-p mux2_dp_1x_0[6]/d1 Vdd! mux2_dp_1x_0[6]/a_12_74# 2 9 0 1398
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[6]/a_12_74# mux2_dp_1x_0[6]/a_17_7# 2 9 5 1398
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[6]/a_17_7# mux2_dp_1x_0[6]/a_25_74# 2 9 13 1398
-p mux2_dp_1x_0[6]/d0 mux2_dp_1x_0[6]/a_25_74# Vdd! 2 9 18 1398
-p mux2_dp_1x_0[6]/a_17_7# Vdd! mux2_dp_1x_0[6]/y 2 10 26 1397
-n mux2_dp_1x_0[6]/d1 Gnd! mux2_dp_1x_0[6]/a_12_7# 2 6 0 1331
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[6]/a_12_7# mux2_dp_1x_0[6]/a_17_7# 2 6 5 1331
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[6]/a_17_7# mux2_dp_1x_0[6]/a_25_7# 2 6 13 1331
-n mux2_dp_1x_0[6]/d0 mux2_dp_1x_0[6]/a_25_7# Gnd! 2 6 18 1331
-n mux2_dp_1x_0[6]/a_17_7# Gnd! mux2_dp_1x_0[6]/y 2 7 26 1331
-p mux2_dp_1x_0[7]/d1 Vdd! mux2_dp_1x_0[7]/a_12_74# 2 9 0 1508
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[7]/a_12_74# mux2_dp_1x_0[7]/a_17_7# 2 9 5 1508
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[7]/a_17_7# mux2_dp_1x_0[7]/a_25_74# 2 9 13 1508
-p mux2_dp_1x_0[7]/d0 mux2_dp_1x_0[7]/a_25_74# Vdd! 2 9 18 1508
-p mux2_dp_1x_0[7]/a_17_7# Vdd! mux2_dp_1x_0[7]/y 2 10 26 1507
-n mux2_dp_1x_0[7]/d1 Gnd! mux2_dp_1x_0[7]/a_12_7# 2 6 0 1441
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[7]/a_12_7# mux2_dp_1x_0[7]/a_17_7# 2 6 5 1441
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[7]/a_17_7# mux2_dp_1x_0[7]/a_25_7# 2 6 13 1441
-n mux2_dp_1x_0[7]/d0 mux2_dp_1x_0[7]/a_25_7# Gnd! 2 6 18 1441
-n mux2_dp_1x_0[7]/a_17_7# Gnd! mux2_dp_1x_0[7]/y 2 7 26 1441
-p mux2_dp_1x_0[8]/d1 Vdd! mux2_dp_1x_0[8]/a_12_74# 2 9 0 1618
-p mux2_dp_1x_0[1]/sb mux2_dp_1x_0[8]/a_12_74# mux2_dp_1x_0[8]/a_17_7# 2 9 5 1618
-p mux2_dp_1x_0[1]/s mux2_dp_1x_0[8]/a_17_7# mux2_dp_1x_0[8]/a_25_74# 2 9 13 1618
-p mux2_dp_1x_0[8]/d0 mux2_dp_1x_0[8]/a_25_74# Vdd! 2 9 18 1618
-p mux2_dp_1x_0[8]/a_17_7# Vdd! mux2_dp_1x_0[8]/y 2 10 26 1617
-n mux2_dp_1x_0[8]/d1 Gnd! mux2_dp_1x_0[8]/a_12_7# 2 6 0 1551
-n mux2_dp_1x_0[1]/s mux2_dp_1x_0[8]/a_12_7# mux2_dp_1x_0[8]/a_17_7# 2 6 5 1551
-n mux2_dp_1x_0[1]/sb mux2_dp_1x_0[8]/a_17_7# mux2_dp_1x_0[8]/a_25_7# 2 6 13 1551
-n mux2_dp_1x_0[8]/d0 mux2_dp_1x_0[8]/a_25_7# Gnd! 2 6 18 1551
-n mux2_dp_1x_0[8]/a_17_7# Gnd! mux2_dp_1x_0[8]/y 2 7 26 1551
-C Vdd! mux2_dp_1x_0[8]/y 2.2
-C Vdd! and2_1x_0[1]/a_5_5# 3.0
-C Vdd! and2_1x_0[3]/y 2.1
-C mux2_dp_1x_0[1]/sb mux2_dp_1x_0[1]/s 2.5
+p right Vdd! rightb 2 37 69 1590
+p rightb Vdd! and2_1x_1/a 2 37 85 1590
+n right Gnd! rightb 2 27 69 1551
+n rightb Gnd! and2_1x_1/a 2 27 85 1551
+p nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! z7 2 12 19 845
+p nandnandnand_1x_0[1]/nand2_1x_1/Y z7 Vdd! 2 12 27 845
+n nandnandnand_1x_0[1]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[1]/nand2_1x_2/a_7_7# 2 12 19 781
+n nandnandnand_1x_0[1]/nand2_1x_1/Y nandnandnand_1x_0[1]/nand2_1x_2/a_7_7# z7 2 12 24 781
+p and2_1x_1/a Vdd! nandnandnand_1x_0[1]/nand2_1x_1/Y 2 12 -5 845
+p a7 nandnandnand_1x_0[1]/nand2_1x_1/Y Vdd! 2 12 3 845
+n and2_1x_1/a Gnd! nandnandnand_1x_0[1]/nand2_1x_1/a_7_7# 2 12 -5 781
+n a7 nandnandnand_1x_0[1]/nand2_1x_1/a_7_7# nandnandnand_1x_0[1]/nand2_1x_1/Y 2 12 0 781
+p rightb Vdd! nandnandnand_1x_0[1]/nand2_1x_0/Y 2 12 -29 845
+p a0 nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! 2 12 -21 845
+n rightb Gnd! nandnandnand_1x_0[1]/nand2_1x_0/a_7_7# 2 12 -29 781
+n a0 nandnandnand_1x_0[1]/nand2_1x_0/a_7_7# nandnandnand_1x_0[1]/nand2_1x_0/Y 2 12 -24 781
+p nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! z8 2 12 19 955
+p nandnandnand_1x_0[2]/nand2_1x_1/Y z8 Vdd! 2 12 27 955
+n nandnandnand_1x_0[2]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[2]/nand2_1x_2/a_7_7# 2 12 19 891
+n nandnandnand_1x_0[2]/nand2_1x_1/Y nandnandnand_1x_0[2]/nand2_1x_2/a_7_7# z8 2 12 24 891
+p rightandarith Vdd! nandnandnand_1x_0[2]/nand2_1x_1/Y 2 12 -5 955
+p a7 nandnandnand_1x_0[2]/nand2_1x_1/Y Vdd! 2 12 3 955
+n rightandarith Gnd! nandnandnand_1x_0[2]/nand2_1x_1/a_7_7# 2 12 -5 891
+n a7 nandnandnand_1x_0[2]/nand2_1x_1/a_7_7# nandnandnand_1x_0[2]/nand2_1x_1/Y 2 12 0 891
+p rightb Vdd! nandnandnand_1x_0[2]/nand2_1x_0/Y 2 12 -29 955
+p a1 nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! 2 12 -21 955
+n rightb Gnd! nandnandnand_1x_0[2]/nand2_1x_0/a_7_7# 2 12 -29 891
+n a1 nandnandnand_1x_0[2]/nand2_1x_0/a_7_7# nandnandnand_1x_0[2]/nand2_1x_0/Y 2 12 -24 891
+p nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! z9 2 12 19 1065
+p nandnandnand_1x_0[3]/nand2_1x_1/Y z9 Vdd! 2 12 27 1065
+n nandnandnand_1x_0[3]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[3]/nand2_1x_2/a_7_7# 2 12 19 1001
+n nandnandnand_1x_0[3]/nand2_1x_1/Y nandnandnand_1x_0[3]/nand2_1x_2/a_7_7# z9 2 12 24 1001
+p rightandarith Vdd! nandnandnand_1x_0[3]/nand2_1x_1/Y 2 12 -5 1065
+p a7 nandnandnand_1x_0[3]/nand2_1x_1/Y Vdd! 2 12 3 1065
+n rightandarith Gnd! nandnandnand_1x_0[3]/nand2_1x_1/a_7_7# 2 12 -5 1001
+n a7 nandnandnand_1x_0[3]/nand2_1x_1/a_7_7# nandnandnand_1x_0[3]/nand2_1x_1/Y 2 12 0 1001
+p rightb Vdd! nandnandnand_1x_0[3]/nand2_1x_0/Y 2 12 -29 1065
+p a2 nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! 2 12 -21 1065
+n rightb Gnd! nandnandnand_1x_0[3]/nand2_1x_0/a_7_7# 2 12 -29 1001
+n a2 nandnandnand_1x_0[3]/nand2_1x_0/a_7_7# nandnandnand_1x_0[3]/nand2_1x_0/Y 2 12 -24 1001
+p nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! z10 2 12 19 1175
+p nandnandnand_1x_0[4]/nand2_1x_1/Y z10 Vdd! 2 12 27 1175
+n nandnandnand_1x_0[4]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[4]/nand2_1x_2/a_7_7# 2 12 19 1111
+n nandnandnand_1x_0[4]/nand2_1x_1/Y nandnandnand_1x_0[4]/nand2_1x_2/a_7_7# z10 2 12 24 1111
+p rightandarith Vdd! nandnandnand_1x_0[4]/nand2_1x_1/Y 2 12 -5 1175
+p a7 nandnandnand_1x_0[4]/nand2_1x_1/Y Vdd! 2 12 3 1175
+n rightandarith Gnd! nandnandnand_1x_0[4]/nand2_1x_1/a_7_7# 2 12 -5 1111
+n a7 nandnandnand_1x_0[4]/nand2_1x_1/a_7_7# nandnandnand_1x_0[4]/nand2_1x_1/Y 2 12 0 1111
+p rightb Vdd! nandnandnand_1x_0[4]/nand2_1x_0/Y 2 12 -29 1175
+p a3 nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! 2 12 -21 1175
+n rightb Gnd! nandnandnand_1x_0[4]/nand2_1x_0/a_7_7# 2 12 -29 1111
+n a3 nandnandnand_1x_0[4]/nand2_1x_0/a_7_7# nandnandnand_1x_0[4]/nand2_1x_0/Y 2 12 -24 1111
+p nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! z11 2 12 19 1285
+p nandnandnand_1x_0[5]/nand2_1x_1/Y z11 Vdd! 2 12 27 1285
+n nandnandnand_1x_0[5]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[5]/nand2_1x_2/a_7_7# 2 12 19 1221
+n nandnandnand_1x_0[5]/nand2_1x_1/Y nandnandnand_1x_0[5]/nand2_1x_2/a_7_7# z11 2 12 24 1221
+p rightandarith Vdd! nandnandnand_1x_0[5]/nand2_1x_1/Y 2 12 -5 1285
+p a7 nandnandnand_1x_0[5]/nand2_1x_1/Y Vdd! 2 12 3 1285
+n rightandarith Gnd! nandnandnand_1x_0[5]/nand2_1x_1/a_7_7# 2 12 -5 1221
+n a7 nandnandnand_1x_0[5]/nand2_1x_1/a_7_7# nandnandnand_1x_0[5]/nand2_1x_1/Y 2 12 0 1221
+p rightb Vdd! nandnandnand_1x_0[5]/nand2_1x_0/Y 2 12 -29 1285
+p a4 nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! 2 12 -21 1285
+n rightb Gnd! nandnandnand_1x_0[5]/nand2_1x_0/a_7_7# 2 12 -29 1221
+n a4 nandnandnand_1x_0[5]/nand2_1x_0/a_7_7# nandnandnand_1x_0[5]/nand2_1x_0/Y 2 12 -24 1221
+p nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! z12 2 12 19 1395
+p nandnandnand_1x_0[6]/nand2_1x_1/Y z12 Vdd! 2 12 27 1395
+n nandnandnand_1x_0[6]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[6]/nand2_1x_2/a_7_7# 2 12 19 1331
+n nandnandnand_1x_0[6]/nand2_1x_1/Y nandnandnand_1x_0[6]/nand2_1x_2/a_7_7# z12 2 12 24 1331
+p rightandarith Vdd! nandnandnand_1x_0[6]/nand2_1x_1/Y 2 12 -5 1395
+p a7 nandnandnand_1x_0[6]/nand2_1x_1/Y Vdd! 2 12 3 1395
+n rightandarith Gnd! nandnandnand_1x_0[6]/nand2_1x_1/a_7_7# 2 12 -5 1331
+n a7 nandnandnand_1x_0[6]/nand2_1x_1/a_7_7# nandnandnand_1x_0[6]/nand2_1x_1/Y 2 12 0 1331
+p rightb Vdd! nandnandnand_1x_0[6]/nand2_1x_0/Y 2 12 -29 1395
+p a5 nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! 2 12 -21 1395
+n rightb Gnd! nandnandnand_1x_0[6]/nand2_1x_0/a_7_7# 2 12 -29 1331
+n a5 nandnandnand_1x_0[6]/nand2_1x_0/a_7_7# nandnandnand_1x_0[6]/nand2_1x_0/Y 2 12 -24 1331
+p nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! z13 2 12 19 1505
+p nandnandnand_1x_0[7]/nand2_1x_1/Y z13 Vdd! 2 12 27 1505
+n nandnandnand_1x_0[7]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[7]/nand2_1x_2/a_7_7# 2 12 19 1441
+n nandnandnand_1x_0[7]/nand2_1x_1/Y nandnandnand_1x_0[7]/nand2_1x_2/a_7_7# z13 2 12 24 1441
+p rightandarith Vdd! nandnandnand_1x_0[7]/nand2_1x_1/Y 2 12 -5 1505
+p a7 nandnandnand_1x_0[7]/nand2_1x_1/Y Vdd! 2 12 3 1505
+n rightandarith Gnd! nandnandnand_1x_0[7]/nand2_1x_1/a_7_7# 2 12 -5 1441
+n a7 nandnandnand_1x_0[7]/nand2_1x_1/a_7_7# nandnandnand_1x_0[7]/nand2_1x_1/Y 2 12 0 1441
+p rightb Vdd! nandnandnand_1x_0[7]/nand2_1x_0/Y 2 12 -29 1505
+p a6 nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! 2 12 -21 1505
+n rightb Gnd! nandnandnand_1x_0[7]/nand2_1x_0/a_7_7# 2 12 -29 1441
+n a6 nandnandnand_1x_0[7]/nand2_1x_0/a_7_7# nandnandnand_1x_0[7]/nand2_1x_0/Y 2 12 -24 1441
+p nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! z14 2 12 19 1615
+p nandnandnand_1x_0[8]/nand2_1x_1/Y z14 Vdd! 2 12 27 1615
+n nandnandnand_1x_0[8]/nand2_1x_0/Y Gnd! nandnandnand_1x_0[8]/nand2_1x_2/a_7_7# 2 12 19 1551
+n nandnandnand_1x_0[8]/nand2_1x_1/Y nandnandnand_1x_0[8]/nand2_1x_2/a_7_7# z14 2 12 24 1551
+p rightandarith Vdd! nandnandnand_1x_0[8]/nand2_1x_1/Y 2 12 -5 1615
+p a7 nandnandnand_1x_0[8]/nand2_1x_1/Y Vdd! 2 12 3 1615
+n rightandarith Gnd! nandnandnand_1x_0[8]/nand2_1x_1/a_7_7# 2 12 -5 1551
+n a7 nandnandnand_1x_0[8]/nand2_1x_1/a_7_7# nandnandnand_1x_0[8]/nand2_1x_1/Y 2 12 0 1551
+p rightb Vdd! nandnandnand_1x_0[8]/nand2_1x_0/Y 2 12 -29 1615
+p a7 nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! 2 12 -21 1615
+n rightb Gnd! nandnandnand_1x_0[8]/nand2_1x_0/a_7_7# 2 12 -29 1551
+n a7 nandnandnand_1x_0[8]/nand2_1x_0/a_7_7# nandnandnand_1x_0[8]/nand2_1x_0/Y 2 12 -24 1551
+C rightb Vdd! 8.5
+C nandnandnand_1x_0[2]/nand2_1x_1/Y Vdd! 3.3
+C and2_1x_0[3]/a_5_5# Vdd! 3.0
+C z8 Vdd! 2.1
+C and2_1x_1/a_5_5# Vdd! 3.0
 C and2_1x_0[2]/a_5_5# Vdd! 3.0
-C Vdd! and2_1x_0[6]/y 2.1
-C Vdd! and2_1x_0[5]/y 2.1
-C Vdd! mux2_dp_1x_0[1]/y 2.1
-C Vdd! mux2_dp_1x_0[5]/y 2.1
-C Vdd! mux2_dp_1x_0[2]/y 2.1
-C and2_1x_0[1]/y Vdd! 2.1
-C Vdd! and2_1x_0[4]/y 2.1
+C z5 Vdd! 2.1
+C z11 Vdd! 2.1
+C nandnandnand_1x_0[4]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! z14 2.0
+C z6 Vdd! 2.1
+C nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! 2.5
+C z13 Vdd! 2.1
+C and2_1x_0[6]/a_5_5# Vdd! 3.0
+C Vdd! z9 2.1
 C and2_1x_0[7]/a_5_5# Vdd! 3.0
-C Vdd! mux2_dp_1x_0[3]/y 2.1
-C and2_1x_1/y Vdd! 2.6
-C Vdd! and2_1x_0[2]/y 2.1
-C mux2_dp_1x_0[1]/sb Vdd! 13.3
-C Vdd! and2_1x_1/a 8.2
-C mux2_dp_1x_0[6]/y Vdd! 2.1
-C Vdd! mux2_dp_1x_0[4]/y 2.1
-C Vdd! and2_1x_1/a_5_5# 3.0
-C Vdd! and2_1x_0[5]/a_5_5# 3.0
-C Vdd! mux2_dp_1x_0[1]/s 14.7
-C Vdd! mux2_dp_1x_0[7]/y 2.1
-C Vdd! and2_1x_0[6]/a_5_5# 3.0
-C Vdd! and2_1x_0[3]/a_5_5# 3.0
+C a4 Vdd! 2.6
+C a2 Vdd! 2.6
+C nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! 2.6
+C rightandarith Vdd! 7.3
+C nandnandnand_1x_0[3]/nand2_1x_1/Y Vdd! 3.3
+C nandnandnand_1x_0[6]/nand2_1x_1/Y Vdd! 3.3
+C z3 Vdd! 2.1
+C and2_1x_1/a Vdd! 8.7
+C nandnandnand_1x_0[1]/nand2_1x_1/Y Vdd! 3.3
+C nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! 2.5
+C nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! 2.5
+C Vdd! and2_1x_0[1]/a_5_5# 3.0
+C Vdd! nandnandnand_1x_0[7]/nand2_1x_0/Y 2.5
+C z12 Vdd! 2.1
+C Vdd! a6 2.6
+C z7 Vdd! 2.1
+C nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! 2.5
+C a7 rightb 2.9
+C a5 Vdd! 2.6
+C z1 Vdd! 2.1
+C nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! 2.5
 C and2_1x_0[4]/a_5_5# Vdd! 3.0
-C Vdd! and2_1x_0[7]/y 2.1
-R mux2_dp_1x_0[8]/a_25_7# 164
-R mux2_dp_1x_0[8]/a_12_7# 164
-C mux2_dp_1x_0[8]/y GND 2.7
-R mux2_dp_1x_0[8]/y 328
-R mux2_dp_1x_0[8]/a_25_74# 316
-R mux2_dp_1x_0[8]/a_12_74# 316
-C mux2_dp_1x_0[8]/a_17_7# GND 2.2
-R mux2_dp_1x_0[8]/a_17_7# 1123
-R mux2_dp_1x_0[8]/d0 913
-R mux2_dp_1x_0[8]/d1 1056
-R mux2_dp_1x_0[7]/a_25_7# 164
-R mux2_dp_1x_0[7]/a_12_7# 164
-R mux2_dp_1x_0[7]/y 327
-R mux2_dp_1x_0[7]/a_25_74# 316
-R mux2_dp_1x_0[7]/a_12_74# 316
-C mux2_dp_1x_0[7]/a_17_7# GND 2.2
-R mux2_dp_1x_0[7]/a_17_7# 1123
-R mux2_dp_1x_0[7]/d0 913
-R mux2_dp_1x_0[7]/d1 1056
-R mux2_dp_1x_0[6]/a_25_7# 164
-R mux2_dp_1x_0[6]/a_12_7# 164
-R mux2_dp_1x_0[6]/y 327
-R mux2_dp_1x_0[6]/a_25_74# 316
-R mux2_dp_1x_0[6]/a_12_74# 316
-C mux2_dp_1x_0[6]/a_17_7# GND 2.2
-R mux2_dp_1x_0[6]/a_17_7# 1123
-R mux2_dp_1x_0[6]/d0 913
-R mux2_dp_1x_0[6]/d1 1056
-R mux2_dp_1x_0[5]/a_25_7# 164
-R mux2_dp_1x_0[5]/a_12_7# 164
-R mux2_dp_1x_0[5]/y 327
-R mux2_dp_1x_0[5]/a_25_74# 316
-R mux2_dp_1x_0[5]/a_12_74# 316
-C mux2_dp_1x_0[5]/a_17_7# GND 2.2
-R mux2_dp_1x_0[5]/a_17_7# 1123
-R mux2_dp_1x_0[5]/d0 913
-R mux2_dp_1x_0[5]/d1 1056
-R mux2_dp_1x_0[4]/a_25_7# 164
-R mux2_dp_1x_0[4]/a_12_7# 164
-R mux2_dp_1x_0[4]/y 327
-R mux2_dp_1x_0[4]/a_25_74# 316
-R mux2_dp_1x_0[4]/a_12_74# 316
-C mux2_dp_1x_0[4]/a_17_7# GND 2.2
-R mux2_dp_1x_0[4]/a_17_7# 1123
-R mux2_dp_1x_0[4]/d0 913
-R mux2_dp_1x_0[4]/d1 1056
-R mux2_dp_1x_0[3]/a_25_7# 164
-R mux2_dp_1x_0[3]/a_12_7# 164
-R mux2_dp_1x_0[3]/y 327
-R mux2_dp_1x_0[3]/a_25_74# 316
-R mux2_dp_1x_0[3]/a_12_74# 316
-C mux2_dp_1x_0[3]/a_17_7# GND 2.2
-R mux2_dp_1x_0[3]/a_17_7# 1123
-R mux2_dp_1x_0[3]/d0 913
-R mux2_dp_1x_0[3]/d1 1056
-R mux2_dp_1x_0[2]/a_25_7# 164
-R mux2_dp_1x_0[2]/a_12_7# 164
-R mux2_dp_1x_0[2]/y 327
-R mux2_dp_1x_0[2]/a_25_74# 316
-R mux2_dp_1x_0[2]/a_12_74# 316
-C mux2_dp_1x_0[2]/a_17_7# GND 2.2
-R mux2_dp_1x_0[2]/a_17_7# 1123
-R mux2_dp_1x_0[2]/d0 913
-R mux2_dp_1x_0[2]/d1 1056
-R mux2_dp_1x_0[1]/a_25_7# 164
-R mux2_dp_1x_0[1]/a_12_7# 164
-R mux2_dp_1x_0[1]/y 327
-R mux2_dp_1x_0[1]/a_25_74# 316
-R mux2_dp_1x_0[1]/a_12_74# 316
-C mux2_dp_1x_0[1]/a_17_7# GND 2.2
-R mux2_dp_1x_0[1]/a_17_7# 1123
-R mux2_dp_1x_0[1]/d0 913
-R mux2_dp_1x_0[1]/d1 1056
-C mux2_dp_1x_0[1]/sb GND 41.1
-R mux2_dp_1x_0[1]/sb 8819
+C nandnandnand_1x_0[7]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! nandnandnand_1x_0[5]/nand2_1x_1/Y 3.3
+C z0 Vdd! 2.1
+C a7 Vdd! 13.1
+C and2_1x_0[5]/a_5_5# Vdd! 3.0
+C nandnandnand_1x_0[8]/nand2_1x_1/Y Vdd! 3.3
+C a0 Vdd! 2.6
+C Vdd! a3 2.6
+C and2_1x_1/y Vdd! 2.6
+C nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! 2.5
+C Vdd! a1 2.6
+C z2 Vdd! 2.1
+C Vdd! z4 2.1
+C z10 Vdd! 2.1
+C rightandarith a7 2.5
+R nandnandnand_1x_0[8]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[8]/nand2_1x_1/a_7_7# 329
+R a7 8609
+R nandnandnand_1x_0[8]/nand2_1x_2/a_7_7# 329
+C z14 GND 2.2
+R z14 410
+C nandnandnand_1x_0[8]/nand2_1x_1/Y GND 3.9
+R nandnandnand_1x_0[8]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[8]/nand2_1x_0/Y GND 4.7
+R nandnandnand_1x_0[8]/nand2_1x_0/Y 1291
+R a6 1889
+R nandnandnand_1x_0[7]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[7]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[7]/nand2_1x_2/a_7_7# 329
+C z13 GND 2.2
+R z13 410
+C nandnandnand_1x_0[7]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[7]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[7]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[7]/nand2_1x_0/Y 1291
+R a5 1886
+R nandnandnand_1x_0[6]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[6]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[6]/nand2_1x_2/a_7_7# 329
+C z12 GND 2.2
+R z12 410
+C nandnandnand_1x_0[6]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[6]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[6]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[6]/nand2_1x_0/Y 1291
+R a4 1884
+R nandnandnand_1x_0[5]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[5]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[5]/nand2_1x_2/a_7_7# 329
+C z11 GND 2.2
+R z11 410
+C nandnandnand_1x_0[5]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[5]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[5]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[5]/nand2_1x_0/Y 1291
+R a3 1881
+R nandnandnand_1x_0[4]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[4]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[4]/nand2_1x_2/a_7_7# 329
+C z10 GND 2.2
+R z10 410
+C nandnandnand_1x_0[4]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[4]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[4]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[4]/nand2_1x_0/Y 1291
+R a2 1879
+R nandnandnand_1x_0[3]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[3]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[3]/nand2_1x_2/a_7_7# 329
+C z9 GND 2.2
+R z9 410
+C nandnandnand_1x_0[3]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[3]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[3]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[3]/nand2_1x_0/Y 1291
+R a1 1878
+R nandnandnand_1x_0[2]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[2]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[2]/nand2_1x_2/a_7_7# 329
+C z8 GND 2.2
+R z8 410
+C nandnandnand_1x_0[2]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[2]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[2]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[2]/nand2_1x_0/Y 1291
+R a0 1890
+R nandnandnand_1x_0[1]/nand2_1x_0/a_7_7# 329
+R nandnandnand_1x_0[1]/nand2_1x_1/a_7_7# 329
+R nandnandnand_1x_0[1]/nand2_1x_2/a_7_7# 329
+C z7 GND 2.2
+R z7 410
+C nandnandnand_1x_0[1]/nand2_1x_1/Y GND 3.2
+R nandnandnand_1x_0[1]/nand2_1x_1/Y 1324
+C nandnandnand_1x_0[1]/nand2_1x_0/Y GND 4.1
+R nandnandnand_1x_0[1]/nand2_1x_0/Y 1291
+C rightb GND 41.4
+R rightb 9612
 C right GND 2.4
 R right 882
 R and2_1x_1/a_15_7# 164
 R arith 914
-C and2_1x_1/a GND 40.3
-R and2_1x_1/a 8948
+C and2_1x_1/a GND 42.9
+R and2_1x_1/a 9874
 R and2_1x_1/a_5_5# 1086
-C mux2_dp_1x_0[1]/s GND 32.4
-R mux2_dp_1x_0[1]/s 8952
+C rightandarith GND 33.2
+R rightandarith 7670
 R invbuf_4x_0/sb_out 2192
 C and2_1x_1/y GND 3.1
 R and2_1x_1/y 1208
 R and2_1x_0[7]/a_15_7# 164
-R and2_1x_0[7]/y 327
-R and2_1x_0[7]/b 914
+C z6 GND 2.7
+R z6 328
 R and2_1x_0[7]/a_5_5# 1086
 R and2_1x_0[6]/a_15_7# 164
-R and2_1x_0[6]/y 327
-R and2_1x_0[6]/b 914
+C z5 GND 2.7
+R z5 328
 R and2_1x_0[6]/a_5_5# 1086
 R and2_1x_0[5]/a_15_7# 164
-R and2_1x_0[5]/y 327
-R and2_1x_0[5]/b 914
+C z4 GND 2.7
+R z4 328
 R and2_1x_0[5]/a_5_5# 1086
 R and2_1x_0[4]/a_15_7# 164
-R and2_1x_0[4]/y 327
-R and2_1x_0[4]/b 914
+C z3 GND 2.7
+R z3 328
 R and2_1x_0[4]/a_5_5# 1086
 R and2_1x_0[3]/a_15_7# 164
-R and2_1x_0[3]/y 327
-R and2_1x_0[3]/b 914
+C z2 GND 2.7
+R z2 328
 R and2_1x_0[3]/a_5_5# 1086
 R and2_1x_0[2]/a_15_7# 164
-R and2_1x_0[2]/y 327
-R and2_1x_0[2]/b 914
+C z1 GND 2.7
+R z1 328
 R and2_1x_0[2]/a_5_5# 1086
 R and2_1x_0[1]/a_15_7# 164
-R Gnd! 46963
-R and2_1x_0[1]/y 327
-R and2_1x_0[1]/b 914
+R Gnd! 61366
+C z0 GND 2.7
+R z0 328
 R and2_1x_0[1]/a_5_5# 1086
-R Vdd! 98714
+R Vdd! 123759

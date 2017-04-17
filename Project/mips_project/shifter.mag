@@ -1,0 +1,12 @@
+magic
+tech scmos
+timestamp 1492473474
+use log_shifter  log_shifter_0
+timestamp 1492460222
+transform 1 0 112 0 1 0
+box -112 0 57 1208
+use shift_source_gen  shift_source_gen_0
+timestamp 1492473219
+transform 1 0 -140 0 1 -1
+box -98 0 162 1648
+<< end >>
