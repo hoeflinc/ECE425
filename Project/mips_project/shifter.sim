@@ -1,0 +1,956 @@
+| units: 30 tech: scmos format: MIT
+p log_shifter_0/mux2_dp_1x_1[2]/y Vdd! log_shifter_0/mux2_dp_1x_0[1]/a_12_74# 2 9 128 78
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[1]/a_12_74# log_shifter_0/mux2_dp_1x_0[1]/a_17_7# 2 9 133 78
+p s0xor log_shifter_0/mux2_dp_1x_0[1]/a_17_7# log_shifter_0/mux2_dp_1x_0[1]/a_25_74# 2 9 141 78
+p log_shifter_0/mux2_dp_1x_1[1]/y log_shifter_0/mux2_dp_1x_0[1]/a_25_74# Vdd! 2 9 146 78
+p log_shifter_0/mux2_dp_1x_0[1]/a_17_7# Vdd! y0 2 10 154 77
+n log_shifter_0/mux2_dp_1x_1[2]/y Gnd! log_shifter_0/mux2_dp_1x_0[1]/a_12_7# 2 6 128 11
+n s0xor log_shifter_0/mux2_dp_1x_0[1]/a_12_7# log_shifter_0/mux2_dp_1x_0[1]/a_17_7# 2 6 133 11
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[1]/a_17_7# log_shifter_0/mux2_dp_1x_0[1]/a_25_7# 2 6 141 11
+n log_shifter_0/mux2_dp_1x_1[1]/y log_shifter_0/mux2_dp_1x_0[1]/a_25_7# Gnd! 2 6 146 11
+n log_shifter_0/mux2_dp_1x_0[1]/a_17_7# Gnd! y0 2 7 154 11
+p log_shifter_0/mux2_dp_1x_1[3]/y Vdd! log_shifter_0/mux2_dp_1x_0[2]/a_12_74# 2 9 128 188
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[2]/a_12_74# log_shifter_0/mux2_dp_1x_0[2]/a_17_7# 2 9 133 188
+p s0xor log_shifter_0/mux2_dp_1x_0[2]/a_17_7# log_shifter_0/mux2_dp_1x_0[2]/a_25_74# 2 9 141 188
+p log_shifter_0/mux2_dp_1x_1[2]/y log_shifter_0/mux2_dp_1x_0[2]/a_25_74# Vdd! 2 9 146 188
+p log_shifter_0/mux2_dp_1x_0[2]/a_17_7# Vdd! y1 2 10 154 187
+n log_shifter_0/mux2_dp_1x_1[3]/y Gnd! log_shifter_0/mux2_dp_1x_0[2]/a_12_7# 2 6 128 121
+n s0xor log_shifter_0/mux2_dp_1x_0[2]/a_12_7# log_shifter_0/mux2_dp_1x_0[2]/a_17_7# 2 6 133 121
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[2]/a_17_7# log_shifter_0/mux2_dp_1x_0[2]/a_25_7# 2 6 141 121
+n log_shifter_0/mux2_dp_1x_1[2]/y log_shifter_0/mux2_dp_1x_0[2]/a_25_7# Gnd! 2 6 146 121
+n log_shifter_0/mux2_dp_1x_0[2]/a_17_7# Gnd! y1 2 7 154 121
+p log_shifter_0/mux2_dp_1x_1[4]/y Vdd! log_shifter_0/mux2_dp_1x_0[3]/a_12_74# 2 9 128 298
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[3]/a_12_74# log_shifter_0/mux2_dp_1x_0[3]/a_17_7# 2 9 133 298
+p s0xor log_shifter_0/mux2_dp_1x_0[3]/a_17_7# log_shifter_0/mux2_dp_1x_0[3]/a_25_74# 2 9 141 298
+p log_shifter_0/mux2_dp_1x_1[3]/y log_shifter_0/mux2_dp_1x_0[3]/a_25_74# Vdd! 2 9 146 298
+p log_shifter_0/mux2_dp_1x_0[3]/a_17_7# Vdd! y2 2 10 154 297
+n log_shifter_0/mux2_dp_1x_1[4]/y Gnd! log_shifter_0/mux2_dp_1x_0[3]/a_12_7# 2 6 128 231
+n s0xor log_shifter_0/mux2_dp_1x_0[3]/a_12_7# log_shifter_0/mux2_dp_1x_0[3]/a_17_7# 2 6 133 231
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[3]/a_17_7# log_shifter_0/mux2_dp_1x_0[3]/a_25_7# 2 6 141 231
+n log_shifter_0/mux2_dp_1x_1[3]/y log_shifter_0/mux2_dp_1x_0[3]/a_25_7# Gnd! 2 6 146 231
+n log_shifter_0/mux2_dp_1x_0[3]/a_17_7# Gnd! y2 2 7 154 231
+p log_shifter_0/mux2_dp_1x_1[5]/y Vdd! log_shifter_0/mux2_dp_1x_0[4]/a_12_74# 2 9 128 408
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[4]/a_12_74# log_shifter_0/mux2_dp_1x_0[4]/a_17_7# 2 9 133 408
+p s0xor log_shifter_0/mux2_dp_1x_0[4]/a_17_7# log_shifter_0/mux2_dp_1x_0[4]/a_25_74# 2 9 141 408
+p log_shifter_0/mux2_dp_1x_1[4]/y log_shifter_0/mux2_dp_1x_0[4]/a_25_74# Vdd! 2 9 146 408
+p log_shifter_0/mux2_dp_1x_0[4]/a_17_7# Vdd! y3 2 10 154 407
+n log_shifter_0/mux2_dp_1x_1[5]/y Gnd! log_shifter_0/mux2_dp_1x_0[4]/a_12_7# 2 6 128 341
+n s0xor log_shifter_0/mux2_dp_1x_0[4]/a_12_7# log_shifter_0/mux2_dp_1x_0[4]/a_17_7# 2 6 133 341
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[4]/a_17_7# log_shifter_0/mux2_dp_1x_0[4]/a_25_7# 2 6 141 341
+n log_shifter_0/mux2_dp_1x_1[4]/y log_shifter_0/mux2_dp_1x_0[4]/a_25_7# Gnd! 2 6 146 341
+n log_shifter_0/mux2_dp_1x_0[4]/a_17_7# Gnd! y3 2 7 154 341
+p log_shifter_0/mux2_dp_1x_1[6]/y Vdd! log_shifter_0/mux2_dp_1x_0[5]/a_12_74# 2 9 128 518
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[5]/a_12_74# log_shifter_0/mux2_dp_1x_0[5]/a_17_7# 2 9 133 518
+p s0xor log_shifter_0/mux2_dp_1x_0[5]/a_17_7# log_shifter_0/mux2_dp_1x_0[5]/a_25_74# 2 9 141 518
+p log_shifter_0/mux2_dp_1x_1[5]/y log_shifter_0/mux2_dp_1x_0[5]/a_25_74# Vdd! 2 9 146 518
+p log_shifter_0/mux2_dp_1x_0[5]/a_17_7# Vdd! y4 2 10 154 517
+n log_shifter_0/mux2_dp_1x_1[6]/y Gnd! log_shifter_0/mux2_dp_1x_0[5]/a_12_7# 2 6 128 451
+n s0xor log_shifter_0/mux2_dp_1x_0[5]/a_12_7# log_shifter_0/mux2_dp_1x_0[5]/a_17_7# 2 6 133 451
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[5]/a_17_7# log_shifter_0/mux2_dp_1x_0[5]/a_25_7# 2 6 141 451
+n log_shifter_0/mux2_dp_1x_1[5]/y log_shifter_0/mux2_dp_1x_0[5]/a_25_7# Gnd! 2 6 146 451
+n log_shifter_0/mux2_dp_1x_0[5]/a_17_7# Gnd! y4 2 7 154 451
+p log_shifter_0/mux2_dp_1x_1[7]/y Vdd! log_shifter_0/mux2_dp_1x_0[6]/a_12_74# 2 9 128 628
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[6]/a_12_74# log_shifter_0/mux2_dp_1x_0[6]/a_17_7# 2 9 133 628
+p s0xor log_shifter_0/mux2_dp_1x_0[6]/a_17_7# log_shifter_0/mux2_dp_1x_0[6]/a_25_74# 2 9 141 628
+p log_shifter_0/mux2_dp_1x_1[6]/y log_shifter_0/mux2_dp_1x_0[6]/a_25_74# Vdd! 2 9 146 628
+p log_shifter_0/mux2_dp_1x_0[6]/a_17_7# Vdd! y5 2 10 154 627
+n log_shifter_0/mux2_dp_1x_1[7]/y Gnd! log_shifter_0/mux2_dp_1x_0[6]/a_12_7# 2 6 128 561
+n s0xor log_shifter_0/mux2_dp_1x_0[6]/a_12_7# log_shifter_0/mux2_dp_1x_0[6]/a_17_7# 2 6 133 561
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[6]/a_17_7# log_shifter_0/mux2_dp_1x_0[6]/a_25_7# 2 6 141 561
+n log_shifter_0/mux2_dp_1x_1[6]/y log_shifter_0/mux2_dp_1x_0[6]/a_25_7# Gnd! 2 6 146 561
+n log_shifter_0/mux2_dp_1x_0[6]/a_17_7# Gnd! y5 2 7 154 561
+p log_shifter_0/mux2_dp_1x_1[8]/y Vdd! log_shifter_0/mux2_dp_1x_0[7]/a_12_74# 2 9 128 738
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[7]/a_12_74# log_shifter_0/mux2_dp_1x_0[7]/a_17_7# 2 9 133 738
+p s0xor log_shifter_0/mux2_dp_1x_0[7]/a_17_7# log_shifter_0/mux2_dp_1x_0[7]/a_25_74# 2 9 141 738
+p log_shifter_0/mux2_dp_1x_1[7]/y log_shifter_0/mux2_dp_1x_0[7]/a_25_74# Vdd! 2 9 146 738
+p log_shifter_0/mux2_dp_1x_0[7]/a_17_7# Vdd! y6 2 10 154 737
+n log_shifter_0/mux2_dp_1x_1[8]/y Gnd! log_shifter_0/mux2_dp_1x_0[7]/a_12_7# 2 6 128 671
+n s0xor log_shifter_0/mux2_dp_1x_0[7]/a_12_7# log_shifter_0/mux2_dp_1x_0[7]/a_17_7# 2 6 133 671
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[7]/a_17_7# log_shifter_0/mux2_dp_1x_0[7]/a_25_7# 2 6 141 671
+n log_shifter_0/mux2_dp_1x_1[7]/y log_shifter_0/mux2_dp_1x_0[7]/a_25_7# Gnd! 2 6 146 671
+n log_shifter_0/mux2_dp_1x_0[7]/a_17_7# Gnd! y6 2 7 154 671
+p log_shifter_0/mux2_dp_1x_3/y Vdd! log_shifter_0/mux2_dp_1x_0[8]/a_12_74# 2 9 128 848
+p xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[8]/a_12_74# log_shifter_0/mux2_dp_1x_0[8]/a_17_7# 2 9 133 848
+p s0xor log_shifter_0/mux2_dp_1x_0[8]/a_17_7# log_shifter_0/mux2_dp_1x_0[8]/a_25_74# 2 9 141 848
+p log_shifter_0/mux2_dp_1x_1[8]/y log_shifter_0/mux2_dp_1x_0[8]/a_25_74# Vdd! 2 9 146 848
+p log_shifter_0/mux2_dp_1x_0[8]/a_17_7# Vdd! y7 2 10 154 847
+n log_shifter_0/mux2_dp_1x_3/y Gnd! log_shifter_0/mux2_dp_1x_0[8]/a_12_7# 2 6 128 781
+n s0xor log_shifter_0/mux2_dp_1x_0[8]/a_12_7# log_shifter_0/mux2_dp_1x_0[8]/a_17_7# 2 6 133 781
+n xor2_2x_2/yb log_shifter_0/mux2_dp_1x_0[8]/a_17_7# log_shifter_0/mux2_dp_1x_0[8]/a_25_7# 2 6 141 781
+n log_shifter_0/mux2_dp_1x_1[8]/y log_shifter_0/mux2_dp_1x_0[8]/a_25_7# Gnd! 2 6 146 781
+n log_shifter_0/mux2_dp_1x_0[8]/a_17_7# Gnd! y7 2 7 154 781
+p log_shifter_0/mux2_dp_1x_2[3]/y Vdd! log_shifter_0/mux2_dp_1x_1[1]/a_12_74# 2 9 80 78
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[1]/a_12_74# log_shifter_0/mux2_dp_1x_1[1]/a_17_7# 2 9 85 78
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[1]/a_17_7# log_shifter_0/mux2_dp_1x_1[1]/a_25_74# 2 9 93 78
+p log_shifter_0/mux2_dp_1x_2[1]/y log_shifter_0/mux2_dp_1x_1[1]/a_25_74# Vdd! 2 9 98 78
+p log_shifter_0/mux2_dp_1x_1[1]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[1]/y 2 10 106 77
+n log_shifter_0/mux2_dp_1x_2[3]/y Gnd! log_shifter_0/mux2_dp_1x_1[1]/a_12_7# 2 6 80 11
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[1]/a_12_7# log_shifter_0/mux2_dp_1x_1[1]/a_17_7# 2 6 85 11
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[1]/a_17_7# log_shifter_0/mux2_dp_1x_1[1]/a_25_7# 2 6 93 11
+n log_shifter_0/mux2_dp_1x_2[1]/y log_shifter_0/mux2_dp_1x_1[1]/a_25_7# Gnd! 2 6 98 11
+n log_shifter_0/mux2_dp_1x_1[1]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[1]/y 2 7 106 11
+p log_shifter_0/mux2_dp_1x_2[4]/y Vdd! log_shifter_0/mux2_dp_1x_1[2]/a_12_74# 2 9 80 188
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[2]/a_12_74# log_shifter_0/mux2_dp_1x_1[2]/a_17_7# 2 9 85 188
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[2]/a_17_7# log_shifter_0/mux2_dp_1x_1[2]/a_25_74# 2 9 93 188
+p log_shifter_0/mux2_dp_1x_2[2]/y log_shifter_0/mux2_dp_1x_1[2]/a_25_74# Vdd! 2 9 98 188
+p log_shifter_0/mux2_dp_1x_1[2]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[2]/y 2 10 106 187
+n log_shifter_0/mux2_dp_1x_2[4]/y Gnd! log_shifter_0/mux2_dp_1x_1[2]/a_12_7# 2 6 80 121
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[2]/a_12_7# log_shifter_0/mux2_dp_1x_1[2]/a_17_7# 2 6 85 121
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[2]/a_17_7# log_shifter_0/mux2_dp_1x_1[2]/a_25_7# 2 6 93 121
+n log_shifter_0/mux2_dp_1x_2[2]/y log_shifter_0/mux2_dp_1x_1[2]/a_25_7# Gnd! 2 6 98 121
+n log_shifter_0/mux2_dp_1x_1[2]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[2]/y 2 7 106 121
+p log_shifter_0/mux2_dp_1x_2[5]/y Vdd! log_shifter_0/mux2_dp_1x_1[3]/a_12_74# 2 9 80 298
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[3]/a_12_74# log_shifter_0/mux2_dp_1x_1[3]/a_17_7# 2 9 85 298
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[3]/a_17_7# log_shifter_0/mux2_dp_1x_1[3]/a_25_74# 2 9 93 298
+p log_shifter_0/mux2_dp_1x_2[3]/y log_shifter_0/mux2_dp_1x_1[3]/a_25_74# Vdd! 2 9 98 298
+p log_shifter_0/mux2_dp_1x_1[3]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[3]/y 2 10 106 297
+n log_shifter_0/mux2_dp_1x_2[5]/y Gnd! log_shifter_0/mux2_dp_1x_1[3]/a_12_7# 2 6 80 231
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[3]/a_12_7# log_shifter_0/mux2_dp_1x_1[3]/a_17_7# 2 6 85 231
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[3]/a_17_7# log_shifter_0/mux2_dp_1x_1[3]/a_25_7# 2 6 93 231
+n log_shifter_0/mux2_dp_1x_2[3]/y log_shifter_0/mux2_dp_1x_1[3]/a_25_7# Gnd! 2 6 98 231
+n log_shifter_0/mux2_dp_1x_1[3]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[3]/y 2 7 106 231
+p log_shifter_0/mux2_dp_1x_2[6]/y Vdd! log_shifter_0/mux2_dp_1x_1[4]/a_12_74# 2 9 80 408
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[4]/a_12_74# log_shifter_0/mux2_dp_1x_1[4]/a_17_7# 2 9 85 408
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[4]/a_17_7# log_shifter_0/mux2_dp_1x_1[4]/a_25_74# 2 9 93 408
+p log_shifter_0/mux2_dp_1x_2[4]/y log_shifter_0/mux2_dp_1x_1[4]/a_25_74# Vdd! 2 9 98 408
+p log_shifter_0/mux2_dp_1x_1[4]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[4]/y 2 10 106 407
+n log_shifter_0/mux2_dp_1x_2[6]/y Gnd! log_shifter_0/mux2_dp_1x_1[4]/a_12_7# 2 6 80 341
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[4]/a_12_7# log_shifter_0/mux2_dp_1x_1[4]/a_17_7# 2 6 85 341
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[4]/a_17_7# log_shifter_0/mux2_dp_1x_1[4]/a_25_7# 2 6 93 341
+n log_shifter_0/mux2_dp_1x_2[4]/y log_shifter_0/mux2_dp_1x_1[4]/a_25_7# Gnd! 2 6 98 341
+n log_shifter_0/mux2_dp_1x_1[4]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[4]/y 2 7 106 341
+p log_shifter_0/mux2_dp_1x_2[7]/y Vdd! log_shifter_0/mux2_dp_1x_1[5]/a_12_74# 2 9 80 518
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[5]/a_12_74# log_shifter_0/mux2_dp_1x_1[5]/a_17_7# 2 9 85 518
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[5]/a_17_7# log_shifter_0/mux2_dp_1x_1[5]/a_25_74# 2 9 93 518
+p log_shifter_0/mux2_dp_1x_2[5]/y log_shifter_0/mux2_dp_1x_1[5]/a_25_74# Vdd! 2 9 98 518
+p log_shifter_0/mux2_dp_1x_1[5]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[5]/y 2 10 106 517
+n log_shifter_0/mux2_dp_1x_2[7]/y Gnd! log_shifter_0/mux2_dp_1x_1[5]/a_12_7# 2 6 80 451
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[5]/a_12_7# log_shifter_0/mux2_dp_1x_1[5]/a_17_7# 2 6 85 451
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[5]/a_17_7# log_shifter_0/mux2_dp_1x_1[5]/a_25_7# 2 6 93 451
+n log_shifter_0/mux2_dp_1x_2[5]/y log_shifter_0/mux2_dp_1x_1[5]/a_25_7# Gnd! 2 6 98 451
+n log_shifter_0/mux2_dp_1x_1[5]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[5]/y 2 7 106 451
+p log_shifter_0/mux2_dp_1x_2[8]/y Vdd! log_shifter_0/mux2_dp_1x_1[6]/a_12_74# 2 9 80 628
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[6]/a_12_74# log_shifter_0/mux2_dp_1x_1[6]/a_17_7# 2 9 85 628
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[6]/a_17_7# log_shifter_0/mux2_dp_1x_1[6]/a_25_74# 2 9 93 628
+p log_shifter_0/mux2_dp_1x_2[6]/y log_shifter_0/mux2_dp_1x_1[6]/a_25_74# Vdd! 2 9 98 628
+p log_shifter_0/mux2_dp_1x_1[6]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[6]/y 2 10 106 627
+n log_shifter_0/mux2_dp_1x_2[8]/y Gnd! log_shifter_0/mux2_dp_1x_1[6]/a_12_7# 2 6 80 561
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[6]/a_12_7# log_shifter_0/mux2_dp_1x_1[6]/a_17_7# 2 6 85 561
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[6]/a_17_7# log_shifter_0/mux2_dp_1x_1[6]/a_25_7# 2 6 93 561
+n log_shifter_0/mux2_dp_1x_2[6]/y log_shifter_0/mux2_dp_1x_1[6]/a_25_7# Gnd! 2 6 98 561
+n log_shifter_0/mux2_dp_1x_1[6]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[6]/y 2 7 106 561
+p log_shifter_0/mux2_dp_1x_4/y Vdd! log_shifter_0/mux2_dp_1x_1[7]/a_12_74# 2 9 80 738
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[7]/a_12_74# log_shifter_0/mux2_dp_1x_1[7]/a_17_7# 2 9 85 738
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[7]/a_17_7# log_shifter_0/mux2_dp_1x_1[7]/a_25_74# 2 9 93 738
+p log_shifter_0/mux2_dp_1x_2[7]/y log_shifter_0/mux2_dp_1x_1[7]/a_25_74# Vdd! 2 9 98 738
+p log_shifter_0/mux2_dp_1x_1[7]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[7]/y 2 10 106 737
+n log_shifter_0/mux2_dp_1x_4/y Gnd! log_shifter_0/mux2_dp_1x_1[7]/a_12_7# 2 6 80 671
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[7]/a_12_7# log_shifter_0/mux2_dp_1x_1[7]/a_17_7# 2 6 85 671
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[7]/a_17_7# log_shifter_0/mux2_dp_1x_1[7]/a_25_7# 2 6 93 671
+n log_shifter_0/mux2_dp_1x_2[7]/y log_shifter_0/mux2_dp_1x_1[7]/a_25_7# Gnd! 2 6 98 671
+n log_shifter_0/mux2_dp_1x_1[7]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[7]/y 2 7 106 671
+p log_shifter_0/mux2_dp_1x_5/y Vdd! log_shifter_0/mux2_dp_1x_1[8]/a_12_74# 2 9 80 848
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[8]/a_12_74# log_shifter_0/mux2_dp_1x_1[8]/a_17_7# 2 9 85 848
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[8]/a_17_7# log_shifter_0/mux2_dp_1x_1[8]/a_25_74# 2 9 93 848
+p log_shifter_0/mux2_dp_1x_2[8]/y log_shifter_0/mux2_dp_1x_1[8]/a_25_74# Vdd! 2 9 98 848
+p log_shifter_0/mux2_dp_1x_1[8]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_1[8]/y 2 10 106 847
+n log_shifter_0/mux2_dp_1x_5/y Gnd! log_shifter_0/mux2_dp_1x_1[8]/a_12_7# 2 6 80 781
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_1[8]/a_12_7# log_shifter_0/mux2_dp_1x_1[8]/a_17_7# 2 6 85 781
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_1[8]/a_17_7# log_shifter_0/mux2_dp_1x_1[8]/a_25_7# 2 6 93 781
+n log_shifter_0/mux2_dp_1x_2[8]/y log_shifter_0/mux2_dp_1x_1[8]/a_25_7# Gnd! 2 6 98 781
+n log_shifter_0/mux2_dp_1x_1[8]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_1[8]/y 2 7 106 781
+p z4 Vdd! log_shifter_0/mux2_dp_1x_2[1]/a_12_74# 2 9 16 78
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[1]/a_12_74# log_shifter_0/mux2_dp_1x_2[1]/a_17_7# 2 9 21 78
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[1]/a_17_7# log_shifter_0/mux2_dp_1x_2[1]/a_25_74# 2 9 29 78
+p z0 log_shifter_0/mux2_dp_1x_2[1]/a_25_74# Vdd! 2 9 34 78
+p log_shifter_0/mux2_dp_1x_2[1]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[1]/y 2 10 42 77
+n z4 Gnd! log_shifter_0/mux2_dp_1x_2[1]/a_12_7# 2 6 16 11
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[1]/a_12_7# log_shifter_0/mux2_dp_1x_2[1]/a_17_7# 2 6 21 11
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[1]/a_17_7# log_shifter_0/mux2_dp_1x_2[1]/a_25_7# 2 6 29 11
+n z0 log_shifter_0/mux2_dp_1x_2[1]/a_25_7# Gnd! 2 6 34 11
+n log_shifter_0/mux2_dp_1x_2[1]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[1]/y 2 7 42 11
+p z5 Vdd! log_shifter_0/mux2_dp_1x_2[2]/a_12_74# 2 9 16 188
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[2]/a_12_74# log_shifter_0/mux2_dp_1x_2[2]/a_17_7# 2 9 21 188
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[2]/a_17_7# log_shifter_0/mux2_dp_1x_2[2]/a_25_74# 2 9 29 188
+p z1 log_shifter_0/mux2_dp_1x_2[2]/a_25_74# Vdd! 2 9 34 188
+p log_shifter_0/mux2_dp_1x_2[2]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[2]/y 2 10 42 187
+n z5 Gnd! log_shifter_0/mux2_dp_1x_2[2]/a_12_7# 2 6 16 121
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[2]/a_12_7# log_shifter_0/mux2_dp_1x_2[2]/a_17_7# 2 6 21 121
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[2]/a_17_7# log_shifter_0/mux2_dp_1x_2[2]/a_25_7# 2 6 29 121
+n z1 log_shifter_0/mux2_dp_1x_2[2]/a_25_7# Gnd! 2 6 34 121
+n log_shifter_0/mux2_dp_1x_2[2]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[2]/y 2 7 42 121
+p z6 Vdd! log_shifter_0/mux2_dp_1x_2[3]/a_12_74# 2 9 16 298
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[3]/a_12_74# log_shifter_0/mux2_dp_1x_2[3]/a_17_7# 2 9 21 298
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[3]/a_17_7# log_shifter_0/mux2_dp_1x_2[3]/a_25_74# 2 9 29 298
+p z2 log_shifter_0/mux2_dp_1x_2[3]/a_25_74# Vdd! 2 9 34 298
+p log_shifter_0/mux2_dp_1x_2[3]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[3]/y 2 10 42 297
+n z6 Gnd! log_shifter_0/mux2_dp_1x_2[3]/a_12_7# 2 6 16 231
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[3]/a_12_7# log_shifter_0/mux2_dp_1x_2[3]/a_17_7# 2 6 21 231
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[3]/a_17_7# log_shifter_0/mux2_dp_1x_2[3]/a_25_7# 2 6 29 231
+n z2 log_shifter_0/mux2_dp_1x_2[3]/a_25_7# Gnd! 2 6 34 231
+n log_shifter_0/mux2_dp_1x_2[3]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[3]/y 2 7 42 231
+p z7 Vdd! log_shifter_0/mux2_dp_1x_2[4]/a_12_74# 2 9 16 408
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[4]/a_12_74# log_shifter_0/mux2_dp_1x_2[4]/a_17_7# 2 9 21 408
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[4]/a_17_7# log_shifter_0/mux2_dp_1x_2[4]/a_25_74# 2 9 29 408
+p z3 log_shifter_0/mux2_dp_1x_2[4]/a_25_74# Vdd! 2 9 34 408
+p log_shifter_0/mux2_dp_1x_2[4]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[4]/y 2 10 42 407
+n z7 Gnd! log_shifter_0/mux2_dp_1x_2[4]/a_12_7# 2 6 16 341
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[4]/a_12_7# log_shifter_0/mux2_dp_1x_2[4]/a_17_7# 2 6 21 341
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[4]/a_17_7# log_shifter_0/mux2_dp_1x_2[4]/a_25_7# 2 6 29 341
+n z3 log_shifter_0/mux2_dp_1x_2[4]/a_25_7# Gnd! 2 6 34 341
+n log_shifter_0/mux2_dp_1x_2[4]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[4]/y 2 7 42 341
+p z8 Vdd! log_shifter_0/mux2_dp_1x_2[5]/a_12_74# 2 9 16 518
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[5]/a_12_74# log_shifter_0/mux2_dp_1x_2[5]/a_17_7# 2 9 21 518
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[5]/a_17_7# log_shifter_0/mux2_dp_1x_2[5]/a_25_74# 2 9 29 518
+p z4 log_shifter_0/mux2_dp_1x_2[5]/a_25_74# Vdd! 2 9 34 518
+p log_shifter_0/mux2_dp_1x_2[5]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[5]/y 2 10 42 517
+n z8 Gnd! log_shifter_0/mux2_dp_1x_2[5]/a_12_7# 2 6 16 451
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[5]/a_12_7# log_shifter_0/mux2_dp_1x_2[5]/a_17_7# 2 6 21 451
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[5]/a_17_7# log_shifter_0/mux2_dp_1x_2[5]/a_25_7# 2 6 29 451
+n z4 log_shifter_0/mux2_dp_1x_2[5]/a_25_7# Gnd! 2 6 34 451
+n log_shifter_0/mux2_dp_1x_2[5]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[5]/y 2 7 42 451
+p z9 Vdd! log_shifter_0/mux2_dp_1x_2[6]/a_12_74# 2 9 16 628
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[6]/a_12_74# log_shifter_0/mux2_dp_1x_2[6]/a_17_7# 2 9 21 628
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[6]/a_17_7# log_shifter_0/mux2_dp_1x_2[6]/a_25_74# 2 9 29 628
+p z5 log_shifter_0/mux2_dp_1x_2[6]/a_25_74# Vdd! 2 9 34 628
+p log_shifter_0/mux2_dp_1x_2[6]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[6]/y 2 10 42 627
+n z9 Gnd! log_shifter_0/mux2_dp_1x_2[6]/a_12_7# 2 6 16 561
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[6]/a_12_7# log_shifter_0/mux2_dp_1x_2[6]/a_17_7# 2 6 21 561
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[6]/a_17_7# log_shifter_0/mux2_dp_1x_2[6]/a_25_7# 2 6 29 561
+n z5 log_shifter_0/mux2_dp_1x_2[6]/a_25_7# Gnd! 2 6 34 561
+n log_shifter_0/mux2_dp_1x_2[6]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[6]/y 2 7 42 561
+p z10 Vdd! log_shifter_0/mux2_dp_1x_2[7]/a_12_74# 2 9 16 738
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[7]/a_12_74# log_shifter_0/mux2_dp_1x_2[7]/a_17_7# 2 9 21 738
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[7]/a_17_7# log_shifter_0/mux2_dp_1x_2[7]/a_25_74# 2 9 29 738
+p z6 log_shifter_0/mux2_dp_1x_2[7]/a_25_74# Vdd! 2 9 34 738
+p log_shifter_0/mux2_dp_1x_2[7]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[7]/y 2 10 42 737
+n z10 Gnd! log_shifter_0/mux2_dp_1x_2[7]/a_12_7# 2 6 16 671
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[7]/a_12_7# log_shifter_0/mux2_dp_1x_2[7]/a_17_7# 2 6 21 671
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[7]/a_17_7# log_shifter_0/mux2_dp_1x_2[7]/a_25_7# 2 6 29 671
+n z6 log_shifter_0/mux2_dp_1x_2[7]/a_25_7# Gnd! 2 6 34 671
+n log_shifter_0/mux2_dp_1x_2[7]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[7]/y 2 7 42 671
+p z11 Vdd! log_shifter_0/mux2_dp_1x_2[8]/a_12_74# 2 9 16 848
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[8]/a_12_74# log_shifter_0/mux2_dp_1x_2[8]/a_17_7# 2 9 21 848
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[8]/a_17_7# log_shifter_0/mux2_dp_1x_2[8]/a_25_74# 2 9 29 848
+p z7 log_shifter_0/mux2_dp_1x_2[8]/a_25_74# Vdd! 2 9 34 848
+p log_shifter_0/mux2_dp_1x_2[8]/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_2[8]/y 2 10 42 847
+n z11 Gnd! log_shifter_0/mux2_dp_1x_2[8]/a_12_7# 2 6 16 781
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_2[8]/a_12_7# log_shifter_0/mux2_dp_1x_2[8]/a_17_7# 2 6 21 781
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_2[8]/a_17_7# log_shifter_0/mux2_dp_1x_2[8]/a_25_7# 2 6 29 781
+n z7 log_shifter_0/mux2_dp_1x_2[8]/a_25_7# Gnd! 2 6 34 781
+n log_shifter_0/mux2_dp_1x_2[8]/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_2[8]/y 2 7 42 781
+p log_shifter_0/mux2_dp_1x_6/y Vdd! log_shifter_0/mux2_dp_1x_3/a_12_74# 2 9 80 958
+p xor2_2x_1/yb log_shifter_0/mux2_dp_1x_3/a_12_74# log_shifter_0/mux2_dp_1x_3/a_17_7# 2 9 85 958
+p xor2_2x_1/y log_shifter_0/mux2_dp_1x_3/a_17_7# log_shifter_0/mux2_dp_1x_3/a_25_74# 2 9 93 958
+p log_shifter_0/mux2_dp_1x_4/y log_shifter_0/mux2_dp_1x_3/a_25_74# Vdd! 2 9 98 958
+p log_shifter_0/mux2_dp_1x_3/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_3/y 2 10 106 957
+n log_shifter_0/mux2_dp_1x_6/y Gnd! log_shifter_0/mux2_dp_1x_3/a_12_7# 2 6 80 891
+n xor2_2x_1/y log_shifter_0/mux2_dp_1x_3/a_12_7# log_shifter_0/mux2_dp_1x_3/a_17_7# 2 6 85 891
+n xor2_2x_1/yb log_shifter_0/mux2_dp_1x_3/a_17_7# log_shifter_0/mux2_dp_1x_3/a_25_7# 2 6 93 891
+n log_shifter_0/mux2_dp_1x_4/y log_shifter_0/mux2_dp_1x_3/a_25_7# Gnd! 2 6 98 891
+n log_shifter_0/mux2_dp_1x_3/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_3/y 2 7 106 891
+p z12 Vdd! log_shifter_0/mux2_dp_1x_4/a_12_74# 2 9 16 958
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_4/a_12_74# log_shifter_0/mux2_dp_1x_4/a_17_7# 2 9 21 958
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_4/a_17_7# log_shifter_0/mux2_dp_1x_4/a_25_74# 2 9 29 958
+p z8 log_shifter_0/mux2_dp_1x_4/a_25_74# Vdd! 2 9 34 958
+p log_shifter_0/mux2_dp_1x_4/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_4/y 2 10 42 957
+n z12 Gnd! log_shifter_0/mux2_dp_1x_4/a_12_7# 2 6 16 891
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_4/a_12_7# log_shifter_0/mux2_dp_1x_4/a_17_7# 2 6 21 891
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_4/a_17_7# log_shifter_0/mux2_dp_1x_4/a_25_7# 2 6 29 891
+n z8 log_shifter_0/mux2_dp_1x_4/a_25_7# Gnd! 2 6 34 891
+n log_shifter_0/mux2_dp_1x_4/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_4/y 2 7 42 891
+p z13 Vdd! log_shifter_0/mux2_dp_1x_5/a_12_74# 2 9 16 1068
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_5/a_12_74# log_shifter_0/mux2_dp_1x_5/a_17_7# 2 9 21 1068
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_5/a_17_7# log_shifter_0/mux2_dp_1x_5/a_25_74# 2 9 29 1068
+p z9 log_shifter_0/mux2_dp_1x_5/a_25_74# Vdd! 2 9 34 1068
+p log_shifter_0/mux2_dp_1x_5/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_5/y 2 10 42 1067
+n z13 Gnd! log_shifter_0/mux2_dp_1x_5/a_12_7# 2 6 16 1001
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_5/a_12_7# log_shifter_0/mux2_dp_1x_5/a_17_7# 2 6 21 1001
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_5/a_17_7# log_shifter_0/mux2_dp_1x_5/a_25_7# 2 6 29 1001
+n z9 log_shifter_0/mux2_dp_1x_5/a_25_7# Gnd! 2 6 34 1001
+n log_shifter_0/mux2_dp_1x_5/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_5/y 2 7 42 1001
+p z14 Vdd! log_shifter_0/mux2_dp_1x_6/a_12_74# 2 9 16 1178
+p xor2_2x_0/yb log_shifter_0/mux2_dp_1x_6/a_12_74# log_shifter_0/mux2_dp_1x_6/a_17_7# 2 9 21 1178
+p xor2_2x_0/y log_shifter_0/mux2_dp_1x_6/a_17_7# log_shifter_0/mux2_dp_1x_6/a_25_74# 2 9 29 1178
+p z10 log_shifter_0/mux2_dp_1x_6/a_25_74# Vdd! 2 9 34 1178
+p log_shifter_0/mux2_dp_1x_6/a_17_7# Vdd! log_shifter_0/mux2_dp_1x_6/y 2 10 42 1177
+n z14 Gnd! log_shifter_0/mux2_dp_1x_6/a_12_7# 2 6 16 1111
+n xor2_2x_0/y log_shifter_0/mux2_dp_1x_6/a_12_7# log_shifter_0/mux2_dp_1x_6/a_17_7# 2 6 21 1111
+n xor2_2x_0/yb log_shifter_0/mux2_dp_1x_6/a_17_7# log_shifter_0/mux2_dp_1x_6/a_25_7# 2 6 29 1111
+n z10 log_shifter_0/mux2_dp_1x_6/a_25_7# Gnd! 2 6 34 1111
+n log_shifter_0/mux2_dp_1x_6/a_17_7# Gnd! log_shifter_0/mux2_dp_1x_6/y 2 7 42 1111
+p xor2_2x_2/a xor2_2x_2/a_2_8# Vdd! 2 9 125 957
+p xor2_2x_2/a Vdd! xor2_2x_2/a_17_73# 2 9 133 957
+p s0 xor2_2x_2/a_17_73# xor2_2x_2/yb 2 9 138 957
+p xor2_2x_2/a_13_46# xor2_2x_2/yb xor2_2x_2/a_30_73# 2 9 146 957
+p xor2_2x_2/a_2_8# xor2_2x_2/a_30_73# Vdd! 2 9 151 957
+p s0 Vdd! xor2_2x_2/a_13_46# 2 9 159 957
+p xor2_2x_2/yb Vdd! s0xor 2 20 179 946
+n xor2_2x_2/a xor2_2x_2/a_2_8# Gnd! 2 6 125 892
+n xor2_2x_2/a Gnd! xor2_2x_2/a_17_8# 2 6 133 892
+n xor2_2x_2/a_13_46# xor2_2x_2/a_17_8# xor2_2x_2/yb 2 6 138 892
+n s0 xor2_2x_2/yb xor2_2x_2/a_30_8# 2 6 146 892
+n xor2_2x_2/a_2_8# xor2_2x_2/a_30_8# Gnd! 2 6 151 892
+n s0 Gnd! xor2_2x_2/a_13_46# 2 6 159 892
+n xor2_2x_2/yb Gnd! s0xor 2 14 179 892
+p shift_source_gen_0/and2_1x_0[1]/a_5_5# z0 Vdd! 2 10 -63 77
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[1]/a_5_5# 2 6 -55 81
+p a0 shift_source_gen_0/and2_1x_0[1]/a_5_5# Vdd! 2 6 -47 81
+n shift_source_gen_0/and2_1x_0[1]/a_5_5# z0 Gnd! 2 7 -63 11
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[1]/a_15_7# 2 6 -55 11
+n a0 shift_source_gen_0/and2_1x_0[1]/a_15_7# shift_source_gen_0/and2_1x_0[1]/a_5_5# 2 6 -50 11
+p shift_source_gen_0/and2_1x_0[2]/a_5_5# z1 Vdd! 2 10 -63 187
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[2]/a_5_5# 2 6 -55 191
+p a1 shift_source_gen_0/and2_1x_0[2]/a_5_5# Vdd! 2 6 -47 191
+n shift_source_gen_0/and2_1x_0[2]/a_5_5# z1 Gnd! 2 7 -63 121
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[2]/a_15_7# 2 6 -55 121
+n a1 shift_source_gen_0/and2_1x_0[2]/a_15_7# shift_source_gen_0/and2_1x_0[2]/a_5_5# 2 6 -50 121
+p shift_source_gen_0/and2_1x_0[3]/a_5_5# z2 Vdd! 2 10 -63 297
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[3]/a_5_5# 2 6 -55 301
+p a2 shift_source_gen_0/and2_1x_0[3]/a_5_5# Vdd! 2 6 -47 301
+n shift_source_gen_0/and2_1x_0[3]/a_5_5# z2 Gnd! 2 7 -63 231
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[3]/a_15_7# 2 6 -55 231
+n a2 shift_source_gen_0/and2_1x_0[3]/a_15_7# shift_source_gen_0/and2_1x_0[3]/a_5_5# 2 6 -50 231
+p shift_source_gen_0/and2_1x_0[4]/a_5_5# z3 Vdd! 2 10 -63 407
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[4]/a_5_5# 2 6 -55 411
+p a3 shift_source_gen_0/and2_1x_0[4]/a_5_5# Vdd! 2 6 -47 411
+n shift_source_gen_0/and2_1x_0[4]/a_5_5# z3 Gnd! 2 7 -63 341
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[4]/a_15_7# 2 6 -55 341
+n a3 shift_source_gen_0/and2_1x_0[4]/a_15_7# shift_source_gen_0/and2_1x_0[4]/a_5_5# 2 6 -50 341
+p shift_source_gen_0/and2_1x_0[5]/a_5_5# z4 Vdd! 2 10 -63 517
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[5]/a_5_5# 2 6 -55 521
+p a4 shift_source_gen_0/and2_1x_0[5]/a_5_5# Vdd! 2 6 -47 521
+n shift_source_gen_0/and2_1x_0[5]/a_5_5# z4 Gnd! 2 7 -63 451
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[5]/a_15_7# 2 6 -55 451
+n a4 shift_source_gen_0/and2_1x_0[5]/a_15_7# shift_source_gen_0/and2_1x_0[5]/a_5_5# 2 6 -50 451
+p shift_source_gen_0/and2_1x_0[6]/a_5_5# z5 Vdd! 2 10 -63 627
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[6]/a_5_5# 2 6 -55 631
+p a5 shift_source_gen_0/and2_1x_0[6]/a_5_5# Vdd! 2 6 -47 631
+n shift_source_gen_0/and2_1x_0[6]/a_5_5# z5 Gnd! 2 7 -63 561
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[6]/a_15_7# 2 6 -55 561
+n a5 shift_source_gen_0/and2_1x_0[6]/a_15_7# shift_source_gen_0/and2_1x_0[6]/a_5_5# 2 6 -50 561
+p shift_source_gen_0/and2_1x_0[7]/a_5_5# z6 Vdd! 2 10 -63 737
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_0[7]/a_5_5# 2 6 -55 741
+p a6 shift_source_gen_0/and2_1x_0[7]/a_5_5# Vdd! 2 6 -47 741
+n shift_source_gen_0/and2_1x_0[7]/a_5_5# z6 Gnd! 2 7 -63 671
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_0[7]/a_15_7# 2 6 -55 671
+n a6 shift_source_gen_0/and2_1x_0[7]/a_15_7# shift_source_gen_0/and2_1x_0[7]/a_5_5# 2 6 -50 671
+p shift_source_gen_0/and2_1x_1/y Vdd! shift_source_gen_0/invbuf_4x_0/sb_out 2 37 59 1590
+p shift_source_gen_0/invbuf_4x_0/sb_out Vdd! shift_source_gen_0/rightandarith 2 37 75 1590
+n shift_source_gen_0/and2_1x_1/y Gnd! shift_source_gen_0/invbuf_4x_0/sb_out 2 27 59 1551
+n shift_source_gen_0/invbuf_4x_0/sb_out Gnd! shift_source_gen_0/rightandarith 2 27 75 1551
+p shift_source_gen_0/and2_1x_1/a_5_5# shift_source_gen_0/and2_1x_1/y Vdd! 2 10 27 1617
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/and2_1x_1/a_5_5# 2 6 35 1621
+p arith shift_source_gen_0/and2_1x_1/a_5_5# Vdd! 2 6 43 1621
+n shift_source_gen_0/and2_1x_1/a_5_5# shift_source_gen_0/and2_1x_1/y Gnd! 2 7 27 1551
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/and2_1x_1/a_15_7# 2 6 35 1551
+n arith shift_source_gen_0/and2_1x_1/a_15_7# shift_source_gen_0/and2_1x_1/a_5_5# 2 6 40 1551
+p right Vdd! xor2_2x_2/a 2 37 -5 1590
+p xor2_2x_2/a Vdd! shift_source_gen_0/and2_1x_1/a 2 37 11 1590
+n right Gnd! xor2_2x_2/a 2 27 -5 1551
+n xor2_2x_2/a Gnd! shift_source_gen_0/and2_1x_1/a 2 27 11 1551
+p shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! z7 2 12 -55 845
+p shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y z7 Vdd! 2 12 -47 845
+n shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_2/a_7_7# 2 12 -55 781
+n shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_2/a_7_7# z7 2 12 -50 781
+p shift_source_gen_0/and2_1x_1/a Vdd! shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y 2 12 -79 845
+p a7 shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y Vdd! 2 12 -71 845
+n shift_source_gen_0/and2_1x_1/a Gnd! shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/a_7_7# 2 12 -79 781
+n a7 shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y 2 12 -74 781
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y 2 12 -103 845
+p a0 shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! 2 12 -95 845
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/a_7_7# 2 12 -103 781
+n a0 shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y 2 12 -98 781
+p shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! z8 2 12 -55 955
+p shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y z8 Vdd! 2 12 -47 955
+n shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_2/a_7_7# 2 12 -55 891
+n shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_2/a_7_7# z8 2 12 -50 891
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y 2 12 -79 955
+p a7 shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y Vdd! 2 12 -71 955
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/a_7_7# 2 12 -79 891
+n a7 shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y 2 12 -74 891
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y 2 12 -103 955
+p a1 shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! 2 12 -95 955
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/a_7_7# 2 12 -103 891
+n a1 shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y 2 12 -98 891
+p shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! z9 2 12 -55 1065
+p shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y z9 Vdd! 2 12 -47 1065
+n shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/a_7_7# 2 12 -55 1001
+n shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/a_7_7# z9 2 12 -50 1001
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y 2 12 -79 1065
+p a7 shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y Vdd! 2 12 -71 1065
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/a_7_7# 2 12 -79 1001
+n a7 shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y 2 12 -74 1001
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y 2 12 -103 1065
+p a2 shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! 2 12 -95 1065
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/a_7_7# 2 12 -103 1001
+n a2 shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y 2 12 -98 1001
+p shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! z10 2 12 -55 1175
+p shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y z10 Vdd! 2 12 -47 1175
+n shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_2/a_7_7# 2 12 -55 1111
+n shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_2/a_7_7# z10 2 12 -50 1111
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y 2 12 -79 1175
+p a7 shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y Vdd! 2 12 -71 1175
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/a_7_7# 2 12 -79 1111
+n a7 shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y 2 12 -74 1111
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y 2 12 -103 1175
+p a3 shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! 2 12 -95 1175
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/a_7_7# 2 12 -103 1111
+n a3 shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y 2 12 -98 1111
+p shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! z11 2 12 -55 1285
+p shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y z11 Vdd! 2 12 -47 1285
+n shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_2/a_7_7# 2 12 -55 1221
+n shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_2/a_7_7# z11 2 12 -50 1221
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y 2 12 -79 1285
+p a7 shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y Vdd! 2 12 -71 1285
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/a_7_7# 2 12 -79 1221
+n a7 shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y 2 12 -74 1221
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y 2 12 -103 1285
+p a4 shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! 2 12 -95 1285
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/a_7_7# 2 12 -103 1221
+n a4 shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y 2 12 -98 1221
+p shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! z12 2 12 -55 1395
+p shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y z12 Vdd! 2 12 -47 1395
+n shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_2/a_7_7# 2 12 -55 1331
+n shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_2/a_7_7# z12 2 12 -50 1331
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y 2 12 -79 1395
+p a7 shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y Vdd! 2 12 -71 1395
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/a_7_7# 2 12 -79 1331
+n a7 shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y 2 12 -74 1331
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y 2 12 -103 1395
+p a5 shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! 2 12 -95 1395
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/a_7_7# 2 12 -103 1331
+n a5 shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y 2 12 -98 1331
+p shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! z13 2 12 -55 1505
+p shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y z13 Vdd! 2 12 -47 1505
+n shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_2/a_7_7# 2 12 -55 1441
+n shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_2/a_7_7# z13 2 12 -50 1441
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y 2 12 -79 1505
+p a7 shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y Vdd! 2 12 -71 1505
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/a_7_7# 2 12 -79 1441
+n a7 shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y 2 12 -74 1441
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y 2 12 -103 1505
+p a6 shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! 2 12 -95 1505
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/a_7_7# 2 12 -103 1441
+n a6 shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y 2 12 -98 1441
+p shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! z14 2 12 -55 1615
+p shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y z14 Vdd! 2 12 -47 1615
+n shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y Gnd! shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_2/a_7_7# 2 12 -55 1551
+n shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_2/a_7_7# z14 2 12 -50 1551
+p shift_source_gen_0/rightandarith Vdd! shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y 2 12 -79 1615
+p a7 shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y Vdd! 2 12 -71 1615
+n shift_source_gen_0/rightandarith Gnd! shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/a_7_7# 2 12 -79 1551
+n a7 shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/a_7_7# shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y 2 12 -74 1551
+p xor2_2x_2/a Vdd! shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y 2 12 -103 1615
+p a7 shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! 2 12 -95 1615
+n xor2_2x_2/a Gnd! shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/a_7_7# 2 12 -103 1551
+n a7 shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/a_7_7# shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y 2 12 -98 1551
+p xor2_2x_2/a xor2_2x_1/a_2_8# Vdd! 2 9 77 1067
+p xor2_2x_2/a Vdd! xor2_2x_1/a_17_73# 2 9 85 1067
+p s1 xor2_2x_1/a_17_73# xor2_2x_1/yb 2 9 90 1067
+p xor2_2x_1/a_13_46# xor2_2x_1/yb xor2_2x_1/a_30_73# 2 9 98 1067
+p xor2_2x_1/a_2_8# xor2_2x_1/a_30_73# Vdd! 2 9 103 1067
+p s1 Vdd! xor2_2x_1/a_13_46# 2 9 111 1067
+p xor2_2x_1/yb Vdd! xor2_2x_1/y 2 20 131 1056
+n xor2_2x_2/a xor2_2x_1/a_2_8# Gnd! 2 6 77 1002
+n xor2_2x_2/a Gnd! xor2_2x_1/a_17_8# 2 6 85 1002
+n xor2_2x_1/a_13_46# xor2_2x_1/a_17_8# xor2_2x_1/yb 2 6 90 1002
+n s1 xor2_2x_1/yb xor2_2x_1/a_30_8# 2 6 98 1002
+n xor2_2x_1/a_2_8# xor2_2x_1/a_30_8# Gnd! 2 6 103 1002
+n s1 Gnd! xor2_2x_1/a_13_46# 2 6 111 1002
+n xor2_2x_1/yb Gnd! xor2_2x_1/y 2 14 131 1002
+p xor2_2x_2/a xor2_2x_0/a_2_8# Vdd! 2 9 13 1287
+p xor2_2x_2/a Vdd! xor2_2x_0/a_17_73# 2 9 21 1287
+p s2 xor2_2x_0/a_17_73# xor2_2x_0/yb 2 9 26 1287
+p xor2_2x_0/a_13_46# xor2_2x_0/yb xor2_2x_0/a_30_73# 2 9 34 1287
+p xor2_2x_0/a_2_8# xor2_2x_0/a_30_73# Vdd! 2 9 39 1287
+p s2 Vdd! xor2_2x_0/a_13_46# 2 9 47 1287
+p xor2_2x_0/yb Vdd! xor2_2x_0/y 2 20 67 1276
+n xor2_2x_2/a xor2_2x_0/a_2_8# Gnd! 2 6 13 1222
+n xor2_2x_2/a Gnd! xor2_2x_0/a_17_8# 2 6 21 1222
+n xor2_2x_0/a_13_46# xor2_2x_0/a_17_8# xor2_2x_0/yb 2 6 26 1222
+n s2 xor2_2x_0/yb xor2_2x_0/a_30_8# 2 6 34 1222
+n xor2_2x_0/a_2_8# xor2_2x_0/a_30_8# Gnd! 2 6 39 1222
+n s2 Gnd! xor2_2x_0/a_13_46# 2 6 47 1222
+n xor2_2x_0/yb Gnd! xor2_2x_0/y 2 14 67 1222
+C a1 Vdd! 2.6
+C y6 Vdd! 2.2
+C xor2_2x_0/yb xor2_2x_0/y 2.8
+C xor2_2x_1/a_2_8# Vdd! 4.1
+C z9 Vdd! 7.1
+C a7 xor2_2x_2/a 2.9
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y 2.5
+C xor2_2x_2/a Vdd! 13.1
+C a7 Vdd! 13.1
+C z5 Vdd! 6.4
+C xor2_2x_2/a Gnd! 2.3
+C Vdd! log_shifter_0/mux2_dp_1x_1[8]/y 4.9
+C Vdd! shift_source_gen_0/and2_1x_0[6]/a_5_5# 3.0
+C Vdd! xor2_2x_2/yb 14.2
+C xor2_2x_0/y Vdd! 20.2
+C log_shifter_0/mux2_dp_1x_1[6]/y Vdd! 4.9
+C z1 Vdd! 3.4
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y 3.3
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y 3.3
+C xor2_2x_0/a_2_8# Vdd! 4.1
+C shift_source_gen_0/and2_1x_0[2]/a_5_5# Vdd! 3.0
+C Vdd! a3 2.6
+C log_shifter_0/mux2_dp_1x_3/y Vdd! 3.6
+C Vdd! xor2_2x_1/a_13_46# 4.2
+C z14 Vdd! 4.5
+C shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! 2.5
+C a7 shift_source_gen_0/rightandarith 2.5
+C z4 Vdd! 7.1
+C shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! 2.5
+C shift_source_gen_0/rightandarith Vdd! 7.3
+C z13 Vdd! 4.6
+C shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y Vdd! 3.3
+C y2 Vdd! 2.2
+C shift_source_gen_0/and2_1x_0[5]/a_5_5# Vdd! 3.0
+C Vdd! log_shifter_0/mux2_dp_1x_2[4]/y 5.1
+C log_shifter_0/mux2_dp_1x_1[1]/y Vdd! 3.5
+C log_shifter_0/mux2_dp_1x_4/y Vdd! 5.1
+C z6 Vdd! 6.4
+C log_shifter_0/mux2_dp_1x_2[2]/y Vdd! 3.4
+C Vdd! z8 6.4
+C z11 Vdd! 5.0
+C log_shifter_0/mux2_dp_1x_5/y Vdd! 3.8
+C Vdd! a2 2.6
+C Vdd! z10 6.4
+C xor2_2x_1/yb xor2_2x_1/y 2.3
+C Vdd! log_shifter_0/mux2_dp_1x_6/y 3.8
+C Vdd! a0 2.6
+C Vdd! log_shifter_0/mux2_dp_1x_2[6]/y 5.1
+C shift_source_gen_0/and2_1x_0[7]/a_5_5# Vdd! 3.0
+C shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! 2.5
+C shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y Vdd! 3.3
+C log_shifter_0/mux2_dp_1x_1[2]/y Vdd! 4.9
+C shift_source_gen_0/and2_1x_1/a Vdd! 9.0
+C Vdd! shift_source_gen_0/and2_1x_0[1]/a_5_5# 3.0
+C shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y Vdd! 3.3
+C y3 Vdd! 2.2
+C shift_source_gen_0/and2_1x_1/a_5_5# Vdd! 3.0
+C shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! 2.5
+C y5 Vdd! 2.2
+C Vdd! shift_source_gen_0/and2_1x_0[3]/a_5_5# 3.0
+C z0 Vdd! 3.4
+C Vdd! log_shifter_0/mux2_dp_1x_1[5]/y 4.9
+C xor2_2x_0/a_13_46# Vdd! 4.2
+C log_shifter_0/mux2_dp_1x_2[3]/y Vdd! 5.4
+C shift_source_gen_0/and2_1x_0[4]/a_5_5# Vdd! 3.0
+C z7 Vdd! 6.4
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y 3.3
+C log_shifter_0/mux2_dp_1x_2[8]/y Vdd! 5.1
+C xor2_2x_2/a_13_46# Vdd! 4.2
+C Vdd! log_shifter_0/mux2_dp_1x_1[4]/y 4.9
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y 3.3
+C Vdd! a4 2.6
+C shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! 2.5
+C Vdd! log_shifter_0/mux2_dp_1x_2[5]/y 5.1
+C shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! 2.5
+C Vdd! xor2_2x_1/yb 15.7
+C shift_source_gen_0/and2_1x_1/y Vdd! 2.6
+C y7 Vdd! 2.2
+C s0xor Vdd! 15.1
+C s0xor xor2_2x_2/yb 2.1
+C z3 Vdd! 3.4
+C Vdd! z2 3.4
+C Vdd! y1 2.2
+C xor2_2x_2/a_2_8# Vdd! 4.1
+C log_shifter_0/mux2_dp_1x_1[7]/y Vdd! 4.9
+C y4 Vdd! 2.2
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y 3.3
+C Vdd! shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y 2.6
+C Vdd! xor2_2x_1/y 16.8
+C z12 Vdd! 5.0
+C a5 Vdd! 2.6
+C log_shifter_0/mux2_dp_1x_2[1]/y Vdd! 3.4
+C Vdd! y0 2.2
+C log_shifter_0/mux2_dp_1x_1[3]/y Vdd! 4.9
+C a6 Vdd! 2.6
+C xor2_2x_0/yb Vdd! 18.7
+C Vdd! log_shifter_0/mux2_dp_1x_2[7]/y 5.1
+R xor2_2x_0/a_30_8# 164
+R xor2_2x_0/a_17_8# 164
+C xor2_2x_0/y GND 43.4
+R xor2_2x_0/y 11296
+R xor2_2x_0/a_30_73# 316
+R xor2_2x_0/a_17_73# 316
+C xor2_2x_0/yb GND 57.9
+R xor2_2x_0/yb 10215
+R xor2_2x_0/a_2_8# 1217
+R xor2_2x_0/a_13_46# 1286
+C s2 GND 4.5
+R s2 1916
+R xor2_2x_1/a_30_8# 164
+R xor2_2x_1/a_17_8# 164
+C xor2_2x_1/y GND 34.9
+R xor2_2x_1/y 9351
+R xor2_2x_1/a_30_73# 316
+R xor2_2x_1/a_17_73# 316
+C xor2_2x_1/yb GND 47.7
+R xor2_2x_1/yb 8558
+R xor2_2x_1/a_2_8# 1217
+R xor2_2x_1/a_13_46# 1286
+C s1 GND 4.6
+R s1 1916
+R shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/a_7_7# 329
+R a7 8609
+R shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_2/a_7_7# 329
+C z14 GND 8.3
+R z14 1470
+C shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y GND 3.9
+R shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y GND 4.7
+R shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y 1291
+R a6 1889
+R shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_2/a_7_7# 329
+C z13 GND 8.5
+R z13 1470
+C shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y 1291
+R a5 1886
+R shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_2/a_7_7# 329
+C z12 GND 8.2
+R z12 1470
+C shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y 1291
+R a4 1884
+R shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_2/a_7_7# 329
+C z11 GND 8.2
+R z11 1470
+C shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y 1291
+R a3 1881
+R shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_2/a_7_7# 329
+C z10 GND 10.2
+R z10 2429
+C shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y 1291
+R a2 1879
+R shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/a_7_7# 329
+C z9 GND 8.9
+R z9 2428
+C shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y 1291
+R a1 1878
+R shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_2/a_7_7# 329
+C z8 GND 9.1
+R z8 2429
+C shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y 1291
+R a0 1890
+R shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/a_7_7# 329
+R shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_2/a_7_7# 329
+C z7 GND 5.7
+R z7 2427
+C shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y GND 3.2
+R shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y 1324
+C shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y GND 4.1
+R shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y 1291
+C xor2_2x_2/a GND 53.5
+R xor2_2x_2/a 13547
+C right GND 2.8
+R right 882
+R shift_source_gen_0/and2_1x_1/a_15_7# 164
+R arith 914
+C shift_source_gen_0/and2_1x_1/a GND 42.9
+R shift_source_gen_0/and2_1x_1/a 9874
+R shift_source_gen_0/and2_1x_1/a_5_5# 1086
+C shift_source_gen_0/rightandarith GND 33.2
+R shift_source_gen_0/rightandarith 7670
+R shift_source_gen_0/invbuf_4x_0/sb_out 2192
+C shift_source_gen_0/and2_1x_1/y GND 3.1
+R shift_source_gen_0/and2_1x_1/y 1208
+R shift_source_gen_0/and2_1x_0[7]/a_15_7# 164
+C z6 GND 9.2
+R z6 2347
+R shift_source_gen_0/and2_1x_0[7]/a_5_5# 1086
+R shift_source_gen_0/and2_1x_0[6]/a_15_7# 164
+C z5 GND 9.6
+R z5 2347
+R shift_source_gen_0/and2_1x_0[6]/a_5_5# 1086
+R shift_source_gen_0/and2_1x_0[5]/a_15_7# 164
+C z4 GND 7.9
+R z4 2346
+R shift_source_gen_0/and2_1x_0[5]/a_5_5# 1086
+R shift_source_gen_0/and2_1x_0[4]/a_15_7# 164
+R shift_source_gen_0/and2_1x_0[4]/a_5_5# 1086
+R shift_source_gen_0/and2_1x_0[3]/a_15_7# 164
+R shift_source_gen_0/and2_1x_0[3]/a_5_5# 1086
+R shift_source_gen_0/and2_1x_0[2]/a_15_7# 164
+R shift_source_gen_0/and2_1x_0[2]/a_5_5# 1086
+R shift_source_gen_0/and2_1x_0[1]/a_15_7# 164
+R shift_source_gen_0/and2_1x_0[1]/a_5_5# 1086
+R xor2_2x_2/a_30_8# 164
+R xor2_2x_2/a_17_8# 164
+R xor2_2x_2/a_30_73# 316
+R xor2_2x_2/a_17_73# 316
+C xor2_2x_2/yb GND 42.5
+R xor2_2x_2/yb 7729
+R xor2_2x_2/a_2_8# 1217
+R xor2_2x_2/a_13_46# 1286
+C s0 GND 4.7
+R s0 1916
+R log_shifter_0/mux2_dp_1x_6/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_6/a_12_7# 164
+C log_shifter_0/mux2_dp_1x_6/y GND 7.7
+R log_shifter_0/mux2_dp_1x_6/y 1386
+R log_shifter_0/mux2_dp_1x_6/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_6/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_6/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_6/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_5/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_5/a_12_7# 164
+C log_shifter_0/mux2_dp_1x_5/y GND 7.4
+R log_shifter_0/mux2_dp_1x_5/y 1387
+R log_shifter_0/mux2_dp_1x_5/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_5/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_5/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_5/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_4/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_4/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_4/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_4/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_4/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_4/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_3/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_3/a_12_7# 164
+C log_shifter_0/mux2_dp_1x_3/y GND 6.0
+R log_shifter_0/mux2_dp_1x_3/y 1386
+R log_shifter_0/mux2_dp_1x_3/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_3/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_3/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_3/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_4/y GND 14.0
+R log_shifter_0/mux2_dp_1x_4/y 2348
+R log_shifter_0/mux2_dp_1x_2[8]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[8]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[8]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[8]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[8]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[8]/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_2[7]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[7]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[7]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[7]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[7]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[7]/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_2[6]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[6]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[6]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[6]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[6]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[6]/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_2[5]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[5]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[5]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[5]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[5]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[5]/a_17_7# 1123
+R log_shifter_0/mux2_dp_1x_2[4]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[4]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[4]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[4]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[4]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[4]/a_17_7# 1123
+C z3 GND 4.5
+R z3 1242
+R log_shifter_0/mux2_dp_1x_2[3]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[3]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[3]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[3]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[3]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[3]/a_17_7# 1123
+C z2 GND 4.7
+R z2 1242
+R log_shifter_0/mux2_dp_1x_2[2]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[2]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[2]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[2]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[2]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[2]/a_17_7# 1123
+C z1 GND 4.8
+R z1 1242
+R log_shifter_0/mux2_dp_1x_2[1]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_2[1]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_2[1]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_2[1]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_2[1]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_2[1]/a_17_7# 1123
+C z0 GND 5.1
+R z0 1242
+R log_shifter_0/mux2_dp_1x_1[8]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[8]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[8]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[8]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[8]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[8]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[8]/y GND 14.2
+R log_shifter_0/mux2_dp_1x_2[8]/y 2348
+R log_shifter_0/mux2_dp_1x_1[7]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[7]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[7]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[7]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[7]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[7]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[7]/y GND 13.3
+R log_shifter_0/mux2_dp_1x_2[7]/y 2348
+R log_shifter_0/mux2_dp_1x_1[6]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[6]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[6]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[6]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[6]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[6]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[6]/y GND 14.1
+R log_shifter_0/mux2_dp_1x_2[6]/y 2348
+R log_shifter_0/mux2_dp_1x_1[5]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[5]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[5]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[5]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[5]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[5]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[5]/y GND 13.9
+R log_shifter_0/mux2_dp_1x_2[5]/y 2348
+R log_shifter_0/mux2_dp_1x_1[4]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[4]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[4]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[4]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[4]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[4]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[4]/y GND 14.2
+R log_shifter_0/mux2_dp_1x_2[4]/y 2348
+R log_shifter_0/mux2_dp_1x_1[3]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[3]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[3]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[3]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[3]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[3]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[3]/y GND 13.7
+R log_shifter_0/mux2_dp_1x_2[3]/y 2348
+R log_shifter_0/mux2_dp_1x_1[2]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[2]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[2]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[2]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[2]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[2]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[2]/y GND 4.4
+R log_shifter_0/mux2_dp_1x_2[2]/y 1242
+R log_shifter_0/mux2_dp_1x_1[1]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_1[1]/a_12_7# 164
+R log_shifter_0/mux2_dp_1x_1[1]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_1[1]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_1[1]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_1[1]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_2[1]/y GND 4.7
+R log_shifter_0/mux2_dp_1x_2[1]/y 1242
+R log_shifter_0/mux2_dp_1x_0[8]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[8]/a_12_7# 164
+C y7 GND 2.3
+R y7 328
+R log_shifter_0/mux2_dp_1x_0[8]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[8]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[8]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[8]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[8]/y GND 7.3
+R log_shifter_0/mux2_dp_1x_1[8]/y 2344
+C s0xor GND 32.0
+R s0xor 8381
+R log_shifter_0/mux2_dp_1x_0[7]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[7]/a_12_7# 164
+C y6 GND 2.3
+R y6 328
+R log_shifter_0/mux2_dp_1x_0[7]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[7]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[7]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[7]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[7]/y GND 7.2
+R log_shifter_0/mux2_dp_1x_1[7]/y 2344
+R log_shifter_0/mux2_dp_1x_0[6]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[6]/a_12_7# 164
+C y5 GND 2.3
+R y5 328
+R log_shifter_0/mux2_dp_1x_0[6]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[6]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[6]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[6]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[6]/y GND 7.3
+R log_shifter_0/mux2_dp_1x_1[6]/y 2344
+R log_shifter_0/mux2_dp_1x_0[5]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[5]/a_12_7# 164
+C y4 GND 2.3
+R y4 328
+R log_shifter_0/mux2_dp_1x_0[5]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[5]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[5]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[5]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[5]/y GND 7.3
+R log_shifter_0/mux2_dp_1x_1[5]/y 2344
+R log_shifter_0/mux2_dp_1x_0[4]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[4]/a_12_7# 164
+C y3 GND 2.3
+R y3 328
+R log_shifter_0/mux2_dp_1x_0[4]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[4]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[4]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[4]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[4]/y GND 7.3
+R log_shifter_0/mux2_dp_1x_1[4]/y 2344
+R log_shifter_0/mux2_dp_1x_0[3]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[3]/a_12_7# 164
+C y2 GND 2.3
+R y2 328
+R log_shifter_0/mux2_dp_1x_0[3]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[3]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[3]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[3]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[3]/y GND 7.3
+R log_shifter_0/mux2_dp_1x_1[3]/y 2344
+R log_shifter_0/mux2_dp_1x_0[2]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[2]/a_12_7# 164
+C y1 GND 2.3
+R y1 328
+R log_shifter_0/mux2_dp_1x_0[2]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[2]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[2]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[2]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[2]/y GND 7.3
+R log_shifter_0/mux2_dp_1x_1[2]/y 2344
+R log_shifter_0/mux2_dp_1x_0[1]/a_25_7# 164
+R log_shifter_0/mux2_dp_1x_0[1]/a_12_7# 164
+R Gnd! 165021
+C y0 GND 2.3
+R y0 328
+R log_shifter_0/mux2_dp_1x_0[1]/a_25_74# 316
+R log_shifter_0/mux2_dp_1x_0[1]/a_12_74# 316
+C log_shifter_0/mux2_dp_1x_0[1]/a_17_7# GND 2.2
+R log_shifter_0/mux2_dp_1x_0[1]/a_17_7# 1123
+C log_shifter_0/mux2_dp_1x_1[1]/y GND 3.5
+R log_shifter_0/mux2_dp_1x_1[1]/y 1241
+R Vdd! 294884

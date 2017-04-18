@@ -1,19 +1,45 @@
 magic
 tech scmos
-timestamp 1492476009
+timestamp 1492485052
 << metal1 >>
+rect -47 1630 -1 1638
+rect -47 1540 -1 1548
 rect -26 1477 -8 1481
 rect -26 1367 -15 1371
+rect -41 1300 8 1308
 rect -26 1257 -22 1261
+rect -44 1210 5 1218
+rect -45 1190 4 1198
+rect -44 1100 5 1108
+rect -41 1080 95 1088
 rect -4 1040 1 1044
+rect -40 970 96 978
 rect -11 930 0 934
+rect -41 860 95 868
 rect -18 820 0 824
+rect -41 770 95 778
+rect -40 750 96 758
 rect -25 710 0 714
+rect -40 660 96 668
+rect -40 640 96 648
+rect -40 550 96 558
+rect -41 530 95 538
 rect -4 490 0 494
+rect -42 440 94 448
+rect -47 420 89 428
 rect -11 380 0 384
+rect -44 330 92 338
+rect -43 310 93 318
 rect -18 270 1 274
+rect -43 220 93 228
+rect -45 200 91 208
 rect -25 160 1 164
+rect -42 110 94 118
+rect -44 90 92 98
+rect -49 0 87 8
 << m2contact >>
+rect -10 1644 -6 1648
+rect 47 1644 51 1648
 rect -28 1582 -24 1586
 rect -8 1477 -4 1481
 rect -15 1367 -11 1371
@@ -26,13 +52,21 @@ rect -15 930 -11 934
 rect -47 920 -43 924
 rect -22 820 -18 824
 rect -47 810 -43 814
+rect 165 812 169 816
 rect -29 710 -25 714
+rect 165 702 169 706
 rect -1 600 3 604
+rect 165 592 169 596
 rect -8 490 -4 494
+rect 165 482 169 486
 rect -15 380 -11 384
+rect 165 372 169 376
 rect -22 270 -18 274
+rect 165 262 169 266
 rect -29 160 -25 164
+rect 165 152 169 156
 rect -1 50 3 54
+rect 165 42 169 46
 << metal2 >>
 rect -28 1519 -24 1582
 rect -2 1528 2 1563
@@ -71,7 +105,9 @@ rect -1 1515 3 1519
 rect -29 1141 -25 1145
 rect -47 1030 -43 1034
 rect -47 920 -43 924
+rect -171 812 -167 816
 rect -47 810 -43 814
+rect -164 725 -160 729
 rect 14 1320 18 1324
 rect 78 1320 82 1324
 rect 14 1239 18 1243
@@ -84,7 +120,12 @@ rect 126 1108 130 1112
 rect -8 921 -4 925
 rect -15 811 -11 815
 rect -22 701 -18 705
+rect -157 615 -153 619
 rect -29 591 -25 595
+rect -150 505 -146 509
+rect -143 395 -139 399
+rect -136 285 -132 289
+rect -129 175 -125 179
 rect 78 1018 82 1022
 rect 94 1018 98 1022
 rect 94 984 98 988
@@ -94,6 +135,7 @@ rect 142 909 146 913
 rect 142 874 146 878
 rect 182 874 186 878
 rect -1 481 3 485
+rect -122 65 -118 69
 << metal3 >>
 rect -3 1528 19 1529
 rect -3 1524 -2 1528
@@ -206,6 +248,40 @@ box -112 0 57 1208
 << labels >>
 rlabel metal2 48 1316 48 1316 1 s2
 rlabel metal2 112 1098 112 1098 1 s1
-rlabel space 64 924 71 926 1 s0
 rlabel metal2 160 990 160 990 1 s0
+rlabel m2contact -8 1648 -8 1648 5 right
+rlabel m3contact -120 67 -120 67 1 a0
+rlabel m3contact -127 177 -127 177 1 a1
+rlabel m3contact -134 287 -134 287 1 a2
+rlabel m3contact -141 397 -141 397 1 a3
+rlabel m3contact -148 507 -148 507 1 a4
+rlabel m3contact -155 617 -155 617 1 a5
+rlabel m3contact -162 727 -162 727 1 a6
+rlabel m3contact -169 814 -169 814 3 a7
+rlabel m2contact 167 704 167 704 1 y6
+rlabel m2contact 167 814 167 814 1 y7
+rlabel m2contact 167 594 167 594 1 y5
+rlabel m2contact 167 484 167 484 1 y4
+rlabel m2contact 167 374 167 374 1 y3
+rlabel m2contact 167 264 167 264 1 y2
+rlabel m2contact 167 154 167 154 1 y1
+rlabel m2contact 167 44 167 44 1 y0
+rlabel m2contact 49 1646 49 1646 5 arith
+rlabel m2contact 49 1648 49 1648 5 arith
+rlabel metal3 -16 44 -16 44 1 z0
+rlabel metal3 -15 154 -15 154 1 z1
+rlabel metal3 144 873 144 873 1 s0xor
+rlabel metal3 -14 263 -14 263 1 z2
+rlabel metal3 -13 373 -13 373 1 z3
+rlabel metal3 -14 483 -14 483 1 z4
+rlabel metal3 -9 594 -9 594 1 z5
+rlabel metal3 -9 704 -9 704 1 z6
+rlabel metal3 -21 812 -21 812 1 z7
+rlabel metal3 -11 923 -11 923 1 z8
+rlabel metal3 -4 1032 -4 1032 1 z9
+rlabel metal3 -24 1143 -24 1143 1 z10
+rlabel metal1 -24 1259 -24 1259 1 z11
+rlabel metal1 -19 1368 -19 1368 1 z12
+rlabel metal1 -18 1479 -18 1479 1 z13
+rlabel metal2 -25 1575 -25 1575 1 z14
 << end >>
