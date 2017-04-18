@@ -1,13 +1,13 @@
 magic
 tech scmos
-timestamp 1487703250
+timestamp 1492538037
 << m2contact >>
 rect 30 62 34 67
 rect 14 53 18 57
 << metal2 >>
-rect 6 36 10 42
+rect 6 36 10 82
 rect 6 31 10 32
-rect 22 26 26 73
+rect 22 26 26 72
 rect 38 46 42 63
 rect 70 36 74 57
 rect 86 38 90 53
@@ -15,11 +15,12 @@ rect 118 26 122 64
 rect 142 36 146 40
 rect 278 36 282 47
 rect 286 46 290 56
+rect 6 6 10 12
 rect 342 6 346 46
 << m3contact >>
-rect 22 73 26 77
+rect 6 82 10 86
+rect 22 72 26 76
 rect 14 53 18 57
-rect 6 42 10 46
 rect 6 32 10 36
 rect 30 62 34 67
 rect 38 63 42 67
@@ -33,12 +34,18 @@ rect 142 32 146 36
 rect 246 32 250 36
 rect 278 32 282 36
 rect 118 22 122 26
+rect 6 12 10 16
+rect 6 2 10 6
 rect 342 2 346 6
 << metal3 >>
-rect -5 77 27 78
-rect -5 73 22 77
-rect 26 73 27 77
-rect -5 72 27 73
+rect -5 86 13 87
+rect -5 82 6 86
+rect 10 82 13 86
+rect -5 81 13 82
+rect -5 76 27 77
+rect -5 72 22 76
+rect 26 72 27 76
+rect -5 71 27 72
 rect 29 67 43 68
 rect 29 62 30 67
 rect 34 63 38 67
@@ -50,10 +57,6 @@ rect 13 53 14 57
 rect 18 53 86 57
 rect 90 53 91 57
 rect 13 52 91 53
-rect -5 46 11 47
-rect -5 42 6 46
-rect 10 42 11 46
-rect -5 41 11 42
 rect 134 46 291 47
 rect 134 42 135 46
 rect 139 42 150 46
@@ -76,10 +79,15 @@ rect 21 22 22 26
 rect 26 22 118 26
 rect 122 22 123 26
 rect 21 21 123 22
-rect -3 6 347 7
-rect -3 2 342 6
+rect -5 16 11 17
+rect -5 12 6 16
+rect 10 12 11 16
+rect -5 11 11 12
+rect 5 6 347 7
+rect 5 2 6 6
+rect 10 2 342 6
 rect 346 2 347 6
-rect -3 1 347 2
+rect 5 1 347 2
 use inv_1x  inv_1x_0
 timestamp 1484418501
 transform 1 0 6 0 1 4
@@ -102,5 +110,6 @@ transform 1 0 270 0 1 4
 box -6 -4 82 96
 << labels >>
 rlabel metal3 -3 75 -3 75 3 b
-rlabel metal3 -3 44 -3 44 3 a
+rlabel metal3 -2 14 -2 14 3 result
+rlabel metal3 -2 84 -2 84 3 a
 << end >>
