@@ -1,0 +1,1233 @@
+| units: 30 tech: scmos format: MIT
+p invbuf_4x_0/s_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# 2 9 281 78
+p alt_alu_slice_0[0]/fulladder_0/s alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 78
+p alt_alu_slice_0[0]/fulladder_0/b Vdd! alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_74# 2 9 294 78
+p invbuf_4x_0/sb_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# 2 9 299 78
+p invbuf_4x_1/s_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 2 9 307 78
+p invbuf_4x_1/sb_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_74# 2 9 315 78
+p invbuf_4x_0/s_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[0]/mux4_dp_1x_1/a_55_74# 2 9 323 78
+p alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_slice_0[0]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 78
+p alt_alu_slice_0[0]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_74# 2 9 336 78
+p invbuf_4x_0/sb_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_74# 2 9 341 78
+p alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# Vdd! result_0_ 2 10 363 77
+n invbuf_4x_0/sb_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_7# 2 6 281 11
+n alt_alu_slice_0[0]/fulladder_0/s alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 11
+n alt_alu_slice_0[0]/fulladder_0/b Gnd! alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_7# 2 6 294 11
+n invbuf_4x_0/s_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# 2 6 299 11
+n invbuf_4x_1/sb_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 2 6 307 11
+n invbuf_4x_1/s_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_7# 2 6 315 11
+n invbuf_4x_0/sb_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_55_7# 2 6 323 11
+n alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_slice_0[0]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 11
+n alt_alu_slice_0[0]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_7# 2 6 336 11
+n invbuf_4x_0/s_out alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_7# 2 6 341 11
+n alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# Gnd! result_0_ 2 7 363 11
+p a_0_ alt_alu_slice_0[0]/fulladder_0/a_n2_65# Vdd! 2 16 147 69
+p alt_alu_slice_0[0]/fulladder_0/b Vdd! alt_alu_slice_0[0]/fulladder_0/a_n2_65# 2 16 155 69
+p op2 alt_alu_slice_0[0]/fulladder_0/a_n2_65# alt_alu_slice_0[0]/fulladder_0/a_21_7# 2 16 163 69
+p alt_alu_slice_0[0]/fulladder_0/b alt_alu_slice_0[0]/fulladder_0/a_21_7# alt_alu_slice_0[0]/fulladder_0/a_29_65# 2 16 171 69
+p a_0_ alt_alu_slice_0[0]/fulladder_0/a_29_65# Vdd! 2 16 179 69
+p a_0_ Vdd! alt_alu_slice_0[0]/fulladder_0/a_45_65# 2 16 187 69
+p alt_alu_slice_0[0]/fulladder_0/b alt_alu_slice_0[0]/fulladder_0/a_45_65# Vdd! 2 16 195 69
+p op2 Vdd! alt_alu_slice_0[0]/fulladder_0/a_45_65# 2 16 203 69
+p alt_alu_slice_0[0]/fulladder_0/a_21_7# alt_alu_slice_0[0]/fulladder_0/a_45_65# alt_alu_slice_0[0]/fulladder_0/a_69_7# 2 16 211 69
+p op2 alt_alu_slice_0[0]/fulladder_0/a_69_7# alt_alu_slice_0[0]/fulladder_0/a_77_65# 2 16 219 69
+p alt_alu_slice_0[0]/fulladder_0/b alt_alu_slice_0[0]/fulladder_0/a_77_65# alt_alu_slice_0[0]/fulladder_0/a_85_65# 2 16 227 69
+p a_0_ alt_alu_slice_0[0]/fulladder_0/a_85_65# Vdd! 2 16 235 69
+p alt_alu_slice_0[0]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[0]/fulladder_0/s 2 16 243 69
+p alt_alu_slice_0[0]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[1]/fulladder_0/c 2 16 259 69
+n a_0_ alt_alu_slice_0[0]/fulladder_0/a_n2_7# Gnd! 2 8 147 11
+n alt_alu_slice_0[0]/fulladder_0/b Gnd! alt_alu_slice_0[0]/fulladder_0/a_n2_7# 2 8 155 11
+n op2 alt_alu_slice_0[0]/fulladder_0/a_n2_7# alt_alu_slice_0[0]/fulladder_0/a_21_7# 2 8 163 11
+n alt_alu_slice_0[0]/fulladder_0/b alt_alu_slice_0[0]/fulladder_0/a_21_7# alt_alu_slice_0[0]/fulladder_0/a_29_7# 2 8 171 11
+n a_0_ alt_alu_slice_0[0]/fulladder_0/a_29_7# Gnd! 2 8 179 11
+n a_0_ Gnd! alt_alu_slice_0[0]/fulladder_0/a_45_7# 2 8 187 11
+n alt_alu_slice_0[0]/fulladder_0/b alt_alu_slice_0[0]/fulladder_0/a_45_7# Gnd! 2 8 195 11
+n op2 Gnd! alt_alu_slice_0[0]/fulladder_0/a_45_7# 2 8 203 11
+n alt_alu_slice_0[0]/fulladder_0/a_21_7# alt_alu_slice_0[0]/fulladder_0/a_45_7# alt_alu_slice_0[0]/fulladder_0/a_69_7# 2 8 211 11
+n op2 alt_alu_slice_0[0]/fulladder_0/a_69_7# alt_alu_slice_0[0]/fulladder_0/a_77_7# 2 8 219 11
+n alt_alu_slice_0[0]/fulladder_0/b alt_alu_slice_0[0]/fulladder_0/a_77_7# alt_alu_slice_0[0]/fulladder_0/a_85_7# 2 8 227 11
+n a_0_ alt_alu_slice_0[0]/fulladder_0/a_85_7# Gnd! 2 8 235 11
+n alt_alu_slice_0[0]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[0]/fulladder_0/s 2 8 243 11
+n alt_alu_slice_0[0]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[1]/fulladder_0/c 2 8 259 11
+p b_0_ alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_74# 2 9 49 78
+p op6 alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 78
+p op5 Vdd! alt_alu_slice_0[0]/mux4_dp_1x_0/a_26_74# 2 9 62 78
+p alt_alu_slice_0[0]/inv_1x_1/y alt_alu_slice_0[0]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_74# 2 9 67 78
+p a_0_ alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# 2 9 75 78
+p alt_alu_slice_0[0]/inv_1x_0/y alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_74# 2 9 83 78
+p b_0_ alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_74# 2 9 91 78
+p op4 alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 78
+p op3 Vdd! alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_74# 2 9 104 78
+p alt_alu_slice_0[0]/inv_1x_1/y alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_74# 2 9 109 78
+p alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[0]/fulladder_0/b 2 10 131 77
+n alt_alu_slice_0[0]/inv_1x_1/y alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_7# 2 6 49 11
+n op6 alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 11
+n op5 Gnd! alt_alu_slice_0[0]/mux4_dp_1x_0/a_26_7# 2 6 62 11
+n b_0_ alt_alu_slice_0[0]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_7# 2 6 67 11
+n alt_alu_slice_0[0]/inv_1x_0/y alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# 2 6 75 11
+n a_0_ alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_7# 2 6 83 11
+n alt_alu_slice_0[0]/inv_1x_1/y alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_7# 2 6 91 11
+n op4 alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 11
+n op3 Gnd! alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_7# 2 6 104 11
+n b_0_ alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_7# 2 6 109 11
+n alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[0]/fulladder_0/b 2 7 131 11
+p b_0_ Vdd! alt_alu_slice_0[0]/inv_1x_1/y 2 10 27 77
+n b_0_ Gnd! alt_alu_slice_0[0]/inv_1x_1/y 2 7 27 11
+p a_0_ Vdd! alt_alu_slice_0[0]/inv_1x_0/y 2 10 11 77
+n a_0_ Gnd! alt_alu_slice_0[0]/inv_1x_0/y 2 7 11 11
+p invbuf_4x_0/s_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# 2 9 281 188
+p alt_alu_slice_0[1]/fulladder_0/s alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 188
+p alt_alu_slice_0[1]/fulladder_0/b Vdd! alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_74# 2 9 294 188
+p invbuf_4x_0/sb_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# 2 9 299 188
+p invbuf_4x_1/s_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 2 9 307 188
+p invbuf_4x_1/sb_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_74# 2 9 315 188
+p invbuf_4x_0/s_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[1]/mux4_dp_1x_1/a_55_74# 2 9 323 188
+p Gnd! alt_alu_slice_0[1]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 188
+p alt_alu_slice_0[1]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_74# 2 9 336 188
+p invbuf_4x_0/sb_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_74# 2 9 341 188
+p alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# Vdd! result_1_ 2 10 363 187
+n invbuf_4x_0/sb_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_7# 2 6 281 121
+n alt_alu_slice_0[1]/fulladder_0/s alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 121
+n alt_alu_slice_0[1]/fulladder_0/b Gnd! alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_7# 2 6 294 121
+n invbuf_4x_0/s_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# 2 6 299 121
+n invbuf_4x_1/sb_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 2 6 307 121
+n invbuf_4x_1/s_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_7# 2 6 315 121
+n invbuf_4x_0/sb_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_55_7# 2 6 323 121
+n Gnd! alt_alu_slice_0[1]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 121
+n alt_alu_slice_0[1]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_7# 2 6 336 121
+n invbuf_4x_0/s_out alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_7# 2 6 341 121
+n alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# Gnd! result_1_ 2 7 363 121
+p a_1_ alt_alu_slice_0[1]/fulladder_0/a_n2_65# Vdd! 2 16 147 179
+p alt_alu_slice_0[1]/fulladder_0/b Vdd! alt_alu_slice_0[1]/fulladder_0/a_n2_65# 2 16 155 179
+p alt_alu_slice_0[1]/fulladder_0/c alt_alu_slice_0[1]/fulladder_0/a_n2_65# alt_alu_slice_0[1]/fulladder_0/a_21_7# 2 16 163 179
+p alt_alu_slice_0[1]/fulladder_0/b alt_alu_slice_0[1]/fulladder_0/a_21_7# alt_alu_slice_0[1]/fulladder_0/a_29_65# 2 16 171 179
+p a_1_ alt_alu_slice_0[1]/fulladder_0/a_29_65# Vdd! 2 16 179 179
+p a_1_ Vdd! alt_alu_slice_0[1]/fulladder_0/a_45_65# 2 16 187 179
+p alt_alu_slice_0[1]/fulladder_0/b alt_alu_slice_0[1]/fulladder_0/a_45_65# Vdd! 2 16 195 179
+p alt_alu_slice_0[1]/fulladder_0/c Vdd! alt_alu_slice_0[1]/fulladder_0/a_45_65# 2 16 203 179
+p alt_alu_slice_0[1]/fulladder_0/a_21_7# alt_alu_slice_0[1]/fulladder_0/a_45_65# alt_alu_slice_0[1]/fulladder_0/a_69_7# 2 16 211 179
+p alt_alu_slice_0[1]/fulladder_0/c alt_alu_slice_0[1]/fulladder_0/a_69_7# alt_alu_slice_0[1]/fulladder_0/a_77_65# 2 16 219 179
+p alt_alu_slice_0[1]/fulladder_0/b alt_alu_slice_0[1]/fulladder_0/a_77_65# alt_alu_slice_0[1]/fulladder_0/a_85_65# 2 16 227 179
+p a_1_ alt_alu_slice_0[1]/fulladder_0/a_85_65# Vdd! 2 16 235 179
+p alt_alu_slice_0[1]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[1]/fulladder_0/s 2 16 243 179
+p alt_alu_slice_0[1]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[2]/fulladder_0/c 2 16 259 179
+n a_1_ alt_alu_slice_0[1]/fulladder_0/a_n2_7# Gnd! 2 8 147 121
+n alt_alu_slice_0[1]/fulladder_0/b Gnd! alt_alu_slice_0[1]/fulladder_0/a_n2_7# 2 8 155 121
+n alt_alu_slice_0[1]/fulladder_0/c alt_alu_slice_0[1]/fulladder_0/a_n2_7# alt_alu_slice_0[1]/fulladder_0/a_21_7# 2 8 163 121
+n alt_alu_slice_0[1]/fulladder_0/b alt_alu_slice_0[1]/fulladder_0/a_21_7# alt_alu_slice_0[1]/fulladder_0/a_29_7# 2 8 171 121
+n a_1_ alt_alu_slice_0[1]/fulladder_0/a_29_7# Gnd! 2 8 179 121
+n a_1_ Gnd! alt_alu_slice_0[1]/fulladder_0/a_45_7# 2 8 187 121
+n alt_alu_slice_0[1]/fulladder_0/b alt_alu_slice_0[1]/fulladder_0/a_45_7# Gnd! 2 8 195 121
+n alt_alu_slice_0[1]/fulladder_0/c Gnd! alt_alu_slice_0[1]/fulladder_0/a_45_7# 2 8 203 121
+n alt_alu_slice_0[1]/fulladder_0/a_21_7# alt_alu_slice_0[1]/fulladder_0/a_45_7# alt_alu_slice_0[1]/fulladder_0/a_69_7# 2 8 211 121
+n alt_alu_slice_0[1]/fulladder_0/c alt_alu_slice_0[1]/fulladder_0/a_69_7# alt_alu_slice_0[1]/fulladder_0/a_77_7# 2 8 219 121
+n alt_alu_slice_0[1]/fulladder_0/b alt_alu_slice_0[1]/fulladder_0/a_77_7# alt_alu_slice_0[1]/fulladder_0/a_85_7# 2 8 227 121
+n a_1_ alt_alu_slice_0[1]/fulladder_0/a_85_7# Gnd! 2 8 235 121
+n alt_alu_slice_0[1]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[1]/fulladder_0/s 2 8 243 121
+n alt_alu_slice_0[1]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[2]/fulladder_0/c 2 8 259 121
+p b_1_ alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_74# 2 9 49 188
+p op6 alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 188
+p op5 Vdd! alt_alu_slice_0[1]/mux4_dp_1x_0/a_26_74# 2 9 62 188
+p alt_alu_slice_0[1]/inv_1x_1/y alt_alu_slice_0[1]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_74# 2 9 67 188
+p a_1_ alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# 2 9 75 188
+p alt_alu_slice_0[1]/inv_1x_0/y alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_74# 2 9 83 188
+p b_1_ alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_74# 2 9 91 188
+p op4 alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 188
+p op3 Vdd! alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_74# 2 9 104 188
+p alt_alu_slice_0[1]/inv_1x_1/y alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_74# 2 9 109 188
+p alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[1]/fulladder_0/b 2 10 131 187
+n alt_alu_slice_0[1]/inv_1x_1/y alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_7# 2 6 49 121
+n op6 alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 121
+n op5 Gnd! alt_alu_slice_0[1]/mux4_dp_1x_0/a_26_7# 2 6 62 121
+n b_1_ alt_alu_slice_0[1]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_7# 2 6 67 121
+n alt_alu_slice_0[1]/inv_1x_0/y alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# 2 6 75 121
+n a_1_ alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_7# 2 6 83 121
+n alt_alu_slice_0[1]/inv_1x_1/y alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_7# 2 6 91 121
+n op4 alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 121
+n op3 Gnd! alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_7# 2 6 104 121
+n b_1_ alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_7# 2 6 109 121
+n alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[1]/fulladder_0/b 2 7 131 121
+p b_1_ Vdd! alt_alu_slice_0[1]/inv_1x_1/y 2 10 27 187
+n b_1_ Gnd! alt_alu_slice_0[1]/inv_1x_1/y 2 7 27 121
+p a_1_ Vdd! alt_alu_slice_0[1]/inv_1x_0/y 2 10 11 187
+n a_1_ Gnd! alt_alu_slice_0[1]/inv_1x_0/y 2 7 11 121
+p invbuf_4x_0/s_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# 2 9 281 298
+p alt_alu_slice_0[2]/fulladder_0/s alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 298
+p alt_alu_slice_0[2]/fulladder_0/b Vdd! alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_74# 2 9 294 298
+p invbuf_4x_0/sb_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# 2 9 299 298
+p invbuf_4x_1/s_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 2 9 307 298
+p invbuf_4x_1/sb_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_74# 2 9 315 298
+p invbuf_4x_0/s_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[2]/mux4_dp_1x_1/a_55_74# 2 9 323 298
+p Gnd! alt_alu_slice_0[2]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 298
+p alt_alu_slice_0[2]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_74# 2 9 336 298
+p invbuf_4x_0/sb_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_74# 2 9 341 298
+p alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# Vdd! result_2_ 2 10 363 297
+n invbuf_4x_0/sb_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_7# 2 6 281 231
+n alt_alu_slice_0[2]/fulladder_0/s alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 231
+n alt_alu_slice_0[2]/fulladder_0/b Gnd! alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_7# 2 6 294 231
+n invbuf_4x_0/s_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# 2 6 299 231
+n invbuf_4x_1/sb_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 2 6 307 231
+n invbuf_4x_1/s_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_7# 2 6 315 231
+n invbuf_4x_0/sb_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_55_7# 2 6 323 231
+n Gnd! alt_alu_slice_0[2]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 231
+n alt_alu_slice_0[2]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_7# 2 6 336 231
+n invbuf_4x_0/s_out alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_7# 2 6 341 231
+n alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# Gnd! result_2_ 2 7 363 231
+p a_2_ alt_alu_slice_0[2]/fulladder_0/a_n2_65# Vdd! 2 16 147 289
+p alt_alu_slice_0[2]/fulladder_0/b Vdd! alt_alu_slice_0[2]/fulladder_0/a_n2_65# 2 16 155 289
+p alt_alu_slice_0[2]/fulladder_0/c alt_alu_slice_0[2]/fulladder_0/a_n2_65# alt_alu_slice_0[2]/fulladder_0/a_21_7# 2 16 163 289
+p alt_alu_slice_0[2]/fulladder_0/b alt_alu_slice_0[2]/fulladder_0/a_21_7# alt_alu_slice_0[2]/fulladder_0/a_29_65# 2 16 171 289
+p a_2_ alt_alu_slice_0[2]/fulladder_0/a_29_65# Vdd! 2 16 179 289
+p a_2_ Vdd! alt_alu_slice_0[2]/fulladder_0/a_45_65# 2 16 187 289
+p alt_alu_slice_0[2]/fulladder_0/b alt_alu_slice_0[2]/fulladder_0/a_45_65# Vdd! 2 16 195 289
+p alt_alu_slice_0[2]/fulladder_0/c Vdd! alt_alu_slice_0[2]/fulladder_0/a_45_65# 2 16 203 289
+p alt_alu_slice_0[2]/fulladder_0/a_21_7# alt_alu_slice_0[2]/fulladder_0/a_45_65# alt_alu_slice_0[2]/fulladder_0/a_69_7# 2 16 211 289
+p alt_alu_slice_0[2]/fulladder_0/c alt_alu_slice_0[2]/fulladder_0/a_69_7# alt_alu_slice_0[2]/fulladder_0/a_77_65# 2 16 219 289
+p alt_alu_slice_0[2]/fulladder_0/b alt_alu_slice_0[2]/fulladder_0/a_77_65# alt_alu_slice_0[2]/fulladder_0/a_85_65# 2 16 227 289
+p a_2_ alt_alu_slice_0[2]/fulladder_0/a_85_65# Vdd! 2 16 235 289
+p alt_alu_slice_0[2]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[2]/fulladder_0/s 2 16 243 289
+p alt_alu_slice_0[2]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[3]/fulladder_0/c 2 16 259 289
+n a_2_ alt_alu_slice_0[2]/fulladder_0/a_n2_7# Gnd! 2 8 147 231
+n alt_alu_slice_0[2]/fulladder_0/b Gnd! alt_alu_slice_0[2]/fulladder_0/a_n2_7# 2 8 155 231
+n alt_alu_slice_0[2]/fulladder_0/c alt_alu_slice_0[2]/fulladder_0/a_n2_7# alt_alu_slice_0[2]/fulladder_0/a_21_7# 2 8 163 231
+n alt_alu_slice_0[2]/fulladder_0/b alt_alu_slice_0[2]/fulladder_0/a_21_7# alt_alu_slice_0[2]/fulladder_0/a_29_7# 2 8 171 231
+n a_2_ alt_alu_slice_0[2]/fulladder_0/a_29_7# Gnd! 2 8 179 231
+n a_2_ Gnd! alt_alu_slice_0[2]/fulladder_0/a_45_7# 2 8 187 231
+n alt_alu_slice_0[2]/fulladder_0/b alt_alu_slice_0[2]/fulladder_0/a_45_7# Gnd! 2 8 195 231
+n alt_alu_slice_0[2]/fulladder_0/c Gnd! alt_alu_slice_0[2]/fulladder_0/a_45_7# 2 8 203 231
+n alt_alu_slice_0[2]/fulladder_0/a_21_7# alt_alu_slice_0[2]/fulladder_0/a_45_7# alt_alu_slice_0[2]/fulladder_0/a_69_7# 2 8 211 231
+n alt_alu_slice_0[2]/fulladder_0/c alt_alu_slice_0[2]/fulladder_0/a_69_7# alt_alu_slice_0[2]/fulladder_0/a_77_7# 2 8 219 231
+n alt_alu_slice_0[2]/fulladder_0/b alt_alu_slice_0[2]/fulladder_0/a_77_7# alt_alu_slice_0[2]/fulladder_0/a_85_7# 2 8 227 231
+n a_2_ alt_alu_slice_0[2]/fulladder_0/a_85_7# Gnd! 2 8 235 231
+n alt_alu_slice_0[2]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[2]/fulladder_0/s 2 8 243 231
+n alt_alu_slice_0[2]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[3]/fulladder_0/c 2 8 259 231
+p b_2_ alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_74# 2 9 49 298
+p op6 alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 298
+p op5 Vdd! alt_alu_slice_0[2]/mux4_dp_1x_0/a_26_74# 2 9 62 298
+p alt_alu_slice_0[2]/inv_1x_1/y alt_alu_slice_0[2]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_74# 2 9 67 298
+p a_2_ alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# 2 9 75 298
+p alt_alu_slice_0[2]/inv_1x_0/y alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_74# 2 9 83 298
+p b_2_ alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_74# 2 9 91 298
+p op4 alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 298
+p op3 Vdd! alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_74# 2 9 104 298
+p alt_alu_slice_0[2]/inv_1x_1/y alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_74# 2 9 109 298
+p alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[2]/fulladder_0/b 2 10 131 297
+n alt_alu_slice_0[2]/inv_1x_1/y alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_7# 2 6 49 231
+n op6 alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 231
+n op5 Gnd! alt_alu_slice_0[2]/mux4_dp_1x_0/a_26_7# 2 6 62 231
+n b_2_ alt_alu_slice_0[2]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_7# 2 6 67 231
+n alt_alu_slice_0[2]/inv_1x_0/y alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# 2 6 75 231
+n a_2_ alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_7# 2 6 83 231
+n alt_alu_slice_0[2]/inv_1x_1/y alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_7# 2 6 91 231
+n op4 alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 231
+n op3 Gnd! alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_7# 2 6 104 231
+n b_2_ alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_7# 2 6 109 231
+n alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[2]/fulladder_0/b 2 7 131 231
+p b_2_ Vdd! alt_alu_slice_0[2]/inv_1x_1/y 2 10 27 297
+n b_2_ Gnd! alt_alu_slice_0[2]/inv_1x_1/y 2 7 27 231
+p a_2_ Vdd! alt_alu_slice_0[2]/inv_1x_0/y 2 10 11 297
+n a_2_ Gnd! alt_alu_slice_0[2]/inv_1x_0/y 2 7 11 231
+p invbuf_4x_0/s_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# 2 9 281 408
+p alt_alu_slice_0[3]/fulladder_0/s alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 408
+p alt_alu_slice_0[3]/fulladder_0/b Vdd! alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_74# 2 9 294 408
+p invbuf_4x_0/sb_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# 2 9 299 408
+p invbuf_4x_1/s_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 2 9 307 408
+p invbuf_4x_1/sb_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_74# 2 9 315 408
+p invbuf_4x_0/s_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[3]/mux4_dp_1x_1/a_55_74# 2 9 323 408
+p Gnd! alt_alu_slice_0[3]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 408
+p alt_alu_slice_0[3]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_74# 2 9 336 408
+p invbuf_4x_0/sb_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_74# 2 9 341 408
+p alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# Vdd! result_3_ 2 10 363 407
+n invbuf_4x_0/sb_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_7# 2 6 281 341
+n alt_alu_slice_0[3]/fulladder_0/s alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 341
+n alt_alu_slice_0[3]/fulladder_0/b Gnd! alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_7# 2 6 294 341
+n invbuf_4x_0/s_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# 2 6 299 341
+n invbuf_4x_1/sb_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 2 6 307 341
+n invbuf_4x_1/s_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_7# 2 6 315 341
+n invbuf_4x_0/sb_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_55_7# 2 6 323 341
+n Gnd! alt_alu_slice_0[3]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 341
+n alt_alu_slice_0[3]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_7# 2 6 336 341
+n invbuf_4x_0/s_out alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_7# 2 6 341 341
+n alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# Gnd! result_3_ 2 7 363 341
+p a_3_ alt_alu_slice_0[3]/fulladder_0/a_n2_65# Vdd! 2 16 147 399
+p alt_alu_slice_0[3]/fulladder_0/b Vdd! alt_alu_slice_0[3]/fulladder_0/a_n2_65# 2 16 155 399
+p alt_alu_slice_0[3]/fulladder_0/c alt_alu_slice_0[3]/fulladder_0/a_n2_65# alt_alu_slice_0[3]/fulladder_0/a_21_7# 2 16 163 399
+p alt_alu_slice_0[3]/fulladder_0/b alt_alu_slice_0[3]/fulladder_0/a_21_7# alt_alu_slice_0[3]/fulladder_0/a_29_65# 2 16 171 399
+p a_3_ alt_alu_slice_0[3]/fulladder_0/a_29_65# Vdd! 2 16 179 399
+p a_3_ Vdd! alt_alu_slice_0[3]/fulladder_0/a_45_65# 2 16 187 399
+p alt_alu_slice_0[3]/fulladder_0/b alt_alu_slice_0[3]/fulladder_0/a_45_65# Vdd! 2 16 195 399
+p alt_alu_slice_0[3]/fulladder_0/c Vdd! alt_alu_slice_0[3]/fulladder_0/a_45_65# 2 16 203 399
+p alt_alu_slice_0[3]/fulladder_0/a_21_7# alt_alu_slice_0[3]/fulladder_0/a_45_65# alt_alu_slice_0[3]/fulladder_0/a_69_7# 2 16 211 399
+p alt_alu_slice_0[3]/fulladder_0/c alt_alu_slice_0[3]/fulladder_0/a_69_7# alt_alu_slice_0[3]/fulladder_0/a_77_65# 2 16 219 399
+p alt_alu_slice_0[3]/fulladder_0/b alt_alu_slice_0[3]/fulladder_0/a_77_65# alt_alu_slice_0[3]/fulladder_0/a_85_65# 2 16 227 399
+p a_3_ alt_alu_slice_0[3]/fulladder_0/a_85_65# Vdd! 2 16 235 399
+p alt_alu_slice_0[3]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[3]/fulladder_0/s 2 16 243 399
+p alt_alu_slice_0[3]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[4]/fulladder_0/c 2 16 259 399
+n a_3_ alt_alu_slice_0[3]/fulladder_0/a_n2_7# Gnd! 2 8 147 341
+n alt_alu_slice_0[3]/fulladder_0/b Gnd! alt_alu_slice_0[3]/fulladder_0/a_n2_7# 2 8 155 341
+n alt_alu_slice_0[3]/fulladder_0/c alt_alu_slice_0[3]/fulladder_0/a_n2_7# alt_alu_slice_0[3]/fulladder_0/a_21_7# 2 8 163 341
+n alt_alu_slice_0[3]/fulladder_0/b alt_alu_slice_0[3]/fulladder_0/a_21_7# alt_alu_slice_0[3]/fulladder_0/a_29_7# 2 8 171 341
+n a_3_ alt_alu_slice_0[3]/fulladder_0/a_29_7# Gnd! 2 8 179 341
+n a_3_ Gnd! alt_alu_slice_0[3]/fulladder_0/a_45_7# 2 8 187 341
+n alt_alu_slice_0[3]/fulladder_0/b alt_alu_slice_0[3]/fulladder_0/a_45_7# Gnd! 2 8 195 341
+n alt_alu_slice_0[3]/fulladder_0/c Gnd! alt_alu_slice_0[3]/fulladder_0/a_45_7# 2 8 203 341
+n alt_alu_slice_0[3]/fulladder_0/a_21_7# alt_alu_slice_0[3]/fulladder_0/a_45_7# alt_alu_slice_0[3]/fulladder_0/a_69_7# 2 8 211 341
+n alt_alu_slice_0[3]/fulladder_0/c alt_alu_slice_0[3]/fulladder_0/a_69_7# alt_alu_slice_0[3]/fulladder_0/a_77_7# 2 8 219 341
+n alt_alu_slice_0[3]/fulladder_0/b alt_alu_slice_0[3]/fulladder_0/a_77_7# alt_alu_slice_0[3]/fulladder_0/a_85_7# 2 8 227 341
+n a_3_ alt_alu_slice_0[3]/fulladder_0/a_85_7# Gnd! 2 8 235 341
+n alt_alu_slice_0[3]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[3]/fulladder_0/s 2 8 243 341
+n alt_alu_slice_0[3]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[4]/fulladder_0/c 2 8 259 341
+p b_3_ alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_74# 2 9 49 408
+p op6 alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 408
+p op5 Vdd! alt_alu_slice_0[3]/mux4_dp_1x_0/a_26_74# 2 9 62 408
+p alt_alu_slice_0[3]/inv_1x_1/y alt_alu_slice_0[3]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_74# 2 9 67 408
+p a_3_ alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# 2 9 75 408
+p alt_alu_slice_0[3]/inv_1x_0/y alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_74# 2 9 83 408
+p b_3_ alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_74# 2 9 91 408
+p op4 alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 408
+p op3 Vdd! alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_74# 2 9 104 408
+p alt_alu_slice_0[3]/inv_1x_1/y alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_74# 2 9 109 408
+p alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[3]/fulladder_0/b 2 10 131 407
+n alt_alu_slice_0[3]/inv_1x_1/y alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_7# 2 6 49 341
+n op6 alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 341
+n op5 Gnd! alt_alu_slice_0[3]/mux4_dp_1x_0/a_26_7# 2 6 62 341
+n b_3_ alt_alu_slice_0[3]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_7# 2 6 67 341
+n alt_alu_slice_0[3]/inv_1x_0/y alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# 2 6 75 341
+n a_3_ alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_7# 2 6 83 341
+n alt_alu_slice_0[3]/inv_1x_1/y alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_7# 2 6 91 341
+n op4 alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 341
+n op3 Gnd! alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_7# 2 6 104 341
+n b_3_ alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_7# 2 6 109 341
+n alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[3]/fulladder_0/b 2 7 131 341
+p b_3_ Vdd! alt_alu_slice_0[3]/inv_1x_1/y 2 10 27 407
+n b_3_ Gnd! alt_alu_slice_0[3]/inv_1x_1/y 2 7 27 341
+p a_3_ Vdd! alt_alu_slice_0[3]/inv_1x_0/y 2 10 11 407
+n a_3_ Gnd! alt_alu_slice_0[3]/inv_1x_0/y 2 7 11 341
+p invbuf_4x_0/s_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# 2 9 281 518
+p alt_alu_slice_0[4]/fulladder_0/s alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 518
+p alt_alu_slice_0[4]/fulladder_0/b Vdd! alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_74# 2 9 294 518
+p invbuf_4x_0/sb_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# 2 9 299 518
+p invbuf_4x_1/s_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 2 9 307 518
+p invbuf_4x_1/sb_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_74# 2 9 315 518
+p invbuf_4x_0/s_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[4]/mux4_dp_1x_1/a_55_74# 2 9 323 518
+p Gnd! alt_alu_slice_0[4]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 518
+p alt_alu_slice_0[4]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_74# 2 9 336 518
+p invbuf_4x_0/sb_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_74# 2 9 341 518
+p alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# Vdd! result_4_ 2 10 363 517
+n invbuf_4x_0/sb_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_7# 2 6 281 451
+n alt_alu_slice_0[4]/fulladder_0/s alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 451
+n alt_alu_slice_0[4]/fulladder_0/b Gnd! alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_7# 2 6 294 451
+n invbuf_4x_0/s_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# 2 6 299 451
+n invbuf_4x_1/sb_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 2 6 307 451
+n invbuf_4x_1/s_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_7# 2 6 315 451
+n invbuf_4x_0/sb_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_55_7# 2 6 323 451
+n Gnd! alt_alu_slice_0[4]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 451
+n alt_alu_slice_0[4]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_7# 2 6 336 451
+n invbuf_4x_0/s_out alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_7# 2 6 341 451
+n alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# Gnd! result_4_ 2 7 363 451
+p a_4_ alt_alu_slice_0[4]/fulladder_0/a_n2_65# Vdd! 2 16 147 509
+p alt_alu_slice_0[4]/fulladder_0/b Vdd! alt_alu_slice_0[4]/fulladder_0/a_n2_65# 2 16 155 509
+p alt_alu_slice_0[4]/fulladder_0/c alt_alu_slice_0[4]/fulladder_0/a_n2_65# alt_alu_slice_0[4]/fulladder_0/a_21_7# 2 16 163 509
+p alt_alu_slice_0[4]/fulladder_0/b alt_alu_slice_0[4]/fulladder_0/a_21_7# alt_alu_slice_0[4]/fulladder_0/a_29_65# 2 16 171 509
+p a_4_ alt_alu_slice_0[4]/fulladder_0/a_29_65# Vdd! 2 16 179 509
+p a_4_ Vdd! alt_alu_slice_0[4]/fulladder_0/a_45_65# 2 16 187 509
+p alt_alu_slice_0[4]/fulladder_0/b alt_alu_slice_0[4]/fulladder_0/a_45_65# Vdd! 2 16 195 509
+p alt_alu_slice_0[4]/fulladder_0/c Vdd! alt_alu_slice_0[4]/fulladder_0/a_45_65# 2 16 203 509
+p alt_alu_slice_0[4]/fulladder_0/a_21_7# alt_alu_slice_0[4]/fulladder_0/a_45_65# alt_alu_slice_0[4]/fulladder_0/a_69_7# 2 16 211 509
+p alt_alu_slice_0[4]/fulladder_0/c alt_alu_slice_0[4]/fulladder_0/a_69_7# alt_alu_slice_0[4]/fulladder_0/a_77_65# 2 16 219 509
+p alt_alu_slice_0[4]/fulladder_0/b alt_alu_slice_0[4]/fulladder_0/a_77_65# alt_alu_slice_0[4]/fulladder_0/a_85_65# 2 16 227 509
+p a_4_ alt_alu_slice_0[4]/fulladder_0/a_85_65# Vdd! 2 16 235 509
+p alt_alu_slice_0[4]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[4]/fulladder_0/s 2 16 243 509
+p alt_alu_slice_0[4]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[5]/fulladder_0/c 2 16 259 509
+n a_4_ alt_alu_slice_0[4]/fulladder_0/a_n2_7# Gnd! 2 8 147 451
+n alt_alu_slice_0[4]/fulladder_0/b Gnd! alt_alu_slice_0[4]/fulladder_0/a_n2_7# 2 8 155 451
+n alt_alu_slice_0[4]/fulladder_0/c alt_alu_slice_0[4]/fulladder_0/a_n2_7# alt_alu_slice_0[4]/fulladder_0/a_21_7# 2 8 163 451
+n alt_alu_slice_0[4]/fulladder_0/b alt_alu_slice_0[4]/fulladder_0/a_21_7# alt_alu_slice_0[4]/fulladder_0/a_29_7# 2 8 171 451
+n a_4_ alt_alu_slice_0[4]/fulladder_0/a_29_7# Gnd! 2 8 179 451
+n a_4_ Gnd! alt_alu_slice_0[4]/fulladder_0/a_45_7# 2 8 187 451
+n alt_alu_slice_0[4]/fulladder_0/b alt_alu_slice_0[4]/fulladder_0/a_45_7# Gnd! 2 8 195 451
+n alt_alu_slice_0[4]/fulladder_0/c Gnd! alt_alu_slice_0[4]/fulladder_0/a_45_7# 2 8 203 451
+n alt_alu_slice_0[4]/fulladder_0/a_21_7# alt_alu_slice_0[4]/fulladder_0/a_45_7# alt_alu_slice_0[4]/fulladder_0/a_69_7# 2 8 211 451
+n alt_alu_slice_0[4]/fulladder_0/c alt_alu_slice_0[4]/fulladder_0/a_69_7# alt_alu_slice_0[4]/fulladder_0/a_77_7# 2 8 219 451
+n alt_alu_slice_0[4]/fulladder_0/b alt_alu_slice_0[4]/fulladder_0/a_77_7# alt_alu_slice_0[4]/fulladder_0/a_85_7# 2 8 227 451
+n a_4_ alt_alu_slice_0[4]/fulladder_0/a_85_7# Gnd! 2 8 235 451
+n alt_alu_slice_0[4]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[4]/fulladder_0/s 2 8 243 451
+n alt_alu_slice_0[4]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[5]/fulladder_0/c 2 8 259 451
+p b_4_ alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_74# 2 9 49 518
+p op6 alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 518
+p op5 Vdd! alt_alu_slice_0[4]/mux4_dp_1x_0/a_26_74# 2 9 62 518
+p alt_alu_slice_0[4]/inv_1x_1/y alt_alu_slice_0[4]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_74# 2 9 67 518
+p a_4_ alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# 2 9 75 518
+p alt_alu_slice_0[4]/inv_1x_0/y alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_74# 2 9 83 518
+p b_4_ alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_74# 2 9 91 518
+p op4 alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 518
+p op3 Vdd! alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_74# 2 9 104 518
+p alt_alu_slice_0[4]/inv_1x_1/y alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_74# 2 9 109 518
+p alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[4]/fulladder_0/b 2 10 131 517
+n alt_alu_slice_0[4]/inv_1x_1/y alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_7# 2 6 49 451
+n op6 alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 451
+n op5 Gnd! alt_alu_slice_0[4]/mux4_dp_1x_0/a_26_7# 2 6 62 451
+n b_4_ alt_alu_slice_0[4]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_7# 2 6 67 451
+n alt_alu_slice_0[4]/inv_1x_0/y alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# 2 6 75 451
+n a_4_ alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_7# 2 6 83 451
+n alt_alu_slice_0[4]/inv_1x_1/y alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_7# 2 6 91 451
+n op4 alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 451
+n op3 Gnd! alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_7# 2 6 104 451
+n b_4_ alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_7# 2 6 109 451
+n alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[4]/fulladder_0/b 2 7 131 451
+p b_4_ Vdd! alt_alu_slice_0[4]/inv_1x_1/y 2 10 27 517
+n b_4_ Gnd! alt_alu_slice_0[4]/inv_1x_1/y 2 7 27 451
+p a_4_ Vdd! alt_alu_slice_0[4]/inv_1x_0/y 2 10 11 517
+n a_4_ Gnd! alt_alu_slice_0[4]/inv_1x_0/y 2 7 11 451
+p invbuf_4x_0/s_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# 2 9 281 628
+p alt_alu_slice_0[5]/fulladder_0/s alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 628
+p alt_alu_slice_0[5]/fulladder_0/b Vdd! alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_74# 2 9 294 628
+p invbuf_4x_0/sb_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# 2 9 299 628
+p invbuf_4x_1/s_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 2 9 307 628
+p invbuf_4x_1/sb_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_74# 2 9 315 628
+p invbuf_4x_0/s_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[5]/mux4_dp_1x_1/a_55_74# 2 9 323 628
+p Gnd! alt_alu_slice_0[5]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 628
+p alt_alu_slice_0[5]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_74# 2 9 336 628
+p invbuf_4x_0/sb_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_74# 2 9 341 628
+p alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# Vdd! result_5_ 2 10 363 627
+n invbuf_4x_0/sb_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_7# 2 6 281 561
+n alt_alu_slice_0[5]/fulladder_0/s alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 561
+n alt_alu_slice_0[5]/fulladder_0/b Gnd! alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_7# 2 6 294 561
+n invbuf_4x_0/s_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# 2 6 299 561
+n invbuf_4x_1/sb_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 2 6 307 561
+n invbuf_4x_1/s_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_7# 2 6 315 561
+n invbuf_4x_0/sb_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_55_7# 2 6 323 561
+n Gnd! alt_alu_slice_0[5]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 561
+n alt_alu_slice_0[5]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_7# 2 6 336 561
+n invbuf_4x_0/s_out alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_7# 2 6 341 561
+n alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# Gnd! result_5_ 2 7 363 561
+p a_5_ alt_alu_slice_0[5]/fulladder_0/a_n2_65# Vdd! 2 16 147 619
+p alt_alu_slice_0[5]/fulladder_0/b Vdd! alt_alu_slice_0[5]/fulladder_0/a_n2_65# 2 16 155 619
+p alt_alu_slice_0[5]/fulladder_0/c alt_alu_slice_0[5]/fulladder_0/a_n2_65# alt_alu_slice_0[5]/fulladder_0/a_21_7# 2 16 163 619
+p alt_alu_slice_0[5]/fulladder_0/b alt_alu_slice_0[5]/fulladder_0/a_21_7# alt_alu_slice_0[5]/fulladder_0/a_29_65# 2 16 171 619
+p a_5_ alt_alu_slice_0[5]/fulladder_0/a_29_65# Vdd! 2 16 179 619
+p a_5_ Vdd! alt_alu_slice_0[5]/fulladder_0/a_45_65# 2 16 187 619
+p alt_alu_slice_0[5]/fulladder_0/b alt_alu_slice_0[5]/fulladder_0/a_45_65# Vdd! 2 16 195 619
+p alt_alu_slice_0[5]/fulladder_0/c Vdd! alt_alu_slice_0[5]/fulladder_0/a_45_65# 2 16 203 619
+p alt_alu_slice_0[5]/fulladder_0/a_21_7# alt_alu_slice_0[5]/fulladder_0/a_45_65# alt_alu_slice_0[5]/fulladder_0/a_69_7# 2 16 211 619
+p alt_alu_slice_0[5]/fulladder_0/c alt_alu_slice_0[5]/fulladder_0/a_69_7# alt_alu_slice_0[5]/fulladder_0/a_77_65# 2 16 219 619
+p alt_alu_slice_0[5]/fulladder_0/b alt_alu_slice_0[5]/fulladder_0/a_77_65# alt_alu_slice_0[5]/fulladder_0/a_85_65# 2 16 227 619
+p a_5_ alt_alu_slice_0[5]/fulladder_0/a_85_65# Vdd! 2 16 235 619
+p alt_alu_slice_0[5]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[5]/fulladder_0/s 2 16 243 619
+p alt_alu_slice_0[5]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[6]/fulladder_0/c 2 16 259 619
+n a_5_ alt_alu_slice_0[5]/fulladder_0/a_n2_7# Gnd! 2 8 147 561
+n alt_alu_slice_0[5]/fulladder_0/b Gnd! alt_alu_slice_0[5]/fulladder_0/a_n2_7# 2 8 155 561
+n alt_alu_slice_0[5]/fulladder_0/c alt_alu_slice_0[5]/fulladder_0/a_n2_7# alt_alu_slice_0[5]/fulladder_0/a_21_7# 2 8 163 561
+n alt_alu_slice_0[5]/fulladder_0/b alt_alu_slice_0[5]/fulladder_0/a_21_7# alt_alu_slice_0[5]/fulladder_0/a_29_7# 2 8 171 561
+n a_5_ alt_alu_slice_0[5]/fulladder_0/a_29_7# Gnd! 2 8 179 561
+n a_5_ Gnd! alt_alu_slice_0[5]/fulladder_0/a_45_7# 2 8 187 561
+n alt_alu_slice_0[5]/fulladder_0/b alt_alu_slice_0[5]/fulladder_0/a_45_7# Gnd! 2 8 195 561
+n alt_alu_slice_0[5]/fulladder_0/c Gnd! alt_alu_slice_0[5]/fulladder_0/a_45_7# 2 8 203 561
+n alt_alu_slice_0[5]/fulladder_0/a_21_7# alt_alu_slice_0[5]/fulladder_0/a_45_7# alt_alu_slice_0[5]/fulladder_0/a_69_7# 2 8 211 561
+n alt_alu_slice_0[5]/fulladder_0/c alt_alu_slice_0[5]/fulladder_0/a_69_7# alt_alu_slice_0[5]/fulladder_0/a_77_7# 2 8 219 561
+n alt_alu_slice_0[5]/fulladder_0/b alt_alu_slice_0[5]/fulladder_0/a_77_7# alt_alu_slice_0[5]/fulladder_0/a_85_7# 2 8 227 561
+n a_5_ alt_alu_slice_0[5]/fulladder_0/a_85_7# Gnd! 2 8 235 561
+n alt_alu_slice_0[5]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[5]/fulladder_0/s 2 8 243 561
+n alt_alu_slice_0[5]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[6]/fulladder_0/c 2 8 259 561
+p b_5_ alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_74# 2 9 49 628
+p op6 alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 628
+p op5 Vdd! alt_alu_slice_0[5]/mux4_dp_1x_0/a_26_74# 2 9 62 628
+p alt_alu_slice_0[5]/inv_1x_1/y alt_alu_slice_0[5]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_74# 2 9 67 628
+p a_5_ alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# 2 9 75 628
+p alt_alu_slice_0[5]/inv_1x_0/y alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_74# 2 9 83 628
+p b_5_ alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_74# 2 9 91 628
+p op4 alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 628
+p op3 Vdd! alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_74# 2 9 104 628
+p alt_alu_slice_0[5]/inv_1x_1/y alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_74# 2 9 109 628
+p alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[5]/fulladder_0/b 2 10 131 627
+n alt_alu_slice_0[5]/inv_1x_1/y alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_7# 2 6 49 561
+n op6 alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 561
+n op5 Gnd! alt_alu_slice_0[5]/mux4_dp_1x_0/a_26_7# 2 6 62 561
+n b_5_ alt_alu_slice_0[5]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_7# 2 6 67 561
+n alt_alu_slice_0[5]/inv_1x_0/y alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# 2 6 75 561
+n a_5_ alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_7# 2 6 83 561
+n alt_alu_slice_0[5]/inv_1x_1/y alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_7# 2 6 91 561
+n op4 alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 561
+n op3 Gnd! alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_7# 2 6 104 561
+n b_5_ alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_7# 2 6 109 561
+n alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[5]/fulladder_0/b 2 7 131 561
+p b_5_ Vdd! alt_alu_slice_0[5]/inv_1x_1/y 2 10 27 627
+n b_5_ Gnd! alt_alu_slice_0[5]/inv_1x_1/y 2 7 27 561
+p a_5_ Vdd! alt_alu_slice_0[5]/inv_1x_0/y 2 10 11 627
+n a_5_ Gnd! alt_alu_slice_0[5]/inv_1x_0/y 2 7 11 561
+p invbuf_4x_0/s_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# 2 9 281 738
+p alt_alu_slice_0[6]/fulladder_0/s alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 738
+p alt_alu_slice_0[6]/fulladder_0/b Vdd! alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_74# 2 9 294 738
+p invbuf_4x_0/sb_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# 2 9 299 738
+p invbuf_4x_1/s_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 2 9 307 738
+p invbuf_4x_1/sb_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_74# 2 9 315 738
+p invbuf_4x_0/s_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[6]/mux4_dp_1x_1/a_55_74# 2 9 323 738
+p Gnd! alt_alu_slice_0[6]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 738
+p alt_alu_slice_0[6]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_74# 2 9 336 738
+p invbuf_4x_0/sb_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_74# 2 9 341 738
+p alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# Vdd! result_6_ 2 10 363 737
+n invbuf_4x_0/sb_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_7# 2 6 281 671
+n alt_alu_slice_0[6]/fulladder_0/s alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 671
+n alt_alu_slice_0[6]/fulladder_0/b Gnd! alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_7# 2 6 294 671
+n invbuf_4x_0/s_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# 2 6 299 671
+n invbuf_4x_1/sb_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 2 6 307 671
+n invbuf_4x_1/s_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_7# 2 6 315 671
+n invbuf_4x_0/sb_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_55_7# 2 6 323 671
+n Gnd! alt_alu_slice_0[6]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 671
+n alt_alu_slice_0[6]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_7# 2 6 336 671
+n invbuf_4x_0/s_out alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_7# 2 6 341 671
+n alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# Gnd! result_6_ 2 7 363 671
+p a_6_ alt_alu_slice_0[6]/fulladder_0/a_n2_65# Vdd! 2 16 147 729
+p alt_alu_slice_0[6]/fulladder_0/b Vdd! alt_alu_slice_0[6]/fulladder_0/a_n2_65# 2 16 155 729
+p alt_alu_slice_0[6]/fulladder_0/c alt_alu_slice_0[6]/fulladder_0/a_n2_65# alt_alu_slice_0[6]/fulladder_0/a_21_7# 2 16 163 729
+p alt_alu_slice_0[6]/fulladder_0/b alt_alu_slice_0[6]/fulladder_0/a_21_7# alt_alu_slice_0[6]/fulladder_0/a_29_65# 2 16 171 729
+p a_6_ alt_alu_slice_0[6]/fulladder_0/a_29_65# Vdd! 2 16 179 729
+p a_6_ Vdd! alt_alu_slice_0[6]/fulladder_0/a_45_65# 2 16 187 729
+p alt_alu_slice_0[6]/fulladder_0/b alt_alu_slice_0[6]/fulladder_0/a_45_65# Vdd! 2 16 195 729
+p alt_alu_slice_0[6]/fulladder_0/c Vdd! alt_alu_slice_0[6]/fulladder_0/a_45_65# 2 16 203 729
+p alt_alu_slice_0[6]/fulladder_0/a_21_7# alt_alu_slice_0[6]/fulladder_0/a_45_65# alt_alu_slice_0[6]/fulladder_0/a_69_7# 2 16 211 729
+p alt_alu_slice_0[6]/fulladder_0/c alt_alu_slice_0[6]/fulladder_0/a_69_7# alt_alu_slice_0[6]/fulladder_0/a_77_65# 2 16 219 729
+p alt_alu_slice_0[6]/fulladder_0/b alt_alu_slice_0[6]/fulladder_0/a_77_65# alt_alu_slice_0[6]/fulladder_0/a_85_65# 2 16 227 729
+p a_6_ alt_alu_slice_0[6]/fulladder_0/a_85_65# Vdd! 2 16 235 729
+p alt_alu_slice_0[6]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[6]/fulladder_0/s 2 16 243 729
+p alt_alu_slice_0[6]/fulladder_0/a_21_7# Vdd! alt_alu_slice_0[7]/fulladder_0/c 2 16 259 729
+n a_6_ alt_alu_slice_0[6]/fulladder_0/a_n2_7# Gnd! 2 8 147 671
+n alt_alu_slice_0[6]/fulladder_0/b Gnd! alt_alu_slice_0[6]/fulladder_0/a_n2_7# 2 8 155 671
+n alt_alu_slice_0[6]/fulladder_0/c alt_alu_slice_0[6]/fulladder_0/a_n2_7# alt_alu_slice_0[6]/fulladder_0/a_21_7# 2 8 163 671
+n alt_alu_slice_0[6]/fulladder_0/b alt_alu_slice_0[6]/fulladder_0/a_21_7# alt_alu_slice_0[6]/fulladder_0/a_29_7# 2 8 171 671
+n a_6_ alt_alu_slice_0[6]/fulladder_0/a_29_7# Gnd! 2 8 179 671
+n a_6_ Gnd! alt_alu_slice_0[6]/fulladder_0/a_45_7# 2 8 187 671
+n alt_alu_slice_0[6]/fulladder_0/b alt_alu_slice_0[6]/fulladder_0/a_45_7# Gnd! 2 8 195 671
+n alt_alu_slice_0[6]/fulladder_0/c Gnd! alt_alu_slice_0[6]/fulladder_0/a_45_7# 2 8 203 671
+n alt_alu_slice_0[6]/fulladder_0/a_21_7# alt_alu_slice_0[6]/fulladder_0/a_45_7# alt_alu_slice_0[6]/fulladder_0/a_69_7# 2 8 211 671
+n alt_alu_slice_0[6]/fulladder_0/c alt_alu_slice_0[6]/fulladder_0/a_69_7# alt_alu_slice_0[6]/fulladder_0/a_77_7# 2 8 219 671
+n alt_alu_slice_0[6]/fulladder_0/b alt_alu_slice_0[6]/fulladder_0/a_77_7# alt_alu_slice_0[6]/fulladder_0/a_85_7# 2 8 227 671
+n a_6_ alt_alu_slice_0[6]/fulladder_0/a_85_7# Gnd! 2 8 235 671
+n alt_alu_slice_0[6]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[6]/fulladder_0/s 2 8 243 671
+n alt_alu_slice_0[6]/fulladder_0/a_21_7# Gnd! alt_alu_slice_0[7]/fulladder_0/c 2 8 259 671
+p b_6_ alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_74# 2 9 49 738
+p op6 alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 738
+p op5 Vdd! alt_alu_slice_0[6]/mux4_dp_1x_0/a_26_74# 2 9 62 738
+p alt_alu_slice_0[6]/inv_1x_1/y alt_alu_slice_0[6]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_74# 2 9 67 738
+p a_6_ alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# 2 9 75 738
+p alt_alu_slice_0[6]/inv_1x_0/y alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_74# 2 9 83 738
+p b_6_ alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_74# 2 9 91 738
+p op4 alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 738
+p op3 Vdd! alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_74# 2 9 104 738
+p alt_alu_slice_0[6]/inv_1x_1/y alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_74# 2 9 109 738
+p alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[6]/fulladder_0/b 2 10 131 737
+n alt_alu_slice_0[6]/inv_1x_1/y alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_7# 2 6 49 671
+n op6 alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 671
+n op5 Gnd! alt_alu_slice_0[6]/mux4_dp_1x_0/a_26_7# 2 6 62 671
+n b_6_ alt_alu_slice_0[6]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_7# 2 6 67 671
+n alt_alu_slice_0[6]/inv_1x_0/y alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# 2 6 75 671
+n a_6_ alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_7# 2 6 83 671
+n alt_alu_slice_0[6]/inv_1x_1/y alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_7# 2 6 91 671
+n op4 alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 671
+n op3 Gnd! alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_7# 2 6 104 671
+n b_6_ alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_7# 2 6 109 671
+n alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[6]/fulladder_0/b 2 7 131 671
+p b_6_ Vdd! alt_alu_slice_0[6]/inv_1x_1/y 2 10 27 737
+n b_6_ Gnd! alt_alu_slice_0[6]/inv_1x_1/y 2 7 27 671
+p a_6_ Vdd! alt_alu_slice_0[6]/inv_1x_0/y 2 10 11 737
+n a_6_ Gnd! alt_alu_slice_0[6]/inv_1x_0/y 2 7 11 671
+p invbuf_4x_0/s_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# 2 9 281 848
+p alt_alu_slice_0[7]/fulladder_0/s alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 286 848
+p alt_alu_slice_0[7]/fulladder_0/b Vdd! alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_74# 2 9 294 848
+p invbuf_4x_0/sb_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_74# alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# 2 9 299 848
+p invbuf_4x_1/s_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 2 9 307 848
+p invbuf_4x_1/sb_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_74# 2 9 315 848
+p invbuf_4x_0/s_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_74# alt_alu_slice_0[7]/mux4_dp_1x_1/a_55_74# 2 9 323 848
+p Gnd! alt_alu_slice_0[7]/mux4_dp_1x_1/a_55_74# Vdd! 2 9 328 848
+p alt_alu_slice_0[7]/mux4_dp_1x_1/d3 Vdd! alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_74# 2 9 336 848
+p invbuf_4x_0/sb_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_74# alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_74# 2 9 341 848
+p alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# Vdd! result_7_ 2 10 363 847
+n invbuf_4x_0/sb_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_7# 2 6 281 781
+n alt_alu_slice_0[7]/fulladder_0/s alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 286 781
+n alt_alu_slice_0[7]/fulladder_0/b Gnd! alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_7# 2 6 294 781
+n invbuf_4x_0/s_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# 2 6 299 781
+n invbuf_4x_1/sb_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 2 6 307 781
+n invbuf_4x_1/s_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_7# 2 6 315 781
+n invbuf_4x_0/sb_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_55_7# 2 6 323 781
+n Gnd! alt_alu_slice_0[7]/mux4_dp_1x_1/a_55_7# Gnd! 2 6 328 781
+n alt_alu_slice_0[7]/mux4_dp_1x_1/d3 Gnd! alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_7# 2 6 336 781
+n invbuf_4x_0/s_out alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_7# alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_7# 2 6 341 781
+n alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# Gnd! result_7_ 2 7 363 781
+p a_7_ alt_alu_slice_0[7]/fulladder_0/a_n2_65# Vdd! 2 16 147 839
+p alt_alu_slice_0[7]/fulladder_0/b Vdd! alt_alu_slice_0[7]/fulladder_0/a_n2_65# 2 16 155 839
+p alt_alu_slice_0[7]/fulladder_0/c alt_alu_slice_0[7]/fulladder_0/a_n2_65# alt_alu_slice_0[0]/mux4_dp_1x_1/d2 2 16 163 839
+p alt_alu_slice_0[7]/fulladder_0/b alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_slice_0[7]/fulladder_0/a_29_65# 2 16 171 839
+p a_7_ alt_alu_slice_0[7]/fulladder_0/a_29_65# Vdd! 2 16 179 839
+p a_7_ Vdd! alt_alu_slice_0[7]/fulladder_0/a_45_65# 2 16 187 839
+p alt_alu_slice_0[7]/fulladder_0/b alt_alu_slice_0[7]/fulladder_0/a_45_65# Vdd! 2 16 195 839
+p alt_alu_slice_0[7]/fulladder_0/c Vdd! alt_alu_slice_0[7]/fulladder_0/a_45_65# 2 16 203 839
+p alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_slice_0[7]/fulladder_0/a_45_65# alt_alu_slice_0[7]/fulladder_0/a_69_7# 2 16 211 839
+p alt_alu_slice_0[7]/fulladder_0/c alt_alu_slice_0[7]/fulladder_0/a_69_7# alt_alu_slice_0[7]/fulladder_0/a_77_65# 2 16 219 839
+p alt_alu_slice_0[7]/fulladder_0/b alt_alu_slice_0[7]/fulladder_0/a_77_65# alt_alu_slice_0[7]/fulladder_0/a_85_65# 2 16 227 839
+p a_7_ alt_alu_slice_0[7]/fulladder_0/a_85_65# Vdd! 2 16 235 839
+p alt_alu_slice_0[7]/fulladder_0/a_69_7# Vdd! alt_alu_slice_0[7]/fulladder_0/s 2 16 243 839
+p alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Vdd! alt_alu_slice_0[7]/fulladder_0/cout 2 16 259 839
+n a_7_ alt_alu_slice_0[7]/fulladder_0/a_n2_7# Gnd! 2 8 147 781
+n alt_alu_slice_0[7]/fulladder_0/b Gnd! alt_alu_slice_0[7]/fulladder_0/a_n2_7# 2 8 155 781
+n alt_alu_slice_0[7]/fulladder_0/c alt_alu_slice_0[7]/fulladder_0/a_n2_7# alt_alu_slice_0[0]/mux4_dp_1x_1/d2 2 8 163 781
+n alt_alu_slice_0[7]/fulladder_0/b alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_slice_0[7]/fulladder_0/a_29_7# 2 8 171 781
+n a_7_ alt_alu_slice_0[7]/fulladder_0/a_29_7# Gnd! 2 8 179 781
+n a_7_ Gnd! alt_alu_slice_0[7]/fulladder_0/a_45_7# 2 8 187 781
+n alt_alu_slice_0[7]/fulladder_0/b alt_alu_slice_0[7]/fulladder_0/a_45_7# Gnd! 2 8 195 781
+n alt_alu_slice_0[7]/fulladder_0/c Gnd! alt_alu_slice_0[7]/fulladder_0/a_45_7# 2 8 203 781
+n alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_slice_0[7]/fulladder_0/a_45_7# alt_alu_slice_0[7]/fulladder_0/a_69_7# 2 8 211 781
+n alt_alu_slice_0[7]/fulladder_0/c alt_alu_slice_0[7]/fulladder_0/a_69_7# alt_alu_slice_0[7]/fulladder_0/a_77_7# 2 8 219 781
+n alt_alu_slice_0[7]/fulladder_0/b alt_alu_slice_0[7]/fulladder_0/a_77_7# alt_alu_slice_0[7]/fulladder_0/a_85_7# 2 8 227 781
+n a_7_ alt_alu_slice_0[7]/fulladder_0/a_85_7# Gnd! 2 8 235 781
+n alt_alu_slice_0[7]/fulladder_0/a_69_7# Gnd! alt_alu_slice_0[7]/fulladder_0/s 2 8 243 781
+n alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Gnd! alt_alu_slice_0[7]/fulladder_0/cout 2 8 259 781
+p b_7_ alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_74# 2 9 49 848
+p op6 alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 54 848
+p op5 Vdd! alt_alu_slice_0[7]/mux4_dp_1x_0/a_26_74# 2 9 62 848
+p alt_alu_slice_0[7]/inv_1x_1/y alt_alu_slice_0[7]/mux4_dp_1x_0/a_26_74# alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_74# 2 9 67 848
+p a_7_ alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_74# alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# 2 9 75 848
+p alt_alu_slice_0[7]/inv_1x_0/y alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_74# 2 9 83 848
+p b_7_ alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_74# alt_alu_slice_0[7]/mux4_dp_1x_0/a_55_74# 2 9 91 848
+p op4 alt_alu_slice_0[7]/mux4_dp_1x_0/a_55_74# Vdd! 2 9 96 848
+p op3 Vdd! alt_alu_slice_0[7]/mux4_dp_1x_0/a_68_74# 2 9 104 848
+p alt_alu_slice_0[7]/inv_1x_1/y alt_alu_slice_0[7]/mux4_dp_1x_0/a_68_74# alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_74# 2 9 109 848
+p alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# Vdd! alt_alu_slice_0[7]/fulladder_0/b 2 10 131 847
+n alt_alu_slice_0[7]/inv_1x_1/y alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_7# 2 6 49 781
+n op6 alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_7# Gnd! 2 6 54 781
+n op5 Gnd! alt_alu_slice_0[7]/mux4_dp_1x_0/a_26_7# 2 6 62 781
+n b_7_ alt_alu_slice_0[7]/mux4_dp_1x_0/a_26_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_7# 2 6 67 781
+n alt_alu_slice_0[7]/inv_1x_0/y alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# 2 6 75 781
+n a_7_ alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_7# 2 6 83 781
+n alt_alu_slice_0[7]/inv_1x_1/y alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_55_7# 2 6 91 781
+n op4 alt_alu_slice_0[7]/mux4_dp_1x_0/a_55_7# Gnd! 2 6 96 781
+n op3 Gnd! alt_alu_slice_0[7]/mux4_dp_1x_0/a_68_7# 2 6 104 781
+n b_7_ alt_alu_slice_0[7]/mux4_dp_1x_0/a_68_7# alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_7# 2 6 109 781
+n alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# Gnd! alt_alu_slice_0[7]/fulladder_0/b 2 7 131 781
+p b_7_ Vdd! alt_alu_slice_0[7]/inv_1x_1/y 2 10 27 847
+n b_7_ Gnd! alt_alu_slice_0[7]/inv_1x_1/y 2 7 27 781
+p a_7_ Vdd! alt_alu_slice_0[7]/inv_1x_0/y 2 10 11 847
+n a_7_ Gnd! alt_alu_slice_0[7]/inv_1x_0/y 2 7 11 781
+p result_0_ Vdd! yzdetect_8_0/nor2_1x_4/a_7_67# 2 16 -20 71
+p result_1_ yzdetect_8_0/nor2_1x_4/a_7_67# yzdetect_8_0/nor2_1x_4/y 2 16 -15 71
+n result_0_ Gnd! yzdetect_8_0/nor2_1x_4/y 2 8 -20 11
+n result_1_ yzdetect_8_0/nor2_1x_4/y Gnd! 2 8 -12 11
+p yzdetect_8_0/nor2_1x_4/y Vdd! yzdetect_8_0/nor2_1x_2/b 2 12 -20 185
+p yzdetect_8_0/nor2_1x_3/y yzdetect_8_0/nor2_1x_2/b Vdd! 2 12 -12 185
+n yzdetect_8_0/nor2_1x_4/y Gnd! yzdetect_8_0/nand2_1x_1/a_7_7# 2 12 -20 121
+n yzdetect_8_0/nor2_1x_3/y yzdetect_8_0/nand2_1x_1/a_7_7# yzdetect_8_0/nor2_1x_2/b 2 12 -15 121
+p result_2_ Vdd! yzdetect_8_0/nor2_1x_3/a_7_67# 2 16 -20 291
+p result_3_ yzdetect_8_0/nor2_1x_3/a_7_67# yzdetect_8_0/nor2_1x_3/y 2 16 -15 291
+n result_2_ Gnd! yzdetect_8_0/nor2_1x_3/y 2 8 -20 231
+n result_3_ yzdetect_8_0/nor2_1x_3/y Gnd! 2 8 -12 231
+p yzdetect_8_0/nor2_1x_2/a Vdd! yzdetect_8_0/nor2_1x_2/a_7_67# 2 16 -20 401
+p yzdetect_8_0/nor2_1x_2/b yzdetect_8_0/nor2_1x_2/a_7_67# zero 2 16 -15 401
+n yzdetect_8_0/nor2_1x_2/a Gnd! zero 2 8 -20 341
+n yzdetect_8_0/nor2_1x_2/b zero Gnd! 2 8 -12 341
+p result_4_ Vdd! yzdetect_8_0/nor2_1x_1/a_7_67# 2 16 -20 511
+p result_5_ yzdetect_8_0/nor2_1x_1/a_7_67# yzdetect_8_0/nor2_1x_1/y 2 16 -15 511
+n result_4_ Gnd! yzdetect_8_0/nor2_1x_1/y 2 8 -20 451
+n result_5_ yzdetect_8_0/nor2_1x_1/y Gnd! 2 8 -12 451
+p yzdetect_8_0/nor2_1x_0/y Vdd! yzdetect_8_0/nor2_1x_2/a 2 12 -20 625
+p yzdetect_8_0/nor2_1x_1/y yzdetect_8_0/nor2_1x_2/a Vdd! 2 12 -12 625
+n yzdetect_8_0/nor2_1x_0/y Gnd! yzdetect_8_0/nand2_1x_0/a_7_7# 2 12 -20 561
+n yzdetect_8_0/nor2_1x_1/y yzdetect_8_0/nand2_1x_0/a_7_7# yzdetect_8_0/nor2_1x_2/a 2 12 -15 561
+p result_6_ Vdd! yzdetect_8_0/nor2_1x_0/a_7_67# 2 16 -20 731
+p result_7_ yzdetect_8_0/nor2_1x_0/a_7_67# yzdetect_8_0/nor2_1x_0/y 2 16 -15 731
+n result_6_ Gnd! yzdetect_8_0/nor2_1x_0/y 2 8 -20 671
+n result_7_ yzdetect_8_0/nor2_1x_0/y Gnd! 2 8 -12 671
+p op1 Vdd! invbuf_4x_1/sb_out 2 37 291 930
+p invbuf_4x_1/sb_out Vdd! invbuf_4x_1/s_out 2 37 307 930
+n op1 Gnd! invbuf_4x_1/sb_out 2 27 291 891
+n invbuf_4x_1/sb_out Gnd! invbuf_4x_1/s_out 2 27 307 891
+p op0 Vdd! invbuf_4x_0/sb_out 2 37 251 930
+p invbuf_4x_0/sb_out Vdd! invbuf_4x_0/s_out 2 37 267 930
+n op0 Gnd! invbuf_4x_0/sb_out 2 27 251 891
+n invbuf_4x_0/sb_out Gnd! invbuf_4x_0/s_out 2 27 267 891
+C yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
+C op6 Vdd! 6.1
+C Vdd! alt_alu_slice_0[6]/fulladder_0/c 10.4
+C Vdd! result_0_ 3.1
+C Gnd! result_7_ 2.3
+C Vdd! yzdetect_8_0/nor2_1x_2/a 3.5
+C Vdd! alt_alu_slice_0[7]/inv_1x_0/y 2.9
+C invbuf_4x_0/sb_out invbuf_4x_1/sb_out 2.1
+C Gnd! result_1_ 2.4
+C alt_alu_slice_0[4]/fulladder_0/c Vdd! 10.4
+C Gnd! invbuf_4x_0/sb_out 2.7
+C invbuf_4x_1/s_out invbuf_4x_1/sb_out 2.4
+C b_7_ Vdd! 5.9
+C invbuf_4x_0/s_out invbuf_4x_1/sb_out 2.6
+C Vdd! alt_alu_slice_0[3]/fulladder_0/b 6.5
+C alt_alu_slice_0[0]/inv_1x_0/y Vdd! 2.9
+C Vdd! a_7_ 4.2
+C invbuf_4x_0/s_out Gnd! 2.2
+C Gnd! result_5_ 2.5
+C Vdd! a_0_ 4.3
+C b_3_ Vdd! 6.0
+C a_4_ Vdd! 4.3
+C alt_alu_slice_0[0]/fulladder_0/b Vdd! 6.5
+C yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
+C op3 Vdd! 6.5
+C Vdd! invbuf_4x_1/sb_out 7.8
+C Vdd! alt_alu_slice_0[7]/inv_1x_1/y 7.1
+C Vdd! alt_alu_slice_0[6]/inv_1x_0/y 2.9
+C Vdd! alt_alu_slice_0[5]/fulladder_0/c 10.4
+C Vdd! b_4_ 6.0
+C Vdd! Gnd! 9.7
+C Vdd! b_5_ 6.0
+C a_5_ Vdd! 4.3
+C alt_alu_slice_0[4]/inv_1x_1/y Vdd! 7.1
+C result_3_ Vdd! 2.8
+C alt_alu_slice_0[0]/inv_1x_1/y Vdd! 7.1
+C Vdd! b_1_ 6.0
+C Gnd! result_2_ 2.4
+C Vdd! yzdetect_8_0/nor2_1x_0/y 2.7
+C Vdd! alt_alu_slice_0[7]/fulladder_0/b 6.5
+C invbuf_4x_1/s_out invbuf_4x_0/sb_out 3.7
+C op4 Vdd! 12.4
+C Vdd! op2 7.4
+C invbuf_4x_0/s_out invbuf_4x_0/sb_out 5.5
+C Vdd! alt_alu_slice_0[2]/inv_1x_0/y 2.9
+C Vdd! result_7_ 2.8
+C result_6_ Gnd! 2.4
+C invbuf_4x_0/s_out invbuf_4x_1/s_out 2.6
+C Vdd! alt_alu_slice_0[6]/inv_1x_1/y 7.1
+C Vdd! alt_alu_slice_0[3]/inv_1x_1/y 7.1
+C Vdd! alt_alu_slice_0[1]/fulladder_0/b 6.5
+C yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
+C alt_alu_slice_0[5]/inv_1x_1/y Vdd! 7.1
+C Vdd! result_1_ 2.8
+C Vdd! alt_alu_slice_0[6]/fulladder_0/b 6.5
+C Vdd! invbuf_4x_0/sb_out 43.4
+C a_2_ Vdd! 4.3
+C Vdd! yzdetect_8_0/nor2_1x_2/b 3.1
+C a_3_ Vdd! 4.3
+C alt_alu_slice_0[7]/fulladder_0/cout Vdd! 6.0
+C result_4_ Gnd! 2.4
+C Vdd! a_1_ 4.3
+C Vdd! alt_alu_slice_0[2]/fulladder_0/b 6.5
+C invbuf_4x_1/s_out Vdd! 13.5
+C Vdd! alt_alu_slice_0[7]/fulladder_0/c 10.4
+C invbuf_4x_0/s_out Vdd! 41.4
+C Vdd! result_5_ 2.9
+C alt_alu_slice_0[4]/fulladder_0/b Vdd! 6.5
+C Gnd! result_0_ 2.7
+C Vdd! alt_alu_slice_0[1]/fulladder_0/c 10.4
+C Vdd! result_2_ 3.1
+C alt_alu_slice_0[5]/inv_1x_0/y Vdd! 2.9
+C Vdd! b_0_ 6.0
+C Vdd! alt_alu_slice_0[2]/fulladder_0/c 10.4
+C alt_alu_slice_0[1]/inv_1x_1/y Vdd! 7.1
+C Vdd! b_2_ 6.0
+C result_6_ Vdd! 3.1
+C alt_alu_slice_0[4]/inv_1x_0/y Vdd! 2.9
+C Vdd! alt_alu_slice_0[1]/inv_1x_0/y 2.9
+C Vdd! alt_alu_slice_0[0]/mux4_dp_1x_1/d2 4.3
+C a_6_ Vdd! 4.3
+C Vdd! op5 6.1
+C alt_alu_slice_0[3]/fulladder_0/c Vdd! 10.4
+C Vdd! alt_alu_slice_0[2]/inv_1x_1/y 7.1
+C result_4_ Vdd! 3.1
+C Vdd! alt_alu_slice_0[5]/fulladder_0/b 6.5
+C result_3_ Gnd! 2.5
+C Vdd! alt_alu_slice_0[3]/inv_1x_0/y 2.9
+C b_6_ Vdd! 6.0
+C invbuf_4x_0/s_out GND 49.3
+R invbuf_4x_0/s_out 18651
+C invbuf_4x_0/sb_out GND 38.0
+R invbuf_4x_0/sb_out 20136
+C op0 GND 2.4
+R op0 882
+C invbuf_4x_1/s_out GND 32.1
+R invbuf_4x_1/s_out 9299
+C invbuf_4x_1/sb_out GND 42.3
+R invbuf_4x_1/sb_out 10622
+C op1 GND 2.4
+R op1 882
+C yzdetect_8_0/nor2_1x_0/y GND 6.6
+R yzdetect_8_0/nor2_1x_0/y 1332
+R yzdetect_8_0/nor2_1x_0/a_7_67# 561
+R yzdetect_8_0/nand2_1x_0/a_7_7# 329
+C yzdetect_8_0/nor2_1x_2/a GND 7.3
+R yzdetect_8_0/nor2_1x_2/a 1294
+C yzdetect_8_0/nor2_1x_1/y GND 6.9
+R yzdetect_8_0/nor2_1x_1/y 1365
+R yzdetect_8_0/nor2_1x_1/a_7_67# 561
+R zero 448
+R yzdetect_8_0/nor2_1x_2/a_7_67# 561
+C yzdetect_8_0/nor2_1x_2/b GND 7.1
+R yzdetect_8_0/nor2_1x_2/b 1326
+C yzdetect_8_0/nor2_1x_3/y GND 5.6
+R yzdetect_8_0/nor2_1x_3/y 1364
+R yzdetect_8_0/nor2_1x_3/a_7_67# 561
+R yzdetect_8_0/nand2_1x_1/a_7_7# 329
+C yzdetect_8_0/nor2_1x_4/y GND 7.0
+R yzdetect_8_0/nor2_1x_4/y 1332
+R yzdetect_8_0/nor2_1x_4/a_7_67# 561
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[7]/mux4_dp_1x_0/a_39_7# 1123
+C op3 GND 34.9
+R op3 7906
+C op4 GND 29.3
+R op4 7943
+C alt_alu_slice_0[7]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[7]/inv_1x_0/y 1335
+C alt_alu_slice_0[7]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[7]/inv_1x_1/y 2525
+C op5 GND 34.2
+R op5 7725
+C op6 GND 33.5
+R op6 7370
+R b_7_ 3065
+R alt_alu_slice_0[7]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[7]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[7]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[7]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[7]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[7]/fulladder_0/cout 473
+R alt_alu_slice_0[7]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[7]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[7]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[7]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[7]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[7]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[7]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[0]/mux4_dp_1x_1/d2 GND 9.8
+R alt_alu_slice_0[0]/mux4_dp_1x_1/d2 3152
+C alt_alu_slice_0[7]/fulladder_0/c GND 5.7
+R alt_alu_slice_0[7]/fulladder_0/c 3138
+R a_7_ 5507
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# 481
+C result_7_ GND 18.0
+R result_7_ 1248
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[7]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[7]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[7]/fulladder_0/b 4864
+C alt_alu_slice_0[7]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[7]/fulladder_0/s 1351
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[6]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[6]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[6]/inv_1x_0/y 1335
+C alt_alu_slice_0[6]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[6]/inv_1x_1/y 2525
+R b_6_ 3065
+R alt_alu_slice_0[6]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[6]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[6]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[6]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[6]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[6]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[6]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[6]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[6]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[6]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[6]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[6]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[6]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[6]/fulladder_0/a_21_7# 2154
+C alt_alu_slice_0[6]/fulladder_0/c GND 5.7
+R alt_alu_slice_0[6]/fulladder_0/c 3138
+R a_6_ 5507
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# 481
+C result_6_ GND 15.4
+R result_6_ 1213
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[6]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[6]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[6]/fulladder_0/b 4864
+C alt_alu_slice_0[6]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[6]/fulladder_0/s 1351
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[5]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[5]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[5]/inv_1x_0/y 1335
+C alt_alu_slice_0[5]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[5]/inv_1x_1/y 2525
+R b_5_ 3065
+R alt_alu_slice_0[5]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[5]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[5]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[5]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[5]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[5]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[5]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[5]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[5]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[5]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[5]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[5]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[5]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[5]/fulladder_0/a_21_7# 2154
+C alt_alu_slice_0[5]/fulladder_0/c GND 5.7
+R alt_alu_slice_0[5]/fulladder_0/c 3138
+R a_5_ 5507
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# 481
+C result_5_ GND 18.4
+R result_5_ 1248
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[5]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[5]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[5]/fulladder_0/b 4864
+C alt_alu_slice_0[5]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[5]/fulladder_0/s 1351
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[4]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[4]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[4]/inv_1x_0/y 1335
+C alt_alu_slice_0[4]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[4]/inv_1x_1/y 2525
+R b_4_ 3065
+R alt_alu_slice_0[4]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[4]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[4]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[4]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[4]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[4]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[4]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[4]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[4]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[4]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[4]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[4]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[4]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[4]/fulladder_0/a_21_7# 2154
+C alt_alu_slice_0[4]/fulladder_0/c GND 5.6
+R alt_alu_slice_0[4]/fulladder_0/c 3138
+R a_4_ 5507
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# 481
+C result_4_ GND 15.4
+R result_4_ 1214
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[4]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[4]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[4]/fulladder_0/b 4864
+C alt_alu_slice_0[4]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[4]/fulladder_0/s 1351
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[3]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[3]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[3]/inv_1x_0/y 1335
+C alt_alu_slice_0[3]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[3]/inv_1x_1/y 2525
+R b_3_ 3066
+R alt_alu_slice_0[3]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[3]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[3]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[3]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[3]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[3]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[3]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[3]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[3]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[3]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[3]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[3]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[3]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[3]/fulladder_0/a_21_7# 2154
+C alt_alu_slice_0[3]/fulladder_0/c GND 5.7
+R alt_alu_slice_0[3]/fulladder_0/c 3138
+R a_3_ 5507
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# 481
+C result_3_ GND 17.7
+R result_3_ 1248
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[3]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[3]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[3]/fulladder_0/b 4864
+C alt_alu_slice_0[3]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[3]/fulladder_0/s 1351
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[2]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[2]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[2]/inv_1x_0/y 1335
+C alt_alu_slice_0[2]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[2]/inv_1x_1/y 2525
+R b_2_ 3066
+R alt_alu_slice_0[2]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[2]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[2]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[2]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[2]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[2]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[2]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[2]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[2]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[2]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[2]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[2]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[2]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[2]/fulladder_0/a_21_7# 2154
+C alt_alu_slice_0[2]/fulladder_0/c GND 5.7
+R alt_alu_slice_0[2]/fulladder_0/c 3138
+R a_2_ 5507
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# 481
+C result_2_ GND 15.4
+R result_2_ 1214
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[2]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[2]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[2]/fulladder_0/b 4864
+C alt_alu_slice_0[2]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[2]/fulladder_0/s 1351
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[1]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[1]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[1]/inv_1x_0/y 1335
+C alt_alu_slice_0[1]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[1]/inv_1x_1/y 2525
+R b_1_ 3065
+R alt_alu_slice_0[1]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[1]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[1]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[1]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[1]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[1]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[1]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[1]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[1]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[1]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[1]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[1]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[1]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[1]/fulladder_0/a_21_7# 2154
+C alt_alu_slice_0[1]/fulladder_0/c GND 5.7
+R alt_alu_slice_0[1]/fulladder_0/c 3138
+R a_1_ 5508
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# 481
+C result_1_ GND 17.8
+R result_1_ 1248
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[1]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[1]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[1]/fulladder_0/b 4864
+C alt_alu_slice_0[1]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[1]/fulladder_0/s 1351
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_7# 481
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_26_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_7# 481
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_74# 668
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_26_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_74# 668
+C alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# GND 3.8
+R alt_alu_slice_0[0]/mux4_dp_1x_0/a_39_7# 1123
+C alt_alu_slice_0[0]/inv_1x_0/y GND 5.6
+R alt_alu_slice_0[0]/inv_1x_0/y 1335
+C alt_alu_slice_0[0]/inv_1x_1/y GND 4.0
+R alt_alu_slice_0[0]/inv_1x_1/y 2525
+R b_0_ 3065
+R alt_alu_slice_0[0]/fulladder_0/a_85_7# 110
+R alt_alu_slice_0[0]/fulladder_0/a_77_7# 110
+R alt_alu_slice_0[0]/fulladder_0/a_45_7# 494
+R alt_alu_slice_0[0]/fulladder_0/a_29_7# 110
+R alt_alu_slice_0[0]/fulladder_0/a_n2_7# 504
+R alt_alu_slice_0[0]/fulladder_0/a_85_65# 281
+R alt_alu_slice_0[0]/fulladder_0/a_77_65# 281
+R alt_alu_slice_0[0]/fulladder_0/a_45_65# 838
+R alt_alu_slice_0[0]/fulladder_0/a_29_65# 281
+R alt_alu_slice_0[0]/fulladder_0/a_n2_65# 883
+C alt_alu_slice_0[0]/fulladder_0/a_69_7# GND 2.4
+R alt_alu_slice_0[0]/fulladder_0/a_69_7# 1250
+C alt_alu_slice_0[0]/fulladder_0/a_21_7# GND 5.8
+R alt_alu_slice_0[0]/fulladder_0/a_21_7# 2154
+C op2 GND 6.7
+R op2 2667
+R a_0_ 5507
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_55_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_7# 481
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_7# 164
+R Gnd! 214857
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_7# 164
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# 481
+C result_0_ GND 15.4
+R result_0_ 1214
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_55_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_74# 668
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# 316
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# 668
+C alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# GND 3.8
+R alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 1123
+R alt_alu_slice_0[0]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[0]/fulladder_0/b GND 9.9
+R alt_alu_slice_0[0]/fulladder_0/b 4864
+C alt_alu_slice_0[0]/fulladder_0/s GND 4.2
+R alt_alu_slice_0[0]/fulladder_0/s 1351
+R Vdd! 253789
