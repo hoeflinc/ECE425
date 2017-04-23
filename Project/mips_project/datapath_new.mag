@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492982199
+timestamp 1492982568
 << metal1 >>
 rect -243 1302 3033 1304
 rect -179 1298 2969 1302
@@ -1420,6 +1420,11 @@ rect 1980 368 1981 372
 rect 1975 367 1981 368
 rect 2176 363 2180 372
 rect 2216 367 2220 1312
+rect 2271 884 2275 1312
+rect 2279 884 2283 1312
+rect 2311 884 2315 1312
+rect 2327 884 2331 1312
+rect 2344 884 2348 1312
 rect 2969 1302 3033 1343
 rect 2969 1192 3033 1298
 rect 2969 1082 3033 1188
@@ -2675,53 +2680,53 @@ rlabel metal2 1633 1310 1633 1310 1 alusrcb_1_
 rlabel metal2 1601 1310 1601 1310 1 alusrcb_0_
 rlabel metal2 961 1310 961 1310 1 regwrite
 rlabel metal2 794 1309 794 1309 1 regdst
-rlabel metal2 753 1309 753 1309 1 funct_0_
-rlabel metal2 746 1308 746 1308 1 funct_1_
-rlabel metal2 738 1311 738 1311 1 funct_2_
-rlabel metal2 730 1309 730 1309 1 funct_3_
-rlabel metal2 722 1310 722 1310 1 funct_4_
-rlabel metal2 714 1309 714 1309 1 funct_5_
-rlabel metal2 698 1310 698 1310 1 memtoreg
-rlabel metal2 586 1310 586 1310 1 irwrite_0_
-rlabel metal2 426 1310 426 1310 1 irwrite_1_
-rlabel metal2 242 1310 242 1310 1 irwrite_2_
-rlabel metal2 226 1310 226 1310 1 op_0_
-rlabel metal2 218 1308 218 1308 1 op_1_
-rlabel metal2 210 1311 210 1311 1 op_2_
-rlabel metal2 202 1309 202 1309 1 op_3_
-rlabel metal2 194 1310 194 1310 1 op_4_
-rlabel metal2 186 1309 186 1309 1 op_5_
-rlabel metal2 58 1310 58 1310 1 irwrite_3_
-rlabel metal2 2 1310 2 1310 1 iord
-rlabel metal2 -22 1309 -22 1309 1 ph2
-rlabel metal2 -30 1310 -30 1310 1 ph1
-rlabel metal2 -38 1308 -38 1308 1 reset
-rlabel metal2 -125 1326 -125 1326 1 Gnd!
-rlabel metal2 -213 1327 -213 1327 1 Vdd!
-rlabel metal3 -15 60 -15 60 1 adr0
-rlabel metal3 -15 70 -15 70 1 writedata0
-rlabel metal3 -14 80 -14 80 1 memdata0
-rlabel metal3 -15 170 -15 170 1 adr1
-rlabel metal3 -15 180 -15 180 1 writedata1
-rlabel metal3 -14 190 -14 190 1 memdata1
-rlabel metal3 -14 280 -14 280 1 adr2
-rlabel metal3 -14 290 -14 290 1 writedata2
-rlabel metal3 -13 300 -13 300 1 memdata2
-rlabel metal3 -14 390 -14 390 1 adr3
-rlabel metal3 -13 400 -13 400 1 writedata3
-rlabel metal3 -14 409 -14 409 1 memdata3
-rlabel metal3 -14 500 -14 500 1 adr4
-rlabel metal3 -14 510 -14 510 1 writedata4
-rlabel metal3 -14 519 -14 519 1 memdata4
-rlabel metal3 -15 610 -15 610 1 adr5
-rlabel metal3 -15 619 -15 619 1 writedata5
-rlabel metal3 -14 630 -14 630 1 memdata5
-rlabel metal3 -14 721 -14 721 1 adr6
-rlabel metal3 -15 729 -15 729 1 writedata6
-rlabel metal3 -15 739 -15 739 1 memdata6
-rlabel metal3 -13 831 -13 831 1 adr7
-rlabel metal3 -13 839 -13 839 1 writedata7
-rlabel metal3 -13 850 -13 850 1 memdata7
 rlabel metal2 3090 1316 3090 1316 1 Gnd!
 rlabel metal2 3000 1327 3000 1327 1 Vdd!
+rlabel metal3 -13 850 -13 850 1 memdata7
+rlabel metal3 -13 839 -13 839 1 writedata7
+rlabel metal3 -13 831 -13 831 1 adr7
+rlabel metal3 -15 739 -15 739 1 memdata6
+rlabel metal3 -15 729 -15 729 1 writedata6
+rlabel metal3 -14 721 -14 721 1 adr6
+rlabel metal3 -14 630 -14 630 1 memdata5
+rlabel metal3 -15 619 -15 619 1 writedata5
+rlabel metal3 -15 610 -15 610 1 adr5
+rlabel metal3 -14 519 -14 519 1 memdata4
+rlabel metal3 -14 510 -14 510 1 writedata4
+rlabel metal3 -14 500 -14 500 1 adr4
+rlabel metal3 -14 409 -14 409 1 memdata3
+rlabel metal3 -13 400 -13 400 1 writedata3
+rlabel metal3 -14 390 -14 390 1 adr3
+rlabel metal3 -13 300 -13 300 1 memdata2
+rlabel metal3 -14 290 -14 290 1 writedata2
+rlabel metal3 -14 280 -14 280 1 adr2
+rlabel metal3 -14 190 -14 190 1 memdata1
+rlabel metal3 -15 180 -15 180 1 writedata1
+rlabel metal3 -15 170 -15 170 1 adr1
+rlabel metal3 -14 80 -14 80 1 memdata0
+rlabel metal3 -15 70 -15 70 1 writedata0
+rlabel metal3 -15 60 -15 60 1 adr0
+rlabel metal2 -213 1327 -213 1327 1 Vdd!
+rlabel metal2 -125 1326 -125 1326 1 Gnd!
+rlabel metal2 -38 1308 -38 1308 1 reset
+rlabel metal2 -30 1310 -30 1310 1 ph1
+rlabel metal2 -22 1309 -22 1309 1 ph2
+rlabel metal2 2 1310 2 1310 1 iord
+rlabel metal2 58 1310 58 1310 1 irwrite_3_
+rlabel metal2 186 1309 186 1309 1 op_5_
+rlabel metal2 194 1310 194 1310 1 op_4_
+rlabel metal2 202 1309 202 1309 1 op_3_
+rlabel metal2 210 1311 210 1311 1 op_2_
+rlabel metal2 218 1308 218 1308 1 op_1_
+rlabel metal2 226 1310 226 1310 1 op_0_
+rlabel metal2 242 1310 242 1310 1 irwrite_2_
+rlabel metal2 426 1310 426 1310 1 irwrite_1_
+rlabel metal2 586 1310 586 1310 1 irwrite_0_
+rlabel metal2 698 1310 698 1310 1 memtoreg
+rlabel metal2 714 1309 714 1309 1 funct_5_
+rlabel metal2 722 1310 722 1310 1 funct_4_
+rlabel metal2 730 1309 730 1309 1 funct_3_
+rlabel metal2 738 1311 738 1311 1 funct_2_
+rlabel metal2 746 1308 746 1308 1 funct_1_
+rlabel metal2 753 1309 753 1309 1 funct_0_
 << end >>
