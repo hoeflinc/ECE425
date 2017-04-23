@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492538037
+timestamp 1492970995
 << m2contact >>
 rect 30 62 34 67
 rect 14 53 18 57
@@ -13,10 +13,12 @@ rect 70 36 74 57
 rect 86 38 90 53
 rect 118 26 122 64
 rect 142 36 146 40
-rect 278 36 282 47
-rect 286 46 290 56
+rect 246 16 250 19
 rect 6 6 10 12
-rect 342 6 346 46
+rect 294 16 298 42
+rect 302 38 306 42
+rect 246 11 250 12
+rect 374 6 378 45
 << m3contact >>
 rect 6 82 10 86
 rect 22 72 26 76
@@ -29,14 +31,14 @@ rect 70 32 74 36
 rect 22 22 26 26
 rect 135 42 139 46
 rect 150 42 154 46
-rect 286 42 290 46
+rect 302 42 306 46
 rect 142 32 146 36
-rect 246 32 250 36
-rect 278 32 282 36
 rect 118 22 122 26
 rect 6 12 10 16
+rect 246 12 250 16
+rect 294 12 298 16
 rect 6 2 10 6
-rect 342 2 346 6
+rect 374 2 378 6
 << metal3 >>
 rect -5 86 13 87
 rect -5 82 6 86
@@ -57,23 +59,18 @@ rect 13 53 14 57
 rect 18 53 86 57
 rect 90 53 91 57
 rect 13 52 91 53
-rect 134 46 291 47
+rect 134 46 307 47
 rect 134 42 135 46
 rect 139 42 150 46
-rect 154 42 286 46
-rect 290 42 291 46
-rect 134 41 291 42
+rect 154 42 302 46
+rect 306 42 307 46
+rect 134 41 307 42
 rect 5 36 147 37
 rect 5 32 6 36
 rect 10 32 70 36
 rect 74 32 142 36
 rect 146 32 147 36
 rect 5 31 147 32
-rect 245 36 283 37
-rect 245 32 246 36
-rect 250 32 278 36
-rect 282 32 283 36
-rect 245 31 283 32
 rect 21 26 123 27
 rect 21 22 22 26
 rect 26 22 118 26
@@ -83,11 +80,16 @@ rect -5 16 11 17
 rect -5 12 6 16
 rect 10 12 11 16
 rect -5 11 11 12
-rect 5 6 347 7
+rect 245 16 299 17
+rect 245 12 246 16
+rect 250 12 294 16
+rect 298 12 299 16
+rect 245 11 299 12
+rect 5 6 379 7
 rect 5 2 6 6
-rect 10 2 342 6
-rect 346 2 347 6
-rect 5 1 347 2
+rect 10 2 374 6
+rect 378 2 379 6
+rect 5 1 379 2
 use inv_1x  inv_1x_0
 timestamp 1484418501
 transform 1 0 6 0 1 4
@@ -104,10 +106,10 @@ use fulladder  fulladder_0
 timestamp 1484419411
 transform 1 0 144 0 1 4
 box -8 -4 128 96
-use mux3_dp_1x  mux3_dp_1x_0
-timestamp 1484514831
-transform 1 0 270 0 1 4
-box -6 -4 82 96
+use mux4_dp_1x  mux4_dp_1x_1
+timestamp 1484419186
+transform 1 0 278 0 1 4
+box -6 -4 106 96
 << labels >>
 rlabel metal3 -3 75 -3 75 3 b
 rlabel metal3 -2 14 -2 14 3 result

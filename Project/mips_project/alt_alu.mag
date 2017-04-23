@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492540757
+timestamp 1492970995
 << metal1 >>
 rect 276 970 284 978
 rect 276 880 284 888
@@ -172,9 +172,9 @@ transform 1 0 -25 0 1 4
 box -8 -4 28 756
 use alt_alu_slice  alt_alu_slice_0
 array 0 0 55 0 7 110
-timestamp 1492538037
+timestamp 1492970995
 transform 1 0 0 0 1 0
-box -5 0 352 100
+box -5 0 384 100
 << labels >>
 rlabel metal2 129 886 129 886 5 op2
 rlabel metal2 56 886 56 886 5 op6
