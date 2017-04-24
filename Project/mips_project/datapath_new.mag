@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492982568
+timestamp 1493055139
 << metal1 >>
 rect -243 1302 3033 1304
 rect -179 1298 2969 1302
@@ -240,6 +240,8 @@ rect 2479 2 3123 4
 rect 2479 -2 3059 2
 rect 2479 -4 3123 -2
 << m2contact >>
+rect 2751 1640 2755 1644
+rect 2808 1640 2812 1644
 rect -243 1298 -179 1302
 rect 2969 1298 3033 1302
 rect -153 1208 -89 1212
@@ -1425,6 +1427,8 @@ rect 2279 884 2283 1312
 rect 2311 884 2315 1312
 rect 2327 884 2331 1312
 rect 2344 884 2348 1312
+rect 2463 982 2467 1312
+rect 2503 982 2507 1312
 rect 2969 1302 3033 1343
 rect 2969 1192 3033 1298
 rect 2969 1082 3033 1188
@@ -2679,9 +2683,42 @@ rlabel metal2 1809 1309 1809 1309 1 alusrca
 rlabel metal2 1633 1310 1633 1310 1 alusrcb_1_
 rlabel metal2 1601 1310 1601 1310 1 alusrcb_0_
 rlabel metal2 961 1310 961 1310 1 regwrite
-rlabel metal2 794 1309 794 1309 1 regdst
 rlabel metal2 3090 1316 3090 1316 1 Gnd!
 rlabel metal2 3000 1327 3000 1327 1 Vdd!
+rlabel m2contact 2751 1640 2755 1644 5 op8
+rlabel m2contact 2808 1640 2812 1644 5 op7
+rlabel metal2 2273 1310 2273 1310 1 op6
+rlabel metal2 2281 1310 2281 1310 1 op5
+rlabel metal2 2313 1310 2313 1310 1 op4
+rlabel metal2 2329 1310 2329 1310 1 op3
+rlabel metal2 2346 1310 2346 1310 1 op2
+rlabel metal2 2465 1310 2465 1310 1 op0
+rlabel metal2 2505 1310 2505 1310 1 op1
+rlabel metal3 2182 850 2182 850 1 a7
+rlabel metal3 2182 840 2182 840 1 b7
+rlabel metal3 2181 780 2181 780 1 result7
+rlabel metal3 2181 740 2181 740 1 a6
+rlabel metal3 2181 730 2181 730 1 b6
+rlabel metal3 2181 670 2181 670 1 result6
+rlabel metal3 2181 630 2181 630 1 a5
+rlabel metal3 2181 620 2181 620 1 b5
+rlabel metal3 2180 560 2180 560 1 result5
+rlabel metal3 2180 520 2180 520 1 a4
+rlabel metal3 2180 510 2180 510 1 b4
+rlabel metal3 2179 450 2179 450 1 result4
+rlabel metal3 2179 410 2179 410 1 a3
+rlabel metal3 2179 400 2179 400 1 b3
+rlabel metal3 2181 340 2181 340 1 result3
+rlabel metal3 2180 300 2180 300 1 a2
+rlabel metal3 2180 290 2180 290 1 b2
+rlabel metal3 2180 230 2180 230 1 result2
+rlabel metal3 2181 190 2181 190 1 a1
+rlabel metal3 2181 180 2181 180 1 b1
+rlabel metal3 2181 120 2181 120 1 result1
+rlabel metal3 2181 80 2181 80 1 a0
+rlabel metal3 2181 70 2181 70 1 b0
+rlabel metal3 2181 10 2181 10 1 result0
+rlabel metal2 794 1309 794 1309 1 regdst
 rlabel metal3 -13 850 -13 850 1 memdata7
 rlabel metal3 -13 839 -13 839 1 writedata7
 rlabel metal3 -13 831 -13 831 1 adr7
