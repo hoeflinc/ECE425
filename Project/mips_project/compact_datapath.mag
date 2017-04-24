@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493063150
+timestamp 1493055139
 << metal1 >>
 rect -243 1302 3033 1304
 rect -179 1298 2969 1302
@@ -2663,7 +2663,7 @@ timestamp 1484532171
 transform 1 0 2040 0 1 0
 box -6 -4 147 976
 use alt_alu  alt_alu_0
-timestamp 1493063150
+timestamp 1492981790
 transform 1 0 2217 0 1 -4
 box -33 0 377 986
 use shifter  shifter_0

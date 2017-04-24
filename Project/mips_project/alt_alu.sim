@@ -643,95 +643,95 @@ p op0 Vdd! invbuf_4x_0/sb_out 2 37 251 930
 p invbuf_4x_0/sb_out Vdd! invbuf_4x_0/s_out 2 37 267 930
 n op0 Gnd! invbuf_4x_0/sb_out 2 27 251 891
 n invbuf_4x_0/sb_out Gnd! invbuf_4x_0/s_out 2 27 267 891
-C yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
-C op6 Vdd! 6.1
-C Vdd! alt_alu_slice_0[6]/fulladder_0/c 10.4
-C Vdd! result_0_ 3.1
-C Gnd! result_7_ 2.3
-C Vdd! yzdetect_8_0/nor2_1x_2/a 3.5
-C Vdd! alt_alu_slice_0[7]/inv_1x_0/y 2.9
-C invbuf_4x_0/sb_out invbuf_4x_1/sb_out 2.1
-C Gnd! result_1_ 2.4
-C alt_alu_slice_0[4]/fulladder_0/c Vdd! 10.4
-C Gnd! invbuf_4x_0/sb_out 2.7
-C invbuf_4x_1/s_out invbuf_4x_1/sb_out 2.4
-C b_7_ Vdd! 5.9
-C invbuf_4x_0/s_out invbuf_4x_1/sb_out 2.6
-C Vdd! alt_alu_slice_0[3]/fulladder_0/b 6.5
-C alt_alu_slice_0[0]/inv_1x_0/y Vdd! 2.9
-C Vdd! a_7_ 4.2
-C invbuf_4x_0/s_out Gnd! 2.2
-C Gnd! result_5_ 2.5
+C Vdd! a_4_ 4.3
+C alt_alu_slice_0[5]/fulladder_0/b Vdd! 6.5
+C Vdd! alt_alu_slice_0[4]/inv_1x_1/y 7.1
+C b_6_ Vdd! 6.0
+C Vdd! alt_alu_slice_0[4]/fulladder_0/b 6.5
 C Vdd! a_0_ 4.3
-C b_3_ Vdd! 6.0
-C a_4_ Vdd! 4.3
-C alt_alu_slice_0[0]/fulladder_0/b Vdd! 6.5
-C yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
-C op3 Vdd! 6.5
-C Vdd! invbuf_4x_1/sb_out 7.8
-C Vdd! alt_alu_slice_0[7]/inv_1x_1/y 7.1
-C Vdd! alt_alu_slice_0[6]/inv_1x_0/y 2.9
-C Vdd! alt_alu_slice_0[5]/fulladder_0/c 10.4
+C result_6_ Gnd! 2.4
+C Vdd! alt_alu_slice_0[6]/fulladder_0/b 6.5
+C Vdd! a_6_ 4.3
+C Vdd! a_2_ 4.3
+C Vdd! yzdetect_8_0/nor2_1x_2/b 3.1
+C result_7_ Vdd! 2.8
+C Gnd! result_3_ 2.5
+C result_0_ Gnd! 2.7
+C Vdd! alt_alu_slice_0[3]/inv_1x_1/y 7.1
+C Vdd! alt_alu_slice_0[0]/inv_1x_0/y 2.9
 C Vdd! b_4_ 6.0
-C Vdd! Gnd! 9.7
-C Vdd! b_5_ 6.0
-C a_5_ Vdd! 4.3
-C alt_alu_slice_0[4]/inv_1x_1/y Vdd! 7.1
-C result_3_ Vdd! 2.8
-C alt_alu_slice_0[0]/inv_1x_1/y Vdd! 7.1
+C Gnd! invbuf_4x_0/s_out 2.2
+C Vdd! result_5_ 2.9
+C Vdd! a_1_ 4.3
+C Vdd! op5 6.1
+C Vdd! alt_alu_slice_0[1]/fulladder_0/b 6.5
+C alt_alu_slice_0[6]/inv_1x_0/y Vdd! 2.9
+C a_7_ Vdd! 4.2
+C Vdd! alt_alu_slice_0[1]/inv_1x_0/y 2.9
+C alt_alu_slice_0[7]/fulladder_0/cout Vdd! 6.0
+C Vdd! result_4_ 3.1
+C b_0_ Vdd! 6.0
 C Vdd! b_1_ 6.0
 C Gnd! result_2_ 2.4
-C Vdd! yzdetect_8_0/nor2_1x_0/y 2.7
-C Vdd! alt_alu_slice_0[7]/fulladder_0/b 6.5
-C invbuf_4x_1/s_out invbuf_4x_0/sb_out 3.7
-C op4 Vdd! 12.4
-C Vdd! op2 7.4
-C invbuf_4x_0/s_out invbuf_4x_0/sb_out 5.5
-C Vdd! alt_alu_slice_0[2]/inv_1x_0/y 2.9
-C Vdd! result_7_ 2.8
-C result_6_ Gnd! 2.4
 C invbuf_4x_0/s_out invbuf_4x_1/s_out 2.6
-C Vdd! alt_alu_slice_0[6]/inv_1x_1/y 7.1
-C Vdd! alt_alu_slice_0[3]/inv_1x_1/y 7.1
-C Vdd! alt_alu_slice_0[1]/fulladder_0/b 6.5
-C yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
-C alt_alu_slice_0[5]/inv_1x_1/y Vdd! 7.1
-C Vdd! result_1_ 2.8
-C Vdd! alt_alu_slice_0[6]/fulladder_0/b 6.5
-C Vdd! invbuf_4x_0/sb_out 43.4
-C a_2_ Vdd! 4.3
-C Vdd! yzdetect_8_0/nor2_1x_2/b 3.1
-C a_3_ Vdd! 4.3
-C alt_alu_slice_0[7]/fulladder_0/cout Vdd! 6.0
-C result_4_ Gnd! 2.4
-C Vdd! a_1_ 4.3
-C Vdd! alt_alu_slice_0[2]/fulladder_0/b 6.5
-C invbuf_4x_1/s_out Vdd! 13.5
 C Vdd! alt_alu_slice_0[7]/fulladder_0/c 10.4
-C invbuf_4x_0/s_out Vdd! 41.4
-C Vdd! result_5_ 2.9
-C alt_alu_slice_0[4]/fulladder_0/b Vdd! 6.5
-C Gnd! result_0_ 2.7
-C Vdd! alt_alu_slice_0[1]/fulladder_0/c 10.4
-C Vdd! result_2_ 3.1
-C alt_alu_slice_0[5]/inv_1x_0/y Vdd! 2.9
-C Vdd! b_0_ 6.0
-C Vdd! alt_alu_slice_0[2]/fulladder_0/c 10.4
-C alt_alu_slice_0[1]/inv_1x_1/y Vdd! 7.1
-C Vdd! b_2_ 6.0
-C result_6_ Vdd! 3.1
-C alt_alu_slice_0[4]/inv_1x_0/y Vdd! 2.9
-C Vdd! alt_alu_slice_0[1]/inv_1x_0/y 2.9
-C Vdd! alt_alu_slice_0[0]/mux4_dp_1x_1/d2 4.3
-C a_6_ Vdd! 4.3
-C Vdd! op5 6.1
-C alt_alu_slice_0[3]/fulladder_0/c Vdd! 10.4
+C Vdd! yzdetect_8_0/nor2_1x_4/y 2.5
+C b_3_ Vdd! 6.0
+C op2 Vdd! 7.4
+C op3 Vdd! 6.5
+C invbuf_4x_1/sb_out invbuf_4x_0/s_out 2.6
+C invbuf_4x_0/sb_out Gnd! 2.7
+C result_1_ Vdd! 2.8
+C invbuf_4x_1/sb_out invbuf_4x_1/s_out 2.4
 C Vdd! alt_alu_slice_0[2]/inv_1x_1/y 7.1
-C result_4_ Vdd! 3.1
-C Vdd! alt_alu_slice_0[5]/fulladder_0/b 6.5
-C result_3_ Gnd! 2.5
+C yzdetect_8_0/nor2_1x_0/y Vdd! 2.7
+C Vdd! alt_alu_slice_0[7]/inv_1x_1/y 7.1
+C invbuf_4x_0/sb_out invbuf_4x_0/s_out 5.5
+C Vdd! yzdetect_8_0/nor2_1x_2/a 3.5
+C invbuf_4x_0/sb_out invbuf_4x_1/s_out 3.7
+C alt_alu_slice_0[0]/inv_1x_1/y Vdd! 7.1
+C alt_alu_slice_0[0]/fulladder_0/b Vdd! 6.5
+C result_6_ Vdd! 3.1
+C result_7_ Gnd! 2.3
+C Vdd! alt_alu_slice_0[4]/inv_1x_0/y 2.9
+C invbuf_4x_0/sb_out invbuf_4x_1/sb_out 2.1
+C op6 Vdd! 6.1
+C Vdd! alt_alu_slice_0[2]/inv_1x_0/y 2.9
+C Vdd! alt_alu_slice_0[6]/fulladder_0/c 10.4
+C alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Vdd! 4.3
+C Vdd! result_3_ 2.8
+C Vdd! Gnd! 9.7
+C result_0_ Vdd! 3.1
+C Vdd! b_7_ 5.9
+C alt_alu_slice_0[5]/inv_1x_1/y Vdd! 7.1
+C Gnd! result_5_ 2.5
+C Vdd! alt_alu_slice_0[2]/fulladder_0/c 10.4
+C op4 Vdd! 12.4
+C Vdd! a_3_ 4.3
+C Vdd! alt_alu_slice_0[6]/inv_1x_1/y 7.1
+C Vdd! invbuf_4x_0/s_out 41.4
+C alt_alu_slice_0[1]/inv_1x_1/y Vdd! 7.1
+C Vdd! alt_alu_slice_0[5]/inv_1x_0/y 2.9
+C Vdd! alt_alu_slice_0[2]/fulladder_0/b 6.5
+C b_5_ Vdd! 6.0
+C alt_alu_slice_0[5]/fulladder_0/c Vdd! 10.4
+C Vdd! invbuf_4x_1/s_out 13.5
+C result_4_ Gnd! 2.4
+C Vdd! alt_alu_slice_0[7]/inv_1x_0/y 2.9
+C Vdd! b_2_ 6.0
+C a_5_ Vdd! 4.3
+C invbuf_4x_1/sb_out Vdd! 7.8
+C Vdd! alt_alu_slice_0[7]/fulladder_0/b 6.5
+C alt_alu_slice_0[4]/fulladder_0/c Vdd! 10.4
+C Vdd! result_2_ 3.1
+C Vdd! yzdetect_8_0/nor2_1x_1/y 3.2
+C Vdd! alt_alu_slice_0[3]/fulladder_0/b 6.5
+C result_1_ Gnd! 2.4
 C Vdd! alt_alu_slice_0[3]/inv_1x_0/y 2.9
-C b_6_ Vdd! 6.0
+C alt_alu_slice_0[3]/fulladder_0/c Vdd! 10.4
+C invbuf_4x_0/sb_out Vdd! 43.4
+C yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
+C Vdd! alt_alu_slice_0[1]/fulladder_0/c 10.4
 C invbuf_4x_0/s_out GND 49.3
 R invbuf_4x_0/s_out 18651
 C invbuf_4x_0/sb_out GND 38.0
@@ -790,7 +790,7 @@ C op5 GND 34.2
 R op5 7725
 C op6 GND 33.5
 R op6 7370
-R b_7_ 3065
+R b_7_ 3066
 R alt_alu_slice_0[7]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[7]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[7]/fulladder_0/a_45_7# 494
@@ -804,8 +804,8 @@ R alt_alu_slice_0[7]/fulladder_0/a_29_65# 281
 R alt_alu_slice_0[7]/fulladder_0/a_n2_65# 883
 C alt_alu_slice_0[7]/fulladder_0/a_69_7# GND 2.4
 R alt_alu_slice_0[7]/fulladder_0/a_69_7# 1250
-C alt_alu_slice_0[0]/mux4_dp_1x_1/d2 GND 9.8
-R alt_alu_slice_0[0]/mux4_dp_1x_1/d2 3152
+C alt_alu_slice_0[0]/mux4_dp_1x_1/d2 GND 9.9
+R alt_alu_slice_0[0]/mux4_dp_1x_1/d2 3153
 C alt_alu_slice_0[7]/fulladder_0/c GND 5.7
 R alt_alu_slice_0[7]/fulladder_0/c 3138
 R a_7_ 5507
@@ -825,7 +825,8 @@ R alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[7]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[7]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[7]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[7]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[7]/fulladder_0/b 4864
 C alt_alu_slice_0[7]/fulladder_0/s GND 4.2
@@ -848,7 +849,7 @@ C alt_alu_slice_0[6]/inv_1x_0/y GND 5.6
 R alt_alu_slice_0[6]/inv_1x_0/y 1335
 C alt_alu_slice_0[6]/inv_1x_1/y GND 4.0
 R alt_alu_slice_0[6]/inv_1x_1/y 2525
-R b_6_ 3065
+R b_6_ 3066
 R alt_alu_slice_0[6]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[6]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[6]/fulladder_0/a_45_7# 494
@@ -882,7 +883,8 @@ R alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[6]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[6]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[6]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[6]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[6]/fulladder_0/b 4864
 C alt_alu_slice_0[6]/fulladder_0/s GND 4.2
@@ -905,7 +907,7 @@ C alt_alu_slice_0[5]/inv_1x_0/y GND 5.6
 R alt_alu_slice_0[5]/inv_1x_0/y 1335
 C alt_alu_slice_0[5]/inv_1x_1/y GND 4.0
 R alt_alu_slice_0[5]/inv_1x_1/y 2525
-R b_5_ 3065
+R b_5_ 3066
 R alt_alu_slice_0[5]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[5]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[5]/fulladder_0/a_45_7# 494
@@ -939,7 +941,8 @@ R alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[5]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[5]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[5]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[5]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[5]/fulladder_0/b 4864
 C alt_alu_slice_0[5]/fulladder_0/s GND 4.2
@@ -962,7 +965,7 @@ C alt_alu_slice_0[4]/inv_1x_0/y GND 5.6
 R alt_alu_slice_0[4]/inv_1x_0/y 1335
 C alt_alu_slice_0[4]/inv_1x_1/y GND 4.0
 R alt_alu_slice_0[4]/inv_1x_1/y 2525
-R b_4_ 3065
+R b_4_ 3066
 R alt_alu_slice_0[4]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[4]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[4]/fulladder_0/a_45_7# 494
@@ -996,7 +999,8 @@ R alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[4]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[4]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[4]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[4]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[4]/fulladder_0/b 4864
 C alt_alu_slice_0[4]/fulladder_0/s GND 4.2
@@ -1053,7 +1057,8 @@ R alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[3]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[3]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[3]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[3]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[3]/fulladder_0/b 4864
 C alt_alu_slice_0[3]/fulladder_0/s GND 4.2
@@ -1076,7 +1081,7 @@ C alt_alu_slice_0[2]/inv_1x_0/y GND 5.6
 R alt_alu_slice_0[2]/inv_1x_0/y 1335
 C alt_alu_slice_0[2]/inv_1x_1/y GND 4.0
 R alt_alu_slice_0[2]/inv_1x_1/y 2525
-R b_2_ 3066
+R b_2_ 3067
 R alt_alu_slice_0[2]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[2]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[2]/fulladder_0/a_45_7# 494
@@ -1110,7 +1115,8 @@ R alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[2]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[2]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[2]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[2]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[2]/fulladder_0/b 4864
 C alt_alu_slice_0[2]/fulladder_0/s GND 4.2
@@ -1133,7 +1139,7 @@ C alt_alu_slice_0[1]/inv_1x_0/y GND 5.6
 R alt_alu_slice_0[1]/inv_1x_0/y 1335
 C alt_alu_slice_0[1]/inv_1x_1/y GND 4.0
 R alt_alu_slice_0[1]/inv_1x_1/y 2525
-R b_1_ 3065
+R b_1_ 3066
 R alt_alu_slice_0[1]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[1]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[1]/fulladder_0/a_45_7# 494
@@ -1167,7 +1173,8 @@ R alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[1]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[1]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[1]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[1]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[1]/fulladder_0/b 4864
 C alt_alu_slice_0[1]/fulladder_0/s GND 4.2
@@ -1190,7 +1197,7 @@ C alt_alu_slice_0[0]/inv_1x_0/y GND 5.6
 R alt_alu_slice_0[0]/inv_1x_0/y 1335
 C alt_alu_slice_0[0]/inv_1x_1/y GND 4.0
 R alt_alu_slice_0[0]/inv_1x_1/y 2525
-R b_0_ 3065
+R b_0_ 3066
 R alt_alu_slice_0[0]/fulladder_0/a_85_7# 110
 R alt_alu_slice_0[0]/fulladder_0/a_77_7# 110
 R alt_alu_slice_0[0]/fulladder_0/a_45_7# 494
@@ -1225,7 +1232,8 @@ R alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# 316
 R alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# 668
 C alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 1123
-R alt_alu_slice_0[0]/mux4_dp_1x_1/d3 947
+C alt_alu_slice_0[0]/mux4_dp_1x_1/d3 GND 2.8
+R alt_alu_slice_0[0]/mux4_dp_1x_1/d3 948
 C alt_alu_slice_0[0]/fulladder_0/b GND 9.9
 R alt_alu_slice_0[0]/fulladder_0/b 4864
 C alt_alu_slice_0[0]/fulladder_0/s GND 4.2
