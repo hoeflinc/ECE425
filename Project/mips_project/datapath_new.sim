@@ -1694,7 +1694,7 @@ n shifter_0/xor2_2x_0/a_2_8# shifter_0/xor2_2x_0/a_30_8# Gnd! 2 6 2800 1218
 n shifter_0/s2 Gnd! shifter_0/xor2_2x_0/a_13_46# 2 6 2808 1218
 n shifter_0/xor2_2x_0/yb Gnd! shifter_0/xor2_2x_0/y 2 14 2828 1218
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# 2 9 2498 74
-p s alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 74
+p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/s alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 74
 p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_74# 2 9 2511 74
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# 2 9 2516 74
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 2 9 2524 74
@@ -1705,7 +1705,7 @@ p shifter_0/y0 Vdd! alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_47_74# 2 9 2558 74
 p alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# Vdd! result0 2 10 2580 73
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_7# 2 6 2498 7
-n s alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 7
+n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/s alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 7
 n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_7# 2 6 2511 7
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# 2 6 2516 7
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 2 6 2524 7
@@ -1727,7 +1727,7 @@ p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[0]/
 p op2 alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_77_65# 2 16 2436 65
 p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_85_65# 2 16 2444 65
 p a0 alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_85_65# Vdd! 2 16 2452 65
-p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_69_7# Vdd! s 2 16 2460 65
+p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[0]/fulladder_0/s 2 16 2460 65
 p alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[1]/fulladder_0/c 2 16 2476 65
 n a0 alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_n2_7# Gnd! 2 8 2364 7
 n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_n2_7# 2 8 2372 7
@@ -1741,7 +1741,7 @@ n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[0]/
 n op2 alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_77_7# 2 8 2436 7
 n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_85_7# 2 8 2444 7
 n a0 alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_85_7# Gnd! 2 8 2452 7
-n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_69_7# Gnd! s 2 8 2460 7
+n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[0]/fulladder_0/s 2 8 2460 7
 n alt_alu_0/alt_alu_slice_0[0]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[1]/fulladder_0/c 2 8 2476 7
 p b0 alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_74# 2 9 2266 74
 p op6 alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 74
@@ -1770,7 +1770,7 @@ n b0 Gnd! alt_alu_0/alt_alu_slice_0[0]/inv_1x_1/y 2 7 2244 7
 p a0 Vdd! alt_alu_0/alt_alu_slice_0[0]/inv_1x_0/y 2 10 2228 73
 n a0 Gnd! alt_alu_0/alt_alu_slice_0[0]/inv_1x_0/y 2 7 2228 7
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# 2 9 2498 184
-p s alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 184
+p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/s alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 184
 p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_74# 2 9 2511 184
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# 2 9 2516 184
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 2 9 2524 184
@@ -1781,7 +1781,7 @@ p shifter_0/y1 Vdd! alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_47_74# 2 9 2558 184
 p alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# Vdd! result1 2 10 2580 183
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_7# 2 6 2498 117
-n s alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 117
+n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/s alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 117
 n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_7# 2 6 2511 117
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# 2 6 2516 117
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 2 6 2524 117
@@ -1803,7 +1803,7 @@ p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[1]/
 p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/c alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_77_65# 2 16 2436 175
 p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_85_65# 2 16 2444 175
 p a1 alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_85_65# Vdd! 2 16 2452 175
-p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_69_7# Vdd! s 2 16 2460 175
+p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[1]/fulladder_0/s 2 16 2460 175
 p alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[2]/fulladder_0/c 2 16 2476 175
 n a1 alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_n2_7# Gnd! 2 8 2364 117
 n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_n2_7# 2 8 2372 117
@@ -1817,7 +1817,7 @@ n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[1]/
 n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/c alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_77_7# 2 8 2436 117
 n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_85_7# 2 8 2444 117
 n a1 alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_85_7# Gnd! 2 8 2452 117
-n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_69_7# Gnd! s 2 8 2460 117
+n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[1]/fulladder_0/s 2 8 2460 117
 n alt_alu_0/alt_alu_slice_0[1]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[2]/fulladder_0/c 2 8 2476 117
 p b1 alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_74# 2 9 2266 184
 p op6 alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 184
@@ -1846,7 +1846,7 @@ n b1 Gnd! alt_alu_0/alt_alu_slice_0[1]/inv_1x_1/y 2 7 2244 117
 p a1 Vdd! alt_alu_0/alt_alu_slice_0[1]/inv_1x_0/y 2 10 2228 183
 n a1 Gnd! alt_alu_0/alt_alu_slice_0[1]/inv_1x_0/y 2 7 2228 117
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# 2 9 2498 294
-p s alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 294
+p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/s alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 294
 p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_74# 2 9 2511 294
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# 2 9 2516 294
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 2 9 2524 294
@@ -1857,7 +1857,7 @@ p shifter_0/y2 Vdd! alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_47_74# 2 9 2558 294
 p alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# Vdd! result2 2 10 2580 293
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_7# 2 6 2498 227
-n s alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 227
+n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/s alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 227
 n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_7# 2 6 2511 227
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# 2 6 2516 227
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 2 6 2524 227
@@ -1879,7 +1879,7 @@ p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[2]/
 p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/c alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_77_65# 2 16 2436 285
 p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_85_65# 2 16 2444 285
 p a2 alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_85_65# Vdd! 2 16 2452 285
-p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_69_7# Vdd! s 2 16 2460 285
+p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[2]/fulladder_0/s 2 16 2460 285
 p alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[3]/fulladder_0/c 2 16 2476 285
 n a2 alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_n2_7# Gnd! 2 8 2364 227
 n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_n2_7# 2 8 2372 227
@@ -1893,7 +1893,7 @@ n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[2]/
 n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/c alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_77_7# 2 8 2436 227
 n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_85_7# 2 8 2444 227
 n a2 alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_85_7# Gnd! 2 8 2452 227
-n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_69_7# Gnd! s 2 8 2460 227
+n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[2]/fulladder_0/s 2 8 2460 227
 n alt_alu_0/alt_alu_slice_0[2]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[3]/fulladder_0/c 2 8 2476 227
 p b2 alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_74# 2 9 2266 294
 p op6 alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 294
@@ -1922,7 +1922,7 @@ n b2 Gnd! alt_alu_0/alt_alu_slice_0[2]/inv_1x_1/y 2 7 2244 227
 p a2 Vdd! alt_alu_0/alt_alu_slice_0[2]/inv_1x_0/y 2 10 2228 293
 n a2 Gnd! alt_alu_0/alt_alu_slice_0[2]/inv_1x_0/y 2 7 2228 227
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# 2 9 2498 404
-p s alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 404
+p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/s alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 404
 p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_74# 2 9 2511 404
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# 2 9 2516 404
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 2 9 2524 404
@@ -1933,7 +1933,7 @@ p shifter_0/y3 Vdd! alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_47_74# 2 9 2558 404
 p alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# Vdd! result3 2 10 2580 403
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_7# 2 6 2498 337
-n s alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 337
+n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/s alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 337
 n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_7# 2 6 2511 337
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# 2 6 2516 337
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 2 6 2524 337
@@ -1955,7 +1955,7 @@ p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[3]/
 p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/c alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_77_65# 2 16 2436 395
 p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_85_65# 2 16 2444 395
 p a3 alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_85_65# Vdd! 2 16 2452 395
-p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_69_7# Vdd! s 2 16 2460 395
+p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[3]/fulladder_0/s 2 16 2460 395
 p alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[4]/fulladder_0/c 2 16 2476 395
 n a3 alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_n2_7# Gnd! 2 8 2364 337
 n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_n2_7# 2 8 2372 337
@@ -1969,7 +1969,7 @@ n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[3]/
 n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/c alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_77_7# 2 8 2436 337
 n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_85_7# 2 8 2444 337
 n a3 alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_85_7# Gnd! 2 8 2452 337
-n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_69_7# Gnd! s 2 8 2460 337
+n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[3]/fulladder_0/s 2 8 2460 337
 n alt_alu_0/alt_alu_slice_0[3]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[4]/fulladder_0/c 2 8 2476 337
 p b3 alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_74# 2 9 2266 404
 p op6 alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 404
@@ -1998,7 +1998,7 @@ n b3 Gnd! alt_alu_0/alt_alu_slice_0[3]/inv_1x_1/y 2 7 2244 337
 p a3 Vdd! alt_alu_0/alt_alu_slice_0[3]/inv_1x_0/y 2 10 2228 403
 n a3 Gnd! alt_alu_0/alt_alu_slice_0[3]/inv_1x_0/y 2 7 2228 337
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# 2 9 2498 514
-p s alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 514
+p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/s alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 514
 p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_74# 2 9 2511 514
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# 2 9 2516 514
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 2 9 2524 514
@@ -2009,7 +2009,7 @@ p shifter_0/y4 Vdd! alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_47_74# 2 9 2558 514
 p alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# Vdd! result4 2 10 2580 513
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_7# 2 6 2498 447
-n s alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 447
+n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/s alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 447
 n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_7# 2 6 2511 447
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# 2 6 2516 447
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 2 6 2524 447
@@ -2031,7 +2031,7 @@ p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[4]/
 p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/c alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_77_65# 2 16 2436 505
 p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_85_65# 2 16 2444 505
 p a4 alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_85_65# Vdd! 2 16 2452 505
-p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_69_7# Vdd! s 2 16 2460 505
+p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[4]/fulladder_0/s 2 16 2460 505
 p alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[5]/fulladder_0/c 2 16 2476 505
 n a4 alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_n2_7# Gnd! 2 8 2364 447
 n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_n2_7# 2 8 2372 447
@@ -2045,7 +2045,7 @@ n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[4]/
 n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/c alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_77_7# 2 8 2436 447
 n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_85_7# 2 8 2444 447
 n a4 alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_85_7# Gnd! 2 8 2452 447
-n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_69_7# Gnd! s 2 8 2460 447
+n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[4]/fulladder_0/s 2 8 2460 447
 n alt_alu_0/alt_alu_slice_0[4]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[5]/fulladder_0/c 2 8 2476 447
 p b4 alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_74# 2 9 2266 514
 p op6 alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 514
@@ -2074,7 +2074,7 @@ n b4 Gnd! alt_alu_0/alt_alu_slice_0[4]/inv_1x_1/y 2 7 2244 447
 p a4 Vdd! alt_alu_0/alt_alu_slice_0[4]/inv_1x_0/y 2 10 2228 513
 n a4 Gnd! alt_alu_0/alt_alu_slice_0[4]/inv_1x_0/y 2 7 2228 447
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# 2 9 2498 624
-p s alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 624
+p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/s alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 624
 p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_74# 2 9 2511 624
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# 2 9 2516 624
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 2 9 2524 624
@@ -2085,7 +2085,7 @@ p shifter_0/y5 Vdd! alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_47_74# 2 9 2558 624
 p alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# Vdd! result5 2 10 2580 623
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_7# 2 6 2498 557
-n s alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 557
+n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/s alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 557
 n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_7# 2 6 2511 557
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# 2 6 2516 557
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 2 6 2524 557
@@ -2107,7 +2107,7 @@ p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[5]/
 p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/c alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_77_65# 2 16 2436 615
 p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_85_65# 2 16 2444 615
 p a5 alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_85_65# Vdd! 2 16 2452 615
-p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_69_7# Vdd! s 2 16 2460 615
+p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[5]/fulladder_0/s 2 16 2460 615
 p alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[6]/fulladder_0/c 2 16 2476 615
 n a5 alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_n2_7# Gnd! 2 8 2364 557
 n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_n2_7# 2 8 2372 557
@@ -2121,7 +2121,7 @@ n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[5]/
 n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/c alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_77_7# 2 8 2436 557
 n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_85_7# 2 8 2444 557
 n a5 alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_85_7# Gnd! 2 8 2452 557
-n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_69_7# Gnd! s 2 8 2460 557
+n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[5]/fulladder_0/s 2 8 2460 557
 n alt_alu_0/alt_alu_slice_0[5]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[6]/fulladder_0/c 2 8 2476 557
 p b5 alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_74# 2 9 2266 624
 p op6 alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 624
@@ -2150,7 +2150,7 @@ n b5 Gnd! alt_alu_0/alt_alu_slice_0[5]/inv_1x_1/y 2 7 2244 557
 p a5 Vdd! alt_alu_0/alt_alu_slice_0[5]/inv_1x_0/y 2 10 2228 623
 n a5 Gnd! alt_alu_0/alt_alu_slice_0[5]/inv_1x_0/y 2 7 2228 557
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# 2 9 2498 734
-p s alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 734
+p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/s alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 734
 p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_74# 2 9 2511 734
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# 2 9 2516 734
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 2 9 2524 734
@@ -2161,7 +2161,7 @@ p shifter_0/y6 Vdd! alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_47_74# 2 9 2558 734
 p alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# Vdd! result6 2 10 2580 733
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_7# 2 6 2498 667
-n s alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 667
+n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/s alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 667
 n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_7# 2 6 2511 667
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# 2 6 2516 667
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 2 6 2524 667
@@ -2183,7 +2183,7 @@ p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[6]/
 p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/c alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_77_65# 2 16 2436 725
 p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_85_65# 2 16 2444 725
 p a6 alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_85_65# Vdd! 2 16 2452 725
-p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_69_7# Vdd! s 2 16 2460 725
+p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[6]/fulladder_0/s 2 16 2460 725
 p alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_21_7# Vdd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/c 2 16 2476 725
 n a6 alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_n2_7# Gnd! 2 8 2364 667
 n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_n2_7# 2 8 2372 667
@@ -2197,7 +2197,7 @@ n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_21_7# alt_alu_0/alt_alu_slice_0[6]/
 n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/c alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_77_7# 2 8 2436 667
 n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_85_7# 2 8 2444 667
 n a6 alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_85_7# Gnd! 2 8 2452 667
-n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_69_7# Gnd! s 2 8 2460 667
+n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[6]/fulladder_0/s 2 8 2460 667
 n alt_alu_0/alt_alu_slice_0[6]/fulladder_0/a_21_7# Gnd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/c 2 8 2476 667
 p b6 alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_74# 2 9 2266 734
 p op6 alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 734
@@ -2226,7 +2226,7 @@ n b6 Gnd! alt_alu_0/alt_alu_slice_0[6]/inv_1x_1/y 2 7 2244 667
 p a6 Vdd! alt_alu_0/alt_alu_slice_0[6]/inv_1x_0/y 2 10 2228 733
 n a6 Gnd! alt_alu_0/alt_alu_slice_0[6]/inv_1x_0/y 2 7 2228 667
 p alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# 2 9 2498 844
-p s alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 844
+p alt_alu_0/alt_alu_slice_0[7]/fulladder_0/s alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_74# Vdd! 2 9 2503 844
 p alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b Vdd! alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_74# 2 9 2511 844
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_74# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# 2 9 2516 844
 p alt_alu_0/invbuf_4x_1/s_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_74# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 2 9 2524 844
@@ -2237,7 +2237,7 @@ p shifter_0/y7 Vdd! alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_74# 2 9 2553 
 p alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_68_74# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_47_74# 2 9 2558 844
 p alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# Vdd! result7 2 10 2580 843
 n alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_7# 2 6 2498 777
-n s alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 777
+n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/s alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_13_7# Gnd! 2 6 2503 777
 n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_7# 2 6 2511 777
 n alt_alu_0/invbuf_4x_0/s_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_26_7# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# 2 6 2516 777
 n alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_6_7# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 2 6 2524 777
@@ -2259,7 +2259,7 @@ p alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_0/alt_alu_slice_0[7]/full
 p alt_alu_0/alt_alu_slice_0[7]/fulladder_0/c alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_77_65# 2 16 2436 835
 p alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_77_65# alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_85_65# 2 16 2444 835
 p a7 alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_85_65# Vdd! 2 16 2452 835
-p alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_69_7# Vdd! s 2 16 2460 835
+p alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_69_7# Vdd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/s 2 16 2460 835
 p alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Vdd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/cout 2 16 2476 835
 n a7 alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_n2_7# Gnd! 2 8 2364 777
 n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b Gnd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_n2_7# 2 8 2372 777
@@ -2273,7 +2273,7 @@ n alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/d2 alt_alu_0/alt_alu_slice_0[7]/full
 n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/c alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_69_7# alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_77_7# 2 8 2436 777
 n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_77_7# alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_85_7# 2 8 2444 777
 n a7 alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_85_7# Gnd! 2 8 2452 777
-n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_69_7# Gnd! s 2 8 2460 777
+n alt_alu_0/alt_alu_slice_0[7]/fulladder_0/a_69_7# Gnd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/s 2 8 2460 777
 n alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Gnd! alt_alu_0/alt_alu_slice_0[7]/fulladder_0/cout 2 8 2476 777
 p b7 alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_0/a_6_74# alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_74# 2 9 2266 844
 p op6 alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_0/a_13_74# Vdd! 2 9 2271 844
@@ -2889,88 +2889,88 @@ n ph2 flop_1x_8_3/flop_dp_1x_7/ph2b Gnd! 2 18 1885 887
 n flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Gnd! flop_1x_8_3/flop_dp_1x_7/ph2 2 18 1893 887
 p flop_1x_8_2/flop_dp_1x_7/q Vdd! mux2_1x_8_2/mux2_dp_1x_7/a_12_74# 2 9 1818 74
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_7/a_12_74# mux2_1x_8_2/mux2_dp_1x_7/a_17_7# 2 9 1823 74
-p s mux2_1x_8_2/mux2_dp_1x_7/a_17_7# mux2_1x_8_2/mux2_dp_1x_7/a_25_74# 2 9 1831 74
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_7/a_17_7# mux2_1x_8_2/mux2_dp_1x_7/a_25_74# 2 9 1831 74
 p mux2_1x_8_0/mux2_dp_1x_7/d0 mux2_1x_8_2/mux2_dp_1x_7/a_25_74# Vdd! 2 9 1836 74
 p mux2_1x_8_2/mux2_dp_1x_7/a_17_7# Vdd! a0 2 10 1844 73
 n flop_1x_8_2/flop_dp_1x_7/q Gnd! mux2_1x_8_2/mux2_dp_1x_7/a_12_7# 2 6 1818 7
-n s mux2_1x_8_2/mux2_dp_1x_7/a_12_7# mux2_1x_8_2/mux2_dp_1x_7/a_17_7# 2 6 1823 7
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_7/a_12_7# mux2_1x_8_2/mux2_dp_1x_7/a_17_7# 2 6 1823 7
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_7/a_17_7# mux2_1x_8_2/mux2_dp_1x_7/a_25_7# 2 6 1831 7
 n mux2_1x_8_0/mux2_dp_1x_7/d0 mux2_1x_8_2/mux2_dp_1x_7/a_25_7# Gnd! 2 6 1836 7
 n mux2_1x_8_2/mux2_dp_1x_7/a_17_7# Gnd! a0 2 7 1844 7
 p flop_1x_8_2/flop_dp_1x_6/q Vdd! mux2_1x_8_2/mux2_dp_1x_6/a_12_74# 2 9 1818 184
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_6/a_12_74# mux2_1x_8_2/mux2_dp_1x_6/a_17_7# 2 9 1823 184
-p s mux2_1x_8_2/mux2_dp_1x_6/a_17_7# mux2_1x_8_2/mux2_dp_1x_6/a_25_74# 2 9 1831 184
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_6/a_17_7# mux2_1x_8_2/mux2_dp_1x_6/a_25_74# 2 9 1831 184
 p mux2_1x_8_0/mux2_dp_1x_6/d0 mux2_1x_8_2/mux2_dp_1x_6/a_25_74# Vdd! 2 9 1836 184
 p mux2_1x_8_2/mux2_dp_1x_6/a_17_7# Vdd! a1 2 10 1844 183
 n flop_1x_8_2/flop_dp_1x_6/q Gnd! mux2_1x_8_2/mux2_dp_1x_6/a_12_7# 2 6 1818 117
-n s mux2_1x_8_2/mux2_dp_1x_6/a_12_7# mux2_1x_8_2/mux2_dp_1x_6/a_17_7# 2 6 1823 117
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_6/a_12_7# mux2_1x_8_2/mux2_dp_1x_6/a_17_7# 2 6 1823 117
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_6/a_17_7# mux2_1x_8_2/mux2_dp_1x_6/a_25_7# 2 6 1831 117
 n mux2_1x_8_0/mux2_dp_1x_6/d0 mux2_1x_8_2/mux2_dp_1x_6/a_25_7# Gnd! 2 6 1836 117
 n mux2_1x_8_2/mux2_dp_1x_6/a_17_7# Gnd! a1 2 7 1844 117
 p flop_1x_8_2/flop_dp_1x_5/q Vdd! mux2_1x_8_2/mux2_dp_1x_5/a_12_74# 2 9 1818 294
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_5/a_12_74# mux2_1x_8_2/mux2_dp_1x_5/a_17_7# 2 9 1823 294
-p s mux2_1x_8_2/mux2_dp_1x_5/a_17_7# mux2_1x_8_2/mux2_dp_1x_5/a_25_74# 2 9 1831 294
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_5/a_17_7# mux2_1x_8_2/mux2_dp_1x_5/a_25_74# 2 9 1831 294
 p mux2_1x_8_0/mux2_dp_1x_5/d0 mux2_1x_8_2/mux2_dp_1x_5/a_25_74# Vdd! 2 9 1836 294
 p mux2_1x_8_2/mux2_dp_1x_5/a_17_7# Vdd! a2 2 10 1844 293
 n flop_1x_8_2/flop_dp_1x_5/q Gnd! mux2_1x_8_2/mux2_dp_1x_5/a_12_7# 2 6 1818 227
-n s mux2_1x_8_2/mux2_dp_1x_5/a_12_7# mux2_1x_8_2/mux2_dp_1x_5/a_17_7# 2 6 1823 227
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_5/a_12_7# mux2_1x_8_2/mux2_dp_1x_5/a_17_7# 2 6 1823 227
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_5/a_17_7# mux2_1x_8_2/mux2_dp_1x_5/a_25_7# 2 6 1831 227
 n mux2_1x_8_0/mux2_dp_1x_5/d0 mux2_1x_8_2/mux2_dp_1x_5/a_25_7# Gnd! 2 6 1836 227
 n mux2_1x_8_2/mux2_dp_1x_5/a_17_7# Gnd! a2 2 7 1844 227
 p flop_1x_8_2/flop_dp_1x_4/q Vdd! mux2_1x_8_2/mux2_dp_1x_4/a_12_74# 2 9 1818 404
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_4/a_12_74# mux2_1x_8_2/mux2_dp_1x_4/a_17_7# 2 9 1823 404
-p s mux2_1x_8_2/mux2_dp_1x_4/a_17_7# mux2_1x_8_2/mux2_dp_1x_4/a_25_74# 2 9 1831 404
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_4/a_17_7# mux2_1x_8_2/mux2_dp_1x_4/a_25_74# 2 9 1831 404
 p mux2_1x_8_0/mux2_dp_1x_4/d0 mux2_1x_8_2/mux2_dp_1x_4/a_25_74# Vdd! 2 9 1836 404
 p mux2_1x_8_2/mux2_dp_1x_4/a_17_7# Vdd! a3 2 10 1844 403
 n flop_1x_8_2/flop_dp_1x_4/q Gnd! mux2_1x_8_2/mux2_dp_1x_4/a_12_7# 2 6 1818 337
-n s mux2_1x_8_2/mux2_dp_1x_4/a_12_7# mux2_1x_8_2/mux2_dp_1x_4/a_17_7# 2 6 1823 337
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_4/a_12_7# mux2_1x_8_2/mux2_dp_1x_4/a_17_7# 2 6 1823 337
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_4/a_17_7# mux2_1x_8_2/mux2_dp_1x_4/a_25_7# 2 6 1831 337
 n mux2_1x_8_0/mux2_dp_1x_4/d0 mux2_1x_8_2/mux2_dp_1x_4/a_25_7# Gnd! 2 6 1836 337
 n mux2_1x_8_2/mux2_dp_1x_4/a_17_7# Gnd! a3 2 7 1844 337
 p flop_1x_8_2/flop_dp_1x_3/q Vdd! mux2_1x_8_2/mux2_dp_1x_3/a_12_74# 2 9 1818 514
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_3/a_12_74# mux2_1x_8_2/mux2_dp_1x_3/a_17_7# 2 9 1823 514
-p s mux2_1x_8_2/mux2_dp_1x_3/a_17_7# mux2_1x_8_2/mux2_dp_1x_3/a_25_74# 2 9 1831 514
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_3/a_17_7# mux2_1x_8_2/mux2_dp_1x_3/a_25_74# 2 9 1831 514
 p mux2_1x_8_0/mux2_dp_1x_3/d0 mux2_1x_8_2/mux2_dp_1x_3/a_25_74# Vdd! 2 9 1836 514
 p mux2_1x_8_2/mux2_dp_1x_3/a_17_7# Vdd! a4 2 10 1844 513
 n flop_1x_8_2/flop_dp_1x_3/q Gnd! mux2_1x_8_2/mux2_dp_1x_3/a_12_7# 2 6 1818 447
-n s mux2_1x_8_2/mux2_dp_1x_3/a_12_7# mux2_1x_8_2/mux2_dp_1x_3/a_17_7# 2 6 1823 447
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_3/a_12_7# mux2_1x_8_2/mux2_dp_1x_3/a_17_7# 2 6 1823 447
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_3/a_17_7# mux2_1x_8_2/mux2_dp_1x_3/a_25_7# 2 6 1831 447
 n mux2_1x_8_0/mux2_dp_1x_3/d0 mux2_1x_8_2/mux2_dp_1x_3/a_25_7# Gnd! 2 6 1836 447
 n mux2_1x_8_2/mux2_dp_1x_3/a_17_7# Gnd! a4 2 7 1844 447
 p flop_1x_8_2/flop_dp_1x_2/q Vdd! mux2_1x_8_2/mux2_dp_1x_2/a_12_74# 2 9 1818 624
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_2/a_12_74# mux2_1x_8_2/mux2_dp_1x_2/a_17_7# 2 9 1823 624
-p s mux2_1x_8_2/mux2_dp_1x_2/a_17_7# mux2_1x_8_2/mux2_dp_1x_2/a_25_74# 2 9 1831 624
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_2/a_17_7# mux2_1x_8_2/mux2_dp_1x_2/a_25_74# 2 9 1831 624
 p mux2_1x_8_0/mux2_dp_1x_2/d0 mux2_1x_8_2/mux2_dp_1x_2/a_25_74# Vdd! 2 9 1836 624
 p mux2_1x_8_2/mux2_dp_1x_2/a_17_7# Vdd! a5 2 10 1844 623
 n flop_1x_8_2/flop_dp_1x_2/q Gnd! mux2_1x_8_2/mux2_dp_1x_2/a_12_7# 2 6 1818 557
-n s mux2_1x_8_2/mux2_dp_1x_2/a_12_7# mux2_1x_8_2/mux2_dp_1x_2/a_17_7# 2 6 1823 557
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_2/a_12_7# mux2_1x_8_2/mux2_dp_1x_2/a_17_7# 2 6 1823 557
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_2/a_17_7# mux2_1x_8_2/mux2_dp_1x_2/a_25_7# 2 6 1831 557
 n mux2_1x_8_0/mux2_dp_1x_2/d0 mux2_1x_8_2/mux2_dp_1x_2/a_25_7# Gnd! 2 6 1836 557
 n mux2_1x_8_2/mux2_dp_1x_2/a_17_7# Gnd! a5 2 7 1844 557
 p flop_1x_8_2/flop_dp_1x_1/q Vdd! mux2_1x_8_2/mux2_dp_1x_1/a_12_74# 2 9 1818 734
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_1/a_12_74# mux2_1x_8_2/mux2_dp_1x_1/a_17_7# 2 9 1823 734
-p s mux2_1x_8_2/mux2_dp_1x_1/a_17_7# mux2_1x_8_2/mux2_dp_1x_1/a_25_74# 2 9 1831 734
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_1/a_17_7# mux2_1x_8_2/mux2_dp_1x_1/a_25_74# 2 9 1831 734
 p mux2_1x_8_0/mux2_dp_1x_1/d0 mux2_1x_8_2/mux2_dp_1x_1/a_25_74# Vdd! 2 9 1836 734
 p mux2_1x_8_2/mux2_dp_1x_1/a_17_7# Vdd! a6 2 10 1844 733
 n flop_1x_8_2/flop_dp_1x_1/q Gnd! mux2_1x_8_2/mux2_dp_1x_1/a_12_7# 2 6 1818 667
-n s mux2_1x_8_2/mux2_dp_1x_1/a_12_7# mux2_1x_8_2/mux2_dp_1x_1/a_17_7# 2 6 1823 667
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_1/a_12_7# mux2_1x_8_2/mux2_dp_1x_1/a_17_7# 2 6 1823 667
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_1/a_17_7# mux2_1x_8_2/mux2_dp_1x_1/a_25_7# 2 6 1831 667
 n mux2_1x_8_0/mux2_dp_1x_1/d0 mux2_1x_8_2/mux2_dp_1x_1/a_25_7# Gnd! 2 6 1836 667
 n mux2_1x_8_2/mux2_dp_1x_1/a_17_7# Gnd! a6 2 7 1844 667
 p flop_1x_8_2/flop_dp_1x_0/q Vdd! mux2_1x_8_2/mux2_dp_1x_0/a_12_74# 2 9 1818 844
 p mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_0/a_12_74# mux2_1x_8_2/mux2_dp_1x_0/a_17_7# 2 9 1823 844
-p s mux2_1x_8_2/mux2_dp_1x_0/a_17_7# mux2_1x_8_2/mux2_dp_1x_0/a_25_74# 2 9 1831 844
+p mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_0/a_17_7# mux2_1x_8_2/mux2_dp_1x_0/a_25_74# 2 9 1831 844
 p mux2_1x_8_0/mux2_dp_1x_0/d0 mux2_1x_8_2/mux2_dp_1x_0/a_25_74# Vdd! 2 9 1836 844
 p mux2_1x_8_2/mux2_dp_1x_0/a_17_7# Vdd! a7 2 10 1844 843
 n flop_1x_8_2/flop_dp_1x_0/q Gnd! mux2_1x_8_2/mux2_dp_1x_0/a_12_7# 2 6 1818 777
-n s mux2_1x_8_2/mux2_dp_1x_0/a_12_7# mux2_1x_8_2/mux2_dp_1x_0/a_17_7# 2 6 1823 777
+n mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_0/a_12_7# mux2_1x_8_2/mux2_dp_1x_0/a_17_7# 2 6 1823 777
 n mux2_1x_8_2/mux2_dp_1x_7/sb mux2_1x_8_2/mux2_dp_1x_0/a_17_7# mux2_1x_8_2/mux2_dp_1x_0/a_25_7# 2 6 1831 777
 n mux2_1x_8_0/mux2_dp_1x_0/d0 mux2_1x_8_2/mux2_dp_1x_0/a_25_7# Gnd! 2 6 1836 777
 n mux2_1x_8_2/mux2_dp_1x_0/a_17_7# Gnd! a7 2 7 1844 777
 p alusrca Vdd! mux2_1x_8_2/mux2_dp_1x_7/sb 2 37 1813 926
-p mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! s 2 37 1829 926
+p mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! mux2_1x_8_2/mux2_dp_1x_7/s 2 37 1829 926
 n alusrca Gnd! mux2_1x_8_2/mux2_dp_1x_7/sb 2 27 1813 887
-n mux2_1x_8_2/mux2_dp_1x_7/sb Gnd! s 2 27 1829 887
+n mux2_1x_8_2/mux2_dp_1x_7/sb Gnd! mux2_1x_8_2/mux2_dp_1x_7/s 2 27 1829 887
 p regramarray_dp_0/r1_0_ Vdd! flop_1x_8_2/flop_dp_1x_7/masterinb 2 12 1709 71
 p flop_1x_8_2/flop_dp_1x_7/ph2b flop_1x_8_2/flop_dp_1x_7/masterinb flop_1x_8_2/flop_dp_1x_7/masterb 2 6 1725 77
 p flop_1x_8_2/flop_dp_1x_7/ph2 flop_1x_8_2/flop_dp_1x_7/masterb flop_1x_8_2/flop_dp_1x_7/a_71_79# 2 4 1733 79
@@ -3501,88 +3501,88 @@ n ph2 flop_1x_8_1/flop_dp_1x_7/ph2b Gnd! 2 18 1525 887
 n flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Gnd! flop_1x_8_1/flop_dp_1x_7/ph2 2 18 1533 887
 p flop_1x_8_0/flop_dp_1x_7/q Vdd! mux2_1x_8_1/mux2_dp_1x_7/a_12_74# 2 9 882 74
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_7/a_12_74# mux2_1x_8_1/mux2_dp_1x_7/a_17_7# 2 9 887 74
-p s mux2_1x_8_1/mux2_dp_1x_7/a_17_7# mux2_1x_8_1/mux2_dp_1x_7/a_25_74# 2 9 895 74
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_7/a_17_7# mux2_1x_8_1/mux2_dp_1x_7/a_25_74# 2 9 895 74
 p flop_1x_8_3/flop_dp_1x_7/q mux2_1x_8_1/mux2_dp_1x_7/a_25_74# Vdd! 2 9 900 74
 p mux2_1x_8_1/mux2_dp_1x_7/a_17_7# Vdd! regramarray_dp_0/w_0_ 2 10 908 73
 n flop_1x_8_0/flop_dp_1x_7/q Gnd! mux2_1x_8_1/mux2_dp_1x_7/a_12_7# 2 6 882 7
-n s mux2_1x_8_1/mux2_dp_1x_7/a_12_7# mux2_1x_8_1/mux2_dp_1x_7/a_17_7# 2 6 887 7
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_7/a_12_7# mux2_1x_8_1/mux2_dp_1x_7/a_17_7# 2 6 887 7
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_7/a_17_7# mux2_1x_8_1/mux2_dp_1x_7/a_25_7# 2 6 895 7
 n flop_1x_8_3/flop_dp_1x_7/q mux2_1x_8_1/mux2_dp_1x_7/a_25_7# Gnd! 2 6 900 7
 n mux2_1x_8_1/mux2_dp_1x_7/a_17_7# Gnd! regramarray_dp_0/w_0_ 2 7 908 7
 p flop_1x_8_0/flop_dp_1x_6/q Vdd! mux2_1x_8_1/mux2_dp_1x_6/a_12_74# 2 9 882 184
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_6/a_12_74# mux2_1x_8_1/mux2_dp_1x_6/a_17_7# 2 9 887 184
-p s mux2_1x_8_1/mux2_dp_1x_6/a_17_7# mux2_1x_8_1/mux2_dp_1x_6/a_25_74# 2 9 895 184
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_6/a_17_7# mux2_1x_8_1/mux2_dp_1x_6/a_25_74# 2 9 895 184
 p flop_1x_8_3/flop_dp_1x_6/q mux2_1x_8_1/mux2_dp_1x_6/a_25_74# Vdd! 2 9 900 184
 p mux2_1x_8_1/mux2_dp_1x_6/a_17_7# Vdd! regramarray_dp_0/w_1_ 2 10 908 183
 n flop_1x_8_0/flop_dp_1x_6/q Gnd! mux2_1x_8_1/mux2_dp_1x_6/a_12_7# 2 6 882 117
-n s mux2_1x_8_1/mux2_dp_1x_6/a_12_7# mux2_1x_8_1/mux2_dp_1x_6/a_17_7# 2 6 887 117
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_6/a_12_7# mux2_1x_8_1/mux2_dp_1x_6/a_17_7# 2 6 887 117
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_6/a_17_7# mux2_1x_8_1/mux2_dp_1x_6/a_25_7# 2 6 895 117
 n flop_1x_8_3/flop_dp_1x_6/q mux2_1x_8_1/mux2_dp_1x_6/a_25_7# Gnd! 2 6 900 117
 n mux2_1x_8_1/mux2_dp_1x_6/a_17_7# Gnd! regramarray_dp_0/w_1_ 2 7 908 117
 p flop_1x_8_0/flop_dp_1x_5/q Vdd! mux2_1x_8_1/mux2_dp_1x_5/a_12_74# 2 9 882 294
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_5/a_12_74# mux2_1x_8_1/mux2_dp_1x_5/a_17_7# 2 9 887 294
-p s mux2_1x_8_1/mux2_dp_1x_5/a_17_7# mux2_1x_8_1/mux2_dp_1x_5/a_25_74# 2 9 895 294
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_5/a_17_7# mux2_1x_8_1/mux2_dp_1x_5/a_25_74# 2 9 895 294
 p flop_1x_8_3/flop_dp_1x_5/q mux2_1x_8_1/mux2_dp_1x_5/a_25_74# Vdd! 2 9 900 294
 p mux2_1x_8_1/mux2_dp_1x_5/a_17_7# Vdd! regramarray_dp_0/w_2_ 2 10 908 293
 n flop_1x_8_0/flop_dp_1x_5/q Gnd! mux2_1x_8_1/mux2_dp_1x_5/a_12_7# 2 6 882 227
-n s mux2_1x_8_1/mux2_dp_1x_5/a_12_7# mux2_1x_8_1/mux2_dp_1x_5/a_17_7# 2 6 887 227
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_5/a_12_7# mux2_1x_8_1/mux2_dp_1x_5/a_17_7# 2 6 887 227
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_5/a_17_7# mux2_1x_8_1/mux2_dp_1x_5/a_25_7# 2 6 895 227
 n flop_1x_8_3/flop_dp_1x_5/q mux2_1x_8_1/mux2_dp_1x_5/a_25_7# Gnd! 2 6 900 227
 n mux2_1x_8_1/mux2_dp_1x_5/a_17_7# Gnd! regramarray_dp_0/w_2_ 2 7 908 227
 p flop_1x_8_0/flop_dp_1x_4/q Vdd! mux2_1x_8_1/mux2_dp_1x_4/a_12_74# 2 9 882 404
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_4/a_12_74# mux2_1x_8_1/mux2_dp_1x_4/a_17_7# 2 9 887 404
-p s mux2_1x_8_1/mux2_dp_1x_4/a_17_7# mux2_1x_8_1/mux2_dp_1x_4/a_25_74# 2 9 895 404
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_4/a_17_7# mux2_1x_8_1/mux2_dp_1x_4/a_25_74# 2 9 895 404
 p flop_1x_8_3/flop_dp_1x_4/q mux2_1x_8_1/mux2_dp_1x_4/a_25_74# Vdd! 2 9 900 404
 p mux2_1x_8_1/mux2_dp_1x_4/a_17_7# Vdd! regramarray_dp_0/w_3_ 2 10 908 403
 n flop_1x_8_0/flop_dp_1x_4/q Gnd! mux2_1x_8_1/mux2_dp_1x_4/a_12_7# 2 6 882 337
-n s mux2_1x_8_1/mux2_dp_1x_4/a_12_7# mux2_1x_8_1/mux2_dp_1x_4/a_17_7# 2 6 887 337
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_4/a_12_7# mux2_1x_8_1/mux2_dp_1x_4/a_17_7# 2 6 887 337
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_4/a_17_7# mux2_1x_8_1/mux2_dp_1x_4/a_25_7# 2 6 895 337
 n flop_1x_8_3/flop_dp_1x_4/q mux2_1x_8_1/mux2_dp_1x_4/a_25_7# Gnd! 2 6 900 337
 n mux2_1x_8_1/mux2_dp_1x_4/a_17_7# Gnd! regramarray_dp_0/w_3_ 2 7 908 337
 p flop_1x_8_0/flop_dp_1x_3/q Vdd! mux2_1x_8_1/mux2_dp_1x_3/a_12_74# 2 9 882 514
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_3/a_12_74# mux2_1x_8_1/mux2_dp_1x_3/a_17_7# 2 9 887 514
-p s mux2_1x_8_1/mux2_dp_1x_3/a_17_7# mux2_1x_8_1/mux2_dp_1x_3/a_25_74# 2 9 895 514
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_3/a_17_7# mux2_1x_8_1/mux2_dp_1x_3/a_25_74# 2 9 895 514
 p flop_1x_8_3/flop_dp_1x_3/q mux2_1x_8_1/mux2_dp_1x_3/a_25_74# Vdd! 2 9 900 514
 p mux2_1x_8_1/mux2_dp_1x_3/a_17_7# Vdd! regramarray_dp_0/w_4_ 2 10 908 513
 n flop_1x_8_0/flop_dp_1x_3/q Gnd! mux2_1x_8_1/mux2_dp_1x_3/a_12_7# 2 6 882 447
-n s mux2_1x_8_1/mux2_dp_1x_3/a_12_7# mux2_1x_8_1/mux2_dp_1x_3/a_17_7# 2 6 887 447
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_3/a_12_7# mux2_1x_8_1/mux2_dp_1x_3/a_17_7# 2 6 887 447
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_3/a_17_7# mux2_1x_8_1/mux2_dp_1x_3/a_25_7# 2 6 895 447
 n flop_1x_8_3/flop_dp_1x_3/q mux2_1x_8_1/mux2_dp_1x_3/a_25_7# Gnd! 2 6 900 447
 n mux2_1x_8_1/mux2_dp_1x_3/a_17_7# Gnd! regramarray_dp_0/w_4_ 2 7 908 447
 p flop_1x_8_0/flop_dp_1x_2/q Vdd! mux2_1x_8_1/mux2_dp_1x_2/a_12_74# 2 9 882 624
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_2/a_12_74# mux2_1x_8_1/mux2_dp_1x_2/a_17_7# 2 9 887 624
-p s mux2_1x_8_1/mux2_dp_1x_2/a_17_7# mux2_1x_8_1/mux2_dp_1x_2/a_25_74# 2 9 895 624
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_2/a_17_7# mux2_1x_8_1/mux2_dp_1x_2/a_25_74# 2 9 895 624
 p flop_1x_8_3/flop_dp_1x_2/q mux2_1x_8_1/mux2_dp_1x_2/a_25_74# Vdd! 2 9 900 624
 p mux2_1x_8_1/mux2_dp_1x_2/a_17_7# Vdd! regramarray_dp_0/w_5_ 2 10 908 623
 n flop_1x_8_0/flop_dp_1x_2/q Gnd! mux2_1x_8_1/mux2_dp_1x_2/a_12_7# 2 6 882 557
-n s mux2_1x_8_1/mux2_dp_1x_2/a_12_7# mux2_1x_8_1/mux2_dp_1x_2/a_17_7# 2 6 887 557
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_2/a_12_7# mux2_1x_8_1/mux2_dp_1x_2/a_17_7# 2 6 887 557
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_2/a_17_7# mux2_1x_8_1/mux2_dp_1x_2/a_25_7# 2 6 895 557
 n flop_1x_8_3/flop_dp_1x_2/q mux2_1x_8_1/mux2_dp_1x_2/a_25_7# Gnd! 2 6 900 557
 n mux2_1x_8_1/mux2_dp_1x_2/a_17_7# Gnd! regramarray_dp_0/w_5_ 2 7 908 557
 p flop_1x_8_0/flop_dp_1x_1/q Vdd! mux2_1x_8_1/mux2_dp_1x_1/a_12_74# 2 9 882 734
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_1/a_12_74# mux2_1x_8_1/mux2_dp_1x_1/a_17_7# 2 9 887 734
-p s mux2_1x_8_1/mux2_dp_1x_1/a_17_7# mux2_1x_8_1/mux2_dp_1x_1/a_25_74# 2 9 895 734
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_1/a_17_7# mux2_1x_8_1/mux2_dp_1x_1/a_25_74# 2 9 895 734
 p flop_1x_8_3/flop_dp_1x_1/q mux2_1x_8_1/mux2_dp_1x_1/a_25_74# Vdd! 2 9 900 734
 p mux2_1x_8_1/mux2_dp_1x_1/a_17_7# Vdd! regramarray_dp_0/w_6_ 2 10 908 733
 n flop_1x_8_0/flop_dp_1x_1/q Gnd! mux2_1x_8_1/mux2_dp_1x_1/a_12_7# 2 6 882 667
-n s mux2_1x_8_1/mux2_dp_1x_1/a_12_7# mux2_1x_8_1/mux2_dp_1x_1/a_17_7# 2 6 887 667
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_1/a_12_7# mux2_1x_8_1/mux2_dp_1x_1/a_17_7# 2 6 887 667
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_1/a_17_7# mux2_1x_8_1/mux2_dp_1x_1/a_25_7# 2 6 895 667
 n flop_1x_8_3/flop_dp_1x_1/q mux2_1x_8_1/mux2_dp_1x_1/a_25_7# Gnd! 2 6 900 667
 n mux2_1x_8_1/mux2_dp_1x_1/a_17_7# Gnd! regramarray_dp_0/w_6_ 2 7 908 667
 p flop_1x_8_0/flop_dp_1x_0/q Vdd! mux2_1x_8_1/mux2_dp_1x_0/a_12_74# 2 9 882 844
 p mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_0/a_12_74# mux2_1x_8_1/mux2_dp_1x_0/a_17_7# 2 9 887 844
-p s mux2_1x_8_1/mux2_dp_1x_0/a_17_7# mux2_1x_8_1/mux2_dp_1x_0/a_25_74# 2 9 895 844
+p mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_0/a_17_7# mux2_1x_8_1/mux2_dp_1x_0/a_25_74# 2 9 895 844
 p flop_1x_8_3/flop_dp_1x_0/q mux2_1x_8_1/mux2_dp_1x_0/a_25_74# Vdd! 2 9 900 844
 p mux2_1x_8_1/mux2_dp_1x_0/a_17_7# Vdd! regramarray_dp_0/w_7_ 2 10 908 843
 n flop_1x_8_0/flop_dp_1x_0/q Gnd! mux2_1x_8_1/mux2_dp_1x_0/a_12_7# 2 6 882 777
-n s mux2_1x_8_1/mux2_dp_1x_0/a_12_7# mux2_1x_8_1/mux2_dp_1x_0/a_17_7# 2 6 887 777
+n mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_0/a_12_7# mux2_1x_8_1/mux2_dp_1x_0/a_17_7# 2 6 887 777
 n mux2_1x_8_1/mux2_dp_1x_7/sb mux2_1x_8_1/mux2_dp_1x_0/a_17_7# mux2_1x_8_1/mux2_dp_1x_0/a_25_7# 2 6 895 777
 n flop_1x_8_3/flop_dp_1x_0/q mux2_1x_8_1/mux2_dp_1x_0/a_25_7# Gnd! 2 6 900 777
 n mux2_1x_8_1/mux2_dp_1x_0/a_17_7# Gnd! regramarray_dp_0/w_7_ 2 7 908 777
 p memtoreg Vdd! mux2_1x_8_1/mux2_dp_1x_7/sb 2 37 877 926
-p mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! s 2 37 893 926
+p mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! mux2_1x_8_1/mux2_dp_1x_7/s 2 37 893 926
 n memtoreg Gnd! mux2_1x_8_1/mux2_dp_1x_7/sb 2 27 877 887
-n mux2_1x_8_1/mux2_dp_1x_7/sb Gnd! s 2 27 893 887
+n mux2_1x_8_1/mux2_dp_1x_7/sb Gnd! mux2_1x_8_1/mux2_dp_1x_7/s 2 27 893 887
 p memdata0 Vdd! flop_1x_8_0/flop_dp_1x_7/masterinb 2 12 765 71
 p flop_1x_8_0/flop_dp_1x_7/ph2b flop_1x_8_0/flop_dp_1x_7/masterinb flop_1x_8_0/flop_dp_1x_7/masterb 2 6 781 77
 p flop_1x_8_0/flop_dp_1x_7/ph2 flop_1x_8_0/flop_dp_1x_7/masterb flop_1x_8_0/flop_dp_1x_7/a_71_79# 2 4 789 79
@@ -4653,88 +4653,88 @@ p irwrite_3_ Vdd! flopen_1x_8_0/inv_4x_0/y 2 37 61 926
 n irwrite_3_ Gnd! flopen_1x_8_0/inv_4x_0/y 2 27 61 887
 p flop_1x_8_3/flop_dp_1x_7/q Vdd! mux2_1x_8_0/mux2_dp_1x_7/a_12_74# 2 9 10 74
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_7/a_12_74# mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 9 15 74
-p s mux2_1x_8_0/mux2_dp_1x_7/a_17_7# mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 23 74
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_7/a_17_7# mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 23 74
 p mux2_1x_8_0/mux2_dp_1x_7/d0 mux2_1x_8_0/mux2_dp_1x_7/a_25_74# Vdd! 2 9 28 74
 p mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Vdd! adr0 2 10 36 73
 n flop_1x_8_3/flop_dp_1x_7/q Gnd! mux2_1x_8_0/mux2_dp_1x_7/a_12_7# 2 6 10 7
-n s mux2_1x_8_0/mux2_dp_1x_7/a_12_7# mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 15 7
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_7/a_12_7# mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 15 7
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_7/a_17_7# mux2_1x_8_0/mux2_dp_1x_7/a_25_7# 2 6 23 7
 n mux2_1x_8_0/mux2_dp_1x_7/d0 mux2_1x_8_0/mux2_dp_1x_7/a_25_7# Gnd! 2 6 28 7
 n mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Gnd! adr0 2 7 36 7
 p flop_1x_8_3/flop_dp_1x_6/q Vdd! mux2_1x_8_0/mux2_dp_1x_6/a_12_74# 2 9 10 184
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_6/a_12_74# mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 9 15 184
-p s mux2_1x_8_0/mux2_dp_1x_6/a_17_7# mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 23 184
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_6/a_17_7# mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 23 184
 p mux2_1x_8_0/mux2_dp_1x_6/d0 mux2_1x_8_0/mux2_dp_1x_6/a_25_74# Vdd! 2 9 28 184
 p mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Vdd! adr1 2 10 36 183
 n flop_1x_8_3/flop_dp_1x_6/q Gnd! mux2_1x_8_0/mux2_dp_1x_6/a_12_7# 2 6 10 117
-n s mux2_1x_8_0/mux2_dp_1x_6/a_12_7# mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 15 117
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_6/a_12_7# mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 15 117
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_6/a_17_7# mux2_1x_8_0/mux2_dp_1x_6/a_25_7# 2 6 23 117
 n mux2_1x_8_0/mux2_dp_1x_6/d0 mux2_1x_8_0/mux2_dp_1x_6/a_25_7# Gnd! 2 6 28 117
 n mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Gnd! adr1 2 7 36 117
 p flop_1x_8_3/flop_dp_1x_5/q Vdd! mux2_1x_8_0/mux2_dp_1x_5/a_12_74# 2 9 10 294
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_5/a_12_74# mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 9 15 294
-p s mux2_1x_8_0/mux2_dp_1x_5/a_17_7# mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 23 294
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_5/a_17_7# mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 23 294
 p mux2_1x_8_0/mux2_dp_1x_5/d0 mux2_1x_8_0/mux2_dp_1x_5/a_25_74# Vdd! 2 9 28 294
 p mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Vdd! adr2 2 10 36 293
 n flop_1x_8_3/flop_dp_1x_5/q Gnd! mux2_1x_8_0/mux2_dp_1x_5/a_12_7# 2 6 10 227
-n s mux2_1x_8_0/mux2_dp_1x_5/a_12_7# mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 15 227
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_5/a_12_7# mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 15 227
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_5/a_17_7# mux2_1x_8_0/mux2_dp_1x_5/a_25_7# 2 6 23 227
 n mux2_1x_8_0/mux2_dp_1x_5/d0 mux2_1x_8_0/mux2_dp_1x_5/a_25_7# Gnd! 2 6 28 227
 n mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Gnd! adr2 2 7 36 227
 p flop_1x_8_3/flop_dp_1x_4/q Vdd! mux2_1x_8_0/mux2_dp_1x_4/a_12_74# 2 9 10 404
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_4/a_12_74# mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 9 15 404
-p s mux2_1x_8_0/mux2_dp_1x_4/a_17_7# mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 23 404
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_4/a_17_7# mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 23 404
 p mux2_1x_8_0/mux2_dp_1x_4/d0 mux2_1x_8_0/mux2_dp_1x_4/a_25_74# Vdd! 2 9 28 404
 p mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Vdd! adr3 2 10 36 403
 n flop_1x_8_3/flop_dp_1x_4/q Gnd! mux2_1x_8_0/mux2_dp_1x_4/a_12_7# 2 6 10 337
-n s mux2_1x_8_0/mux2_dp_1x_4/a_12_7# mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 15 337
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_4/a_12_7# mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 15 337
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_4/a_17_7# mux2_1x_8_0/mux2_dp_1x_4/a_25_7# 2 6 23 337
 n mux2_1x_8_0/mux2_dp_1x_4/d0 mux2_1x_8_0/mux2_dp_1x_4/a_25_7# Gnd! 2 6 28 337
 n mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Gnd! adr3 2 7 36 337
 p flop_1x_8_3/flop_dp_1x_3/q Vdd! mux2_1x_8_0/mux2_dp_1x_3/a_12_74# 2 9 10 514
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_3/a_12_74# mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 9 15 514
-p s mux2_1x_8_0/mux2_dp_1x_3/a_17_7# mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 23 514
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_3/a_17_7# mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 23 514
 p mux2_1x_8_0/mux2_dp_1x_3/d0 mux2_1x_8_0/mux2_dp_1x_3/a_25_74# Vdd! 2 9 28 514
 p mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Vdd! adr4 2 10 36 513
 n flop_1x_8_3/flop_dp_1x_3/q Gnd! mux2_1x_8_0/mux2_dp_1x_3/a_12_7# 2 6 10 447
-n s mux2_1x_8_0/mux2_dp_1x_3/a_12_7# mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 15 447
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_3/a_12_7# mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 15 447
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_3/a_17_7# mux2_1x_8_0/mux2_dp_1x_3/a_25_7# 2 6 23 447
 n mux2_1x_8_0/mux2_dp_1x_3/d0 mux2_1x_8_0/mux2_dp_1x_3/a_25_7# Gnd! 2 6 28 447
 n mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Gnd! adr4 2 7 36 447
 p flop_1x_8_3/flop_dp_1x_2/q Vdd! mux2_1x_8_0/mux2_dp_1x_2/a_12_74# 2 9 10 624
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_2/a_12_74# mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 9 15 624
-p s mux2_1x_8_0/mux2_dp_1x_2/a_17_7# mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 23 624
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_2/a_17_7# mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 23 624
 p mux2_1x_8_0/mux2_dp_1x_2/d0 mux2_1x_8_0/mux2_dp_1x_2/a_25_74# Vdd! 2 9 28 624
 p mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Vdd! adr5 2 10 36 623
 n flop_1x_8_3/flop_dp_1x_2/q Gnd! mux2_1x_8_0/mux2_dp_1x_2/a_12_7# 2 6 10 557
-n s mux2_1x_8_0/mux2_dp_1x_2/a_12_7# mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 15 557
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_2/a_12_7# mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 15 557
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_2/a_17_7# mux2_1x_8_0/mux2_dp_1x_2/a_25_7# 2 6 23 557
 n mux2_1x_8_0/mux2_dp_1x_2/d0 mux2_1x_8_0/mux2_dp_1x_2/a_25_7# Gnd! 2 6 28 557
 n mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Gnd! adr5 2 7 36 557
 p flop_1x_8_3/flop_dp_1x_1/q Vdd! mux2_1x_8_0/mux2_dp_1x_1/a_12_74# 2 9 10 734
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_1/a_12_74# mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 9 15 734
-p s mux2_1x_8_0/mux2_dp_1x_1/a_17_7# mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 23 734
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_1/a_17_7# mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 23 734
 p mux2_1x_8_0/mux2_dp_1x_1/d0 mux2_1x_8_0/mux2_dp_1x_1/a_25_74# Vdd! 2 9 28 734
 p mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Vdd! adr6 2 10 36 733
 n flop_1x_8_3/flop_dp_1x_1/q Gnd! mux2_1x_8_0/mux2_dp_1x_1/a_12_7# 2 6 10 667
-n s mux2_1x_8_0/mux2_dp_1x_1/a_12_7# mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 15 667
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_1/a_12_7# mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 15 667
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_1/a_17_7# mux2_1x_8_0/mux2_dp_1x_1/a_25_7# 2 6 23 667
 n mux2_1x_8_0/mux2_dp_1x_1/d0 mux2_1x_8_0/mux2_dp_1x_1/a_25_7# Gnd! 2 6 28 667
 n mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Gnd! adr6 2 7 36 667
 p flop_1x_8_3/flop_dp_1x_0/q Vdd! mux2_1x_8_0/mux2_dp_1x_0/a_12_74# 2 9 10 844
 p mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_0/a_12_74# mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 9 15 844
-p s mux2_1x_8_0/mux2_dp_1x_0/a_17_7# mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 23 844
+p mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_0/a_17_7# mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 23 844
 p mux2_1x_8_0/mux2_dp_1x_0/d0 mux2_1x_8_0/mux2_dp_1x_0/a_25_74# Vdd! 2 9 28 844
 p mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Vdd! adr7 2 10 36 843
 n flop_1x_8_3/flop_dp_1x_0/q Gnd! mux2_1x_8_0/mux2_dp_1x_0/a_12_7# 2 6 10 777
-n s mux2_1x_8_0/mux2_dp_1x_0/a_12_7# mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 15 777
+n mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_0/a_12_7# mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 15 777
 n mux2_1x_8_0/mux2_dp_1x_7/sb mux2_1x_8_0/mux2_dp_1x_0/a_17_7# mux2_1x_8_0/mux2_dp_1x_0/a_25_7# 2 6 23 777
 n mux2_1x_8_0/mux2_dp_1x_0/d0 mux2_1x_8_0/mux2_dp_1x_0/a_25_7# Gnd! 2 6 28 777
 n mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Gnd! adr7 2 7 36 777
 p iord Vdd! mux2_1x_8_0/mux2_dp_1x_7/sb 2 37 5 926
-p mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! s 2 37 21 926
+p mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! mux2_1x_8_0/mux2_dp_1x_7/s 2 37 21 926
 n iord Gnd! mux2_1x_8_0/mux2_dp_1x_7/sb 2 27 5 887
-n mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! s 2 27 21 887
+n mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! mux2_1x_8_0/mux2_dp_1x_7/s 2 27 21 887
 p regdst mux2_c_1x_2/a_3_7# Vdd! 2 9 768 1064
 p mux2_c_1x_2/d1 Vdd! mux2_c_1x_2/a_18_74# 2 9 776 1064
 p mux2_c_1x_2/a_3_7# mux2_c_1x_2/a_18_74# mux2_c_1x_2/a_23_74# 2 9 781 1064
@@ -4771,885 +4771,885 @@ n regdst mux2_c_1x_0/a_18_7# mux2_c_1x_0/a_23_7# 2 6 781 1217
 n mux2_c_1x_0/a_3_7# mux2_c_1x_0/a_23_7# mux2_c_1x_0/a_31_7# 2 6 789 1217
 n mux2_c_1x_0/a_34_5# mux2_c_1x_0/a_31_7# Gnd! 2 6 794 1217
 n mux2_c_1x_0/a_23_7# Gnd! mux2_c_1x_0/y 2 7 813 1217
-C regdst mux2_c_1x_1/a_3_7# 2.2
-C flop_1x_8_0/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C flopen_1x_8_3/inv_4x_1/y Vdd! 12.6
-C flop_1x_8_0/flop_dp_1x_6/q Vdd! 3.5
-C flop_1x_8_0/flop_dp_1x_5/master Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_3/a_0_74# Vdd! 2.2
-C flopenr_1x_8_0/flopenr_dp_1x_5/a_26_53# Vdd! 2.7
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! 2.5
-C Vdd! shifter_0/shift_source_gen_0/rightandarith 7.3
-C Vdd! regramarray_dp_0/invbuf_4x_5/s_out 7.1
-C memdata7 Vdd! 7.9
-C flopenr_1x_8_0/flopenr_dp_1x_7/a_20_71# Vdd! 4.2
-C mux2_c_1x_2/d0 ph2 2.5
-C adr1 Vdd! 2.3
-C flop_1x_8_1/flop_dp_1x_0/masterinb Vdd! 2.3
-C alt_alu_0/invbuf_4x_0/s_out s 4.0
-C memdata5 writedata5 2.1
-C flopen_1x_8_1/inv_4x_0/y Vdd! 26.1
-C alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b Vdd! 6.5
-C alt_alu_0/alt_alu_slice_0[1]/inv_1x_1/y Vdd! 7.1
-C Vdd! regramarray_dp_0/invbuf_4x_2/sb_out 6.8
-C flop_1x_8_0/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C flopen_1x_8_3/flopen_dp_1x_3/a_68_6# Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_7/ph1b Vdd! 20.8
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_0/data Vdd! 5.1
-C flopen_1x_8_0/flopen_dp_1x_7/phi1b Vdd! 20.8
-C flopen_1x_8_2/flopen_dp_1x_5/a_100_6# Vdd! 3.9
-C alt_alu_0/invbuf_4x_1/s_out alt_alu_0/invbuf_4x_0/s_out 2.6
-C op6 Vdd! 7.8
-C flopenr_1x_8_0/flopenr_dp_1x_7/ph2 Vdd! 25.7
-C regramarray_dp_0/invbuf_4x_5/sb_out regramarray_dp_0/invbuf_4x_4/s_out 2.1
-C flopen_1x_8_2/flopen_dp_1x_1/q Vdd! 2.1
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2b 13.4
-C flop_1x_8_2/flop_dp_1x_7/q Vdd! 3.4
-C funct_0_ Vdd! 16.8
-C Vdd! shifter_0/xor2_2x_1/yb 15.7
-C Vdd! regramarray_dp_0/invbuf_4x_3/s_out 5.6
-C flopen_1x_8_2/flopen_dp_1x_5/q Vdd! 2.1
-C flop_1x_8_0/flop_dp_1x_7/ph1 Vdd! 12.4
-C flop_1x_8_0/flop_dp_1x_7/ph1 flop_1x_8_0/flop_dp_1x_7/ph1b 4.3
-C flopen_1x_8_2/flopen_dp_1x_7/phi2 Vdd! 14.6
-C flop_1x_8_1/flop_dp_1x_3/masterinb Vdd! 2.3
-C flopen_1x_8_2/flopen_dp_1x_0/a_68_6# Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_4/master Vdd! 2.7
-C flopen_1x_8_3/flopen_dp_1x_7/a_68_6# Vdd! 2.7
-C adr3 Vdd! 2.3
-C flopen_1x_8_2/flopen_dp_1x_3/a_100_6# Vdd! 3.9
-C mux4_1x_8_0/mux4_dp_1x_1/d2 Vdd! 5.5
-C alt_alu_0/yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
-C result2 Vdd! 5.6
-C flopen_1x_8_0/inv_4x_1/y Vdd! 12.6
-C flopen_1x_8_3/flopen_dp_1x_6/a_12_71# Vdd! 4.4
-C flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2b 13.4
-C mux3_1x_8_0/mux3_dp_1x_7/s0 Vdd! 11.5
-C alt_alu_0/alt_alu_slice_0[6]/fulladder_0/c Vdd! 10.4
-C mux2_1x_8_0/mux2_dp_1x_3/d0 Vdd! 4.7
-C alt_alu_0/alt_alu_slice_0[3]/fulladder_0/c Vdd! 10.4
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/data 5.1
-C b7 shifter_0/xor2_2x_2/a 2.9
-C funct_5_ Vdd! 12.9
-C mux2_1x_8_0/mux2_dp_1x_4/d0 Vdd! 4.7
-C flopen_1x_8_3/flopen_dp_1x_4/phi1 Vdd! 2.7
-C op0 Vdd! 2.2
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y Vdd! 3.3
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb 16.4
-C flopenr_1x_8_0/flopenr_dp_1x_7/ph1 flopenr_1x_8_0/flopenr_dp_1x_7/phi1b 4.1
-C flopenr_1x_8_0/flopenr_dp_1x_2/a_76_6# Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C regramarray_dp_0/ra1_1_ Vdd! 4.5
-C a1 Vdd! 7.1
-C Vdd! regramarray_dp_0/invbuf_4x_1/sb_out 7.1
-C funct_0_ flop_1x_8_3/flop_dp_1x_7/q 2.3
-C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
-C flopen_1x_8_3/flopen_dp_1x_1/a_100_6# Vdd! 3.9
-C flop_1x_8_2/flop_dp_1x_0/q Vdd! 3.4
-C shifter_0/z13 Vdd! 4.6
-C mux2_c_1x_2/d1 Vdd! 6.6
-C writedata7 Vdd! 5.3
-C flop_1x_8_3/flop_dp_1x_7/master Vdd! 2.7
-C alt_alu_0/alt_alu_slice_0[2]/fulladder_0/c Vdd! 10.4
-C Vdd! ph2 26.2
-C flopen_1x_8_0/flopen_dp_1x_2/phi1 Vdd! 2.7
-C flopen_1x_8_1/flopen_dp_1x_5/a_68_6# Vdd! 2.7
-C alt_alu_0/alt_alu_slice_0[6]/inv_1x_1/y Vdd! 7.1
-C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_1/flopen_dp_1x_7/phi1b 4.3
-C iord Vdd! 2.6
-C flopen_1x_8_2/flopen_dp_1x_1/phi1 Vdd! 2.7
-C flopen_1x_8_2/flopen_dp_1x_7/a_68_6# Vdd! 2.7
-C mux4_1x_8_0/mux4_dp_1x_7/a_6_74# Vdd! 2.1
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_5/y 3.8
-C flopen_1x_8_2/flopen_dp_1x_2/a_100_6# Vdd! 3.9
-C flopen_1x_8_0/flopen_dp_1x_1/a_100_6# Vdd! 3.9
-C flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flopenr_1x_8_0/flopenr_dp_1x_3/a_26_53# Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_5/a_33_7# mux3_1x_8_0/mux3_dp_1x_5/y 2.1
-C flopen_1x_8_0/flopen_dp_1x_2/a_12_71# Vdd! 4.4
-C regramarray_dp_0/r1_1 Vdd! 10.9
-C shifter_0/xor2_2x_2/a_2_8# Vdd! 4.1
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_1/data 5.1
-C flopen_1x_8_1/inv_4x_1/y Vdd! 12.6
-C flop_1x_8_2/flop_dp_1x_7/ph1 Vdd! 12.4
-C shifter_0/z11 Vdd! 5.0
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_0/y 4.6
-C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[2]/a_5_5# 3.0
-C funct_2_ Vdd! 13.8
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_6/data 5.1
-C flopen_1x_8_1/flopen_dp_1x_3/a_68_6# Vdd! 2.7
-C op_4_ Vdd! 4.8
-C alt_alu_0/alt_alu_slice_0[4]/fulladder_0/c Vdd! 10.4
-C flopenr_1x_8_0/inv_4x_1/y flopenr_1x_8_0/inv_4x_2/y 4.0
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_1[7]/y 4.9
-C adr7 Vdd! 2.3
-C flop_1x_8_0/flop_dp_1x_0/masterinb Vdd! 2.3
-C flop_1x_8_2/flop_dp_1x_5/masterinb Vdd! 2.3
-C flopenr_1x_8_0/flopenr_dp_1x_7/phi2b Vdd! 21.3
-C alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b Vdd! 6.5
-C shifter_0/log_shifter_0/mux2_dp_1x_1[4]/y Vdd! 4.9
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_0/y 4.6
-C mux2_c_1x_0/a_23_7# Vdd! 2.7
-C flopen_1x_8_0/flopen_dp_1x_5/a_68_6# Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_2/q Vdd! 3.4
-C shifter_0/log_shifter_0/mux2_dp_1x_2[4]/y Vdd! 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_2/data 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1b 14.8
-C memdata4 Vdd! 7.9
-C flopenr_1x_8_0/flopenr_dp_1x_3/a_108_6# Vdd! 4.2
-C result3 Vdd! 5.3
-C regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C flopen_1x_8_3/flopen_dp_1x_2/a_12_71# Vdd! 4.4
-C alt_alu_0/alt_alu_slice_0[5]/inv_1x_0/y Vdd! 2.9
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_1/y 3.2
-C Vdd! regramarray_dp_0/invbuf_4x_2/s_out 7.1
-C flopen_1x_8_2/flopen_dp_1x_4/a_68_6# Vdd! 2.7
-C ph1 Vdd! 18.3
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1b 14.8
-C flopen_1x_8_3/flopen_dp_1x_0/phi1 Vdd! 2.7
-C flopen_1x_8_3/flopen_dp_1x_7/phi1 Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_7/s0b Vdd! 13.3
-C mux3_1x_8_0/mux3_dp_1x_5/y Vdd! 3.0
-C flopen_1x_8_0/flopen_dp_1x_4/phi1 Vdd! 2.7
-C Vdd! regramarray_dp_0/w_4_ 11.2
-C flop_1x_8_2/flop_dp_1x_4/masterinb Vdd! 2.3
-C flopenr_1x_8_0/inv_4x_0/y Vdd! 26.6
-C shifter_0/xor2_2x_1/a_13_46# Vdd! 4.2
-C Vdd! shifter_0/z9 7.1
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/data 5.1
-C flopen_1x_8_3/flopen_dp_1x_0/a_12_71# Vdd! 4.4
-C Vdd! shifter_0/z10 6.4
-C memdata4 writedata4 2.1
-C flopen_1x_8_0/flopen_dp_1x_4/a_12_71# Vdd! 4.4
-C b4 Vdd! 12.1
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y Vdd! 2.5
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/data 5.1
-C flop_1x_8_3/flop_dp_1x_7/ph1 flop_1x_8_3/flop_dp_1x_7/ph1b 4.3
-C flopen_1x_8_1/flopen_dp_1x_6/a_100_6# Vdd! 3.9
-C flop_1x_8_2/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C flop_1x_8_3/flop_dp_1x_7/ph1b Vdd! 20.8
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_1/data Vdd! 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_4/data 5.1
-C memdata5 Vdd! 7.9
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_0/data 5.1
-C flopen_1x_8_1/flopen_dp_1x_7/phi2 flopen_1x_8_1/flopen_dp_1x_7/phi2b 4.5
-C flop_1x_8_1/flop_dp_1x_7/ph2 flop_1x_8_1/flop_dp_1x_7/ph2b 4.5
-C flop_1x_8_2/flop_dp_1x_0/masterinb Vdd! 2.3
-C flop_1x_8_3/flop_dp_1x_2/q Vdd! 7.6
-C alt_alu_0/alt_alu_slice_0[2]/inv_1x_1/y Vdd! 7.1
-C regramarray_dp_0/r1_6_ Vdd! 10.9
-C shifter_0/log_shifter_0/mux2_dp_1x_2[7]/y Vdd! 5.1
-C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb 5.2
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1 3.6
-C flop_1x_8_3/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C Vdd! shifter_0/xor2_2x_2/a 13.2
-C flopen_1x_8_3/flopen_dp_1x_7/phi2 Vdd! 14.6
-C flop_1x_8_3/flop_dp_1x_4/masterinb Vdd! 2.3
-C mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.9
-C flopenr_1x_8_0/flopenr_dp_1x_6/a_20_71# Vdd! 4.2
-C shifter_0/y5 Vdd! 2.8
-C mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! 13.5
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write 16.8
-C flopen_1x_8_0/flopen_dp_1x_7/phi1 Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_5/master Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y 3.3
-C flopen_1x_8_1/flopen_dp_1x_4/phi1 Vdd! 2.7
-C flop_1x_8_1/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2 3.6
-C Vdd! regramarray_dp_0/w_6_ 11.2
-C flop_1x_8_2/flop_dp_1x_0/master Vdd! 2.7
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C flopen_1x_8_0/flopen_dp_1x_0/a_68_6# Vdd! 2.7
-C flopenr_1x_8_0/flopenr_dp_1x_4/a_108_6# Vdd! 4.2
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_6/data 5.1
-C regramarray_dp_0/r2_3_ Vdd! 15.1
-C shifter_0/z12 Vdd! 5.0
-C flopen_1x_8_1/flopen_dp_1x_2/phi1 Vdd! 2.7
-C flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C flop_1x_8_3/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C flopenr_1x_8_0/flopenr_dp_1x_6/a_76_6# Vdd! 2.7
-C shifter_0/xor2_2x_1/a_2_8# Vdd! 4.1
-C Vdd! shifter_0/y0 2.8
-C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flop_1x_8_1/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C mux2_c_1x_0/d0 Vdd! 7.2
-C flopen_1x_8_2/flopen_dp_1x_7/phi2b Vdd! 21.3
-C flopen_1x_8_3/flopen_dp_1x_7/a_12_71# Vdd! 4.4
-C Vdd! regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/data 5.1
-C flop_1x_8_1/flop_dp_1x_7/masterinb Vdd! 2.3
-C flop_1x_8_2/flop_dp_1x_3/master Vdd! 2.7
-C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
-C flopen_1x_8_1/flopen_dp_1x_2/a_12_71# Vdd! 4.4
-C flop_1x_8_2/flop_dp_1x_4/master Vdd! 2.7
-C shifter_0/y4 Vdd! 2.8
-C regramarray_dp_0/r2_5_ Vdd! 15.1
-C pcsrc_0 Vdd! 2.6
-C a6 Vdd! 7.1
-C b5 Vdd! 12.2
-C a3 Vdd! 7.1
-C Vdd! shifter_0/z4 7.1
-C alt_alu_0/yzdetect_8_0/nor2_1x_0/y Vdd! 2.7
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand5_1x_0/y 5.6
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y 3.3
-C flop_1x_8_2/flop_dp_1x_5/q Vdd! 3.4
-C Vdd! regwrite 9.3
-C alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b Vdd! 6.5
-C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b Vdd! 6.5
-C flopen_1x_8_2/inv_4x_0/y flopen_1x_8_2/inv_4x_1/y 7.0
-C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_2[5]/y 5.1
-C Vdd! shifter_0/xor2_2x_2/a_13_46# 4.2
-C flopen_1x_8_3/flopen_dp_1x_4/a_100_6# Vdd! 3.9
-C flop_1x_8_1/flop_dp_1x_6/masterinb Vdd! 2.3
-C shifter_0/xor2_2x_2/yb shifter_0/s0xor 2.1
-C mux2_c_1x_2/y Vdd! 3.8
-C flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Vdd! 4.2
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2b 13.4
-C flop_1x_8_1/flop_dp_1x_1/master Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_7/a_0_74# Vdd! 2.2
-C result5 Vdd! 5.4
-C mux3_1x_8_0/mux3_dp_1x_7/y Vdd! 3.0
-C Vdd! shifter_0/z8 6.4
-C Vdd! shifter_0/z6 6.4
-C flopen_1x_8_1/flopen_dp_1x_0/phi1 Vdd! 2.7
-C flopen_1x_8_1/flopen_dp_1x_7/a_100_6# Vdd! 3.9
-C mux4_1x_8_0/mux4_dp_1x_0/d2 Vdd! 5.5
-C Vdd! shifter_0/xor2_2x_0/yb 18.7
-C Vdd! shifter_0/y1 2.8
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y 3.3
-C adr2 Vdd! 2.3
-C flopen_1x_8_0/flopen_dp_1x_2/a_100_6# Vdd! 3.9
-C regramarray_dp_0/regramvector0_dp_0/regram0_7/read2 Vdd! 2.1
-C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
-C mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.7
-C flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C Vdd! regramarray_dp_0/w_2_ 11.2
-C shifter_0/xor2_2x_1/y shifter_0/xor2_2x_1/yb 2.3
-C adr6 Vdd! 2.3
-C flopen_1x_8_1/flopen_dp_1x_7/phi1b Vdd! 20.8
-C memtoreg Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_1/masterinb Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_0/data 5.1
-C flopen_1x_8_2/flopen_dp_1x_6/q Vdd! 2.1
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write 16.8
-C op_3_ Vdd! 5.2
-C flopenr_1x_8_0/inv_4x_0/y flopenr_1x_8_0/inv_4x_2/y 4.7
-C regramarray_dp_0/regramvector0_dp_0/regram0_7/read1 Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C flop_1x_8_2/flop_dp_1x_3/q Vdd! 3.4
-C flop_1x_8_3/flop_dp_1x_1/q Vdd! 7.6
-C regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb 5.2
-C flopenr_1x_8_0/flopenr_dp_1x_6/a_26_53# Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C mux2_c_1x_2/a_23_7# Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_3/master Vdd! 2.7
-C alt_alu_0/alt_alu_slice_0[1]/fulladder_0/c Vdd! 10.4
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_1/y 3.2
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/y 4.6
-C flopen_1x_8_3/flopen_dp_1x_2/phi1 Vdd! 2.7
-C mux2_1x_8_0/mux2_dp_1x_7/sb s 2.1
-C flopenr_1x_8_0/flopenr_dp_1x_0/a_20_71# Vdd! 4.2
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2 3.6
-C flop_1x_8_3/flop_dp_1x_7/ph2 flop_1x_8_3/flop_dp_1x_7/ph2b 4.5
-C regramarray_dp_0/invbuf_4x_2/sb_out regramarray_dp_0/invbuf_4x_1/s_out 2.1
-C flopen_1x_8_3/flopen_dp_1x_2/a_100_6# Vdd! 3.9
-C writedata1 Vdd! 5.4
-C flop_1x_8_1/flop_dp_1x_4/masterinb Vdd! 2.3
-C alt_alu_0/alt_alu_slice_0[5]/inv_1x_1/y Vdd! 7.1
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_6/data 5.1
-C alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/invbuf_4x_0/sb_out 2.1
-C flopen_1x_8_3/flopen_dp_1x_5/a_12_71# Vdd! 4.4
-C flop_1x_8_0/flop_dp_1x_7/master Vdd! 2.7
-C writedata5 Vdd! 5.4
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_2/data 5.1
-C flopen_1x_8_0/flopen_dp_1x_3/phi1 Vdd! 2.7
-C flopen_1x_8_2/inv_4x_0/y Vdd! 26.1
-C flop_1x_8_3/flop_dp_1x_5/master Vdd! 2.7
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! 2.6
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_2/data 5.1
-C flop_1x_8_0/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C flop_1x_8_3/flop_dp_1x_6/masterinb Vdd! 2.3
-C shifter_0/log_shifter_0/mux2_dp_1x_2[1]/y Vdd! 3.4
-C irwrite_3_ Vdd! 2.6
-C alt_alu_0/yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
-C alt_alu_0/alt_alu_slice_0[4]/inv_1x_0/y Vdd! 2.9
-C flopen_1x_8_0/flopen_dp_1x_3/a_12_71# Vdd! 4.4
-C flopen_1x_8_3/flopen_dp_1x_0/a_100_6# Vdd! 3.9
-C flop_1x_8_1/flop_dp_1x_2/masterinb Vdd! 2.3
-C flop_1x_8_3/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand5_1x_0/y 5.6
-C flopen_1x_8_0/flopen_dp_1x_4/a_100_6# Vdd! 3.9
-C flop_1x_8_1/flop_dp_1x_3/master Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_0/a_33_7# Vdd! 3.1
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! 2.5
-C mux3_1x_8_0/mux3_dp_1x_0/a_33_7# mux3_1x_8_0/mux3_dp_1x_0/y 2.1
-C flop_1x_8_3/flop_dp_1x_4/q Vdd! 7.6
-C alt_alu_0/invbuf_4x_0/sb_out Vdd! 43.4
-C a2 Vdd! 7.1
-C shifter_0/s0xor Vdd! 15.1
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1b 14.8
-C Vdd! regramarray_dp_0/invbuf_4x_0/s_out 5.0
-C regramarray_dp_0/invbuf_4x_5/s_out regramarray_dp_0/invbuf_4x_4/s_out 2.1
-C regramarray_dp_0/invbuf_4x_8/sb_out regramarray_dp_0/invbuf_4x_7/s_out 2.1
-C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s1 2.6
-C flopen_1x_8_0/flopen_dp_1x_6/q Vdd! 2.1
-C flopenr_1x_8_0/flopenr_dp_1x_2/a_108_6# Vdd! 4.2
-C shifter_0/xor2_2x_0/y shifter_0/xor2_2x_0/yb 2.8
-C b7 Vdd! 22.9
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb 16.4
-C Vdd! regramarray_dp_0/invbuf_4x_7/s_out 7.2
-C flop_1x_8_1/flop_dp_1x_7/ph1 flop_1x_8_1/flop_dp_1x_7/ph1b 4.3
-C flop_1x_8_0/flop_dp_1x_1/master Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_7/master Vdd! 2.7
-C flopenr_1x_8_0/flopenr_dp_1x_1/a_76_6# Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_5/q Vdd! 7.6
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand5_1x_0/y 5.6
-C regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb 5.2
-C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flop_1x_8_3/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_4/data 5.1
-C mux2_c_1x_1/a_23_7# Vdd! 2.7
-C flopen_1x_8_2/flopen_dp_1x_1/a_68_6# Vdd! 2.7
-C alusrcb_0_ Vdd! 2.6
-C mux3_1x_8_0/mux3_dp_1x_2/a_33_7# Vdd! 3.1
-C alt_alu_0/alt_alu_slice_0[5]/fulladder_0/c Vdd! 10.4
-C flop_1x_8_3/flop_dp_1x_6/master Vdd! 2.7
-C flopen_1x_8_0/flopen_dp_1x_7/q Vdd! 2.1
-C a4 Vdd! 7.1
-C Vdd! b0 12.2
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_0/data 5.1
-C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_2/flopen_dp_1x_7/phi1b 4.3
-C irwrite_0_ Vdd! 2.6
-C flop_1x_8_1/flop_dp_1x_7/ph1b Vdd! 20.8
-C mux2_1x_8_0/mux2_dp_1x_2/d0 Vdd! 4.7
-C regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1 3.6
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_5/data 5.1
-C Vdd! flopenr_1x_8_0/flopenr_dp_1x_6/a_108_6# 4.2
-C flop_1x_8_2/flop_dp_1x_7/ph2 flop_1x_8_2/flop_dp_1x_7/ph2b 4.5
-C flopen_1x_8_0/flopen_dp_1x_6/phi1 Vdd! 2.7
-C flopen_1x_8_2/flopen_dp_1x_1/a_12_71# Vdd! 4.4
-C flop_1x_8_1/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C result6 Vdd! 5.6
-C shifter_0/shift_source_gen_0/and2_1x_0[4]/a_5_5# Vdd! 3.0
-C flop_1x_8_0/flop_dp_1x_6/master Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_7/ph2b Vdd! 21.3
-C shifter_0/xor2_2x_2/yb Vdd! 14.2
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_1/data 5.1
-C flopen_1x_8_0/flopen_dp_1x_7/phi2b Vdd! 21.3
-C flopen_1x_8_2/flopen_dp_1x_5/a_68_6# Vdd! 2.7
-C flopenr_1x_8_0/flopenr_dp_1x_0/a_26_53# Vdd! 2.7
-C flopen_1x_8_1/flopen_dp_1x_4/a_100_6# Vdd! 3.9
-C Vdd! regramarray_dp_0/w_3_ 11.2
-C op3 Vdd! 8.2
-C regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.8
-C flopen_1x_8_2/inv_4x_1/y Vdd! 12.6
-C flopen_1x_8_3/flopen_dp_1x_1/a_12_71# Vdd! 4.4
-C flop_1x_8_0/flop_dp_1x_7/q Vdd! 3.5
-C flopen_1x_8_2/flopen_dp_1x_0/phi1 Vdd! 2.7
-C flopen_1x_8_0/flopen_dp_1x_5/a_12_71# Vdd! 4.4
-C flopen_1x_8_1/flopen_dp_1x_7/a_68_6# Vdd! 2.7
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y 3.3
-C flopen_1x_8_2/flopen_dp_1x_3/a_68_6# Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_1/masterinb Vdd! 2.3
-C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C flopen_1x_8_1/flopen_dp_1x_2/a_100_6# Vdd! 3.9
-C flop_1x_8_0/flop_dp_1x_7/ph2 Vdd! 14.6
-C mux2_1x_8_0/mux2_dp_1x_0/d0 Vdd! 4.7
-C mux2_c_1x_2/d0 Vdd! 17.2
-C shifter_0/log_shifter_0/mux2_dp_1x_1[6]/y Vdd! 4.9
-C flopen_1x_8_2/flopen_dp_1x_0/a_12_71# Vdd! 4.4
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_0/y 4.6
-C mux3_1x_8_0/mux3_dp_1x_5/a_33_7# Vdd! 3.1
-C flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_3/data 5.1
-C mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! 13.5
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y Vdd! 3.3
-C Vdd! b3 12.2
-C Vdd! regramarray_dp_0/w_5_ 11.2
-C regramarray_dp_0/invbuf_4x_2/s_out regramarray_dp_0/invbuf_4x_1/s_out 2.1
-C flopen_1x_8_3/flopen_dp_1x_1/a_68_6# Vdd! 2.7
-C shifter_0/log_shifter_0/mux2_dp_1x_2[3]/y Vdd! 5.4
-C flopen_1x_8_2/flopen_dp_1x_2/phi1 Vdd! 2.7
-C memdata0 Vdd! 8.0
-C flopen_1x_8_2/flopen_dp_1x_6/a_68_6# Vdd! 2.7
-C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s1b 2.6
-C mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/s1 3.7
-C flop_1x_8_2/flop_dp_1x_7/masterinb Vdd! 2.3
-C flop_1x_8_0/flop_dp_1x_0/q Vdd! 3.5
-C flop_1x_8_3/flop_dp_1x_0/masterinb Vdd! 2.3
-C alt_alu_0/invbuf_4x_1/sb_out Vdd! 7.8
-C mux2_c_1x_1/y Vdd! 3.0
-C Vdd! shifter_0/z7 6.4
-C Vdd! regramarray_dp_0/w_0_ 11.4
-C flopen_1x_8_0/flopen_dp_1x_1/a_68_6# Vdd! 2.7
-C flop_1x_8_1/flop_dp_1x_7/ph1 Vdd! 12.4
-C flopen_1x_8_1/flopen_dp_1x_5/a_12_71# Vdd! 4.4
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2b 13.4
-C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C memdata2 Vdd! 7.9
-C flop_1x_8_1/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C flop_1x_8_2/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C flop_1x_8_3/flop_dp_1x_3/q Vdd! 7.6
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb 16.4
-C flopen_1x_8_1/flopen_dp_1x_3/phi1 Vdd! 2.7
-C flopen_1x_8_0/inv_4x_0/y flopen_1x_8_0/inv_4x_1/y 7.0
-C flopen_1x_8_3/inv_4x_0/y Vdd! 26.1
-C shifter_0/log_shifter_0/mux2_dp_1x_1[5]/y Vdd! 4.9
-C flopen_1x_8_0/flopen_dp_1x_6/a_12_71# Vdd! 4.4
-C regramarray_dp_0/r2_2_ Vdd! 15.1
-C flop_1x_8_2/flop_dp_1x_7/ph2 Vdd! 14.6
-C flop_1x_8_3/flop_dp_1x_7/masterinb Vdd! 2.3
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! 2.5
-C Vdd! regramarray_dp_0/invbuf_4x_8/sb_out 7.2
-C regramarray_dp_0/r1_7_ Vdd! 10.9
-C flop_1x_8_3/flop_dp_1x_7/ph1 Vdd! 12.4
-C flopenr_1x_8_0/flopenr_dp_1x_5/a_108_6# Vdd! 4.2
-C flopen_1x_8_1/flopen_dp_1x_3/a_12_71# Vdd! 4.4
-C flop_1x_8_0/flop_dp_1x_7/ph1b Vdd! 20.8
-C flop_1x_8_1/flop_dp_1x_6/master Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C mux3_1x_8_0/mux3_dp_1x_0/y Vdd! 3.0
-C Vdd! regramarray_dp_0/w_7_ 11.2
 C flopen_1x_8_0/flopen_dp_1x_7/a_12_71# Vdd! 4.4
-C flop_1x_8_2/flop_dp_1x_6/masterinb Vdd! 2.3
-C flopenr_1x_8_0/flopenr_dp_1x_1/a_26_53# Vdd! 2.7
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_4/data Vdd! 5.1
-C mux3_1x_8_0/mux3_dp_1x_1/a_33_7# Vdd! 3.1
-C regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand5_1x_0/y 5.6
-C Vdd! alt_alu_0/alt_alu_slice_0[0]/inv_1x_0/y 2.9
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write 16.8
-C alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/invbuf_4x_0/s_out 5.5
-C op4 Vdd! 14.1
-C flopenr_1x_8_0/flopenr_dp_1x_0/a_108_6# Vdd! 4.2
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1 3.6
-C flopenr_1x_8_0/flopenr_dp_1x_3/a_76_6# Vdd! 2.7
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_1/data 5.1
-C Vdd! regramarray_dp_0/invbuf_4x_4/sb_out 6.6
-C memdata1 writedata1 2.1
-C flopen_1x_8_0/flopen_dp_1x_7/a_68_6# Vdd! 2.7
-C flop_1x_8_1/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C memdata3 Vdd! 7.9
-C alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b Vdd! 6.5
-C flopenr_1x_8_0/flopenr_dp_1x_4/a_76_6# Vdd! 2.7
-C alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b Vdd! 6.5
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_4/data 5.1
-C flopen_1x_8_3/flopen_dp_1x_5/a_100_6# Vdd! 3.9
-C flopen_1x_8_1/flopen_dp_1x_7/phi1 Vdd! 2.7
-C regramarray_dp_0/r1_4_ Vdd! 10.9
-C writedata6 Vdd! 5.4
-C mux3_1x_8_0/mux3_dp_1x_2/a_33_7# mux3_1x_8_0/mux3_dp_1x_2/y 2.1
-C flopen_1x_8_0/flopen_dp_1x_7/a_100_6# Vdd! 3.9
-C flopen_1x_8_2/flopen_dp_1x_4/phi1 Vdd! 2.7
-C mux2_1x_8_1/mux2_dp_1x_7/sb s 2.1
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write 16.8
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_1/y 3.2
-C writedata4 Vdd! 5.4
-C mux3_1x_8_0/mux3_dp_1x_7/s1 Vdd! 14.0
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! 2.5
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_5/data 5.1
-C regramarray_dp_0/invbuf_4x_8/s_out regramarray_dp_0/invbuf_4x_7/s_out 2.1
-C mux3_1x_8_0/mux3_dp_1x_7/a_33_7# mux3_1x_8_0/mux3_dp_1x_7/y 2.1
-C mux3_1x_8_0/mux3_dp_1x_6/y Vdd! 3.0
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_5/data 5.1
-C flopen_1x_8_1/flopen_dp_1x_1/a_12_71# Vdd! 4.4
-C flop_1x_8_3/flop_dp_1x_7/q Vdd! 8.4
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_1/data 5.1
-C flopen_1x_8_2/flopen_dp_1x_4/a_12_71# Vdd! 4.4
-C flop_1x_8_2/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C flopen_1x_8_0/flopen_dp_1x_7/phi2 flopen_1x_8_0/flopen_dp_1x_7/phi2b 4.5
-C flopen_1x_8_0/flopen_dp_1x_3/a_100_6# Vdd! 3.9
-C flop_1x_8_0/flop_dp_1x_3/masterinb Vdd! 2.3
-C flopen_1x_8_3/flopen_dp_1x_7/phi1b Vdd! 20.8
-C flop_1x_8_1/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C alusrca Vdd! 2.6
-C flopenr_1x_8_0/flopenr_dp_1x_2/a_26_53# Vdd! 2.7
-C shifter_0/z14 Vdd! 4.5
-C regdst mux2_c_1x_2/a_3_7# 2.2
-C flop_1x_8_0/flop_dp_1x_7/masterinb Vdd! 2.3
-C flop_1x_8_3/flop_dp_1x_0/master Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_2/master Vdd! 2.7
-C shifter_0/y3 Vdd! 2.8
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_1[3]/y 4.9
-C memdata7 writedata7 2.1
-C mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/s1b 2.1
-C flop_1x_8_0/flop_dp_1x_3/q Vdd! 3.5
-C reset Vdd! 2.6
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y 3.3
-C op_2_ Vdd! 5.7
-C regramarray_dp_0/r2_6_ Vdd! 15.1
-C adr5 Vdd! 2.3
-C mux3_1x_8_0/mux3_dp_1x_4/a_33_7# Vdd! 3.1
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_6/data 5.1
-C flopen_1x_8_2/flopen_dp_1x_6/phi1 Vdd! 2.7
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_2/data 5.1
-C flopen_1x_8_3/flopen_dp_1x_3/a_12_71# Vdd! 4.4
-C flopen_1x_8_0/flopen_dp_1x_6/a_100_6# Vdd! 3.9
-C result0 Vdd! 5.6
-C flopen_1x_8_1/flopen_dp_1x_0/a_68_6# Vdd! 2.7
-C result4 Vdd! 5.6
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_3/data 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb 16.4
-C flopen_1x_8_1/inv_4x_0/y flopen_1x_8_1/inv_4x_1/y 7.0
-C flop_1x_8_1/flop_dp_1x_0/master Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_2/masterinb Vdd! 2.3
-C flop_1x_8_2/flop_dp_1x_6/master Vdd! 2.7
-C shifter_0/xor2_2x_0/y Vdd! 20.2
-C regramarray_dp_0/ra1_2_ Vdd! 3.6
-C flop_1x_8_2/flop_dp_1x_7/ph1 flop_1x_8_2/flop_dp_1x_7/ph1b 4.3
-C irwrite_2_ Vdd! 2.6
-C flop_1x_8_1/flop_dp_1x_5/masterinb Vdd! 2.3
-C Vdd! regramarray_dp_0/invbuf_4x_6/s_out 5.6
-C flopen_1x_8_1/flopen_dp_1x_0/a_12_71# Vdd! 4.4
-C Vdd! regramarray_dp_0/w_1_ 11.2
-C memdata0 writedata0 2.1
-C flopen_1x_8_0/flopen_dp_1x_0/phi1 Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_5/q Vdd! 3.5
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_4/data 5.1
-C flopenr_1x_8_0/inv_4x_1/y flopenr_1x_8_0/inv_4x_0/y 7.1
-C result7 Vdd! 5.3
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_2[6]/y 5.1
-C mux2_c_1x_0/d1 Vdd! 6.4
-C shifter_0/y6 Vdd! 2.8
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_0/data 5.1
-C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[5]/a_5_5# 3.0
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb 5.2
-C flopen_1x_8_0/flopen_dp_1x_0/a_12_71# Vdd! 4.4
-C alt_alu_0/alt_alu_slice_0[7]/inv_1x_0/y Vdd! 2.9
-C flopenr_1x_8_0/flopenr_dp_1x_7/ph2 flopenr_1x_8_0/flopenr_dp_1x_7/phi2b 7.9
-C flopen_1x_8_0/flopen_dp_1x_5/a_100_6# Vdd! 3.9
-C flopen_1x_8_1/flopen_dp_1x_6/phi1 Vdd! 2.7
-C flopen_1x_8_3/flopen_dp_1x_7/phi2 flopen_1x_8_3/flopen_dp_1x_7/phi2b 4.5
-C flopen_1x_8_1/flopen_dp_1x_1/a_68_6# Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_5/a_0_74# Vdd! 2.2
-C shifter_0/xor2_2x_0/a_13_46# Vdd! 4.2
-C alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/invbuf_4x_0/s_out 2.6
-C flop_1x_8_0/flop_dp_1x_4/q Vdd! 3.5
-C flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_0/data 5.1
-C flop_1x_8_0/flop_dp_1x_3/master Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_7/s1b Vdd! 13.3
-C op_0_ Vdd! 7.3
-C flopen_1x_8_2/flopen_dp_1x_0/a_100_6# Vdd! 3.9
-C flop_1x_8_3/flop_dp_1x_0/q Vdd! 7.6
-C flopen_1x_8_3/flopen_dp_1x_6/a_100_6# Vdd! 3.9
-C flop_1x_8_2/flop_dp_1x_3/masterinb Vdd! 2.3
-C shifter_0/shift_source_gen_0/and2_1x_0[7]/a_5_5# Vdd! 3.0
-C flopen_1x_8_0/flopen_dp_1x_7/phi2 Vdd! 14.6
-C writedata0 Vdd! 5.4
-C zero Vdd! 5.3
-C flopenr_1x_8_0/inv_4x_2/y Vdd! 22.4
-C alt_alu_0/alt_alu_slice_0[4]/inv_1x_1/y Vdd! 7.1
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y 3.3
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_1/data 5.1
-C mux3_1x_8_0/mux3_dp_1x_2/y Vdd! 3.0
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_6/data 5.1
-C Vdd! regramarray_dp_0/invbuf_4x_5/sb_out 6.8
-C flopen_1x_8_2/flopen_dp_1x_0/q Vdd! 2.1
-C mux3_1x_8_0/mux3_dp_1x_3/y Vdd! 3.0
-C flopen_1x_8_3/flopen_dp_1x_4/a_68_6# Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_1/q Vdd! 3.5
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_2/data 5.1
-C flopen_1x_8_1/flopen_dp_1x_1/phi1 Vdd! 2.7
-C flopen_1x_8_2/flopen_dp_1x_7/a_12_71# Vdd! 4.4
-C alt_alu_0/invbuf_4x_0/s_out Vdd! 41.4
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2 3.6
-C flopen_1x_8_1/flopen_dp_1x_5/phi1 Vdd! 2.7
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_5/data Vdd! 5.1
-C mux3_1x_8_0/mux3_dp_1x_7/s1 mux3_1x_8_0/mux3_dp_1x_7/s1b 2.8
-C op1 Vdd! 2.2
-C flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C Vdd! regramarray_dp_0/invbuf_4x_8/s_out 7.6
-C flopen_1x_8_0/flopen_dp_1x_2/a_68_6# Vdd! 2.7
-C flopen_1x_8_1/flopen_dp_1x_5/a_100_6# Vdd! 3.9
-C flop_1x_8_0/flop_dp_1x_2/master Vdd! 2.7
-C flop_1x_8_1/flop_dp_1x_1/masterinb Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1b 14.8
-C mux4_1x_8_0/mux4_dp_1x_7/s1 Vdd! 13.5
-C mux3_1x_8_0/mux3_dp_1x_2/a_0_74# Vdd! 2.2
-C a5 Vdd! 7.1
-C shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! 2.5
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_0/y 4.6
-C flopen_1x_8_0/flopen_dp_1x_6/a_68_6# Vdd! 2.7
-C regramarray_dp_0/r1_2_ Vdd! 10.9
-C alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Vdd! 4.3
-C flopen_1x_8_2/flopen_dp_1x_7/q Vdd! 2.1
-C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y 2.5
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_3/data 5.1
-C flopen_1x_8_1/flopen_dp_1x_7/phi2 Vdd! 14.6
-C flopen_1x_8_2/flopen_dp_1x_1/a_100_6# Vdd! 3.9
-C flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flop_1x_8_1/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C memdata1 Vdd! 8.0
-C flopen_1x_8_3/flopen_dp_1x_3/phi1 Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_3/a_33_7# Vdd! 3.1
-C shifter_0/log_shifter_0/mux2_dp_1x_3/y Vdd! 3.6
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2b 13.4
-C flopen_1x_8_1/flopen_dp_1x_3/a_100_6# Vdd! 3.9
-C flop_1x_8_0/flop_dp_1x_0/master Vdd! 2.7
-C alt_alu_0/invbuf_4x_0/sb_out s 2.4
-C Vdd! shifter_0/z1 3.4
-C ph1 ph2 4.8
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2b 13.4
-C a0 b0 2.0
-C flopen_1x_8_0/flopen_dp_1x_1/phi1 Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_1/y Vdd! 3.0
-C alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/invbuf_4x_1/s_out 3.7
-C flopen_1x_8_1/flopen_dp_1x_3/q Vdd! 2.1
-C mux3_1x_8_0/mux3_dp_1x_1/a_33_7# mux3_1x_8_0/mux3_dp_1x_1/y 2.1
-C flopenr_1x_8_0/flopenr_dp_1x_7/phi1b Vdd! 20.8
-C flopen_1x_8_3/flopen_dp_1x_2/a_68_6# Vdd! 2.7
-C flopenr_1x_8_0/flopenr_dp_1x_5/a_20_71# Vdd! 4.2
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/data 5.1
-C Vdd! shifter_0/xor2_2x_0/a_2_8# 4.1
-C flop_1x_8_3/flop_dp_1x_6/q Vdd! 7.6
-C mux3_1x_8_0/mux3_dp_1x_6/a_0_74# Vdd! 2.2
-C regramarray_dp_0/r1_3_ Vdd! 10.9
-C pcsrc_1_ Vdd! 2.6
-C shifter_0/log_shifter_0/mux2_dp_1x_1[8]/y Vdd! 4.9
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2 3.6
-C Vdd! b2 12.2
-C flopen_1x_8_2/flopen_dp_1x_4/a_100_6# Vdd! 3.9
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_1[1]/y 3.5
-C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_0/flopen_dp_1x_7/phi1b 4.3
-C flopen_1x_8_3/flopen_dp_1x_0/a_68_6# Vdd! 2.7
-C flop_1x_8_2/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C Vdd! shifter_0/z2 3.4
-C flopen_1x_8_0/flopen_dp_1x_4/a_68_6# Vdd! 2.7
-C flopen_1x_8_2/flopen_dp_1x_7/a_100_6# Vdd! 3.9
-C shifter_0/log_shifter_0/mux2_dp_1x_6/y Vdd! 3.8
-C adr4 Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write 16.8
-C flopen_1x_8_2/flopen_dp_1x_7/phi2 flopen_1x_8_2/flopen_dp_1x_7/phi2b 4.5
-C flopen_1x_8_3/flopen_dp_1x_5/phi1 Vdd! 2.7
-C alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b Vdd! 6.5
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_2/data Vdd! 5.1
-C Vdd! shifter_0/z5 6.4
-C flopen_1x_8_2/flopen_dp_1x_2/a_68_6# Vdd! 2.7
-C regramarray_dp_0/r2_1_ Vdd! 15.1
-C Vdd! shifter_0/z0 3.4
-C flopen_1x_8_1/flopen_dp_1x_4/a_12_71# Vdd! 4.4
-C memdata6 Vdd! 7.9
-C flop_1x_8_1/flop_dp_1x_7/master Vdd! 2.7
-C mux3_1x_8_0/mux3_dp_1x_7/a_33_7# Vdd! 3.1
-C shifter_0/xor2_2x_1/y Vdd! 16.8
-C mux2_c_1x_1/d1 Vdd! 6.0
-C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
-C flop_1x_8_3/flop_dp_1x_4/master Vdd! 2.7
-C alt_alu_0/alt_alu_slice_0[3]/inv_1x_0/y Vdd! 2.9
-C mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
-C funct_3_ Vdd! 13.4
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_5/data 5.1
-C flopen_1x_8_2/flopen_dp_1x_2/a_12_71# Vdd! 4.4
-C flop_1x_8_0/flop_dp_1x_1/masterinb Vdd! 2.3
-C flop_1x_8_3/flop_dp_1x_3/masterinb Vdd! 2.3
-C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/c Vdd! 10.4
-C flopenr_1x_8_0/flopenr_dp_1x_1/a_20_71# Vdd! 4.2
-C shifter_0/log_shifter_0/mux2_dp_1x_1[2]/y Vdd! 4.9
-C Vdd! shifter_0/shift_source_gen_0/and2_1x_1/a_5_5# 3.0
-C Vdd! shifter_0/shift_source_gen_0/and2_1x_1/a 9.0
-C flopen_1x_8_2/flopen_dp_1x_6/a_100_6# Vdd! 3.9
-C flop_1x_8_1/flop_dp_1x_7/ph2b Vdd! 21.3
-C mux2_1x_8_2/mux2_dp_1x_7/sb s 2.1
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_6/data 5.1
-C memdata6 writedata6 2.1
-C flop_1x_8_0/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C shifter_0/z3 Vdd! 3.4
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1b 14.8
-C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[6]/a_5_5# 3.0
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_1/y 3.2
-C flopen_1x_8_2/flopen_dp_1x_5/phi1 Vdd! 2.7
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1b 14.7
-C flopen_1x_8_1/flopen_dp_1x_4/a_68_6# Vdd! 2.7
-C writedata3 Vdd! 5.4
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_2[2]/y 3.4
-C regdst Vdd! 10.9
-C mux3_1x_8_0/mux3_dp_1x_1/a_0_74# Vdd! 2.2
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_6/data Vdd! 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb 16.4
-C regramarray_dp_0/invbuf_4x_1/sb_out regwrite 2.1
-C flop_1x_8_0/flop_dp_1x_6/masterinb Vdd! 2.3
-C flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flop_1x_8_2/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C flopen_1x_8_0/flopen_dp_1x_0/a_100_6# Vdd! 3.9
-C flopen_1x_8_2/flopen_dp_1x_5/a_12_71# Vdd! 4.4
-C alt_alu_0/alt_alu_slice_0[7]/inv_1x_1/y Vdd! 7.1
-C a0 Vdd! 7.1
-C ph2 regwrite 3.1
-C mux2_c_1x_0/a_3_7# regdst 2.2
-C regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb 5.2
-C flopen_1x_8_1/flopen_dp_1x_6/a_68_6# Vdd! 2.7
-C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_3/flopen_dp_1x_7/phi1b 4.3
-C flopen_1x_8_2/flopen_dp_1x_3/phi1 Vdd! 2.7
-C alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/invbuf_4x_1/s_out 2.4
-C flop_1x_8_3/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C Vdd! shifter_0/y2 2.8
-C Vdd! regramarray_dp_0/invbuf_4x_1/s_out 6.9
-C memdata2 writedata2 2.1
-C memdata3 writedata3 2.1
-C op_5_ Vdd! 4.5
-C flopen_1x_8_1/flopen_dp_1x_2/a_68_6# Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_2/masterinb Vdd! 2.3
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb 16.4
-C flop_1x_8_0/flop_dp_1x_7/ph2 flop_1x_8_0/flop_dp_1x_7/ph2b 4.5
-C mux2_1x_8_0/mux2_dp_1x_6/d0 Vdd! 4.7
-C flopenr_1x_8_0/flopenr_dp_1x_7/a_26_53# Vdd! 2.7
-C flopen_1x_8_2/flopen_dp_1x_7/phi1b Vdd! 20.8
-C regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C flopen_1x_8_2/flopen_dp_1x_3/a_12_71# Vdd! 4.4
-C flop_1x_8_0/flop_dp_1x_2/q Vdd! 3.5
-C flop_1x_8_2/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C shifter_0/shift_source_gen_0/and2_1x_1/y Vdd! 2.6
-C regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb 5.2
-C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flopen_1x_8_1/flopen_dp_1x_7/a_12_71# Vdd! 4.4
-C alt_alu_0/yzdetect_8_0/nor2_1x_2/b Vdd! 3.1
-C flopenr_1x_8_0/flopenr_dp_1x_7/ph1 Vdd! 12.4
-C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[3]/a_5_5# 3.0
-C Vdd! s 59.7
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/data 5.1
-C writedata2 Vdd! 5.4
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_4/data 5.1
-C mux3_1x_8_0/mux3_dp_1x_3/a_33_7# mux3_1x_8_0/mux3_dp_1x_3/y 2.1
-C flopen_1x_8_3/flopen_dp_1x_1/phi1 Vdd! 2.7
-C regramarray_dp_0/r2_4_ Vdd! 15.1
-C mux3_1x_8_0/mux3_dp_1x_0/a_0_74# Vdd! 2.2
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_1/y 3.2
-C regramarray_dp_0/r1_5_ Vdd! 10.9
-C flop_1x_8_3/flop_dp_1x_7/ph2b Vdd! 21.3
-C alt_alu_0/invbuf_4x_1/s_out Vdd! 13.5
-C shifter_0/y7 Vdd! 2.8
-C Vdd! regramarray_dp_0/invbuf_4x_3/sb_out 5.9
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_0/data 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1 3.6
-C flop_1x_8_3/flop_dp_1x_5/masterinb Vdd! 2.3
-C b6 Vdd! 12.1
-C b7 shifter_0/shift_source_gen_0/rightandarith 2.5
-C Vdd! regramarray_dp_0/invbuf_4x_6/sb_out 5.9
-C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb 5.2
-C flop_1x_8_3/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C mux3_1x_8_0/mux3_dp_1x_4/a_0_74# Vdd! 2.2
-C flopenr_1x_8_0/flopenr_dp_1x_4/a_26_53# Vdd! 2.7
-C Vdd! regramarray_dp_0/invbuf_4x_4/s_out 6.7
-C flopen_1x_8_0/flopen_dp_1x_5/phi1 Vdd! 2.7
-C flopen_1x_8_3/flopen_dp_1x_7/a_100_6# Vdd! 3.9
-C flopen_1x_8_1/flopen_dp_1x_6/a_12_71# Vdd! 4.4
-C flop_1x_8_1/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C flop_1x_8_2/flop_dp_1x_6/q Vdd! 3.4
-C alt_alu_0/alt_alu_slice_0[6]/inv_1x_0/y Vdd! 2.9
-C flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# Vdd! 2.7
-C flopen_1x_8_3/flopen_dp_1x_3/a_100_6# Vdd! 3.9
-C alusrcb_1_ Vdd! 2.6
-C flop_1x_8_2/flop_dp_1x_4/q Vdd! 3.4
-C flopenr_1x_8_0/flopenr_dp_1x_4/a_20_71# Vdd! 4.2
-C alt_alu_0/alt_alu_slice_0[2]/inv_1x_0/y Vdd! 2.9
-C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_5/data 5.1
-C flop_1x_8_2/flop_dp_1x_1/master Vdd! 2.7
-C flopen_1x_8_0/flopen_dp_1x_1/a_12_71# Vdd! 4.4
-C flop_1x_8_1/flop_dp_1x_7/ph2 Vdd! 14.6
-C alt_alu_0/yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
-C regramarray_dp_0/r2_7_ Vdd! 15.1
-C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C flop_1x_8_1/flop_dp_1x_5/master Vdd! 2.7
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C flopen_1x_8_1/flopen_dp_1x_0/a_100_6# Vdd! 3.9
-C flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C mux3_1x_8_0/mux3_dp_1x_4/y Vdd! 3.0
-C flopenr_1x_8_0/flopenr_dp_1x_5/a_76_6# Vdd! 2.7
-C flop_1x_8_0/flop_dp_1x_7/ph2b Vdd! 21.3
-C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/cout Vdd! 6.0
-C mux2_1x_8_0/mux2_dp_1x_1/d0 Vdd! 4.7
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_2/data 5.1
-C flopen_1x_8_2/flopen_dp_1x_6/a_12_71# Vdd! 4.4
-C flop_1x_8_2/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C mux3_1x_8_0/mux3_dp_1x_6/a_33_7# Vdd! 3.1
-C b1 Vdd! 12.2
-C flop_1x_8_0/flop_dp_1x_5/masterinb Vdd! 2.3
-C funct_4_ Vdd! 12.9
-C alt_alu_0/alt_alu_slice_0[1]/inv_1x_0/y Vdd! 2.9
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_4/data 5.1
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write Vdd! 16.8
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_3/data 5.1
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand5_1x_0/y 5.6
-C flopenr_1x_8_0/flopenr_dp_1x_0/a_76_6# Vdd! 2.7
-C flop_1x_8_3/flop_dp_1x_2/master Vdd! 2.7
-C op5 Vdd! 7.9
-C alt_alu_0/alt_alu_slice_0[0]/inv_1x_1/y Vdd! 7.1
+C regramarray_dp_0/r2_5_ Vdd! 15.1
 C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_3/data Vdd! 5.1
+C flopen_1x_8_3/flopen_dp_1x_3/a_12_71# Vdd! 4.4
+C alt_alu_0/alt_alu_slice_0[2]/fulladder_0/c Vdd! 10.4
+C regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C ph2 regramarray_dp_0/invbuf_4x_0/s_out 3.0
+C flopen_1x_8_1/flopen_dp_1x_7/phi2 Vdd! 14.6
+C flopen_1x_8_2/flopen_dp_1x_7/a_12_71# Vdd! 4.4
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Y Vdd! 2.5
+C shifter_0/shift_source_gen_0/and2_1x_0[7]/a_5_5# Vdd! 3.0
+C Vdd! regramarray_dp_0/invbuf_4x_2/s_out 7.1
+C flop_1x_8_3/flop_dp_1x_5/masterinb Vdd! 2.3
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_0/Y Vdd! 2.5
+C alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/invbuf_4x_0/s_out 5.5
+C flopen_1x_8_3/flopen_dp_1x_7/phi2 Vdd! 14.6
+C flopen_1x_8_1/flopen_dp_1x_7/a_68_6# Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_0/a_68_6# Vdd! 2.7
+C writedata1 Vdd! 5.4
+C alt_alu_0/yzdetect_8_0/nor2_1x_0/y Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_2/q Vdd! 7.6
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! regramarray_dp_0/invbuf_4x_7/sb_out 7.0
+C flopen_1x_8_0/flopen_dp_1x_6/phi1 Vdd! 2.7
+C memdata0 Vdd! 8.0
+C flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_0/data 5.1
+C flopen_1x_8_0/flopen_dp_1x_7/phi2 flopen_1x_8_0/flopen_dp_1x_7/phi2b 4.5
+C flopen_1x_8_0/flopen_dp_1x_7/a_100_6# Vdd! 3.9
+C flop_1x_8_0/flop_dp_1x_0/master Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_6/q Vdd! 3.4
+C mux3_1x_8_0/mux3_dp_1x_0/y Vdd! 3.0
+C flop_1x_8_2/flop_dp_1x_7/ph2 flop_1x_8_2/flop_dp_1x_7/ph2b 4.5
+C flopen_1x_8_2/flopen_dp_1x_7/a_100_6# Vdd! 3.9
+C alt_alu_0/alt_alu_slice_0[2]/inv_1x_1/y Vdd! 7.1
+C mux4_1x_8_0/mux4_dp_1x_7/a_6_74# Vdd! 2.1
+C flopenr_1x_8_0/inv_4x_0/y Vdd! 26.6
+C flop_1x_8_3/flop_dp_1x_2/master Vdd! 2.7
+C flopenr_1x_8_0/flopenr_dp_1x_7/a_26_53# Vdd! 2.7
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_4/data 5.1
+C Vdd! regramarray_dp_0/w_7_ 11.2
+C flopenr_1x_8_0/flopenr_dp_1x_0/a_108_6# Vdd! 4.2
+C irwrite_1_ Vdd! 2.6
+C mux3_1x_8_0/mux3_dp_1x_0/a_0_74# Vdd! 2.2
+C regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_0/data 5.1
+C flopen_1x_8_0/flopen_dp_1x_4/a_68_6# Vdd! 2.7
+C mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.9
+C flop_1x_8_2/flop_dp_1x_2/q Vdd! 3.4
+C flop_1x_8_3/flop_dp_1x_1/q Vdd! 7.6
+C regramarray_dp_0/regramvector0_dp_0/regram0_7/read1 Vdd! 2.7
+C flopen_1x_8_1/flopen_dp_1x_0/phi1 Vdd! 2.7
+C flopen_1x_8_3/flopen_dp_1x_5/phi1 Vdd! 2.7
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1 3.6
+C flopen_1x_8_1/flopen_dp_1x_1/a_68_6# Vdd! 2.7
+C flopenr_1x_8_0/flopenr_dp_1x_7/ph2 flopenr_1x_8_0/flopenr_dp_1x_7/phi2b 7.9
+C flop_1x_8_0/flop_dp_1x_4/master Vdd! 2.7
+C mux3_1x_8_0/mux3_dp_1x_6/y Vdd! 3.0
+C flopenr_1x_8_0/inv_4x_0/y flopenr_1x_8_0/inv_4x_2/y 4.7
+C flopen_1x_8_3/flopen_dp_1x_1/a_68_6# Vdd! 2.7
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C mux2_c_1x_2/a_23_7# Vdd! 2.7
+C flopen_1x_8_1/flopen_dp_1x_7/phi1b Vdd! 20.8
+C flop_1x_8_2/flop_dp_1x_7/q Vdd! 3.4
+C regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C regramarray_dp_0/invbuf_4x_8/sb_out regramarray_dp_0/invbuf_4x_7/s_out 2.1
+C flopen_1x_8_1/flopen_dp_1x_7/a_12_71# Vdd! 4.4
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_2/data 5.1
+C flop_1x_8_0/flop_dp_1x_7/ph1 flop_1x_8_0/flop_dp_1x_7/ph1b 4.3
+C mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_7/s1b 2.4
+C mux3_1x_8_0/mux3_dp_1x_5/a_33_7# mux3_1x_8_0/mux3_dp_1x_5/y 2.1
+C a6 Vdd! 7.1
+C Vdd! regramarray_dp_0/invbuf_4x_5/sb_out 6.8
+C flopen_1x_8_2/inv_4x_0/y flopen_1x_8_2/inv_4x_1/y 7.0
+C regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb 5.2
+C Vdd! shifter_0/y0 2.8
+C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
+C mux2_c_1x_0/d0 Vdd! 7.2
+C mux2_1x_8_0/mux2_dp_1x_3/d0 Vdd! 4.7
+C alt_alu_0/alt_alu_slice_0[1]/fulladder_0/c Vdd! 10.4
+C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[4]/a_5_5# 3.0
+C flop_1x_8_2/flop_dp_1x_7/ph1b Vdd! 20.8
+C result4 Vdd! 5.6
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_0/Y Vdd! 2.5
+C shifter_0/xor2_2x_1/yb Vdd! 15.7
+C flop_1x_8_2/flop_dp_1x_5/masterinb Vdd! 2.3
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2 3.6
+C flop_1x_8_0/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C regramarray_dp_0/r1_1 Vdd! 10.9
+C mux3_1x_8_0/mux3_dp_1x_3/a_33_7# Vdd! 3.1
+C flopenr_1x_8_0/flopenr_dp_1x_2/a_26_53# Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_1/masterinb Vdd! 2.3
+C flop_1x_8_1/flop_dp_1x_7/ph2b Vdd! 21.3
+C alt_alu_0/alt_alu_slice_0[0]/inv_1x_1/y Vdd! 7.1
+C Vdd! shifter_0/xor2_2x_0/a_2_8# 4.1
+C b7 shifter_0/shift_source_gen_0/rightandarith 2.5
+C memdata5 Vdd! 7.9
+C flop_1x_8_1/flop_dp_1x_2/masterinb Vdd! 2.3
+C shifter_0/xor2_2x_2/yb Vdd! 14.2
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_4/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_2/data 5.1
+C adr5 Vdd! 2.3
+C flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C result5 Vdd! 5.4
+C flopen_1x_8_2/flopen_dp_1x_1/phi1 Vdd! 2.7
+C flopen_1x_8_0/flopen_dp_1x_6/a_12_71# Vdd! 4.4
+C flop_1x_8_0/flop_dp_1x_7/masterinb Vdd! 2.3
+C writedata7 Vdd! 5.3
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C mux3_1x_8_0/mux3_dp_1x_7/a_33_7# mux3_1x_8_0/mux3_dp_1x_7/y 2.1
+C shifter_0/shift_source_gen_0/and2_1x_0[5]/a_5_5# Vdd! 3.0
+C alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/invbuf_4x_0/s_out 2.6
+C flopen_1x_8_2/flopen_dp_1x_0/a_12_71# Vdd! 4.4
+C flop_1x_8_0/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C alt_alu_0/invbuf_4x_0/sb_out Vdd! 43.4
+C mux3_1x_8_0/mux3_dp_1x_2/a_33_7# Vdd! 3.1
+C flopen_1x_8_0/flopen_dp_1x_0/a_100_6# Vdd! 3.9
+C flopen_1x_8_2/flopen_dp_1x_4/a_12_71# Vdd! 4.4
+C flopenr_1x_8_0/inv_4x_2/y Vdd! 22.4
+C flopen_1x_8_2/flopen_dp_1x_5/q Vdd! 2.1
+C flop_1x_8_1/flop_dp_1x_7/ph1 Vdd! 12.4
+C result7 Vdd! 5.3
+C alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b Vdd! 6.5
+C op_1_ Vdd! 6.1
+C flopen_1x_8_2/flopen_dp_1x_7/phi2 Vdd! 14.6
+C funct_5_ Vdd! 12.9
+C flopenr_1x_8_0/flopenr_dp_1x_5/a_20_71# Vdd! 4.2
+C Vdd! regramarray_dp_0/w_3_ 11.2
+C adr6 Vdd! 2.3
+C mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.7
+C result6 Vdd! 5.6
+C alt_alu_0/alt_alu_slice_0[5]/inv_1x_0/y Vdd! 2.9
+C shifter_0/z13 Vdd! 4.6
+C regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C op_5_ Vdd! 4.5
+C flop_1x_8_2/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/cout Vdd! 6.0
+C ph1 ph2 4.8
+C memdata6 writedata6 2.1
+C flop_1x_8_3/flop_dp_1x_3/master Vdd! 2.7
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C flopen_1x_8_1/flopen_dp_1x_6/phi1 Vdd! 2.7
+C flopen_1x_8_3/flopen_dp_1x_7/a_12_71# Vdd! 4.4
+C flopenr_1x_8_0/flopenr_dp_1x_3/a_26_53# Vdd! 2.7
+C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[2]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! shifter_0/xor2_2x_2/a_13_46# 4.2
+C flopen_1x_8_0/flopen_dp_1x_7/phi2b Vdd! 21.3
+C flop_1x_8_0/flop_dp_1x_5/q Vdd! 3.5
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_3/data Vdd! 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write 16.8
+C mux2_c_1x_0/d1 Vdd! 6.4
+C regramarray_dp_0/r2_4_ Vdd! 15.1
+C regramarray_dp_0/invbuf_4x_0/sb_out Vdd! 5.3
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1 3.6
+C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_3/flopen_dp_1x_7/phi1b 4.3
+C funct_0_ Vdd! 16.8
+C mux2_c_1x_2/d0 Vdd! 17.2
+C flop_1x_8_0/flop_dp_1x_7/q Vdd! 3.5
+C flop_1x_8_3/flop_dp_1x_6/master Vdd! 2.7
+C flopen_1x_8_3/inv_4x_0/y flopen_1x_8_3/inv_4x_1/y 7.0
+C adr4 Vdd! 2.3
+C shifter_0/y6 Vdd! 2.8
+C flop_1x_8_3/flop_dp_1x_0/master Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C Vdd! shifter_0/xor2_2x_2/a_2_8# 4.1
+C flopen_1x_8_0/flopen_dp_1x_2/a_12_71# Vdd! 4.4
+C flopen_1x_8_1/flopen_dp_1x_3/a_100_6# Vdd! 3.9
+C flop_1x_8_1/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1 3.6
+C op_2_ Vdd! 5.7
+C flopen_1x_8_3/flopen_dp_1x_7/phi1 Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C shifter_0/z0 Vdd! 3.4
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/data 5.1
+C flopen_1x_8_3/flopen_dp_1x_3/a_100_6# Vdd! 3.9
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_0/Y Vdd! 2.5
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_2/data Vdd! 5.1
+C Vdd! regramarray_dp_0/w_0_ 11.4
+C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C flopen_1x_8_3/flopen_dp_1x_6/a_100_6# Vdd! 3.9
+C flopen_1x_8_1/flopen_dp_1x_3/q Vdd! 2.1
+C regramarray_dp_0/r2_7_ Vdd! 15.1
+C regramarray_dp_0/r1_3_ Vdd! 10.9
+C flop_1x_8_3/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_1/y 3.2
+C regramarray_dp_0/invbuf_4x_5/s_out regramarray_dp_0/invbuf_4x_4/s_out 2.1
+C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C flop_1x_8_2/flop_dp_1x_6/masterinb Vdd! 2.3
+C flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Vdd! 4.2
+C flopen_1x_8_2/flopen_dp_1x_7/phi2b Vdd! 21.3
+C mux2_1x_8_1/mux2_dp_1x_7/s Vdd! 14.8
+C flop_1x_8_2/flop_dp_1x_3/q Vdd! 3.4
+C flopenr_1x_8_0/flopenr_dp_1x_5/a_108_6# Vdd! 4.2
+C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[6]/a_5_5# 3.0
+C flop_1x_8_0/flop_dp_1x_1/q Vdd! 3.5
+C flop_1x_8_2/flop_dp_1x_7/ph2b Vdd! 21.3
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb 16.4
+C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_0/flopen_dp_1x_7/phi1b 4.3
+C flop_1x_8_0/flop_dp_1x_7/ph2b Vdd! 21.3
+C flopen_1x_8_2/flopen_dp_1x_7/a_68_6# Vdd! 2.7
+C flopenr_1x_8_0/flopenr_dp_1x_5/a_76_6# Vdd! 2.7
+C flopenr_1x_8_0/flopenr_dp_1x_3/a_76_6# Vdd! 2.7
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_1/data Vdd! 5.1
+C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_5/y 3.8
+C mux2_c_1x_0/a_3_7# regdst 2.2
+C flopen_1x_8_3/flopen_dp_1x_7/a_68_6# Vdd! 2.7
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2b 13.4
+C mux3_1x_8_0/mux3_dp_1x_6/y mux3_1x_8_0/mux3_dp_1x_6/a_33_7# 2.1
+C flopen_1x_8_0/flopen_dp_1x_1/a_68_6# Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_3/master Vdd! 2.7
+C flopenr_1x_8_0/flopenr_dp_1x_7/phi1b Vdd! 20.8
+C a0 Vdd! 7.1
 C flop_1x_8_1/flop_dp_1x_4/master Vdd! 2.7
 C regramarray_dp_0/r1_0_ Vdd! 10.9
-C adr0 Vdd! 2.3
-C flopen_1x_8_3/flopen_dp_1x_5/a_68_6# Vdd! 2.7
-C pcen Vdd! 2.6
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_4/y 5.1
-C ph2 regramarray_dp_0/invbuf_4x_0/s_out 3.0
-C result1 Vdd! 5.3
-C irwrite_1_ Vdd! 2.6
-C op_1_ Vdd! 6.1
-C flopen_1x_8_3/flopen_dp_1x_6/a_68_6# Vdd! 2.7
-C flopenr_1x_8_0/flopenr_dp_1x_3/a_20_71# Vdd! 4.2
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_3/data 5.1
-C flop_1x_8_2/flop_dp_1x_1/q Vdd! 3.4
-C mux2_1x_8_0/mux2_dp_1x_7/d0 Vdd! 4.7
-C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1 3.6
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_3/data 5.1
-C flopen_1x_8_1/flopen_dp_1x_1/a_100_6# Vdd! 3.9
-C alt_alu_0/yzdetect_8_0/nor2_1x_2/a Vdd! 3.9
-C Vdd! regramarray_dp_0/invbuf_4x_7/sb_out 7.0
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand5_1x_0/y 5.6
-C mux3_1x_8_0/mux3_dp_1x_6/a_33_7# mux3_1x_8_0/mux3_dp_1x_6/y 2.1
+C alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b Vdd! 6.5
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb 16.4
+C alusrcb_0_ Vdd! 2.6
+C alt_alu_0/invbuf_4x_1/sb_out Vdd! 7.8
+C regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C mux3_1x_8_0/mux3_dp_1x_7/s1 mux3_1x_8_0/mux3_dp_1x_7/s1b 2.8
+C shifter_0/log_shifter_0/mux2_dp_1x_2[2]/y Vdd! 3.4
+C flopen_1x_8_2/flopen_dp_1x_7/phi2 flopen_1x_8_2/flopen_dp_1x_7/phi2b 4.5
+C flopen_1x_8_2/flopen_dp_1x_4/phi1 Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_3/masterinb Vdd! 2.3
+C flopen_1x_8_0/flopen_dp_1x_3/phi1 Vdd! 2.7
+C mux2_c_1x_1/a_23_7# Vdd! 2.7
+C flopen_1x_8_1/flopen_dp_1x_6/a_12_71# Vdd! 4.4
+C alt_alu_0/alt_alu_slice_0[3]/fulladder_0/c Vdd! 10.4
+C a1 Vdd! 7.1
+C regramarray_dp_0/invbuf_4x_3/sb_out Vdd! 5.9
+C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_1[4]/y 4.9
+C flop_1x_8_1/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C mux3_1x_8_0/mux3_dp_1x_1/a_33_7# Vdd! 3.1
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write Vdd! 16.8
+C regramarray_dp_0/invbuf_4x_2/sb_out regramarray_dp_0/invbuf_4x_1/s_out 2.1
+C memdata0 writedata0 2.1
+C flopen_1x_8_2/flopen_dp_1x_3/a_68_6# Vdd! 2.7
+C writedata6 Vdd! 5.4
+C flopen_1x_8_1/flopen_dp_1x_5/a_68_6# Vdd! 2.7
 C flopen_1x_8_3/flopen_dp_1x_6/phi1 Vdd! 2.7
-C flopen_1x_8_0/flopen_dp_1x_3/a_68_6# Vdd! 2.7
-C flopen_1x_8_3/flopen_dp_1x_7/phi2b Vdd! 21.3
-C flop_1x_8_0/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C flop_1x_8_1/flop_dp_1x_2/master Vdd! 2.7
-C op2 Vdd! 9.1
-C Vdd! regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_0/y 4.6
-C flop_1x_8_0/flop_dp_1x_4/masterinb Vdd! 2.3
-C shifter_0/shift_source_gen_0/and2_1x_0[1]/a_5_5# Vdd! 3.0
-C mux4_1x_8_0/mux4_dp_1x_7/s1 mux4_1x_8_0/mux4_dp_1x_7/s1b 2.4
+C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/c Vdd! 10.4
+C regdst Vdd! 10.9
+C alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/invbuf_4x_0/sb_out 2.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_5/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_3/data 5.1
+C ph2 regwrite 3.1
+C flopen_1x_8_3/flopen_dp_1x_7/phi2 flopen_1x_8_3/flopen_dp_1x_7/phi2b 4.5
 C flopen_1x_8_0/inv_4x_0/y Vdd! 26.1
+C alt_alu_0/alt_alu_slice_0[7]/inv_1x_1/y Vdd! 7.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_1/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/data 5.1
+C flopen_1x_8_3/flopen_dp_1x_0/a_100_6# Vdd! 3.9
+C flopen_1x_8_2/flopen_dp_1x_1/a_68_6# Vdd! 2.7
+C regramarray_dp_0/r2_1_ Vdd! 15.1
+C mux3_1x_8_0/mux3_dp_1x_6/a_33_7# Vdd! 3.1
+C a5 Vdd! 7.1
+C b1 Vdd! 12.2
+C flop_1x_8_2/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_5/data Vdd! 5.1
+C flopen_1x_8_1/flopen_dp_1x_4/a_68_6# Vdd! 2.7
+C writedata4 Vdd! 5.4
+C flopenr_1x_8_0/flopenr_dp_1x_2/a_76_6# Vdd! 2.7
+C shifter_0/log_shifter_0/mux2_dp_1x_2[3]/y Vdd! 5.4
+C regramarray_dp_0/invbuf_4x_1/sb_out regwrite 2.1
+C flopen_1x_8_0/flopen_dp_1x_5/a_100_6# Vdd! 3.9
+C a2 Vdd! 7.1
+C flop_1x_8_3/flop_dp_1x_7/ph1 flop_1x_8_3/flop_dp_1x_7/ph1b 4.3
+C flopen_1x_8_3/flopen_dp_1x_4/a_68_6# Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_4/q Vdd! 7.6
+C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_3/data 5.1
+C flop_1x_8_0/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C flopenr_1x_8_0/flopenr_dp_1x_1/a_20_71# Vdd! 4.2
+C flopen_1x_8_0/flopen_dp_1x_2/phi1 Vdd! 2.7
+C flop_1x_8_1/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! 13.5
+C flopenr_1x_8_0/flopenr_dp_1x_4/a_76_6# Vdd! 2.7
+C flopen_1x_8_1/inv_4x_0/y Vdd! 26.1
+C flop_1x_8_1/flop_dp_1x_6/masterinb Vdd! 2.3
+C regramarray_dp_0/r1_7_ Vdd! 10.9
+C flopen_1x_8_1/flopen_dp_1x_2/a_68_6# Vdd! 2.7
+C memdata7 Vdd! 7.9
+C flop_1x_8_1/flop_dp_1x_0/masterinb Vdd! 2.3
+C flop_1x_8_2/flop_dp_1x_4/masterinb Vdd! 2.3
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_3/data 5.1
+C flopen_1x_8_3/flopen_dp_1x_2/a_68_6# Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_6/a_100_6# Vdd! 3.9
+C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[3]/a_5_5# 3.0
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_1/y 3.2
+C Vdd! regramarray_dp_0/w_1_ 11.2
+C memdata7 writedata7 2.1
+C flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C flop_1x_8_3/flop_dp_1x_4/masterinb Vdd! 2.3
+C Vdd! shifter_0/shift_source_gen_0/nandnandnand_1x_0[1]/nand2_1x_0/Y 2.5
+C flop_1x_8_2/flop_dp_1x_7/masterinb Vdd! 2.3
+C regramarray_dp_0/invbuf_4x_8/s_out regramarray_dp_0/invbuf_4x_7/s_out 2.1
+C writedata0 Vdd! 5.4
+C pcen Vdd! 2.6
+C flop_1x_8_0/flop_dp_1x_7/ph1 Vdd! 12.4
+C shifter_0/z14 Vdd! 4.5
+C op2 Vdd! 9.1
+C regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C flopen_1x_8_0/flopen_dp_1x_4/a_100_6# Vdd! 3.9
+C regramarray_dp_0/r2_2_ Vdd! 15.1
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_0/data Vdd! 5.1
+C flopen_1x_8_0/inv_4x_1/y Vdd! 12.6
+C flopen_1x_8_1/flopen_dp_1x_0/a_68_6# Vdd! 2.7
+C flopen_1x_8_3/flopen_dp_1x_5/a_68_6# Vdd! 2.7
+C flopen_1x_8_1/flopen_dp_1x_7/phi1 Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_7/master Vdd! 2.7
 C flop_1x_8_3/flop_dp_1x_1/master Vdd! 2.7
-C flopenr_1x_8_0/inv_4x_1/y Vdd! 13.7
+C flopenr_1x_8_0/flopenr_dp_1x_5/a_26_53# Vdd! 2.7
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_2/data Vdd! 5.1
+C flopen_1x_8_0/flopen_dp_1x_0/phi1 Vdd! 2.7
+C flopen_1x_8_3/flopen_dp_1x_6/a_12_71# Vdd! 4.4
+C flopenr_1x_8_0/flopenr_dp_1x_7/ph1 Vdd! 12.4
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_0/data 5.1
+C flop_1x_8_0/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C flopen_1x_8_3/flopen_dp_1x_7/phi2b Vdd! 21.3
+C regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C flop_1x_8_0/flop_dp_1x_5/masterinb Vdd! 2.3
+C flopen_1x_8_3/flopen_dp_1x_1/a_12_71# Vdd! 4.4
+C Vdd! regramarray_dp_0/invbuf_4x_8/sb_out 7.2
+C flopen_1x_8_1/flopen_dp_1x_0/a_12_71# Vdd! 4.4
+C flopen_1x_8_3/flopen_dp_1x_5/a_12_71# Vdd! 4.4
+C mux4_1x_8_0/mux4_dp_1x_1/d2 Vdd! 5.5
+C regramarray_dp_0/r1_6_ Vdd! 10.9
+C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_2/flopen_dp_1x_7/phi1b 4.3
+C flop_1x_8_3/flop_dp_1x_7/ph2 Vdd! 14.6
+C flop_1x_8_2/flop_dp_1x_0/master Vdd! 2.7
+C result2 Vdd! 5.6
+C shifter_0/y1 Vdd! 2.8
+C shifter_0/z1 Vdd! 3.4
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write 16.8
+C flopen_1x_8_2/flopen_dp_1x_2/phi1 Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_7/ph2b Vdd! 21.3
+C shifter_0/z10 Vdd! 6.4
 C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_5/data 5.1
-C regramarray_dp_0/ra1_0_ Vdd! 5.2
-C mux3_1x_8_0/mux3_dp_1x_4/a_33_7# mux3_1x_8_0/mux3_dp_1x_4/y 2.1
-C flopen_1x_8_3/flopen_dp_1x_4/a_12_71# Vdd! 4.4
-C flop_1x_8_2/flop_dp_1x_2/masterinb Vdd! 2.3
-C funct_1_ Vdd! 14.2
-C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/data 5.1
-C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
-C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C flopenr_1x_8_0/flopenr_dp_1x_1/a_26_53# Vdd! 2.7
+C shifter_0/log_shifter_0/mux2_dp_1x_1[3]/y Vdd! 4.9
+C flop_1x_8_3/flop_dp_1x_7/master Vdd! 2.7
+C shifter_0/s0xor Vdd! 15.1
+C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/data 5.1
+C Vdd! regramarray_dp_0/invbuf_4x_4/sb_out 6.6
+C mux3_1x_8_0/mux3_dp_1x_3/a_0_74# Vdd! 2.2
+C flopen_1x_8_1/inv_4x_1/y Vdd! 12.6
+C flopen_1x_8_2/flopen_dp_1x_2/a_12_71# Vdd! 4.4
+C flop_1x_8_0/flop_dp_1x_2/q Vdd! 3.5
+C shifter_0/xor2_2x_2/yb shifter_0/s0xor 2.1
+C flopen_1x_8_3/inv_4x_1/y Vdd! 12.6
+C flop_1x_8_2/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C flopenr_1x_8_0/flopenr_dp_1x_6/a_20_71# Vdd! 4.2
+C alt_alu_0/alt_alu_slice_0[3]/inv_1x_0/y Vdd! 2.9
+C Vdd! shifter_0/xor2_2x_2/a 13.2
+C flopen_1x_8_2/flopen_dp_1x_0/phi1 Vdd! 2.7
+C memtoreg Vdd! 2.7
+C mux2_1x_8_0/mux2_dp_1x_5/d0 Vdd! 4.7
+C mux2_1x_8_0/mux2_dp_1x_4/d0 Vdd! 4.7
+C b4 Vdd! 12.1
+C flop_1x_8_3/flop_dp_1x_7/ph1 Vdd! 12.4
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write Vdd! 16.8
+C mux2_1x_8_0/mux2_dp_1x_1/d0 Vdd! 4.7
+C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b Vdd! 6.5
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_4/data Vdd! 5.1
+C mux2_1x_8_1/mux2_dp_1x_7/s mux2_1x_8_1/mux2_dp_1x_7/sb 2.1
+C mux3_1x_8_0/mux3_dp_1x_2/a_0_74# Vdd! 2.2
+C mux2_1x_8_0/mux2_dp_1x_7/d0 Vdd! 4.7
+C flop_1x_8_0/flop_dp_1x_0/masterinb Vdd! 2.3
+C flopenr_1x_8_0/flopenr_dp_1x_0/a_76_6# Vdd! 2.7
+C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C op1 Vdd! 2.2
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_3/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand5_1x_0/y 5.6
+C flop_1x_8_3/flop_dp_1x_2/masterinb Vdd! 2.3
+C flop_1x_8_3/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C flopen_1x_8_1/flopen_dp_1x_1/phi1 Vdd! 2.7
+C alt_alu_0/alt_alu_slice_0[4]/fulladder_0/c Vdd! 10.4
+C flopen_1x_8_2/inv_4x_0/y Vdd! 26.1
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2b 13.4
+C Vdd! regramarray_dp_0/invbuf_4x_6/s_out 5.6
+C flopen_1x_8_3/flopen_dp_1x_1/phi1 Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_5/master Vdd! 2.7
+C flop_1x_8_1/flop_dp_1x_5/masterinb Vdd! 2.3
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C Vdd! regramarray_dp_0/w_2_ 11.2
+C flopenr_1x_8_0/flopenr_dp_1x_7/a_20_71# Vdd! 4.2
+C flopenr_1x_8_0/flopenr_dp_1x_6/a_108_6# Vdd! 4.2
+C flopen_1x_8_1/flopen_dp_1x_1/a_12_71# Vdd! 4.4
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C writedata3 Vdd! 5.4
+C flop_1x_8_2/flop_dp_1x_0/q Vdd! 3.4
+C b7 Vdd! 22.9
+C Vdd! shifter_0/z8 6.4
+C mux3_1x_8_0/mux3_dp_1x_0/a_33_7# mux3_1x_8_0/mux3_dp_1x_0/y 2.1
+C op5 Vdd! 7.9
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y Vdd! 3.3
+C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s1 2.6
+C mux2_c_1x_2/y Vdd! 3.8
+C shifter_0/log_shifter_0/mux2_dp_1x_6/y Vdd! 3.8
+C Vdd! regramarray_dp_0/w_4_ 11.2
+C alt_alu_0/yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
+C shifter_0/xor2_2x_0/a_13_46# Vdd! 4.2
+C mux2_1x_8_0/mux2_dp_1x_7/s mux2_1x_8_0/mux2_dp_1x_7/sb 2.1
+C mux3_1x_8_0/mux3_dp_1x_5/a_33_7# Vdd! 3.1
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y Vdd! 2.5
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_1/data Vdd! 5.1
+C flopen_1x_8_0/flopen_dp_1x_2/a_100_6# Vdd! 3.9
+C shifter_0/z7 Vdd! 6.4
+C flop_1x_8_2/flop_dp_1x_7/ph1 flop_1x_8_2/flop_dp_1x_7/ph1b 4.3
+C flopenr_1x_8_0/flopenr_dp_1x_7/ph1 flopenr_1x_8_0/flopenr_dp_1x_7/phi1b 4.1
+C flop_1x_8_0/flop_dp_1x_3/master Vdd! 2.7
+C mux2_1x_8_2/mux2_dp_1x_7/s Vdd! 14.8
+C mux2_c_1x_0/y Vdd! 2.5
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_6/data Vdd! 5.1
+C flop_1x_8_2/flop_dp_1x_7/master Vdd! 2.7
+C funct_2_ Vdd! 13.8
+C mux2_1x_8_0/mux2_dp_1x_6/d0 Vdd! 4.7
+C regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb 5.2
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[5]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! flop_1x_8_3/flop_dp_1x_7/q 8.4
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_0/y 4.6
+C flopenr_1x_8_0/flopenr_dp_1x_1/a_108_6# Vdd! 4.2
+C alt_alu_0/invbuf_4x_1/s_out alt_alu_0/invbuf_4x_0/s_out 2.6
+C flop_1x_8_2/flop_dp_1x_7/ph1 Vdd! 12.4
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2 3.6
+C mux3_1x_8_0/mux3_dp_1x_4/a_33_7# Vdd! 3.1
+C regramarray_dp_0/ra1_2_ Vdd! 3.6
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_0/data Vdd! 5.1
+C Vdd! regramarray_dp_0/invbuf_4x_0/s_out 5.0
+C flopen_1x_8_2/flopen_dp_1x_5/a_12_71# Vdd! 4.4
+C flop_1x_8_1/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C flop_1x_8_2/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_1/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1b 14.8
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_6/data 5.1
+C op_0_ Vdd! 7.3
+C flopen_1x_8_2/flopen_dp_1x_0/a_100_6# Vdd! 3.9
+C flop_1x_8_0/flop_dp_1x_6/master Vdd! 2.7
+C flopen_1x_8_0/inv_4x_0/y flopen_1x_8_0/inv_4x_1/y 7.0
+C regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb 5.2
+C regramarray_dp_0/r1_4_ Vdd! 10.9
+C flop_1x_8_3/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C flopenr_1x_8_0/flopenr_dp_1x_7/ph2 Vdd! 25.7
+C regramarray_dp_0/r2_3_ Vdd! 15.1
+C flop_1x_8_3/flop_dp_1x_7/masterinb Vdd! 2.3
+C result3 Vdd! 5.3
+C alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b Vdd! 6.5
+C mux4_1x_8_0/mux4_dp_1x_7/s1 Vdd! 13.5
+C alt_alu_0/alt_alu_slice_0[5]/inv_1x_1/y Vdd! 7.1
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C Vdd! shifter_0/y5 2.8
+C flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C flop_1x_8_1/flop_dp_1x_7/ph2 Vdd! 14.6
+C flop_1x_8_2/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b Vdd! 6.5
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_1/Y Vdd! 3.3
+C flop_1x_8_1/flop_dp_1x_7/ph2 flop_1x_8_1/flop_dp_1x_7/ph2b 4.5
+C memdata3 Vdd! 7.9
+C mux3_1x_8_0/mux3_dp_1x_0/a_33_7# Vdd! 3.1
+C a3 Vdd! 7.1
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1b 14.8
+C flop_1x_8_1/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C mux3_1x_8_0/mux3_dp_1x_1/a_0_74# Vdd! 2.2
+C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf flopen_1x_8_1/flopen_dp_1x_7/phi1b 4.3
+C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
+C alt_alu_0/alt_alu_slice_0[1]/inv_1x_0/y Vdd! 2.9
+C regramarray_dp_0/invbuf_4x_5/sb_out regramarray_dp_0/invbuf_4x_4/s_out 2.1
+C adr1 Vdd! 2.3
+C flop_1x_8_3/flop_dp_1x_3/masterinb Vdd! 2.3
+C flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C a7 Vdd! 7.0
+C mux3_1x_8_0/mux3_dp_1x_7/a_0_74# Vdd! 2.2
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb 16.4
+C flopen_1x_8_0/flopen_dp_1x_3/a_68_6# Vdd! 2.7
+C alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b Vdd! 6.5
+C shifter_0/log_shifter_0/mux2_dp_1x_2[4]/y Vdd! 5.1
+C funct_0_ flop_1x_8_3/flop_dp_1x_7/q 2.3
+C op6 Vdd! 7.8
+C shifter_0/z5 Vdd! 6.4
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_0/y 4.6
+C regdst mux2_c_1x_2/a_3_7# 2.2
+C mux4_1x_8_0/mux4_dp_1x_7/s0 mux4_1x_8_0/mux4_dp_1x_7/s1b 2.6
+C mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/s1 3.7
+C flopen_1x_8_0/flopen_dp_1x_3/a_12_71# Vdd! 4.4
+C mux3_1x_8_0/mux3_dp_1x_7/s1 Vdd! 14.0
+C mux3_1x_8_0/mux3_dp_1x_4/y Vdd! 3.0
+C adr2 Vdd! 2.3
+C flopen_1x_8_1/flopen_dp_1x_6/a_68_6# Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_3/q Vdd! 3.5
+C alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b Vdd! 6.5
+C Vdd! regramarray_dp_0/invbuf_4x_6/sb_out 5.9
+C flopen_1x_8_2/flopen_dp_1x_6/phi1 Vdd! 2.7
+C flopen_1x_8_1/flopen_dp_1x_3/a_68_6# Vdd! 2.7
+C flop_1x_8_1/flop_dp_1x_1/master Vdd! 2.7
+C flop_1x_8_1/flop_dp_1x_6/master Vdd! 2.7
+C mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! 13.5
+C mux3_1x_8_0/mux3_dp_1x_7/a_33_7# Vdd! 3.1
+C Vdd! shifter_0/z3 3.4
+C flopen_1x_8_3/flopen_dp_1x_3/a_68_6# Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_0/q Vdd! 3.5
+C flop_1x_8_2/flop_dp_1x_0/masterinb Vdd! 2.3
+C Vdd! shifter_0/shift_source_gen_0/and2_1x_0[1]/a_5_5# 3.0
+C Vdd! ph2 26.2
+C Vdd! regramarray_dp_0/invbuf_4x_4/s_out 6.7
+C adr3 Vdd! 2.3
+C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
+C flopen_1x_8_2/flopen_dp_1x_2/a_100_6# Vdd! 3.9
+C flop_1x_8_3/flop_dp_1x_0/masterinb Vdd! 2.3
+C regramarray_dp_0/invbuf_4x_2/s_out regramarray_dp_0/invbuf_4x_1/s_out 2.1
+C flopen_1x_8_2/flopen_dp_1x_5/a_68_6# Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_5/master Vdd! 2.7
+C shifter_0/log_shifter_0/mux2_dp_1x_1[7]/y Vdd! 4.9
+C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
+C alt_alu_0/alt_alu_slice_0[6]/inv_1x_0/y Vdd! 2.9
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/data Vdd! 5.1
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb 5.2
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Y Vdd! 2.5
+C flopen_1x_8_1/inv_4x_0/y flopen_1x_8_1/inv_4x_1/y 7.0
+C flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C shifter_0/xor2_2x_1/a_2_8# Vdd! 4.1
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C flop_1x_8_1/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C shifter_0/log_shifter_0/mux2_dp_1x_2[8]/y Vdd! 5.1
+C flopen_1x_8_0/flopen_dp_1x_2/a_68_6# Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_5/phi1 Vdd! 2.7
+C shifter_0/y7 Vdd! 2.8
+C Vdd! regramarray_dp_0/invbuf_4x_1/sb_out 7.1
+C regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb 5.2
+C alt_alu_0/invbuf_4x_1/s_out Vdd! 13.5
+C funct_3_ Vdd! 13.4
+C flop_1x_8_0/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C flopenr_1x_8_0/flopenr_dp_1x_7/phi2b Vdd! 21.3
+C Vdd! regramarray_dp_0/w_6_ 11.2
+C adr7 Vdd! 2.3
+C flop_1x_8_2/flop_dp_1x_1/q Vdd! 3.4
+C flop_1x_8_3/flop_dp_1x_0/q Vdd! 7.6
+C shifter_0/log_shifter_0/mux2_dp_1x_2[6]/y Vdd! 5.1
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_4/data 5.1
+C flopen_1x_8_0/flopen_dp_1x_4/phi1 Vdd! 2.7
+C mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
+C mux3_1x_8_0/mux3_dp_1x_7/y Vdd! 3.0
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! shifter_0/z6 6.4
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/data 5.1
+C flop_1x_8_3/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C reset Vdd! 2.6
+C shifter_0/log_shifter_0/mux2_dp_1x_2[1]/y Vdd! 3.4
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_6/data 5.1
+C flopen_1x_8_0/flopen_dp_1x_1/a_12_71# Vdd! 4.4
+C a4 Vdd! 7.1
+C Vdd! regramarray_dp_0/invbuf_4x_8/s_out 7.6
+C alt_alu_0/invbuf_4x_0/sb_out alt_alu_0/invbuf_4x_1/s_out 3.7
+C flopen_1x_8_1/flopen_dp_1x_5/a_12_71# Vdd! 4.4
+C flop_1x_8_1/flop_dp_1x_4/masterinb Vdd! 2.3
+C b0 Vdd! 12.2
+C flopen_1x_8_0/flopen_dp_1x_7/a_68_6# Vdd! 2.7
+C funct_4_ Vdd! 12.9
+C flopen_1x_8_1/flopen_dp_1x_7/phi2 flopen_1x_8_1/flopen_dp_1x_7/phi2b 4.5
+C flopen_1x_8_2/flopen_dp_1x_3/phi1 Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_4/q Vdd! 3.5
+C flop_1x_8_3/flop_dp_1x_6/q Vdd! 7.6
+C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_4/data 5.1
+C flopen_1x_8_1/flopen_dp_1x_1/a_100_6# Vdd! 3.9
+C flopen_1x_8_2/flopen_dp_1x_4/a_68_6# Vdd! 2.7
+C ph1 Vdd! 18.3
+C flopen_1x_8_1/flopen_dp_1x_5/a_100_6# Vdd! 3.9
+C flopen_1x_8_3/flopen_dp_1x_0/phi1 Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_7/ph2 flop_1x_8_3/flop_dp_1x_7/ph2b 4.5
+C mux2_c_1x_2/d0 ph2 2.5
+C flopenr_1x_8_0/inv_4x_1/y flopenr_1x_8_0/inv_4x_0/y 7.1
+C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/phbuf Vdd! 12.4
+C flopen_1x_8_3/flopen_dp_1x_1/a_100_6# Vdd! 3.9
+C Vdd! regramarray_dp_0/invbuf_4x_2/sb_out 6.8
+C flopen_1x_8_1/flopen_dp_1x_0/a_100_6# Vdd! 3.9
+C flopen_1x_8_3/flopen_dp_1x_5/a_100_6# Vdd! 3.9
+C flopen_1x_8_2/flopen_dp_1x_3/a_12_71# Vdd! 4.4
+C flop_1x_8_1/flop_dp_1x_7/masterinb Vdd! 2.3
+C mux3_1x_8_0/mux3_dp_1x_3/a_33_7# mux3_1x_8_0/mux3_dp_1x_3/y 2.1
+C mux4_1x_8_0/mux4_dp_1x_7/s0b mux4_1x_8_0/mux4_dp_1x_7/s1b 2.1
+C flopen_1x_8_3/flopen_dp_1x_7/phi1b Vdd! 20.8
+C flop_1x_8_1/flop_dp_1x_3/master Vdd! 2.7
+C mux3_1x_8_0/mux3_dp_1x_3/y Vdd! 3.0
+C op3 Vdd! 8.2
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_3/data 5.1
+C flopen_1x_8_0/flopen_dp_1x_7/phi1 Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_6/a_12_71# Vdd! 4.4
+C flop_1x_8_2/flop_dp_1x_5/master Vdd! 2.7
+C mux3_1x_8_0/mux3_dp_1x_1/y Vdd! 3.0
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_2/data Vdd! 5.1
+C Vdd! shifter_0/y2 2.8
+C flopen_1x_8_1/flopen_dp_1x_4/phi1 Vdd! 2.7
+C flopen_1x_8_3/flopen_dp_1x_6/a_68_6# Vdd! 2.7
+C alusrca Vdd! 2.6
+C shifter_0/xor2_2x_0/y shifter_0/xor2_2x_0/yb 2.8
+C mux3_1x_8_0/mux3_dp_1x_7/s0 Vdd! 11.5
+C mux3_1x_8_0/mux3_dp_1x_5/y Vdd! 3.0
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_1/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand5_1x_0/y 5.6
+C flopen_1x_8_2/flopen_dp_1x_1/a_12_71# Vdd! 4.4
 C flopen_1x_8_2/flopen_dp_1x_7/phi1 Vdd! 2.7
+C shifter_0/xor2_2x_1/a_13_46# Vdd! 4.2
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/data 5.1
+C flopen_1x_8_1/flopen_dp_1x_7/a_100_6# Vdd! 3.9
+C flopen_1x_8_3/flopen_dp_1x_4/phi1 Vdd! 2.7
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Y Vdd! 3.3
+C Vdd! regramarray_dp_0/invbuf_4x_1/s_out 6.9
+C flop_1x_8_0/flop_dp_1x_1/master Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_6/q Vdd! 2.1
+C flopen_1x_8_1/flopen_dp_1x_4/a_12_71# Vdd! 4.4
+C flop_1x_8_1/flop_dp_1x_2/master Vdd! 2.7
 C flopenr_1x_8_0/flopenr_dp_1x_2/a_20_71# Vdd! 4.2
 C alt_alu_0/alt_alu_slice_0[3]/inv_1x_1/y Vdd! 7.1
-C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write 16.8
-C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_2[8]/y 5.1
-C mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! 13.5
-C flop_1x_8_3/flop_dp_1x_7/ph2 Vdd! 14.6
-C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C mux2_1x_8_0/mux2_dp_1x_5/d0 Vdd! 4.7
-C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C flopen_1x_8_3/inv_4x_0/y flopen_1x_8_3/inv_4x_1/y 7.0
-C flopen_1x_8_1/flopen_dp_1x_7/phi2b Vdd! 21.3
-C alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b Vdd! 6.5
-C mux2_c_1x_0/y Vdd! 2.5
-C Vdd! regramarray_dp_0/invbuf_4x_0/sb_out 5.3
-C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2 3.6
+C shifter_0/shift_source_gen_0/and2_1x_1/y Vdd! 2.6
+C Vdd! shifter_0/z2 3.4
+C flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_6/data Vdd! 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1 3.6
 C Vdd! regramarray_dp_0/r2_0_ 15.1
+C regdst mux2_c_1x_1/a_3_7# 2.2
+C flopen_1x_8_3/flopen_dp_1x_4/a_12_71# Vdd! 4.4
+C alt_alu_0/yzdetect_8_0/nor2_1x_2/b Vdd! 3.1
+C shifter_0/z11 Vdd! 5.0
+C flopen_1x_8_1/flopen_dp_1x_2/phi1 Vdd! 2.7
+C flop_1x_8_1/flop_dp_1x_7/ph1b Vdd! 20.8
+C flopen_1x_8_0/flopen_dp_1x_6/a_100_6# Vdd! 3.9
+C flop_1x_8_3/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write 16.8
+C flopen_1x_8_3/flopen_dp_1x_2/phi1 Vdd! 2.7
+C Vdd! regramarray_dp_0/invbuf_4x_5/s_out 7.1
+C flopen_1x_8_1/flopen_dp_1x_2/a_12_71# Vdd! 4.4
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_5/data 5.1
+C memdata1 writedata1 2.1
+C flopen_1x_8_2/inv_4x_1/y Vdd! 12.6
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C flopen_1x_8_3/flopen_dp_1x_2/a_12_71# Vdd! 4.4
+C alusrcb_1_ Vdd! 2.6
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_1/data 5.1
+C flopenr_1x_8_0/inv_4x_1/y Vdd! 13.7
+C alt_alu_0/alt_alu_slice_0[4]/inv_1x_0/y Vdd! 2.9
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C shifter_0/shift_source_gen_0/and2_1x_1/a_5_5# Vdd! 3.0
+C writedata5 Vdd! 5.4
+C flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C shifter_0/log_shifter_0/mux2_dp_1x_1[8]/y Vdd! 4.9
+C shifter_0/shift_source_gen_0/and2_1x_0[2]/a_5_5# Vdd! 3.0
+C flop_1x_8_1/flop_dp_1x_7/ph1 flop_1x_8_1/flop_dp_1x_7/ph1b 4.3
+C mux2_1x_8_0/mux2_dp_1x_7/s Vdd! 14.8
+C flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# Vdd! 2.7
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_5/data Vdd! 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_2/data 5.1
+C memdata5 writedata5 2.1
+C flopen_1x_8_2/flopen_dp_1x_0/q Vdd! 2.1
+C flop_1x_8_1/flop_dp_1x_5/master Vdd! 2.7
+C b5 Vdd! 12.2
+C flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C flopen_1x_8_1/flopen_dp_1x_7/phi2b Vdd! 21.3
+C alt_alu_0/alt_alu_slice_0[1]/inv_1x_1/y Vdd! 7.1
+C Vdd! shifter_0/shift_source_gen_0/rightandarith 7.3
+C flop_1x_8_0/flop_dp_1x_7/ph2 Vdd! 14.6
+C flop_1x_8_3/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C alt_alu_0/alt_alu_slice_0[0]/inv_1x_0/y Vdd! 2.9
+C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_5/data 5.1
+C alt_alu_0/invbuf_4x_1/sb_out alt_alu_0/invbuf_4x_1/s_out 2.4
+C flopenr_1x_8_0/flopenr_dp_1x_4/a_26_53# Vdd! 2.7
+C flopenr_1x_8_0/inv_4x_1/y flopenr_1x_8_0/inv_4x_2/y 4.0
+C flopen_1x_8_1/flopen_dp_1x_5/phi1 Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C flop_1x_8_3/flop_dp_1x_1/masterinb Vdd! 2.3
+C flop_1x_8_3/flop_dp_1x_5/q Vdd! 7.6
+C shifter_0/z9 Vdd! 7.1
+C b7 shifter_0/xor2_2x_2/a 2.9
+C flopen_1x_8_0/flopen_dp_1x_7/phi1b Vdd! 20.8
+C regramarray_dp_0/r1_5_ Vdd! 10.9
+C mux3_1x_8_0/mux3_dp_1x_7/s1b Vdd! 13.3
+C a0 b0 2.0
+C adr0 Vdd! 2.3
+C op4 Vdd! 14.1
+C Vdd! regwrite 9.3
+C flop_1x_8_0/flop_dp_1x_2/masterinb Vdd! 2.3
+C Vdd! regramarray_dp_0/w_5_ 11.2
+C memdata2 writedata2 2.1
+C flop_1x_8_1/flop_dp_1x_3/masterinb Vdd! 2.3
+C memdata4 Vdd! 7.9
+C mux4_1x_8_0/mux4_dp_1x_0/d2 Vdd! 5.5
+C flop_1x_8_2/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C flop_1x_8_2/flop_dp_1x_4/q Vdd! 3.4
+C shifter_0/z12 Vdd! 5.0
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_4/data 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2b 13.4
+C flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C flopen_1x_8_0/flopen_dp_1x_6/q Vdd! 2.1
+C flop_1x_8_3/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C alt_alu_0/yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
+C Vdd! regramarray_dp_0/invbuf_4x_7/s_out 7.2
+C flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C flop_1x_8_2/flop_dp_1x_6/master Vdd! 2.7
+C alt_alu_0/alt_alu_slice_0[6]/inv_1x_1/y Vdd! 7.1
+C alt_alu_0/yzdetect_8_0/nor2_1x_2/a Vdd! 3.9
+C mux3_1x_8_0/mux3_dp_1x_4/a_0_74# Vdd! 2.2
+C b2 Vdd! 12.2
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/data Vdd! 5.1
+C op_3_ Vdd! 5.2
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_1/data Vdd! 5.1
+C mux2_c_1x_1/d1 Vdd! 6.0
+C flop_1x_8_0/flop_dp_1x_2/master Vdd! 2.7
+C mux2_1x_8_0/mux2_dp_1x_2/d0 Vdd! 4.7
+C shifter_0/log_shifter_0/mux2_dp_1x_3/y Vdd! 3.6
+C shifter_0/y4 Vdd! 2.8
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_0/data 5.1
+C flopen_1x_8_2/flopen_dp_1x_7/phi1b Vdd! 20.8
+C memdata1 Vdd! 8.0
+C op0 Vdd! 2.2
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_6/data 5.1
+C flop_1x_8_0/flop_dp_1x_7/ph1b Vdd! 20.8
+C flopenr_1x_8_0/flopenr_dp_1x_4/a_20_71# Vdd! 4.2
+C flopenr_1x_8_0/flopenr_dp_1x_6/a_76_6# Vdd! 2.7
+C alt_alu_0/alt_alu_slice_0[2]/inv_1x_0/y Vdd! 2.9
+C mux3_1x_8_0/mux3_dp_1x_1/a_33_7# mux3_1x_8_0/mux3_dp_1x_1/y 2.1
+C flop_1x_8_2/flop_dp_1x_2/master Vdd! 2.7
+C flopen_1x_8_0/flopen_dp_1x_1/a_100_6# Vdd! 3.9
+C flopenr_1x_8_0/flopenr_dp_1x_0/a_20_71# Vdd! 4.2
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/y 4.6
+C mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! 13.5
+C flop_1x_8_1/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_1/Y Vdd! 3.3
+C flop_1x_8_0/flop_dp_1x_6/q Vdd! 3.5
+C flopenr_1x_8_0/flopenr_dp_1x_4/a_108_6# Vdd! 4.2
+C shifter_0/shift_source_gen_0/nandnandnand_1x_0[8]/nand2_1x_0/Y Vdd! 2.6
+C flop_1x_8_2/flop_dp_1x_2/masterinb Vdd! 2.3
+C mux3_1x_8_0/mux3_dp_1x_6/a_0_74# Vdd! 2.2
+C Vdd! shifter_0/shift_source_gen_0/and2_1x_1/a 9.0
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2 3.6
+C op_4_ Vdd! 4.8
+C flopen_1x_8_1/flopen_dp_1x_6/a_100_6# Vdd! 3.9
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write Vdd! 16.8
+C flopenr_1x_8_0/flopenr_dp_1x_3/a_20_71# Vdd! 4.2
+C irwrite_3_ Vdd! 2.6
+C flopen_1x_8_2/flopen_dp_1x_3/a_100_6# Vdd! 3.9
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1b 14.7
+C flop_1x_8_0/flop_dp_1x_7/ph2 flop_1x_8_0/flop_dp_1x_7/ph2b 4.5
+C flopen_1x_8_0/flopen_dp_1x_3/a_100_6# Vdd! 3.9
+C mux2_c_1x_0/a_23_7# Vdd! 2.7
+C flop_1x_8_1/flop_dp_1x_7/master Vdd! 2.7
+C pcsrc_1_ Vdd! 2.6
+C alt_alu_0/alt_alu_slice_0[6]/fulladder_0/c Vdd! 10.4
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_4/data Vdd! 5.1
+C flop_1x_8_2/flop_dp_1x_1/master Vdd! 2.7
+C shifter_0/xor2_2x_0/yb Vdd! 18.7
+C flopen_1x_8_3/inv_4x_0/y Vdd! 26.1
+C flopen_1x_8_0/flopen_dp_1x_7/q Vdd! 2.1
+C regramarray_dp_0/r2_6_ Vdd! 15.1
+C flop_1x_8_3/flop_dp_1x_6/masterinb Vdd! 2.3
+C mux3_1x_8_0/mux3_dp_1x_7/s0b Vdd! 13.3
+C shifter_0/xor2_2x_1/y shifter_0/xor2_2x_1/yb 2.3
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_1/y 3.2
+C flopen_1x_8_2/flopen_dp_1x_1/a_100_6# Vdd! 3.9
+C flopen_1x_8_2/flopen_dp_1x_7/q Vdd! 2.1
+C flop_1x_8_2/flop_dp_1x_5/q Vdd! 3.4
+C zero Vdd! 5.3
+C flopenr_1x_8_0/flopenr_dp_1x_6/a_26_53# Vdd! 2.7
+C b3 Vdd! 12.2
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C flopen_1x_8_0/flopen_dp_1x_5/phi1 Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_1/masterinb Vdd! 2.3
+C shifter_0/log_shifter_0/mux2_dp_1x_1[6]/y Vdd! 4.9
+C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_1[1]/y 3.5
+C Vdd! regramarray_dp_0/invbuf_4x_3/s_out 5.6
+C flopenr_1x_8_0/flopenr_dp_1x_1/a_76_6# Vdd! 2.7
+C regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_4/y 5.1
+C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_2[5]/y 5.1
+C flopen_1x_8_1/flopen_dp_1x_4/a_100_6# Vdd! 3.9
+C flop_1x_8_0/flop_dp_1x_3/masterinb Vdd! 2.3
+C flopenr_1x_8_0/flopenr_dp_1x_2/a_108_6# Vdd! 4.2
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb 5.2
+C shifter_0/xor2_2x_1/y Vdd! 16.8
+C mux2_c_1x_2/d1 Vdd! 6.6
+C flopen_1x_8_0/flopen_dp_1x_5/a_12_71# Vdd! 4.4
+C flopen_1x_8_2/flopen_dp_1x_1/q Vdd! 2.1
+C alt_alu_0/yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
+C regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C memdata3 writedata3 2.1
+C irwrite_2_ Vdd! 2.6
+C flopen_1x_8_3/flopen_dp_1x_4/a_100_6# Vdd! 3.9
+C funct_1_ Vdd! 14.2
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand5_1x_0/y 5.6
+C flopen_1x_8_0/flopen_dp_1x_6/a_68_6# Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_5/a_100_6# Vdd! 3.9
+C flop_1x_8_1/flop_dp_1x_0/master Vdd! 2.7
+C flop_1x_8_2/flop_dp_1x_4/master Vdd! 2.7
+C regramarray_dp_0/ra1_1_ Vdd! 4.5
 C flopen_1x_8_1/flopen_dp_1x_4/q Vdd! 2.1
-C flop_1x_8_0/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C flopenr_1x_8_0/flopenr_dp_1x_1/a_108_6# Vdd! 4.2
-C a7 Vdd! 7.0
-C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_1/data 5.1
+C flopen_1x_8_3/flopen_dp_1x_7/a_100_6# Vdd! 3.9
+C irwrite_0_ Vdd! 2.6
+C shifter_0/xor2_2x_0/y Vdd! 20.2
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb 16.4
+C flopen_1x_8_2/flopen_dp_1x_6/a_68_6# Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C flop_1x_8_2/flop_dp_1x_7/ph2 Vdd! 14.6
+C regramarray_dp_0/regramvector0_dp_0/regram0_7/read2 Vdd! 2.1
+C shifter_0/log_shifter_0/mux2_dp_1x_2[7]/y Vdd! 5.1
+C Vdd! regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_6/data 5.1
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb 5.2
+C flopen_1x_8_0/flopen_dp_1x_1/phi1 Vdd! 2.7
+C flopen_1x_8_1/flopen_dp_1x_2/a_100_6# Vdd! 3.9
+C flopenr_1x_8_0/flopenr_dp_1x_0/a_26_53# Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_4/master Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_6/masterinb Vdd! 2.3
+C flopen_1x_8_3/flopen_dp_1x_2/a_100_6# Vdd! 3.9
+C flopen_1x_8_0/flopen_dp_1x_0/a_12_71# Vdd! 4.4
+C alt_alu_0/alt_alu_slice_0[4]/inv_1x_1/y Vdd! 7.1
+C shifter_0/log_shifter_0/mux2_dp_1x_1[5]/y Vdd! 4.9
+C iord Vdd! 2.6
+C mux3_1x_8_0/mux3_dp_1x_2/y Vdd! 3.0
+C regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write 16.8
+C memdata2 Vdd! 7.9
+C writedata2 Vdd! 5.4
+C Vdd! shifter_0/y3 2.8
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_5/data 5.1
+C flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C mux2_1x_8_0/mux2_dp_1x_0/d0 Vdd! 4.7
+C regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_0/data Vdd! 5.1
+C Vdd! result1 5.3
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand5_1x_0/y 5.6
+C regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.8
+C b6 Vdd! 12.1
+C flopen_1x_8_0/flopen_dp_1x_4/a_12_71# Vdd! 4.4
+C flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_0/y 4.6
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_6/data 5.1
+C flopen_1x_8_0/flopen_dp_1x_7/phi2 Vdd! 14.6
+C flop_1x_8_3/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C result0 Vdd! 5.6
+C Vdd! regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_1/y 3.2
+C mux3_1x_8_0/mux3_dp_1x_2/a_33_7# mux3_1x_8_0/mux3_dp_1x_2/y 2.1
+C flopen_1x_8_0/flopen_dp_1x_0/a_68_6# Vdd! 2.7
+C flopen_1x_8_2/flopen_dp_1x_4/a_100_6# Vdd! 3.9
+C flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/d2 Vdd! 4.3
+C flopen_1x_8_3/flopen_dp_1x_0/a_68_6# Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_4/masterinb Vdd! 2.3
+C flopenr_1x_8_0/flopenr_dp_1x_3/a_108_6# Vdd! 4.2
+C Vdd! shifter_0/log_shifter_0/mux2_dp_1x_1[2]/y 4.9
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2 3.6
+C memdata4 writedata4 2.1
+C mux2_1x_8_2/mux2_dp_1x_7/s mux2_1x_8_2/mux2_dp_1x_7/sb 2.1
+C mux3_1x_8_0/mux3_dp_1x_5/a_0_74# Vdd! 2.2
+C alt_alu_0/alt_alu_slice_0[7]/inv_1x_0/y Vdd! 2.9
+C flopen_1x_8_1/flopen_dp_1x_3/phi1 Vdd! 2.7
+C flop_1x_8_0/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C regramarray_dp_0/r1_2_ Vdd! 10.9
+C Vdd! regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2b 13.4
+C mux3_1x_8_0/mux3_dp_1x_4/a_33_7# mux3_1x_8_0/mux3_dp_1x_4/y 2.1
+C flopen_1x_8_3/flopen_dp_1x_0/a_12_71# Vdd! 4.4
+C flop_1x_8_1/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C pcsrc_0 Vdd! 2.6
+C mux2_c_1x_1/y Vdd! 3.0
+C Vdd! alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b 6.5
+C flopen_1x_8_0/flopen_dp_1x_5/a_68_6# Vdd! 2.7
+C flopen_1x_8_3/flopen_dp_1x_3/phi1 Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_3/q Vdd! 7.6
+C alt_alu_0/invbuf_4x_0/s_out Vdd! 41.4
+C alt_alu_0/alt_alu_slice_0[5]/fulladder_0/c Vdd! 10.4
+C regramarray_dp_0/ra1_0_ Vdd! 5.2
+C regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C Vdd! regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_2/data 5.1
+C Vdd! shifter_0/z4 7.1
+C Vdd! regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1b 14.8
+C flopen_1x_8_2/flopen_dp_1x_2/a_68_6# Vdd! 2.7
+C flop_1x_8_3/flop_dp_1x_7/ph1b Vdd! 20.8
+C flopen_1x_8_1/flopen_dp_1x_3/a_12_71# Vdd! 4.4
+C memdata6 Vdd! 7.9
+C flop_1x_8_1/flop_dp_1x_1/masterinb Vdd! 2.3
 C mux2_c_1x_0/d0 GND 36.5
 R mux2_c_1x_0/d0 1225
 R mux2_c_1x_0/a_31_7# 164
@@ -5687,6 +5687,8 @@ C mux2_c_1x_2/a_3_7# GND 3.3
 R mux2_c_1x_2/a_3_7# 1314
 C mux2_c_1x_2/d1 GND 6.5
 R mux2_c_1x_2/d1 1341
+C mux2_1x_8_0/mux2_dp_1x_7/s GND 31.5
+R mux2_1x_8_0/mux2_dp_1x_7/s 8952
 C mux2_1x_8_0/mux2_dp_1x_7/sb GND 42.3
 R mux2_1x_8_0/mux2_dp_1x_7/sb 8820
 C iord GND 13.3
@@ -6492,6 +6494,8 @@ R flop_1x_8_0/flop_dp_1x_7/masterb 1174
 R flop_1x_8_0/flop_dp_1x_7/master 1151
 C memdata0 GND 6.7
 R memdata0 4770
+C mux2_1x_8_1/mux2_dp_1x_7/s GND 31.5
+R mux2_1x_8_1/mux2_dp_1x_7/s 8952
 C mux2_1x_8_1/mux2_dp_1x_7/sb GND 42.4
 R mux2_1x_8_1/mux2_dp_1x_7/sb 8820
 C memtoreg GND 14.9
@@ -6968,6 +6972,8 @@ R flop_1x_8_2/flop_dp_1x_7/masterb 1174
 R flop_1x_8_2/flop_dp_1x_7/master 1151
 C regramarray_dp_0/r1_0_ GND 28.7
 R regramarray_dp_0/r1_0_ 6290
+C mux2_1x_8_2/mux2_dp_1x_7/s GND 31.7
+R mux2_1x_8_2/mux2_dp_1x_7/s 8952
 C mux2_1x_8_2/mux2_dp_1x_7/sb GND 42.5
 R mux2_1x_8_2/mux2_dp_1x_7/sb 8820
 C alusrca GND 13.3
@@ -7565,6 +7571,8 @@ C alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[7]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[7]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[7]/fulladder_0/s GND 4.2
+R alt_alu_0/alt_alu_slice_0[7]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_0/a_47_7# 481
@@ -7617,6 +7625,8 @@ C alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[6]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[6]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[6]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[6]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_0/a_47_7# 481
@@ -7669,6 +7679,8 @@ C alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[5]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[5]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[5]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[5]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_0/a_47_7# 481
@@ -7721,6 +7733,8 @@ C alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[4]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[4]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[4]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[4]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_0/a_47_7# 481
@@ -7775,6 +7789,8 @@ C alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[3]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[3]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[3]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[3]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_0/a_47_7# 481
@@ -7829,6 +7845,8 @@ C alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[2]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[2]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[2]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[2]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_0/a_47_7# 481
@@ -7883,6 +7901,8 @@ C alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# GND 4.1
 R alt_alu_0/alt_alu_slice_0[1]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[1]/fulladder_0/b 4864
+C alt_alu_0/alt_alu_slice_0[1]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[1]/fulladder_0/s 1351
 R alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_0/a_68_7# 164
 R alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_0/a_55_7# 164
 R alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_0/a_47_7# 481
@@ -7937,8 +7957,8 @@ C alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# GND 3.8
 R alt_alu_0/alt_alu_slice_0[0]/mux4_dp_1x_1/a_39_7# 1123
 C alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b GND 9.9
 R alt_alu_0/alt_alu_slice_0[0]/fulladder_0/b 4864
-C s GND 128.8
-R s 42466
+C alt_alu_0/alt_alu_slice_0[0]/fulladder_0/s GND 4.3
+R alt_alu_0/alt_alu_slice_0[0]/fulladder_0/s 1351
 R shifter_0/xor2_2x_0/a_30_8# 164
 R shifter_0/xor2_2x_0/a_17_8# 164
 C shifter_0/xor2_2x_0/y GND 44.3

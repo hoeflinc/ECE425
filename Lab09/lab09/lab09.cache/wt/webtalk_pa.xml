@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Apr 10 14:15:58 2017">
+<application name="pa" timeStamp="Mon Apr 24 13:27:18 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="ae2084f5d5ab4ec8a6a7719d4f29ca37" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -19,6 +19,7 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="AddSources" value="5" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
 <property name="RunSynthesis" value="4" type="JavaHandler"/>
 <property name="SetTopNode" value="2" type="JavaHandler"/>
 <property name="ShowView" value="2" type="JavaHandler"/>
@@ -29,70 +30,21 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SimulationRunAll" value="3" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, simulation_live_restart" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, simulation_live_run_all" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="5" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, testbench (testbench.sv" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Data Files, memfile.dat], 16, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Data Files, memfile.dat], 16, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Data Files], 15" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Data Files], 17, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, testbench (testbench.sv" value="14" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 9" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 8" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="5" type="GuiResourceData"/>
-<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, /home/hoeflinc/ECE425/Lab09/lab09/lab09.xpr, 0" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.OpenFileAction_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
-<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="4" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="7" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_IN, Waveform Viewer_zoom_in" value="3" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_OUT, Waveform Viewer_zoom_out" value="2" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 115, 742" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1981, 339" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1993, 286" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 2" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 3" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 4" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 5" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 211, 69" value="1" type="GuiResourceData"/>
-<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 251, 69" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 107, 184" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 147, 201" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 151, 233" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 157, 206" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 158, 211" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 167, 212" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 191, 208" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 191, 208, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 198, 201" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 204, 204" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 54, 152" value="1" type="GuiResourceData"/>
-<property name="exmemory.sv, 81, 177" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 113, 138" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 117, 317" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 168, 190" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 186, 417" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 187, 428" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 189, 456" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 194, 428" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 199, 428" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 202, 477" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 259, 158" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 284, 191" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 357, 355" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 381, 349" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 387, 423" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 403, 318" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 414, 409" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 414, 409, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="testbench.sv, 449, 185" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, testbench (testbench.sv" value="19" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="alu.sv, 115, 211" value="1" type="GuiResourceData"/>
+<property name="alu.sv, 232, 187" value="1" type="GuiResourceData"/>
+<property name="alu.sv, 267, 313" value="1" type="GuiResourceData"/>
+<property name="alu.sv, 348, 151" value="1" type="GuiResourceData"/>
+<property name="aludec.sv, 125, 170" value="1" type="GuiResourceData"/>
+<property name="aludec.sv, 348, 358" value="1" type="GuiResourceData"/>
+<property name="aludec.sv, 357, 348" value="1" type="GuiResourceData"/>
+<property name="aludec.sv, 404, 368" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="4" type="GuiMode"/>
+<property name="GuiMode" value="1" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="2" type="TclMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
 </item>
 </section>
 </application>

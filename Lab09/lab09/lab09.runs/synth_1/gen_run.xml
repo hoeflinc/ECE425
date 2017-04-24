@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1491333533">
-  <File Type="RDS-PROPCONSTRS" Name="testbench_drc_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="testbench_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="testbench.dcp"/>
   <File Type="RDS-UTIL" Name="testbench_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="testbench_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="testbench.vds"/>
   <File Type="VDS-TIMING-PB" Name="testbench_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="testbench.tcl"/>
   <File Type="VDS-TIMINGSUMMARY" Name="testbench_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="testbench.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="testbench_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../shifter.sv">
