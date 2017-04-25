@@ -7,9 +7,9 @@ f = open('tb.cmd', 'w')
 index = 0
 for op in oplist:
     f.write("setvector op "+format(op, '09b')+"\n")
-    for a in range(0b11111100,0b11111111):
+    for a in range(0b0,0b11111111,0b00010101):
         f.write("setvector a "+format(a, '08b')+"\n")
-        for b in range(0,0b00000111, 0b00000001):
+        for b in range(0,0b11111111, 0b00001111):
             f.write("setvector b "+format(b, '08b')+"\n")
             if index == 0:
                 result = a&b
@@ -72,5 +72,39 @@ for op in shift_oplist:
             else:
                 f.write("assert zero 0\n")
     index_1 += 1
+
+#Selected Test Cases for shifting
+f.write("assert op 000000011\n")
+f.write("assert b 00001111\n")
+f.write("assert s 100\n")
+f.write("s\n")
+f.write("assert result 11110000\n")
+f.write("assert zero 0\n")
+
+f.write("assert b 11110000\n")
+f.write("s\n")
+f.write("assert result 00000000\n")
+f.write("assert zero 1\n")
+
+f.write("assert op 100000011\n")
+f.write("assert b 11110000\n")
+f.write("assert s 100\n")
+f.write("s\n")
+f.write("assert result 00001111\n")
+f.write("assert zero 0\n")
+
+f.write("assert op 110000011\n")
+f.write("s")
+f.write("assert result 11111111\n")
+f.write("assert zero 0\n")
+
+f.write("assert s 111\n")
+f.write("assert result 11111111\n")
+f.write("assert zero 0\n")
+
+f.write("assert op 100000011\n")
+f.write("s\n")
+f.write("assert result 00000000\n")
+f.write("assert zero 1\n")
 
 f.close()
