@@ -74,35 +74,36 @@ for op in shift_oplist:
     index_1 += 1
 
 #Selected Test Cases for shifting
-f.write("assert op 000000011\n")
-f.write("assert b 00001111\n")
-f.write("assert s 100\n")
+f.write("setvector op 000000011\n")
+f.write("setvector b 00001111\n")
+f.write("setvector s 100\n")
 f.write("s\n")
 f.write("assert result 11110000\n")
 f.write("assert zero 0\n")
 
-f.write("assert b 11110000\n")
+f.write("setvector b 11110000\n")
 f.write("s\n")
 f.write("assert result 00000000\n")
 f.write("assert zero 1\n")
 
-f.write("assert op 100000011\n")
-f.write("assert b 11110000\n")
-f.write("assert s 100\n")
+f.write("setvector op 100000011\n")
+f.write("setvector b 11110000\n")
+f.write("setvector s 100\n")
 f.write("s\n")
 f.write("assert result 00001111\n")
 f.write("assert zero 0\n")
 
-f.write("assert op 110000011\n")
-f.write("s")
+f.write("setvector op 110000011\n")
+f.write("s\n")
 f.write("assert result 11111111\n")
 f.write("assert zero 0\n")
 
-f.write("assert s 111\n")
+f.write("setvector s 111\n")
 f.write("assert result 11111111\n")
 f.write("assert zero 0\n")
 
-f.write("assert op 100000011\n")
+f.write("setvector op 100000011\n")
+f.write("setvector b 01111111\n")
 f.write("s\n")
 f.write("assert result 00000000\n")
 f.write("assert zero 1\n")
