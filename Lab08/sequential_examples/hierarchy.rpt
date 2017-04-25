@@ -3,7 +3,7 @@
 Report : hierarchy
 Design : mips_fsm
 Version: L-2016.03-SP5-2
-Date   : Tue Mar 28 14:56:06 2017
+Date   : Tue Apr 25 14:14:21 2017
 ****************************************
 
 mips_fsm
@@ -15,5 +15,6 @@ mips_fsm
     NAND3X1          osu05_stdcells
     NOR2X1           osu05_stdcells
     OAI21X1          osu05_stdcells
+    OAI22X1          osu05_stdcells
     OR2X1            osu05_stdcells
 1

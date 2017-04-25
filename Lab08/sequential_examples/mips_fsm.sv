@@ -12,11 +12,11 @@
 //-----------------------------------------------------------------------------
 
 module mips_fsm(
-		input logic 	   clk, reset, 
+		input logic 	   clk, reset, zero,
                 input [5:0] 	   op,
                 output logic 	   memwrite, alusrca, 
-                output logic 	   memtoreg, iord, pcwrite, brnch,
-                output logic 	   regwrite, regdst, 
+                output logic 	   memtoreg, iord,
+                output logic 	   regwrite, regdst, pcen,
                 output logic [1:0] pcsrc, alusrcb,
                 output logic [1:0] aluop,
                 output logic [3:0] irwrite
@@ -126,6 +126,10 @@ module mips_fsm(
     end
     
    //Output Combinational logic
+   //pcen logic
+   logic pcwrite, brnch;
+   assign pcen = (brnch & zero) | pcwrite;
+
    always_comb
    begin
         memwrite = 0;
