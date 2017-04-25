@@ -9,11 +9,11 @@ create_project -in_memory -part xc7vx485tffg1157-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /home/hoeflinc/ECE425/Lab08/lab08/lab08.cache/wt [current_project]
-set_property parent.project_path /home/hoeflinc/ECE425/Lab08/lab08/lab08.xpr [current_project]
+set_property webtalk.parent_dir /home/millerid/ECE425/Lab08/lab08/lab08.cache/wt [current_project]
+set_property parent.project_path /home/millerid/ECE425/Lab08/lab08/lab08.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-read_verilog -library xil_defaultlib -sv /home/hoeflinc/ECE425/Lab08/sequential_examples/mips_fsm.sv
+read_verilog -library xil_defaultlib -sv /home/millerid/ECE425/Lab08/sequential_examples/mips_fsm.sv
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }

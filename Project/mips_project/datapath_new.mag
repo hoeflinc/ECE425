@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493068236
+timestamp 1493145023
 << metal1 >>
 rect 576 2465 1096 2473
 rect 576 2375 1096 2383
@@ -1405,9 +1405,12 @@ rect 2327 884 2331 1312
 rect 2344 884 2348 1312
 rect 2463 982 2467 1312
 rect 2503 982 2507 1312
+rect 2807 1310 2811 1314
 rect 2969 1302 3033 1343
 rect 2969 1192 3033 1298
+rect 2871 1092 2875 1096
 rect 2969 1082 3033 1188
+rect 2919 984 2923 988
 rect 2969 972 3033 1078
 rect 2969 862 3033 968
 rect 2969 752 3033 858
@@ -2814,7 +2817,7 @@ use flopenr_1x_8  flopenr_1x_8_0
 timestamp 1484532171
 transform 1 0 2040 0 1 0
 box -6 -4 147 976
-use alt_alu  alt_alu_0 /home/millerid/ECE425/Project/mips_project
+use alt_alu  alt_alu_0
 timestamp 1493063752
 transform 1 0 2217 0 1 -4
 box -33 0 377 986
@@ -2918,4 +2921,7 @@ rlabel metal2 554 1309 554 1309 1 ph2
 rlabel metal2 546 1308 546 1308 1 reset
 rlabel metal2 397 1326 397 1326 1 Gnd!
 rlabel metal2 309 1327 309 1327 1 Vdd!
+rlabel metal2 2807 1310 2811 1314 1 s2
+rlabel metal2 2871 1092 2875 1096 1 s1
+rlabel metal2 2919 984 2923 988 1 s0
 << end >>

@@ -1,6 +1,6 @@
 ###################################################################
 
-# Created by write_sdc on Tue Mar 28 14:56:06 2017
+# Created by write_sdc on Tue Apr 25 14:14:21 2017
 
 ###################################################################
 set sdc_version 2.0
@@ -12,10 +12,9 @@ set_max_delay 25  -to [get_ports memwrite]
 set_max_delay 25  -to [get_ports alusrca]
 set_max_delay 25  -to [get_ports memtoreg]
 set_max_delay 25  -to [get_ports iord]
-set_max_delay 25  -to [get_ports pcwrite]
-set_max_delay 25  -to [get_ports brnch]
 set_max_delay 25  -to [get_ports regwrite]
 set_max_delay 25  -to [get_ports regdst]
+set_max_delay 25  -to [get_ports pcen]
 set_max_delay 25  -to [get_ports {pcsrc[1]}]
 set_max_delay 25  -to [get_ports {pcsrc[0]}]
 set_max_delay 25  -to [get_ports {alusrcb[1]}]
