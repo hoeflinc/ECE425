@@ -10,15 +10,17 @@ Information: Loading local_link_library attribute {osu05_stdcells.db}. (MWDC-290
 Information: The design has horizontal rows, and Y-symmetry has been used for sites. (MWDC-217)
 Floorplan loading succeeded.
 
-Warning: Limited std master NAND2X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master NOR2X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master AOI22X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master OR2X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master OAI21X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master NAND3X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master AOI21X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
+Warning: Limited std master NAND2X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
+Warning: Limited std master OAI22X1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master INVX2: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master DFFPOSX1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
+Warning: Limited std master INVX1: orientation(s) = { R0_MX R0_MY }.  (APL-082)
 Warning: Limited std master FILL: orientation(s) = { R0_MX R0_MY }.  (APL-082)
   Loading design 'mips_fsm'
 Warning: Layer 'metal1' is missing the optional 'edge capacitance' attribute. (PSYN-101)
@@ -52,7 +54,7 @@ Report : timing
         -max_paths 1
 Design : mips_fsm
 Version: L-2016.03-SP5-1
-Date   : Tue Mar 28 14:58:00 2017
+Date   : Tue Apr 25 15:03:49 2017
 ****************************************
 
  * Some/all delay information is back-annotated.
@@ -61,7 +63,7 @@ Operating Conditions: typical   Library: osu05_stdcells
 
 Information: Percent of Arnoldi-based delays =  0.00%
 
-  Startpoint: state_reg[3]
+  Startpoint: state_reg[0]
               (rising edge-triggered flip-flop clocked by clk)
   Endpoint: state_reg[2]
             (rising edge-triggered flip-flop clocked by clk)
@@ -72,33 +74,32 @@ Information: Percent of Arnoldi-based delays =  0.00%
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (propagated)         0.00       0.00
-  state_reg[3]/CLK (DFFPOSX1)              0.00       0.00 r
-  state_reg[3]/Q (DFFPOSX1)                0.30       0.30 r
-  U10/Y (INVX2)                            0.16       0.46 f
-  U48/Y (NAND2X1)                          0.24       0.69 r
-  U47/Y (NOR2X1)                           0.28       0.97 f
-  U9/Y (INVX2)                             0.14       1.11 r
-  U46/Y (NOR2X1)                           0.18       1.29 f
-  U42/Y (AOI22X1)                          0.14       1.44 r
-  U41/Y (OAI21X1)                          0.08       1.52 f
-  state_reg[2]/D (DFFPOSX1)                0.00       1.52 f
-  data arrival time                                   1.52
+  state_reg[0]/CLK (DFFPOSX1)              0.00       0.00 r
+  state_reg[0]/Q (DFFPOSX1)                0.42       0.42 f
+  U1/Y (INVX1)                             0.39       0.81 r
+  U65/Y (NOR2X1)                           0.46       1.27 f
+  U16/Y (INVX2)                            0.24       1.51 r
+  U56/Y (NOR2X1)                           0.21       1.72 f
+  U5/Y (INVX2)                             0.10       1.82 r
+  U48/Y (OAI21X1)                          0.08       1.90 f
+  state_reg[2]/D (DFFPOSX1)                0.00       1.90 f
+  data arrival time                                   1.90
 
   clock clk (rise edge)                  100.00     100.00
   clock network delay (propagated)         0.00     100.00
   state_reg[2]/CLK (DFFPOSX1)              0.00     100.00 r
-  library setup time                      -0.31      99.69
-  data required time                                 99.69
+  library setup time                      -0.30      99.70
+  data required time                                 99.70
   -----------------------------------------------------------
-  data required time                                 99.69
-  data arrival time                                  -1.52
+  data required time                                 99.70
+  data arrival time                                  -1.90
   -----------------------------------------------------------
-  slack (MET)                                        98.18
+  slack (MET)                                        97.80
 
 
   Startpoint: state_reg[0]
               (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: aluop[1] (output port)
+  Endpoint: pcen (output port)
   Path Group: default
   Path Type: max
 
@@ -106,22 +107,24 @@ Information: Percent of Arnoldi-based delays =  0.00%
   -----------------------------------------------------------
   clock network delay (propagated)         0.00       0.00
   state_reg[0]/CLK (DFFPOSX1)              0.00       0.00 r
-  state_reg[0]/Q (DFFPOSX1)                0.34       0.34 f
-  U15/Y (INVX2)                            0.20       0.53 r
-  U58/Y (NOR2X1)                           0.34       0.88 f
-  U12/Y (INVX2)                            0.15       1.03 r
-  U39/Y (NOR2X1)                           0.19       1.22 f
-  aluop[1] (out)                           0.00       1.22 f
-  data arrival time                                   1.22
+  state_reg[0]/Q (DFFPOSX1)                0.42       0.42 f
+  U1/Y (INVX1)                             0.39       0.81 r
+  U65/Y (NOR2X1)                           0.46       1.27 f
+  U16/Y (INVX2)                            0.24       1.51 r
+  U32/Y (NOR2X1)                           0.17       1.68 f
+  U30/Y (AOI21X1)                          0.13       1.81 r
+  U29/Y (OAI21X1)                          0.05       1.87 f
+  pcen (out)                               0.00       1.87 f
+  data arrival time                                   1.87
 
   max_delay                               25.00      25.00
   output external delay                    0.00      25.00
   data required time                                 25.00
   -----------------------------------------------------------
   data required time                                 25.00
-  data arrival time                                  -1.22
+  data arrival time                                  -1.87
   -----------------------------------------------------------
-  slack (MET)                                        23.78
+  slack (MET)                                        23.13
 
 
 1

@@ -1,13 +1,13 @@
 module mips_fsm_bench;
    //Set up test signals
-   logic clk, reset, memwrite, alusrca, memtoreg, iord, pcwrite, brnch, regwrite, regdst;
+   logic clk, reset, memwrite, alusrca, memtoreg, iord, pcen, regwrite, regdst;
    logic [5:0] op;
    logic [1:0] pcsrc, alusrcb, aluop;
    logic [3:0] irwrite;
    
    //initialize DUV
-   mips_fsm DUV (.clk(clk), .reset(reset), .op(op), .memwrite(memwrite), .alusrca(alusrca), .memtoreg(memtoreg), .iord(iord), .pcwrite(pcwrite),
-                    .brnch(brnch), .regwrite(regwrite), .regdst(regdst), .pcsrc(pcsrc), .alusrcb(alusrcb), .aluop(aluop), .irwrite(irwrite));
+   mips_fsm DUV (.clk(clk), .reset(reset), .op(op), .memwrite(memwrite), .alusrca(alusrca), .memtoreg(memtoreg), .iord(iord), .pcen(pcen),
+                     .regwrite(regwrite), .regdst(regdst), .pcsrc(pcsrc), .alusrcb(alusrcb), .aluop(aluop), .irwrite(irwrite), .zero(1));
 
    typedef enum logic [5:0] {
       LB    = 6'b100000,
