@@ -1,0 +1,124 @@
+timestamp 1492976468
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+use controller controller_0 1 0 0 0 1 1450
+use datapath datapath_0 1 0 0 0 1 0
+node "m2_2724_1278#" 1 71182.2 2724 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37440 1298 0 0
+node "m2_2634_1278#" 1 71064 2634 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37376 1296 0 0
+node "m2_2512_1308#" 0 276 2512 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_2480_1308#" 0 276 2480 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_2240_1308#" 0 276 2240 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_2216_1308#" 0 276 2216 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_2048_1308#" 0 276 2048 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_1992_1308#" 0 276 1992 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_1960_1308#" 0 276 1960 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_1808_1308#" 0 276 1808 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_1632_1308#" 0 276 1632 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_1600_1308#" 0 276 1600 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_960_1308#" 0 276 960 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_792_1308#" 0 276 792 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_752_1308#" 0 276 752 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_744_1308#" 0 276 744 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_736_1308#" 0 276 736 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_728_1308#" 0 276 728 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_696_1308#" 0 276 696 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_584_1308#" 0 276 584 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_424_1308#" 0 276 424 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_240_1308#" 0 276 240 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_224_1308#" 0 276 224 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_216_1308#" 0 276 216 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_208_1308#" 0 276 208 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_200_1308#" 0 276 200 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_192_1308#" 0 276 192 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_184_1308#" 0 276 184 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_56_1308#" 0 276 56 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_0_1308#" 0 276 0 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_n25_1567#" 6 11067 -25 1567 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1072 542 264 100
+node "m2_n123_1308#" 0 276 -123 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_n243_1278#" 0 9718.2 -243 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4160 258 0 0
+node "m2_n41_1597#" 7 11971.8 -41 1597 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1192 602 168 68
+node "m2_n33_1616#" 7 12889.8 -33 1616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1268 640 216 84
+cap "m2_n25_1567#" "m2_n41_1597#" 409.44
+cap "m2_n25_1567#" "m2_n33_1616#" 409.44
+cap "controller_0/m1_n153_n4#" "m2_n33_1616#" 80.64
+cap "controller_0/m1_n153_n4#" "m2_n25_1567#" 80.64
+cap "controller_0/m1_n153_n4#" "m2_n41_1597#" 80.64
+cap "controller_0/m1_n243_86#" "controller_0/m2_n25_117#" 80.64
+cap "controller_0/m2_n25_117#" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "m2_n33_1616#" "controller_0/m1_n243_86#" 80.64
+cap "m2_n33_1616#" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "controller_0/m1_n243_86#" "m2_n41_1597#" 80.64
+cap "m2_n41_1597#" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "controller_0/m2_n33_166#" "controller_0/inv_1x_0/a" 73.44
+merge "datapath_0/Vdd!" "controller_0/m1_n243_86#" -74044.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37888 -1440 0 0
+merge "controller_0/m1_n243_86#" "m2_n243_1278#"
+merge "m2_n243_1278#" "m2_2634_1278#"
+merge "datapath_0/alusrcb_0_" "controller_0/m1_688_n118#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_688_n118#" "m2_1600_1308#"
+merge "datapath_0/pcen" "controller_0/m1_1530_n38#" -498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -32 0 0
+merge "controller_0/m1_1530_n38#" "m2_2048_1308#"
+merge "datapath_0/alucontrol_2_" "controller_0/m1_1570_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_1570_n70#" "m2_2240_1308#"
+merge "m2_2240_1308#" "controller_0/m1_1650_n86#"
+merge "controller_0/m1_1650_n86#" "m2_2480_1308#"
+merge "datapath_0/irwrite_2_" "controller_0/m1_240_n110#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_240_n110#" "m2_240_1308#"
+merge "datapath_0/pcsrc_1_" "controller_0/m1_696_n54#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_696_n54#" "m2_1992_1308#"
+merge "controller_0/m2_n25_117#" "datapath_0/ph2" -5301.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -428 -240 -132 -70
+merge "datapath_0/ph2" "m2_n25_1567#"
+merge "datapath_0/alusrca" "controller_0/m1_768_n30#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_768_n30#" "m2_1808_1308#"
+merge "datapath_0/irwrite_0_" "controller_0/m1_584_n46#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_584_n46#" "m2_584_1308#"
+merge "datapath_0/pcsrc_0" "controller_0/m1_712_n46#" -519.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -32 0 0
+merge "controller_0/m1_712_n46#" "m2_1960_1308#"
+merge "datapath_0/op_1_" "controller_0/m1_216_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_216_n70#" "m2_216_1308#"
+merge "datapath_0/op_5_" "controller_0/m1_184_n102#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_184_n102#" "m2_184_1308#"
+merge "datapath_0/iord" "controller_0/m1_0_n30#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_0_n30#" "m2_0_1308#"
+merge "datapath_0/op_2_" "controller_0/m1_208_n78#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_208_n78#" "m2_208_1308#"
+merge "datapath_0/regdst" "controller_0/m1_720_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_720_n70#" "m2_792_1308#"
+merge "datapath_0/funct_0_" "controller_0/m1_752_n102#" -541.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -32 0 0
+merge "controller_0/m1_752_n102#" "m2_752_1308#"
+merge "datapath_0/funct_1_" "controller_0/m1_744_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_744_n94#" "m2_744_1308#"
+merge "controller_0/inv_1x_0/a" "controller_0/m2_n41_147#" -7476.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -188 -440 16 -24
+merge "controller_0/m2_n41_147#" "datapath_0/reset"
+merge "datapath_0/reset" "m2_n41_1597#"
+merge "datapath_0/Gnd!" "controller_0/m1_n153_n4#" -75463.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38656 -1464 0 0
+merge "controller_0/m1_n153_n4#" "m2_n123_1308#"
+merge "m2_n123_1308#" "m2_2724_1278#"
+merge "datapath_0/regwrite" "controller_0/m1_736_n38#" -519.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -32 0 0
+merge "controller_0/m1_736_n38#" "m2_960_1308#"
+merge "datapath_0/memtoreg" "controller_0/m1_696_n62#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_696_n62#" "m2_696_1308#"
+merge "datapath_0/alusrcb_1_" "controller_0/m1_672_n110#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_672_n110#" "m2_1632_1308#"
+merge "datapath_0/irwrite_1_" "controller_0/m1_424_n102#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_424_n102#" "m2_424_1308#"
+merge "datapath_0/op_4_" "controller_0/m1_192_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_192_n94#" "m2_192_1308#"
+merge "datapath_0/funct_3_" "controller_0/m1_728_n78#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_728_n78#" "m2_728_1308#"
+merge "datapath_0/irwrite_3_" "controller_0/m1_56_n118#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_56_n118#" "m2_56_1308#"
+merge "datapath_0/op_3_" "controller_0/m1_200_n86#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_200_n86#" "m2_200_1308#"
+merge "controller_0/m2_n33_166#" "datapath_0/ph1" -8989.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -852 -440 -156 -70
+merge "datapath_0/ph1" "m2_n33_1616#"
+merge "datapath_0/funct_2_" "controller_0/m1_736_n86#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_736_n86#" "m2_736_1308#"
+merge "datapath_0/zero" "controller_0/m1_1498_n62#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_1498_n62#" "m2_2216_1308#"
+merge "datapath_0/op_0_" "controller_0/m1_224_n62#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_224_n62#" "m2_224_1308#"
+merge "datapath_0/alucontrol_1_" "controller_0/m1_1586_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_1586_n94#" "m2_2512_1308#"

@@ -1,0 +1,93 @@
+timestamp 1484536911
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T24H
+scale 1000 1 30
+resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
+node "a_127_8#" 103 0 127 8 ndif 20 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "q" 327 1648.5 183 7 ndif 35 24 50 30 0 0 0 0 0 0 0 0 0 0 0 0 304 160 16 16 0 0
+node "a_95_8#" 103 0 95 8 ndif 20 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_31_7#" 407 538.2 31 7 ndif 126 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 56 0 0 0 0
+node "Gnd!" 10707 11880.9 24 -2 poc 303 182 336 336 0 0 0 0 0 0 0 0 0 0 0 0 1652 506 0 0 0 0
+node "a_127_79#" 132 0 127 79 pdif 0 0 20 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_95_79#" 132 0 95 79 pdif 0 0 20 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "masterinb" 1604 2614.8 32 71 pdif 60 44 120 78 0 0 0 0 0 0 0 0 0 0 0 0 448 248 468 250 0 0
+node "ph1" 869 1143.36 164 29 pc 0 0 0 0 0 0 0 0 0 0 166 166 0 0 0 0 32 24 16 16 0 0
+node "slave" 1174 2482.92 119 8 ndif 34 24 34 24 0 0 0 0 0 0 170 168 0 0 0 0 140 94 284 150 0 0
+node "slaveb" 2085 2970.06 132 6 p 30 22 45 28 0 0 0 0 0 0 346 340 0 0 0 0 296 172 228 122 0 0
+node "ph1bb" 665 3593.34 116 17 pc 30 22 45 28 0 0 0 0 0 0 76 76 0 0 0 0 320 184 416 224 0 0
+node "ph1b" 2150 2080.44 116 53 pc 30 22 45 28 0 0 0 0 0 0 346 346 0 0 0 0 352 192 188 102 0 0
+node "masterb" 1174 2436.12 87 8 ndif 34 24 34 24 0 0 0 0 0 0 170 168 0 0 0 0 136 92 284 150 0 0
+node "master" 1151 1533.6 100 6 p 36 24 51 30 0 0 0 0 0 0 170 168 0 0 0 0 148 90 228 122 0 0
+node "ph2bb" 666 2877.54 71 8 ndif 30 22 45 28 0 0 0 0 0 0 76 76 0 0 0 0 384 224 368 200 0 0
+node "ph2b" 2160 2462.04 56 8 ndif 30 22 45 28 0 0 0 0 0 0 348 348 0 0 0 0 344 188 100 58 0 0
+node "ph2" 1012 433.44 48 43 pc 0 0 0 0 0 0 0 0 0 0 192 192 0 0 0 0 16 16 16 16 0 0
+node "resetb" 968 170.28 27 53 pc 0 0 0 0 0 0 0 0 0 0 184 184 0 0 0 0 96 56 16 16 0 0
+node "d" 880 448.92 36 43 pc 0 0 0 0 0 0 0 0 0 0 168 168 0 0 0 0 32 24 16 16 0 0
+node "Vdd!" 11945 35481.6 18 40 nw 336 336 330 190 9856 464 0 0 0 0 0 0 0 0 0 0 1648 504 0 0 0 0
+cap "masterb" "ph2b" 431.52
+cap "Vdd!" "ph2b" 4342.38
+cap "ph1b" "slaveb" 1006.08
+cap "Vdd!" "resetb" 2125.08
+cap "Vdd!" "masterinb" 5614.8
+cap "ph1" "slaveb" 227.52
+cap "Vdd!" "slaveb" 4168.68
+cap "Vdd!" "q" 2076
+cap "ph1bb" "slaveb" 1905.96
+cap "ph2bb" "masterb" 987.36
+cap "masterinb" "ph2b" 778.56
+cap "masterinb" "resetb" 503.04
+cap "Vdd!" "ph2bb" 3921.9
+cap "ph1b" "master" 160.8
+cap "Vdd!" "ph2" 1332.84
+cap "Vdd!" "d" 1220.76
+cap "masterb" "master" 455.04
+cap "ph2bb" "ph2b" 931.2
+cap "Vdd!" "master" 2687.46
+cap "ph1b" "slave" 773.76
+cap "ph1bb" "master" 160.8
+cap "ph2" "ph2b" 455.04
+cap "ph2bb" "masterinb" 711.84
+cap "resetb" "d" 227.52
+cap "masterinb" "ph2" 227.52
+cap "masterinb" "d" 388.32
+cap "Vdd!" "slave" 1960.08
+cap "ph1bb" "slave" 939.36
+cap "ph2bb" "master" 1396.8
+cap "slave" "slaveb" 455.04
+cap "ph1" "ph1b" 388.32
+cap "ph1b" "Vdd!" 5425.5
+cap "ph1bb" "ph1b" 778.56
+cap "ph1" "Vdd!" 557.28
+cap "Vdd!" "masterb" 1896.48
+cap "ph1bb" "Vdd!" 2722.5
+fet nfet 181 7 182 8 14 18 "Gnd!" "slaveb" 4 0 "Gnd!" 7 0 "q" 7 0
+fet nfet 165 8 166 9 12 16 "Gnd!" "ph1" 4 0 "Gnd!" 6 0 "ph1b" 6 0
+fet nfet 157 8 158 9 12 16 "Gnd!" "ph1b" 4 0 "ph1bb" 6 0 "Gnd!" 6 0
+fet nfet 141 8 142 9 12 16 "Gnd!" "slave" 4 0 "Gnd!" 6 0 "slaveb" 6 0
+fet nfet 132 8 133 9 8 12 "Gnd!" "slaveb" 4 0 "a_127_8#" 4 0 "Gnd!" 4 0
+fet nfet 125 8 126 9 8 12 "Gnd!" "ph1b" 4 0 "slave" 4 0 "a_127_8#" 4 0
+fet pfet 181 73 182 74 20 24 "Vdd!" "slaveb" 4 0 "Vdd!" 10 0 "q" 10 0
+fet nfet 117 8 118 9 12 16 "Gnd!" "ph1bb" 4 0 "master" 6 0 "slave" 6 0
+fet nfet 109 8 110 9 12 16 "Gnd!" "masterb" 4 0 "Gnd!" 6 0 "master" 6 0
+fet nfet 100 8 101 9 8 12 "Gnd!" "master" 4 0 "a_95_8#" 4 0 "Gnd!" 4 0
+fet nfet 93 8 94 9 8 12 "Gnd!" "ph2b" 4 0 "masterb" 4 0 "a_95_8#" 4 0
+fet pfet 165 74 166 75 18 22 "Vdd!" "ph1" 4 0 "Vdd!" 9 0 "ph1b" 9 0
+fet pfet 157 74 158 75 18 22 "Vdd!" "ph1b" 4 0 "ph1bb" 9 0 "Vdd!" 9 0
+fet pfet 141 74 142 75 18 22 "Vdd!" "slave" 4 0 "Vdd!" 9 0 "slaveb" 9 0
+fet nfet 85 8 86 9 12 16 "Gnd!" "ph2bb" 4 0 "masterinb" 6 0 "masterb" 6 0
+fet nfet 69 8 70 9 12 16 "Gnd!" "ph2b" 4 0 "Gnd!" 6 0 "ph2bb" 6 0
+fet nfet 61 8 62 9 12 16 "Gnd!" "ph2" 4 0 "ph2b" 6 0 "Gnd!" 6 0
+fet nfet 37 7 38 8 12 16 "Gnd!" "d" 4 0 "a_31_7#" 6 0 "masterinb" 6 0
+fet nfet 29 7 30 8 48 52 "Gnd!" "resetb" 4 0 "Gnd!" 24 0 "a_31_7#" 24 0
+fet pfet 132 79 133 80 8 12 "Vdd!" "slaveb" 4 0 "a_127_79#" 4 0 "Vdd!" 4 0
+fet pfet 125 79 126 80 8 12 "Vdd!" "ph1bb" 4 0 "slave" 4 0 "a_127_79#" 4 0
+fet pfet 117 77 118 78 12 16 "Vdd!" "ph1b" 4 0 "master" 6 0 "slave" 6 0
+fet pfet 109 74 110 75 18 22 "Vdd!" "masterb" 4 0 "Vdd!" 9 0 "master" 9 0
+fet pfet 100 79 101 80 8 12 "Vdd!" "master" 4 0 "a_95_79#" 4 0 "Vdd!" 4 0
+fet pfet 93 79 94 80 8 12 "Vdd!" "ph2bb" 4 0 "masterb" 4 0 "a_95_79#" 4 0
+fet pfet 85 77 86 78 12 16 "Vdd!" "ph2b" 4 0 "masterinb" 6 0 "masterb" 6 0
+fet pfet 69 74 70 75 18 22 "Vdd!" "ph2b" 4 0 "Vdd!" 9 0 "ph2bb" 9 0
+fet pfet 61 74 62 75 18 22 "Vdd!" "ph2" 4 0 "ph2b" 9 0 "Vdd!" 9 0
+fet pfet 45 77 46 78 12 16 "Vdd!" "resetb" 4 0 "Vdd!" 6 0 "masterinb" 6 0
+fet pfet 37 71 38 72 24 28 "Vdd!" "d" 4 0 "masterinb" 12 0 "Vdd!" 12 0
