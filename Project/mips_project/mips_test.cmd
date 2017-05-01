@@ -1,4 +1,5 @@
 #Setup variables
+stepsize 1000
 h Vdd!
 l Gnd!
 vector adr adr7 adr6 adr5 adr4 adr3 adr2 adr1 adr0
@@ -10,29 +11,29 @@ analyzer reset ph1 ph2 adr memdata writedata memwrite
 
 #reset everything
 h reset
-p
+c 2
 l reset
-p
+c 1
 
 #Load 0x5 into v0 (80020044)
 #First 4 clocks we cycle in the instruction
 setvector memdata %x80
-p
+c 1
 setvector memdata %x02
-p
+c 1
 setvector memdata %x00
-p
+c 1
 setvector memdata %x44
-p
+c 1
 #instruction decode
-p
+c 1
 #compute memory address
-p
+c 1
 #memory access
 assert adr %x44
 setvector memdata %x05
-p
+c 1
 #writeback
-p
+c 1
 
 #Load 0x3 into a3 (80070040)

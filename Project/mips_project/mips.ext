@@ -1,4 +1,4 @@
-timestamp 1492976468
+timestamp 1493661823
 version 8.1
 tech scmos
 style AMI0.5um(amic5)from:T24H
@@ -6,6 +6,30 @@ scale 1000 1 30
 resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
 use controller controller_0 1 0 0 0 1 1450
 use datapath datapath_0 1 0 0 0 1 0
+node "adr0" 0 444 -16 58 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata0" 0 444 -16 68 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata0" 0 444 -16 78 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr1" 0 444 -16 168 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata1" 0 444 -16 178 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata1" 0 444 -16 188 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr2" 0 444 -16 278 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata2" 0 444 -16 288 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata2" 0 444 -16 298 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr3" 0 444 -16 388 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata3" 0 444 -16 398 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata3" 0 444 -16 408 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr4" 0 444 -16 498 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata4" 0 444 -16 508 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata4" 0 444 -16 518 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr5" 0 444 -16 608 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata5" 0 444 -16 618 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata5" 0 444 -16 628 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr6" 0 444 -16 718 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata6" 0 444 -16 728 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata6" 0 444 -16 738 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "adr7" 0 444 -16 828 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "writedata7" 0 444 -16 838 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "memdata7" 0 444 -16 848 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
 node "m2_2724_1278#" 1 71182.2 2724 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37440 1298 0 0
 node "m2_2634_1278#" 1 71064 2634 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37376 1296 0 0
 node "m2_2512_1308#" 0 276 2512 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
@@ -36,74 +60,93 @@ node "m2_192_1308#" 0 276 192 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 
 node "m2_184_1308#" 0 276 184 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
 node "m2_56_1308#" 0 276 56 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
 node "m2_0_1308#" 0 276 0 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
-node "m2_n25_1567#" 6 11067 -25 1567 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1072 542 264 100
+node "memwrite" 0 444 -12 1428 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
+node "ph2" 6 11067 -25 1567 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1072 542 264 100
 node "m2_n123_1308#" 0 276 -123 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
 node "m2_n243_1278#" 0 9718.2 -243 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4160 258 0 0
-node "m2_n41_1597#" 7 11971.8 -41 1597 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1192 602 168 68
-node "m2_n33_1616#" 7 12889.8 -33 1616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1268 640 216 84
-cap "m2_n25_1567#" "m2_n41_1597#" 409.44
-cap "m2_n25_1567#" "m2_n33_1616#" 409.44
-cap "controller_0/m1_n153_n4#" "m2_n33_1616#" 80.64
-cap "controller_0/m1_n153_n4#" "m2_n25_1567#" 80.64
-cap "controller_0/m1_n153_n4#" "m2_n41_1597#" 80.64
-cap "controller_0/m1_n243_86#" "controller_0/m2_n25_117#" 80.64
+node "reset" 7 11971.8 -41 1597 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1192 602 168 68
+node "ph1" 7 12889.8 -33 1616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1268 640 216 84
+cap "ph2" "reset" 409.44
+cap "ph2" "ph1" 409.44
+cap "controller_0/flopr_c_1x_2/Gnd!" "ph2" 80.64
+cap "controller_0/flopr_c_1x_2/Gnd!" "ph1" 80.64
+cap "controller_0/flopr_c_1x_2/Gnd!" "reset" 80.64
+cap "ph1" "controller_0/m1_n243_86#" 80.64
+cap "ph1" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "controller_0/m2_n25_117#" "controller_0/m1_n243_86#" 80.64
+cap "reset" "controller_0/m1_n243_86#" 80.64
 cap "controller_0/m2_n25_117#" "controller_0/inv_1x_0/Gnd!" 80.64
-cap "m2_n33_1616#" "controller_0/m1_n243_86#" 80.64
-cap "m2_n33_1616#" "controller_0/inv_1x_0/Gnd!" 80.64
-cap "controller_0/m1_n243_86#" "m2_n41_1597#" 80.64
-cap "m2_n41_1597#" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "reset" "controller_0/inv_1x_0/Gnd!" 80.64
 cap "controller_0/m2_n33_166#" "controller_0/inv_1x_0/a" 73.44
 merge "datapath_0/Vdd!" "controller_0/m1_n243_86#" -74044.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37888 -1440 0 0
 merge "controller_0/m1_n243_86#" "m2_n243_1278#"
 merge "m2_n243_1278#" "m2_2634_1278#"
 merge "datapath_0/alusrcb_0_" "controller_0/m1_688_n118#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_688_n118#" "m2_1600_1308#"
-merge "datapath_0/pcen" "controller_0/m1_1530_n38#" -498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -32 0 0
-merge "controller_0/m1_1530_n38#" "m2_2048_1308#"
 merge "datapath_0/alucontrol_2_" "controller_0/m1_1570_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_1570_n70#" "m2_2240_1308#"
 merge "m2_2240_1308#" "controller_0/m1_1650_n86#"
 merge "controller_0/m1_1650_n86#" "m2_2480_1308#"
+merge "datapath_0/pcen" "controller_0/m1_1530_n38#" -498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -32 0 0
+merge "controller_0/m1_1530_n38#" "m2_2048_1308#"
+merge "controller_0/m2_n33_166#" "datapath_0/ph1" -8398.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -852 -440 -36 -24
+merge "datapath_0/ph1" "ph1"
 merge "datapath_0/irwrite_2_" "controller_0/m1_240_n110#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_240_n110#" "m2_240_1308#"
 merge "datapath_0/pcsrc_1_" "controller_0/m1_696_n54#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_696_n54#" "m2_1992_1308#"
-merge "controller_0/m2_n25_117#" "datapath_0/ph2" -5301.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -428 -240 -132 -70
-merge "datapath_0/ph2" "m2_n25_1567#"
+merge "controller_0/m2_n25_117#" "datapath_0/ph2" -4710.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -428 -240 -12 -24
+merge "datapath_0/ph2" "ph2"
 merge "datapath_0/alusrca" "controller_0/m1_768_n30#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_768_n30#" "m2_1808_1308#"
 merge "datapath_0/irwrite_0_" "controller_0/m1_584_n46#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_584_n46#" "m2_584_1308#"
+merge "datapath_0/writedata0" "writedata0" -274.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -72 -20
 merge "datapath_0/pcsrc_0" "controller_0/m1_712_n46#" -519.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -32 0 0
 merge "controller_0/m1_712_n46#" "m2_1960_1308#"
+merge "datapath_0/writedata1" "writedata1" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/op_1_" "controller_0/m1_216_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_216_n70#" "m2_216_1308#"
 merge "datapath_0/op_5_" "controller_0/m1_184_n102#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_184_n102#" "m2_184_1308#"
+merge "datapath_0/writedata2" "writedata2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/regdst" "controller_0/m1_720_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "controller_0/m1_720_n70#" "m2_792_1308#"
 merge "datapath_0/iord" "controller_0/m1_0_n30#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_0_n30#" "m2_0_1308#"
 merge "datapath_0/op_2_" "controller_0/m1_208_n78#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_208_n78#" "m2_208_1308#"
-merge "datapath_0/regdst" "controller_0/m1_720_n70#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
-merge "controller_0/m1_720_n70#" "m2_792_1308#"
+merge "datapath_0/writedata3" "writedata3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/funct_0_" "controller_0/m1_752_n102#" -541.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -32 0 0
 merge "controller_0/m1_752_n102#" "m2_752_1308#"
+merge "datapath_0/writedata4" "writedata4" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/adr0" "adr0" -236.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -76 -16
 merge "datapath_0/funct_1_" "controller_0/m1_744_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_744_n94#" "m2_744_1308#"
+merge "datapath_0/writedata5" "writedata5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/adr1" "adr1" -274.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -72 -20
 merge "controller_0/inv_1x_0/a" "controller_0/m2_n41_147#" -7476.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -188 -440 16 -24
 merge "controller_0/m2_n41_147#" "datapath_0/reset"
-merge "datapath_0/reset" "m2_n41_1597#"
+merge "datapath_0/reset" "reset"
 merge "datapath_0/Gnd!" "controller_0/m1_n153_n4#" -75463.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38656 -1464 0 0
 merge "controller_0/m1_n153_n4#" "m2_n123_1308#"
 merge "m2_n123_1308#" "m2_2724_1278#"
+merge "datapath_0/writedata6" "writedata6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/regwrite" "controller_0/m1_736_n38#" -519.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -32 0 0
 merge "controller_0/m1_736_n38#" "m2_960_1308#"
+merge "datapath_0/adr2" "adr2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/memtoreg" "controller_0/m1_696_n62#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_696_n62#" "m2_696_1308#"
+merge "datapath_0/writedata7" "writedata7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/adr3" "adr3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/alusrcb_1_" "controller_0/m1_672_n110#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_672_n110#" "m2_1632_1308#"
+merge "datapath_0/adr4" "adr4" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/irwrite_1_" "controller_0/m1_424_n102#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_424_n102#" "m2_424_1308#"
+merge "datapath_0/adr5" "adr5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/adr6" "adr6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/adr7" "adr7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/op_4_" "controller_0/m1_192_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_192_n94#" "m2_192_1308#"
 merge "datapath_0/funct_3_" "controller_0/m1_728_n78#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
@@ -112,13 +155,20 @@ merge "datapath_0/irwrite_3_" "controller_0/m1_56_n118#" -552 0 0 0 0 0 0 0 0 0 
 merge "controller_0/m1_56_n118#" "m2_56_1308#"
 merge "datapath_0/op_3_" "controller_0/m1_200_n86#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_200_n86#" "m2_200_1308#"
-merge "controller_0/m2_n33_166#" "datapath_0/ph1" -8989.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -852 -440 -156 -70
-merge "datapath_0/ph1" "m2_n33_1616#"
 merge "datapath_0/funct_2_" "controller_0/m1_736_n86#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_736_n86#" "m2_736_1308#"
 merge "datapath_0/zero" "controller_0/m1_1498_n62#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_1498_n62#" "m2_2216_1308#"
 merge "datapath_0/op_0_" "controller_0/m1_224_n62#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_224_n62#" "m2_224_1308#"
+merge "datapath_0/memdata0" "memdata0" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata1" "memdata1" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata2" "memdata2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "controller_0/m2_791_n23#" "memwrite" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata3" "memdata3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata4" "memdata4" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata5" "memdata5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata6" "memdata6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_0/memdata7" "memdata7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/alucontrol_1_" "controller_0/m1_1586_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_1586_n94#" "m2_2512_1308#"

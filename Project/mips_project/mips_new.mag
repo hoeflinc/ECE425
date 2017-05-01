@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493577832
+timestamp 1493661823
 << metal2 >>
 rect 265 1343 269 1523
 rect 942 1354 946 1685
@@ -118,7 +118,7 @@ timestamp 1493147875
 transform 1 0 965 0 1 1517
 box 0 0 584 980
 use datapath_new  datapath_new_0 /home/millerid/ECE425/Project/mips_project
-timestamp 1493145788
+timestamp 1493661823
 transform 1 0 -279 0 1 32
 box 279 -32 3123 2811
 << end >>

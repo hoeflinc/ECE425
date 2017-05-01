@@ -25,42 +25,42 @@ node "ph2" 1012 433.44 48 43 pc 0 0 0 0 0 0 0 0 0 0 192 192 0 0 0 0 16 16 16 16 
 node "resetb" 968 170.28 27 53 pc 0 0 0 0 0 0 0 0 0 0 184 184 0 0 0 0 96 56 16 16 0 0
 node "d" 880 448.92 36 43 pc 0 0 0 0 0 0 0 0 0 0 168 168 0 0 0 0 32 24 16 16 0 0
 node "Vdd!" 11945 35481.6 18 40 nw 336 336 330 190 9856 464 0 0 0 0 0 0 0 0 0 0 1648 504 0 0 0 0
-cap "masterb" "ph2b" 431.52
-cap "Vdd!" "ph2b" 4342.38
-cap "ph1b" "slaveb" 1006.08
-cap "Vdd!" "resetb" 2125.08
-cap "Vdd!" "masterinb" 5614.8
-cap "ph1" "slaveb" 227.52
-cap "Vdd!" "slaveb" 4168.68
-cap "Vdd!" "q" 2076
-cap "ph1bb" "slaveb" 1905.96
-cap "ph2bb" "masterb" 987.36
-cap "masterinb" "ph2b" 778.56
-cap "masterinb" "resetb" 503.04
-cap "Vdd!" "ph2bb" 3921.9
-cap "ph1b" "master" 160.8
-cap "Vdd!" "ph2" 1332.84
-cap "Vdd!" "d" 1220.76
-cap "masterb" "master" 455.04
-cap "ph2bb" "ph2b" 931.2
-cap "Vdd!" "master" 2687.46
 cap "ph1b" "slave" 773.76
-cap "ph1bb" "master" 160.8
-cap "ph2" "ph2b" 455.04
-cap "ph2bb" "masterinb" 711.84
-cap "resetb" "d" 227.52
-cap "masterinb" "ph2" 227.52
-cap "masterinb" "d" 388.32
-cap "Vdd!" "slave" 1960.08
+cap "masterinb" "ph2b" 778.56
 cap "ph1bb" "slave" 939.36
-cap "ph2bb" "master" 1396.8
+cap "Vdd!" "d" 1220.76
+cap "ph2" "ph2b" 455.04
+cap "d" "masterinb" 388.32
+cap "ph2bb" "ph2b" 931.2
+cap "Vdd!" "masterinb" 5614.8
+cap "ph2bb" "masterb" 987.36
 cap "slave" "slaveb" 455.04
-cap "ph1" "ph1b" 388.32
+cap "d" "resetb" 227.52
+cap "Vdd!" "resetb" 2125.08
 cap "ph1b" "Vdd!" 5425.5
-cap "ph1bb" "ph1b" 778.56
-cap "ph1" "Vdd!" 557.28
-cap "Vdd!" "masterb" 1896.48
 cap "ph1bb" "Vdd!" 2722.5
+cap "masterinb" "resetb" 503.04
+cap "Vdd!" "ph2" 1332.84
+cap "masterb" "master" 455.04
+cap "Vdd!" "ph2bb" 3921.9
+cap "Vdd!" "ph1" 557.28
+cap "masterinb" "ph2" 227.52
+cap "ph1b" "ph1bb" 778.56
+cap "Vdd!" "slaveb" 4168.68
+cap "masterinb" "ph2bb" 711.84
+cap "Vdd!" "master" 2687.46
+cap "ph1b" "ph1" 388.32
+cap "ph1b" "slaveb" 1006.08
+cap "Vdd!" "q" 2076
+cap "masterb" "ph2b" 431.52
+cap "ph1bb" "slaveb" 1905.96
+cap "ph1b" "master" 160.8
+cap "ph1bb" "master" 160.8
+cap "Vdd!" "slave" 1960.08
+cap "ph1" "slaveb" 227.52
+cap "ph2bb" "master" 1396.8
+cap "Vdd!" "ph2b" 4342.38
+cap "Vdd!" "masterb" 1896.48
 fet nfet 181 7 182 8 14 18 "Gnd!" "slaveb" 4 0 "Gnd!" 7 0 "q" 7 0
 fet nfet 165 8 166 9 12 16 "Gnd!" "ph1" 4 0 "Gnd!" 6 0 "ph1b" 6 0
 fet nfet 157 8 158 9 12 16 "Gnd!" "ph1b" 4 0 "ph1bb" 6 0 "Gnd!" 6 0

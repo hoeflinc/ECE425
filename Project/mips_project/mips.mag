@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1492976468
+timestamp 1493661823
 << metal2 >>
 rect -33 1621 -27 1622
 rect -33 1617 -32 1621
@@ -53,6 +53,31 @@ rect 2724 1278 2788 1863
 rect -32 1617 -28 1621
 rect -40 1598 -36 1602
 rect -24 1568 -20 1572
+rect -12 1428 -8 1432
+rect -16 848 -12 852
+rect -16 838 -12 842
+rect -16 828 -12 832
+rect -16 738 -12 742
+rect -16 728 -12 732
+rect -16 718 -12 722
+rect -16 628 -12 632
+rect -16 618 -12 622
+rect -16 608 -12 612
+rect -16 518 -12 522
+rect -16 508 -12 512
+rect -16 498 -12 502
+rect -16 408 -12 412
+rect -16 398 -12 402
+rect -16 388 -12 392
+rect -16 298 -12 302
+rect -16 288 -12 292
+rect -16 278 -12 282
+rect -16 188 -12 192
+rect -16 178 -12 182
+rect -16 168 -12 172
+rect -16 78 -12 82
+rect -16 68 -12 72
+rect -16 58 -12 62
 << metal3 >>
 rect -63 1621 -27 1622
 rect -63 1617 -32 1621
@@ -71,7 +96,36 @@ timestamp 1492976468
 transform 1 0 0 0 1 1450
 box -243 -172 2788 368
 use datapath  datapath_0
-timestamp 1492976468
+timestamp 1493661823
 transform 1 0 0 0 1 0
 box -243 -32 2788 1343
+<< labels >>
+rlabel metal3 -62 1598 -58 1602 1 reset
+rlabel metal3 -62 1568 -58 1572 1 ph2
+rlabel metal3 -62 1617 -58 1621 1 ph1
+rlabel m3contact -12 1428 -8 1432 1 memwrite
+rlabel m3contact -16 848 -12 852 1 memdata7
+rlabel m3contact -16 838 -12 842 1 writedata7
+rlabel m3contact -16 828 -12 832 1 adr7
+rlabel m3contact -16 738 -12 742 1 memdata6
+rlabel m3contact -16 728 -12 732 1 writedata6
+rlabel m3contact -16 718 -12 722 1 adr6
+rlabel m3contact -16 628 -12 632 1 memdata5
+rlabel m3contact -16 618 -12 622 1 writedata5
+rlabel m3contact -16 608 -12 612 1 adr5
+rlabel m3contact -16 518 -12 522 1 memdata4
+rlabel m3contact -16 508 -12 512 1 writedata4
+rlabel m3contact -16 498 -12 502 1 adr4
+rlabel m3contact -16 408 -12 412 1 memdata3
+rlabel m3contact -16 398 -12 402 1 writedata3
+rlabel m3contact -16 388 -12 392 1 adr3
+rlabel m3contact -16 298 -12 302 1 memdata2
+rlabel m3contact -16 288 -12 292 1 writedata2
+rlabel m3contact -16 278 -12 282 1 adr2
+rlabel m3contact -16 188 -12 192 1 memdata1
+rlabel m3contact -16 178 -12 182 1 writedata1
+rlabel m3contact -16 168 -12 172 1 adr1
+rlabel m3contact -16 78 -12 82 1 memdata0
+rlabel m3contact -16 68 -12 72 1 writedata0
+rlabel m3contact -16 58 -12 62 1 adr0
 << end >>
