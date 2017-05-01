@@ -68,17 +68,17 @@ node "m2_n123_1308#" 0 276 -123 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 1
 node "m2_n243_1278#" 0 9718.2 -243 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4160 258 0 0
 node "reset" 7 11971.8 -41 1597 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1192 602 168 68
 node "ph1" 7 12889.8 -33 1616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1268 640 216 84
-cap "ph1" "ph2" 409.44
-cap "reset" "ph2" 409.44
+cap "ph2" "reset" 409.44
+cap "ph2" "ph1" 409.44
+cap "ph2" "controller_0/flopr_c_1x_2/Gnd!" 80.64
 cap "ph1" "controller_0/flopr_c_1x_2/Gnd!" 80.64
-cap "controller_0/flopr_c_1x_2/Gnd!" "reset" 80.64
-cap "controller_0/flopr_c_1x_2/Gnd!" "ph2" 80.64
-cap "controller_0/m2_n25_117#" "controller_0/m1_n243_86#" 80.64
-cap "controller_0/inv_1x_0/Gnd!" "reset" 80.64
-cap "ph1" "controller_0/inv_1x_0/Gnd!" 80.64
-cap "controller_0/m2_n25_117#" "controller_0/inv_1x_0/Gnd!" 80.64
-cap "reset" "controller_0/m1_n243_86#" 80.64
+cap "reset" "controller_0/flopr_c_1x_2/Gnd!" 80.64
 cap "ph1" "controller_0/m1_n243_86#" 80.64
+cap "controller_0/m1_n243_86#" "reset" 80.64
+cap "controller_0/inv_1x_0/Gnd!" "controller_0/m2_n25_117#" 80.64
+cap "controller_0/inv_1x_0/Gnd!" "ph1" 80.64
+cap "controller_0/inv_1x_0/Gnd!" "reset" 80.64
+cap "controller_0/m2_n25_117#" "controller_0/m1_n243_86#" 80.64
 cap "controller_0/m2_n33_166#" "controller_0/inv_1x_0/a" 73.44
 merge "datapath_0/Vdd!" "controller_0/m1_n243_86#" -74044.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37888 -1440 0 0
 merge "controller_0/m1_n243_86#" "m2_n243_1278#"

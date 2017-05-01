@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Apr 24 13:27:18 2017">
+<application name="pa" timeStamp="Mon May  1 17:25:15 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="ae2084f5d5ab4ec8a6a7719d4f29ca37" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -19,7 +19,7 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="AddSources" value="5" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="3" type="JavaHandler"/>
 <property name="RunSynthesis" value="4" type="JavaHandler"/>
 <property name="SetTopNode" value="2" type="JavaHandler"/>
 <property name="ShowView" value="2" type="JavaHandler"/>
@@ -30,16 +30,17 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="SimulationRunAll" value="3" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, testbench (testbench.sv" value="19" type="GuiResourceData"/>
-<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
-<property name="alu.sv, 115, 211" value="1" type="GuiResourceData"/>
-<property name="alu.sv, 232, 187" value="1" type="GuiResourceData"/>
-<property name="alu.sv, 267, 313" value="1" type="GuiResourceData"/>
-<property name="alu.sv, 348, 151" value="1" type="GuiResourceData"/>
-<property name="aludec.sv, 125, 170" value="1" type="GuiResourceData"/>
-<property name="aludec.sv, 348, 358" value="1" type="GuiResourceData"/>
-<property name="aludec.sv, 357, 348" value="1" type="GuiResourceData"/>
-<property name="aludec.sv, 404, 368" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, testbench (testbench.sv" value="33" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="2" type="GuiResourceData"/>
+<property name="datapath.sv, 150, 141" value="1" type="GuiResourceData"/>
+<property name="datapath.sv, 190, 145" value="1" type="GuiResourceData"/>
+<property name="datapath.sv, 242, 160" value="1" type="GuiResourceData"/>
+<property name="datapath.sv, 284, 74" value="1" type="GuiResourceData"/>
+<property name="mips.sv, 277, 77" value="1" type="GuiResourceData"/>
+<property name="mips.sv, 289, 149" value="1" type="GuiResourceData"/>
+<property name="mux2.sv, 258, 111" value="1" type="GuiResourceData"/>
+<property name="regfile.sv, 176, 133" value="1" type="GuiResourceData"/>
+<property name="regfile.sv, 365, 119" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
 <property name="GuiMode" value="1" type="GuiMode"/>
