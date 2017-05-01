@@ -1,4 +1,4 @@
-timestamp 1493661823
+timestamp 1493667000
 version 8.1
 tech scmos
 style AMI0.5um(amic5)from:T24H
@@ -6,6 +6,8 @@ scale 1000 1 30
 resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
 use controller controller_0 1 0 0 0 1 1450
 use datapath datapath_0 1 0 0 0 1 0
+node "test" 0 232.5 201 27 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20
+node "pcwrite" 0 207 1449 1498 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18
 node "adr0" 0 444 -16 58 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
 node "writedata0" 0 444 -16 68 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
 node "memdata0" 0 444 -16 78 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
@@ -66,17 +68,17 @@ node "m2_n123_1308#" 0 276 -123 1308 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 1
 node "m2_n243_1278#" 0 9718.2 -243 1278 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4160 258 0 0
 node "reset" 7 11971.8 -41 1597 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1192 602 168 68
 node "ph1" 7 12889.8 -33 1616 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1268 640 216 84
-cap "ph2" "reset" 409.44
-cap "ph2" "ph1" 409.44
-cap "controller_0/flopr_c_1x_2/Gnd!" "ph2" 80.64
-cap "controller_0/flopr_c_1x_2/Gnd!" "ph1" 80.64
+cap "ph1" "ph2" 409.44
+cap "reset" "ph2" 409.44
+cap "ph1" "controller_0/flopr_c_1x_2/Gnd!" 80.64
 cap "controller_0/flopr_c_1x_2/Gnd!" "reset" 80.64
-cap "ph1" "controller_0/m1_n243_86#" 80.64
-cap "ph1" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "controller_0/flopr_c_1x_2/Gnd!" "ph2" 80.64
 cap "controller_0/m2_n25_117#" "controller_0/m1_n243_86#" 80.64
-cap "reset" "controller_0/m1_n243_86#" 80.64
+cap "controller_0/inv_1x_0/Gnd!" "reset" 80.64
+cap "ph1" "controller_0/inv_1x_0/Gnd!" 80.64
 cap "controller_0/m2_n25_117#" "controller_0/inv_1x_0/Gnd!" 80.64
-cap "reset" "controller_0/inv_1x_0/Gnd!" 80.64
+cap "reset" "controller_0/m1_n243_86#" 80.64
+cap "ph1" "controller_0/m1_n243_86#" 80.64
 cap "controller_0/m2_n33_166#" "controller_0/inv_1x_0/a" 73.44
 merge "datapath_0/Vdd!" "controller_0/m1_n243_86#" -74044.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37888 -1440 0 0
 merge "controller_0/m1_n243_86#" "m2_n243_1278#"
@@ -116,6 +118,7 @@ merge "datapath_0/iord" "controller_0/m1_0_n30#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 
 merge "controller_0/m1_0_n30#" "m2_0_1308#"
 merge "datapath_0/op_2_" "controller_0/m1_208_n78#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_208_n78#" "m2_208_1308#"
+merge "controller_0/m2_615_47#" "pcwrite" -196.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -18
 merge "datapath_0/writedata3" "writedata3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/funct_0_" "controller_0/m1_752_n102#" -541.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -32 0 0
 merge "controller_0/m1_752_n102#" "m2_752_1308#"
@@ -149,6 +152,7 @@ merge "datapath_0/adr6" "adr6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1
 merge "datapath_0/adr7" "adr7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_0/op_4_" "controller_0/m1_192_n94#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_192_n94#" "m2_192_1308#"
+merge "datapath_0/m2_31_27#" "test" -232.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20
 merge "datapath_0/funct_3_" "controller_0/m1_728_n78#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
 merge "controller_0/m1_728_n78#" "m2_728_1308#"
 merge "datapath_0/irwrite_3_" "controller_0/m1_56_n118#" -552 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0

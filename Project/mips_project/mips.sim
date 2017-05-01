@@ -1725,88 +1725,88 @@ n datapath_0/alu_0/a_0_ Gnd! datapath_0/alu_0/and2_1x_8_0/and2_1x_0[7]/a_15_7# 2
 n datapath_0/alu_0/b_0_ datapath_0/alu_0/and2_1x_8_0/and2_1x_0[7]/a_15_7# datapath_0/alu_0/and2_1x_8_0/and2_1x_0[7]/a_5_5# 2 6 2307 7
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_7/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# 2 9 2251 74
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 9 2256 74
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 2264 74
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 2264 74
 p datapath_0/alu_0/b_0_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# Vdd! 2 9 2269 74
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_0_ 2 10 2277 73
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_7/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# 2 6 2251 7
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 2256 7
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 2256 7
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# 2 6 2264 7
 n datapath_0/alu_0/b_0_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# Gnd! 2 6 2269 7
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_0_ 2 7 2277 7
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_6/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# 2 9 2251 184
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 9 2256 184
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 2264 184
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 2264 184
 p datapath_0/alu_0/b_1_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# Vdd! 2 9 2269 184
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_1_ 2 10 2277 183
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_6/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# 2 6 2251 117
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 2256 117
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 2256 117
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# 2 6 2264 117
 n datapath_0/alu_0/b_1_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# Gnd! 2 6 2269 117
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_1_ 2 7 2277 117
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_5/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# 2 9 2251 294
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 9 2256 294
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 2264 294
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 2264 294
 p datapath_0/alu_0/b_2_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# Vdd! 2 9 2269 294
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_2_ 2 10 2277 293
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_5/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# 2 6 2251 227
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 2256 227
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 2256 227
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# 2 6 2264 227
 n datapath_0/alu_0/b_2_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# Gnd! 2 6 2269 227
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_2_ 2 7 2277 227
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_4/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# 2 9 2251 404
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 9 2256 404
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 2264 404
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 2264 404
 p datapath_0/alu_0/b_3_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# Vdd! 2 9 2269 404
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_3_ 2 10 2277 403
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_4/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# 2 6 2251 337
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 2256 337
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 2256 337
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# 2 6 2264 337
 n datapath_0/alu_0/b_3_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# Gnd! 2 6 2269 337
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_3_ 2 7 2277 337
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_3/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# 2 9 2251 514
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 9 2256 514
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 2264 514
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 2264 514
 p datapath_0/alu_0/b_4_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# Vdd! 2 9 2269 514
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_4_ 2 10 2277 513
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_3/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# 2 6 2251 447
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 2256 447
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 2256 447
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# 2 6 2264 447
 n datapath_0/alu_0/b_4_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# Gnd! 2 6 2269 447
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_4_ 2 7 2277 447
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_2/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# 2 9 2251 624
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 9 2256 624
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 2264 624
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 2264 624
 p datapath_0/alu_0/b_5_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# Vdd! 2 9 2269 624
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_5_ 2 10 2277 623
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_2/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# 2 6 2251 557
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 2256 557
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 2256 557
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# 2 6 2264 557
 n datapath_0/alu_0/b_5_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# Gnd! 2 6 2269 557
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_5_ 2 7 2277 557
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_1/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# 2 9 2251 734
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 9 2256 734
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 2264 734
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 2264 734
 p datapath_0/alu_0/b_6_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# Vdd! 2 9 2269 734
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_6_ 2 10 2277 733
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_1/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# 2 6 2251 667
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 2256 667
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 2256 667
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# 2 6 2264 667
 n datapath_0/alu_0/b_6_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# Gnd! 2 6 2269 667
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_6_ 2 7 2277 667
 p datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_0/y Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# 2 9 2251 844
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 9 2256 844
-p s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 2264 844
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 2264 844
 p datapath_0/alu_0/b_7_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# Vdd! 2 9 2269 844
 p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Vdd! datapath_0/alu_0/adder_8_0/b_7_ 2 10 2277 843
 n datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_0/y Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# 2 6 2251 777
-n s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 2256 777
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 2256 777
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# 2 6 2264 777
 n datapath_0/alu_0/b_7_ datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# Gnd! 2 6 2269 777
 n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Gnd! datapath_0/alu_0/adder_8_0/b_7_ 2 7 2277 777
 p datapath_0/alucontrol_2_ Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2 37 2246 926
-p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! s 2 37 2262 926
+p datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s 2 37 2262 926
 n datapath_0/alucontrol_2_ Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2 27 2246 887
-n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! s 2 27 2262 887
+n datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s 2 27 2262 887
 p datapath_0/alu_0/b_0_ Vdd! datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_7/y 2 10 2230 73
 n datapath_0/alu_0/b_0_ Gnd! datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_7/y 2 7 2230 7
 p datapath_0/alu_0/b_1_ Vdd! datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_6/y 2 10 2230 183
@@ -1874,11 +1874,11 @@ n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi2b datapath_0/flopenr_1x_8_0/flop
 n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_71_8# Gnd! 2 4 2116 8
 n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_63_8# Gnd! datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# 2 6 2125 8
 n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph1 datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_26_53# 2 6 2133 8
-p datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 2 10 2173 73
+p datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Vdd! test 2 10 2173 73
 n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi1b datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_26_53# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_103_8# 2 4 2141 8
 n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_103_8# Gnd! 2 4 2148 8
 n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_26_53# Gnd! datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# 2 6 2157 8
-n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 2 7 2173 8
+n datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Gnd! test 2 7 2173 8
 p datapath_0/flopenr_1x_8_0/inv_4x_0/y Vdd! datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_15_71# 2 12 2053 181
 p datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_15_71# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_20_71# 2 12 2058 181
 p datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_26_53# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_20_71# datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_28_77# 2 6 2066 187
@@ -2403,88 +2403,88 @@ n ph2 datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2b Gnd! 2 18 1885 887
 n datapath_0/flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Gnd! datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2 2 18 1893 887
 p datapath_0/flop_1x_8_2/flop_dp_1x_7/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_12_74# 2 9 1818 74
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# 2 9 1823 74
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_74# 2 9 1831 74
-p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_74# Vdd! 2 9 1836 74
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_74# 2 9 1831 74
+p test datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_74# Vdd! 2 9 1836 74
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# Vdd! datapath_0/alu_0/a_0_ 2 10 1844 73
 n datapath_0/flop_1x_8_2/flop_dp_1x_7/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_12_7# 2 6 1818 7
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# 2 6 1823 7
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# 2 6 1823 7
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_7# 2 6 1831 7
-n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_7# Gnd! 2 6 1836 7
+n test datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_25_7# Gnd! 2 6 1836 7
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/a_17_7# Gnd! datapath_0/alu_0/a_0_ 2 7 1844 7
 p datapath_0/flop_1x_8_2/flop_dp_1x_6/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_12_74# 2 9 1818 184
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# 2 9 1823 184
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_25_74# 2 9 1831 184
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_25_74# 2 9 1831 184
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_25_74# Vdd! 2 9 1836 184
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# Vdd! datapath_0/alu_0/a_1_ 2 10 1844 183
 n datapath_0/flop_1x_8_2/flop_dp_1x_6/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_12_7# 2 6 1818 117
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# 2 6 1823 117
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# 2 6 1823 117
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_25_7# 2 6 1831 117
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_25_7# Gnd! 2 6 1836 117
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_6/a_17_7# Gnd! datapath_0/alu_0/a_1_ 2 7 1844 117
 p datapath_0/flop_1x_8_2/flop_dp_1x_5/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_12_74# 2 9 1818 294
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# 2 9 1823 294
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_25_74# 2 9 1831 294
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_25_74# 2 9 1831 294
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_25_74# Vdd! 2 9 1836 294
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# Vdd! datapath_0/alu_0/a_2_ 2 10 1844 293
 n datapath_0/flop_1x_8_2/flop_dp_1x_5/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_12_7# 2 6 1818 227
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# 2 6 1823 227
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# 2 6 1823 227
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_25_7# 2 6 1831 227
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_25_7# Gnd! 2 6 1836 227
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_5/a_17_7# Gnd! datapath_0/alu_0/a_2_ 2 7 1844 227
 p datapath_0/flop_1x_8_2/flop_dp_1x_4/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_12_74# 2 9 1818 404
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# 2 9 1823 404
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_25_74# 2 9 1831 404
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_25_74# 2 9 1831 404
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_25_74# Vdd! 2 9 1836 404
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# Vdd! datapath_0/alu_0/a_3_ 2 10 1844 403
 n datapath_0/flop_1x_8_2/flop_dp_1x_4/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_12_7# 2 6 1818 337
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# 2 6 1823 337
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# 2 6 1823 337
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_25_7# 2 6 1831 337
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_25_7# Gnd! 2 6 1836 337
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_4/a_17_7# Gnd! datapath_0/alu_0/a_3_ 2 7 1844 337
 p datapath_0/flop_1x_8_2/flop_dp_1x_3/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_12_74# 2 9 1818 514
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# 2 9 1823 514
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_25_74# 2 9 1831 514
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_25_74# 2 9 1831 514
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_25_74# Vdd! 2 9 1836 514
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# Vdd! datapath_0/alu_0/a_4_ 2 10 1844 513
 n datapath_0/flop_1x_8_2/flop_dp_1x_3/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_12_7# 2 6 1818 447
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# 2 6 1823 447
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# 2 6 1823 447
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_25_7# 2 6 1831 447
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_25_7# Gnd! 2 6 1836 447
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_3/a_17_7# Gnd! datapath_0/alu_0/a_4_ 2 7 1844 447
 p datapath_0/flop_1x_8_2/flop_dp_1x_2/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_12_74# 2 9 1818 624
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# 2 9 1823 624
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_25_74# 2 9 1831 624
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_25_74# 2 9 1831 624
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_25_74# Vdd! 2 9 1836 624
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# Vdd! datapath_0/alu_0/a_5_ 2 10 1844 623
 n datapath_0/flop_1x_8_2/flop_dp_1x_2/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_12_7# 2 6 1818 557
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# 2 6 1823 557
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# 2 6 1823 557
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_25_7# 2 6 1831 557
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_25_7# Gnd! 2 6 1836 557
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_2/a_17_7# Gnd! datapath_0/alu_0/a_5_ 2 7 1844 557
 p datapath_0/flop_1x_8_2/flop_dp_1x_1/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_12_74# 2 9 1818 734
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# 2 9 1823 734
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_25_74# 2 9 1831 734
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_25_74# 2 9 1831 734
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_25_74# Vdd! 2 9 1836 734
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# Vdd! datapath_0/alu_0/a_6_ 2 10 1844 733
 n datapath_0/flop_1x_8_2/flop_dp_1x_1/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_12_7# 2 6 1818 667
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# 2 6 1823 667
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# 2 6 1823 667
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_25_7# 2 6 1831 667
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_25_7# Gnd! 2 6 1836 667
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_1/a_17_7# Gnd! datapath_0/alu_0/a_6_ 2 7 1844 667
 p datapath_0/flop_1x_8_2/flop_dp_1x_0/q Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_12_74# 2 9 1818 844
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_12_74# datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# 2 9 1823 844
-p s datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_25_74# 2 9 1831 844
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_25_74# 2 9 1831 844
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_25_74# Vdd! 2 9 1836 844
 p datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# Vdd! datapath_0/alu_0/a_7_ 2 10 1844 843
 n datapath_0/flop_1x_8_2/flop_dp_1x_0/q Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_12_7# 2 6 1818 777
-n s datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# 2 6 1823 777
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_12_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# 2 6 1823 777
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_25_7# 2 6 1831 777
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0 datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_25_7# Gnd! 2 6 1836 777
 n datapath_0/mux2_1x_8_2/mux2_dp_1x_0/a_17_7# Gnd! datapath_0/alu_0/a_7_ 2 7 1844 777
 p datapath_0/alusrca Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb 2 37 1813 926
-p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! s 2 37 1829 926
+p datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s 2 37 1829 926
 n datapath_0/alusrca Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb 2 27 1813 887
-n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb Gnd! s 2 27 1829 887
+n datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb Gnd! datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s 2 27 1829 887
 p datapath_0/regramarray_dp_0/r1_0_ Vdd! datapath_0/flop_1x_8_2/flop_dp_1x_7/masterinb 2 12 1709 71
 p datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2b datapath_0/flop_1x_8_2/flop_dp_1x_7/masterinb datapath_0/flop_1x_8_2/flop_dp_1x_7/masterb 2 6 1725 77
 p datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_2/flop_dp_1x_7/masterb datapath_0/flop_1x_8_2/flop_dp_1x_7/a_71_79# 2 4 1733 79
@@ -3015,88 +3015,88 @@ n ph2 datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2b Gnd! 2 18 1525 887
 n datapath_0/flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Gnd! datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2 2 18 1533 887
 p datapath_0/flop_1x_8_0/flop_dp_1x_7/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_12_74# 2 9 882 74
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# 2 9 887 74
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_25_74# 2 9 895 74
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_25_74# 2 9 895 74
 p datapath_0/flop_1x_8_3/flop_dp_1x_7/q datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_25_74# Vdd! 2 9 900 74
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_0_ 2 10 908 73
 n datapath_0/flop_1x_8_0/flop_dp_1x_7/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_12_7# 2 6 882 7
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# 2 6 887 7
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# 2 6 887 7
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_25_7# 2 6 895 7
 n datapath_0/flop_1x_8_3/flop_dp_1x_7/q datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_25_7# Gnd! 2 6 900 7
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_0_ 2 7 908 7
 p datapath_0/flop_1x_8_0/flop_dp_1x_6/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_12_74# 2 9 882 184
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# 2 9 887 184
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_25_74# 2 9 895 184
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_25_74# 2 9 895 184
 p datapath_0/flop_1x_8_3/flop_dp_1x_6/q datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_25_74# Vdd! 2 9 900 184
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_1_ 2 10 908 183
 n datapath_0/flop_1x_8_0/flop_dp_1x_6/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_12_7# 2 6 882 117
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# 2 6 887 117
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# 2 6 887 117
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_25_7# 2 6 895 117
 n datapath_0/flop_1x_8_3/flop_dp_1x_6/q datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_25_7# Gnd! 2 6 900 117
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_6/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_1_ 2 7 908 117
 p datapath_0/flop_1x_8_0/flop_dp_1x_5/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_12_74# 2 9 882 294
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# 2 9 887 294
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_25_74# 2 9 895 294
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_25_74# 2 9 895 294
 p datapath_0/flop_1x_8_3/flop_dp_1x_5/q datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_25_74# Vdd! 2 9 900 294
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_2_ 2 10 908 293
 n datapath_0/flop_1x_8_0/flop_dp_1x_5/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_12_7# 2 6 882 227
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# 2 6 887 227
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# 2 6 887 227
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_25_7# 2 6 895 227
 n datapath_0/flop_1x_8_3/flop_dp_1x_5/q datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_25_7# Gnd! 2 6 900 227
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_5/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_2_ 2 7 908 227
 p datapath_0/flop_1x_8_0/flop_dp_1x_4/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_12_74# 2 9 882 404
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# 2 9 887 404
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_25_74# 2 9 895 404
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_25_74# 2 9 895 404
 p datapath_0/flop_1x_8_3/flop_dp_1x_4/q datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_25_74# Vdd! 2 9 900 404
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_3_ 2 10 908 403
 n datapath_0/flop_1x_8_0/flop_dp_1x_4/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_12_7# 2 6 882 337
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# 2 6 887 337
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# 2 6 887 337
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_25_7# 2 6 895 337
 n datapath_0/flop_1x_8_3/flop_dp_1x_4/q datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_25_7# Gnd! 2 6 900 337
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_4/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_3_ 2 7 908 337
 p datapath_0/flop_1x_8_0/flop_dp_1x_3/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_12_74# 2 9 882 514
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# 2 9 887 514
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_25_74# 2 9 895 514
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_25_74# 2 9 895 514
 p datapath_0/flop_1x_8_3/flop_dp_1x_3/q datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_25_74# Vdd! 2 9 900 514
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_4_ 2 10 908 513
 n datapath_0/flop_1x_8_0/flop_dp_1x_3/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_12_7# 2 6 882 447
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# 2 6 887 447
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# 2 6 887 447
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_25_7# 2 6 895 447
 n datapath_0/flop_1x_8_3/flop_dp_1x_3/q datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_25_7# Gnd! 2 6 900 447
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_3/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_4_ 2 7 908 447
 p datapath_0/flop_1x_8_0/flop_dp_1x_2/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_12_74# 2 9 882 624
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# 2 9 887 624
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_25_74# 2 9 895 624
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_25_74# 2 9 895 624
 p datapath_0/flop_1x_8_3/flop_dp_1x_2/q datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_25_74# Vdd! 2 9 900 624
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_5_ 2 10 908 623
 n datapath_0/flop_1x_8_0/flop_dp_1x_2/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_12_7# 2 6 882 557
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# 2 6 887 557
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# 2 6 887 557
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_25_7# 2 6 895 557
 n datapath_0/flop_1x_8_3/flop_dp_1x_2/q datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_25_7# Gnd! 2 6 900 557
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_2/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_5_ 2 7 908 557
 p datapath_0/flop_1x_8_0/flop_dp_1x_1/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_12_74# 2 9 882 734
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# 2 9 887 734
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_25_74# 2 9 895 734
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_25_74# 2 9 895 734
 p datapath_0/flop_1x_8_3/flop_dp_1x_1/q datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_25_74# Vdd! 2 9 900 734
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_6_ 2 10 908 733
 n datapath_0/flop_1x_8_0/flop_dp_1x_1/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_12_7# 2 6 882 667
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# 2 6 887 667
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# 2 6 887 667
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_25_7# 2 6 895 667
 n datapath_0/flop_1x_8_3/flop_dp_1x_1/q datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_25_7# Gnd! 2 6 900 667
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_1/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_6_ 2 7 908 667
 p datapath_0/flop_1x_8_0/flop_dp_1x_0/q Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_12_74# 2 9 882 844
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_12_74# datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# 2 9 887 844
-p s datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_25_74# 2 9 895 844
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_25_74# 2 9 895 844
 p datapath_0/flop_1x_8_3/flop_dp_1x_0/q datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_25_74# Vdd! 2 9 900 844
 p datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# Vdd! datapath_0/regramarray_dp_0/w_7_ 2 10 908 843
 n datapath_0/flop_1x_8_0/flop_dp_1x_0/q Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_12_7# 2 6 882 777
-n s datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# 2 6 887 777
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_12_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# 2 6 887 777
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_25_7# 2 6 895 777
 n datapath_0/flop_1x_8_3/flop_dp_1x_0/q datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_25_7# Gnd! 2 6 900 777
 n datapath_0/mux2_1x_8_1/mux2_dp_1x_0/a_17_7# Gnd! datapath_0/regramarray_dp_0/w_7_ 2 7 908 777
 p datapath_0/memtoreg Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb 2 37 877 926
-p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! s 2 37 893 926
+p datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s 2 37 893 926
 n datapath_0/memtoreg Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb 2 27 877 887
-n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb Gnd! s 2 27 893 887
+n datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb Gnd! datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s 2 27 893 887
 p memdata0 Vdd! datapath_0/flop_1x_8_0/flop_dp_1x_7/masterinb 2 12 765 71
 p datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2b datapath_0/flop_1x_8_0/flop_dp_1x_7/masterinb datapath_0/flop_1x_8_0/flop_dp_1x_7/masterb 2 6 781 77
 p datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_0/flop_dp_1x_7/masterb datapath_0/flop_1x_8_0/flop_dp_1x_7/a_71_79# 2 4 789 79
@@ -4167,88 +4167,88 @@ p datapath_0/irwrite_3_ Vdd! datapath_0/flopen_1x_8_0/inv_4x_0/y 2 37 61 926
 n datapath_0/irwrite_3_ Gnd! datapath_0/flopen_1x_8_0/inv_4x_0/y 2 27 61 887
 p datapath_0/flop_1x_8_3/flop_dp_1x_7/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# 2 9 10 74
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 9 15 74
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 23 74
-p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# Vdd! 2 9 28 74
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 2 9 23 74
+p test datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# Vdd! 2 9 28 74
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Vdd! adr0 2 10 36 73
 n datapath_0/flop_1x_8_3/flop_dp_1x_7/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# 2 6 10 7
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 15 7
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 2 6 15 7
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# 2 6 23 7
-n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# Gnd! 2 6 28 7
+n test datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_7# Gnd! 2 6 28 7
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# Gnd! adr0 2 7 36 7
 p datapath_0/flop_1x_8_3/flop_dp_1x_6/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# 2 9 10 184
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 9 15 184
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 23 184
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# 2 9 23 184
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_74# Vdd! 2 9 28 184
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Vdd! adr1 2 10 36 183
 n datapath_0/flop_1x_8_3/flop_dp_1x_6/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# 2 6 10 117
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 15 117
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# 2 6 15 117
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# 2 6 23 117
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_25_7# Gnd! 2 6 28 117
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_6/a_17_7# Gnd! adr1 2 7 36 117
 p datapath_0/flop_1x_8_3/flop_dp_1x_5/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# 2 9 10 294
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 9 15 294
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 23 294
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# 2 9 23 294
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_74# Vdd! 2 9 28 294
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Vdd! adr2 2 10 36 293
 n datapath_0/flop_1x_8_3/flop_dp_1x_5/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# 2 6 10 227
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 15 227
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# 2 6 15 227
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# 2 6 23 227
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_25_7# Gnd! 2 6 28 227
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_5/a_17_7# Gnd! adr2 2 7 36 227
 p datapath_0/flop_1x_8_3/flop_dp_1x_4/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# 2 9 10 404
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 9 15 404
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 23 404
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# 2 9 23 404
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_74# Vdd! 2 9 28 404
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Vdd! adr3 2 10 36 403
 n datapath_0/flop_1x_8_3/flop_dp_1x_4/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# 2 6 10 337
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 15 337
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# 2 6 15 337
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# 2 6 23 337
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_25_7# Gnd! 2 6 28 337
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_4/a_17_7# Gnd! adr3 2 7 36 337
 p datapath_0/flop_1x_8_3/flop_dp_1x_3/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# 2 9 10 514
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 9 15 514
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 23 514
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# 2 9 23 514
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_74# Vdd! 2 9 28 514
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Vdd! adr4 2 10 36 513
 n datapath_0/flop_1x_8_3/flop_dp_1x_3/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# 2 6 10 447
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 15 447
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# 2 6 15 447
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# 2 6 23 447
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_25_7# Gnd! 2 6 28 447
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_3/a_17_7# Gnd! adr4 2 7 36 447
 p datapath_0/flop_1x_8_3/flop_dp_1x_2/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# 2 9 10 624
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 9 15 624
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 23 624
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# 2 9 23 624
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_74# Vdd! 2 9 28 624
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Vdd! adr5 2 10 36 623
 n datapath_0/flop_1x_8_3/flop_dp_1x_2/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# 2 6 10 557
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 15 557
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# 2 6 15 557
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# 2 6 23 557
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_25_7# Gnd! 2 6 28 557
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_2/a_17_7# Gnd! adr5 2 7 36 557
 p datapath_0/flop_1x_8_3/flop_dp_1x_1/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# 2 9 10 734
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 9 15 734
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 23 734
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# 2 9 23 734
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_74# Vdd! 2 9 28 734
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Vdd! adr6 2 10 36 733
 n datapath_0/flop_1x_8_3/flop_dp_1x_1/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# 2 6 10 667
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 15 667
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# 2 6 15 667
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# 2 6 23 667
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_25_7# Gnd! 2 6 28 667
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_1/a_17_7# Gnd! adr6 2 7 36 667
 p datapath_0/flop_1x_8_3/flop_dp_1x_0/q Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# 2 9 10 844
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_74# datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 9 15 844
-p s datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 23 844
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# 2 9 23 844
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_74# Vdd! 2 9 28 844
 p datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Vdd! adr7 2 10 36 843
 n datapath_0/flop_1x_8_3/flop_dp_1x_0/q Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# 2 6 10 777
-n s datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 15 777
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_12_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# 2 6 15 777
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# 2 6 23 777
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0 datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# Gnd! 2 6 28 777
 n datapath_0/mux2_1x_8_0/mux2_dp_1x_0/a_17_7# Gnd! adr7 2 7 36 777
 p datapath_0/iord Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2 37 5 926
-p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! s 2 37 21 926
+p datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s 2 37 21 926
 n datapath_0/iord Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2 27 5 887
-n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! s 2 27 21 887
+n datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb Gnd! datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s 2 27 21 887
 p datapath_0/regdst datapath_0/mux2_c_1x_2/a_3_7# Vdd! 2 9 768 1064
 p datapath_0/mux2_c_1x_2/d1 Vdd! datapath_0/mux2_c_1x_2/a_18_74# 2 9 776 1064
 p datapath_0/mux2_c_1x_2/a_3_7# datapath_0/mux2_c_1x_2/a_18_74# datapath_0/mux2_c_1x_2/a_23_7# 2 9 781 1064
@@ -4310,10 +4310,10 @@ n controller_0/aludec_0/a2o1_1x_0/a_12_26# datapath_0/alucontrol_2_ Gnd! 2 7 155
 p controller_0/a2o1_1x_0/a_12_26# Vdd! datapath_0/pcen 2 10 1516 1525
 p datapath_0/zero controller_0/a2o1_1x_0/a_0_57# Vdd! 2 9 1503 1507
 p controller_0/a2o1_1x_0/b Vdd! controller_0/a2o1_1x_0/a_0_57# 2 9 1511 1507
-p datapath_0/irwrite_3_ controller_0/a2o1_1x_0/a_0_57# controller_0/a2o1_1x_0/a_12_26# 2 9 1519 1507
+p pcwrite controller_0/a2o1_1x_0/a_0_57# controller_0/a2o1_1x_0/a_12_26# 2 9 1519 1507
 n datapath_0/zero Gnd! controller_0/a2o1_1x_0/a_7_26# 2 6 1503 1476
 n controller_0/a2o1_1x_0/b controller_0/a2o1_1x_0/a_7_26# controller_0/a2o1_1x_0/a_12_26# 2 6 1508 1476
-n datapath_0/irwrite_3_ controller_0/a2o1_1x_0/a_12_26# Gnd! 2 6 1516 1476
+n pcwrite controller_0/a2o1_1x_0/a_12_26# Gnd! 2 6 1516 1476
 n controller_0/a2o1_1x_0/a_12_26# datapath_0/pcen Gnd! 2 7 1516 1465
 p Gnd! controller_0/controller_pla_0/a_215_230# Vdd! 3 3 576 1759
 p Gnd! controller_0/controller_pla_0/a_228_6# Vdd! 3 3 592 1759
@@ -4559,7 +4559,7 @@ n controller_0/controller_pla_0/a_17_59# Gnd! controller_0/controller_pla_0/a_47
 n controller_0/controller_pla_0/a_215_230# controller_0/controller_pla_0/out_22_ Gnd! 2 5 581 1488
 n controller_0/controller_pla_0/a_228_6# Gnd! controller_0/controller_pla_0/out_21_ 2 5 589 1488
 n controller_0/controller_pla_0/a_239_254# controller_0/a2o1_1x_0/b Gnd! 2 5 605 1488
-n controller_0/controller_pla_0/a_252_6# Gnd! datapath_0/irwrite_3_ 2 5 613 1488
+n controller_0/controller_pla_0/a_252_6# Gnd! pcwrite 2 5 613 1488
 n controller_0/controller_pla_0/a_263_95# datapath_0/irwrite_3_ Gnd! 2 5 629 1488
 n controller_0/controller_pla_0/a_276_6# Gnd! datapath_0/irwrite_2_ 2 5 637 1488
 n controller_0/controller_pla_0/a_287_71# datapath_0/irwrite_1_ Gnd! 2 5 653 1488
@@ -4592,7 +4592,7 @@ p controller_0/flopr_c_1x_3/q Vdd! controller_0/controller_pla_0/a_186_8# 2 10 5
 p controller_0/controller_pla_0/a_215_230# controller_0/controller_pla_0/out_22_ Vdd! 2 10 581 1458
 p controller_0/controller_pla_0/a_228_6# Vdd! controller_0/controller_pla_0/out_21_ 2 10 589 1458
 p controller_0/controller_pla_0/a_239_254# controller_0/a2o1_1x_0/b Vdd! 2 10 605 1458
-p controller_0/controller_pla_0/a_252_6# Vdd! datapath_0/irwrite_3_ 2 10 613 1458
+p controller_0/controller_pla_0/a_252_6# Vdd! pcwrite 2 10 613 1458
 p controller_0/controller_pla_0/a_263_95# datapath_0/irwrite_3_ Vdd! 2 10 629 1458
 p controller_0/controller_pla_0/a_276_6# Vdd! datapath_0/irwrite_2_ 2 10 637 1458
 p controller_0/controller_pla_0/a_287_71# datapath_0/irwrite_1_ Vdd! 2 10 653 1458
@@ -4734,874 +4734,878 @@ n ph1 Gnd! controller_0/flopr_c_1x_0/ph1b 2 6 141 1569
 n controller_0/flopr_c_1x_0/slaveb Gnd! controller_0/flopr_c_1x_0/q 2 7 157 1568
 p reset Vdd! controller_0/inv_1x_0/y 2 10 -11 1634
 n reset Gnd! controller_0/inv_1x_0/y 2 7 -11 1568
-C datapath_0/alu_0/a_6_ datapath_0/alu_0/adder_8_0/b_6_ 2.2
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/slave Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/b_4_ datapath_0/alu_0/a_4_ 2.2
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_3/data Vdd! 5.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/slave Vdd! 2.7
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C memdata3 Vdd! 7.9
-C controller_0/flopr_c_1x_2/ph2bb Vdd! 3.9
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_5/y Vdd! 3.3
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_26_53# Vdd! 2.7
-C datapath_0/regramarray_dp_0/invbuf_4x_7/sb_out Vdd! 7.0
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_0/s_out 5.0
-C datapath_0/flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb 5.2
-C Vdd! datapath_0/regramarray_dp_0/w_2_ 11.2
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/qbar Vdd! 3.9
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0 Vdd! 4.7
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/q Vdd! 2.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C datapath_0/alu_0/adder_8_0/s_3_ Vdd! 2.9
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/masterinb Vdd! 4.4
-C datapath_0/alu_0/result_1_ Vdd! 5.7
-C datapath_0/alu_0/b_7_ Vdd! 7.8
-C datapath_0/alu_0/yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
-C datapath_0/op_0_ Vdd! 8.5
-C datapath_0/flop_1x_8_0/flop_dp_1x_3/masterinb Vdd! 2.3
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 Vdd! 4.7
-C datapath_0/funct_3_ Vdd! 14.4
-C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.8
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 2.6
-C controller_0/flopr_c_1x_3/master Vdd! 2.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/y Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C datapath_0/alu_0/b_3_ Vdd! 7.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_1/q Vdd! 3.5
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_4/a_5_5# Vdd! 2.8
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_26_53# Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/mux2_c_1x_2/y Vdd! 3.8
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_6/data Vdd! 5.1
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_5/s_out 7.1
-C datapath_0/op_2_ Vdd! 6.9
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_5/data Vdd! 5.1
-C memdata7 writedata7 2.1
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2b Vdd! 21.3
-C datapath_0/flop_1x_8_1/flop_dp_1x_1/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/q datapath_0/funct_0_ 2.3
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/a_0_74# Vdd! 2.2
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/masterinb Vdd! 4.4
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/master Vdd! 2.7
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 Vdd! 13.5
-C datapath_0/regdst datapath_0/mux2_c_1x_2/a_3_7# 2.2
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/master Vdd! 2.7
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/flop_1x_8_1/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C controller_0/flopr_c_1x_2/masterinb Vdd! 5.6
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_20_71# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C datapath_0/alu_0/adder_8_0/b_4_ Vdd! 6.0
-C datapath_0/alu_0/a_3_ Vdd! 7.0
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand5_1x_0/y 5.6
-C datapath_0/flop_1x_8_0/flop_dp_1x_2/masterinb Vdd! 2.3
-C datapath_0/alu_0/a_6_ Vdd! 7.0
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_1/data Vdd! 5.1
-C adr5 Vdd! 2.3
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_6/y Vdd! 3.3
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/masterinb Vdd! 4.4
-C memdata1 Vdd! 8.0
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_76_6# Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/c_3_ Vdd! 10.4
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_0/master Vdd! 2.7
-C datapath_0/flopen_1x_8_3/inv_4x_1/y Vdd! 12.6
-C datapath_0/flop_1x_8_0/flop_dp_1x_5/q Vdd! 3.5
-C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! 13.5
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0 Vdd! 4.7
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/qbar Vdd! 3.9
-C controller_0/flopr_c_1x_0/masterinb Vdd! 5.6
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_1/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1b Vdd! 14.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_4/y 2.1
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/q Vdd! 2.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/qbar Vdd! 3.9
-C datapath_0/alucontrol_2_ Vdd! 17.9
-C datapath_0/alu_0/a_0_ Vdd! 7.0
-C datapath_0/mux2_c_1x_0/a_23_7# Vdd! 2.9
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/master Vdd! 2.7
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_26_53# Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/c_1_ Vdd! 10.4
-C datapath_0/alu_0/adder_8_0/b_2_ datapath_0/alu_0/a_2_ 2.2
-C datapath_0/flop_1x_8_0/flop_dp_1x_4/q Vdd! 3.5
-C datapath_0/regramarray_dp_0/invbuf_4x_5/s_out datapath_0/regramarray_dp_0/invbuf_4x_4/s_out 2.1
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/y 4.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/flop_1x_8_0/flop_dp_1x_3/master Vdd! 2.7
-C ph2 Vdd! 32.2
-C datapath_0/flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_2/y 2.1
-C datapath_0/flopen_1x_8_1/inv_4x_0/y Vdd! 26.1
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! 13.5
-C datapath_0/alu_0/adder_8_0/c_2_ Vdd! 10.4
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/slave Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.4
-C datapath_0/memtoreg controller_0/controller_pla_0/out_5_ 2.2
-C datapath_0/alu_0/yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_20_71# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_2/data Vdd! 5.1
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_6/data Vdd! 5.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/qbar Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C datapath_0/alu_0/or2_1x_8_0/y_3_ Vdd! 2.7
-C datapath_0/flop_1x_8_2/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C controller_0/flopr_c_1x_3/ph2bb Vdd! 3.9
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_1/s_out 6.9
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/slave Vdd! 2.7
-C Vdd! datapath_0/regramarray_dp_0/w_3_ 11.2
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/masterinb Vdd! 4.4
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/master Vdd! 2.7
-C writedata2 Vdd! 5.4
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0 Vdd! 4.7
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[2]/a_5_5# Vdd! 3.0
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[6]/a_5_5# Vdd! 3.0
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/masterinb Vdd! 4.4
-C controller_0/flopr_c_1x_3/ph2b Vdd! 4.3
-C datapath_0/regramarray_dp_0/ra1_1_ Vdd! 4.5
-C datapath_0/flopenr_1x_8_0/inv_4x_2/y datapath_0/flopenr_1x_8_0/inv_4x_0/y 4.7
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_2/master Vdd! 2.7
-C datapath_0/funct_4_ Vdd! 12.9
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_2/a_5_5# Vdd! 2.8
-C datapath_0/alu_0/adder_8_0/b_0_ datapath_0/alu_0/a_0_ 2.2
-C datapath_0/funct_0_ Vdd! 17.3
-C controller_0/flopr_c_1x_1/slaveb Vdd! 4.2
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
-C datapath_0/flop_1x_8_3/flop_dp_1x_1/masterinb Vdd! 2.3
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2b 4.5
-C datapath_0/mux2_c_1x_2/a_23_7# Vdd! 2.9
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 2.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/master Vdd! 2.7
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/slave Vdd! 2.7
-C datapath_0/flop_1x_8_0/flop_dp_1x_1/masterinb Vdd! 2.3
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1 Vdd! 14.0
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2b Vdd! 21.3
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_0/y Vdd! 3.3
-C datapath_0/alu_0/mux4_1x_8_0/d0_0_ Vdd! 3.2
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0 Vdd! 4.7
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/flop_1x_8_2/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/slave Vdd! 2.7
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/qbar Vdd! 3.9
 C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/master Vdd! 2.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/a_0_74# Vdd! 2.2
-C datapath_0/alu_0/adder_8_0/c_7_ Vdd! 10.4
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/slave Vdd! 2.7
-C datapath_0/regramarray_dp_0/r1_6_ Vdd! 10.9
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/a_0_74# Vdd! 2.2
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/masterinb Vdd! 2.3
-C controller_0/flopr_c_1x_0/ph1b Vdd! 5.4
-C Vdd! datapath_0/regwrite 10.6
-C datapath_0/flopen_1x_8_1/inv_4x_1/y Vdd! 12.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_3/flop_dp_1x_0/masterinb Vdd! 2.3
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/qbar Vdd! 3.9
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/masterinb Vdd! 4.4
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_76_6# Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/master Vdd! 2.7
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/qbar Vdd! 3.9
-C datapath_0/alu_0/yzdetect_8_0/nor2_1x_2/a Vdd! 3.9
-C datapath_0/alu_0/b_0_ Vdd! 7.9
-C datapath_0/flopenr_1x_8_0/inv_4x_0/y Vdd! 26.6
-C adr2 Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_3/data Vdd! 5.1
-C datapath_0/iord Vdd! 3.9
-C controller_0/flopr_c_1x_1/master Vdd! 2.7
-C datapath_0/flop_1x_8_2/flop_dp_1x_0/master Vdd! 2.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/a_0_74# Vdd! 2.2
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_0/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/invbuf_4x_8/s_out datapath_0/regramarray_dp_0/invbuf_4x_7/s_out 2.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2b Vdd! 21.3
-C datapath_0/flop_1x_8_0/flop_dp_1x_2/q Vdd! 3.5
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_2/flop_dp_1x_6/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_6/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C datapath_0/flop_1x_8_3/flop_dp_1x_5/q Vdd! 7.6
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi2b datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph2 7.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2b 4.5
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/slave Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/qbar Vdd! 3.9
-C controller_0/flopr_c_1x_2/master Vdd! 2.7
-C datapath_0/flop_1x_8_2/flop_dp_1x_6/masterinb Vdd! 2.3
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_3/s_out 5.6
-C memdata2 writedata2 2.1
-C controller_0/flopr_c_1x_2/ph1bb Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_26_53# Vdd! 2.7
-C memdata0 writedata0 2.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/r2_1_ Vdd! 15.1
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_76_6# Vdd! 2.7
-C datapath_0/alu_0/or2_1x_8_0/y_1_ Vdd! 2.7
-C datapath_0/alu_0/a_7_ Vdd! 6.9
-C memdata6 Vdd! 7.9
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/master Vdd! 2.7
-C datapath_0/flop_1x_8_2/flop_dp_1x_0/q Vdd! 3.4
-C s Vdd! 59.3
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/data 5.1
-C datapath_0/flopenr_1x_8_0/inv_4x_1/y datapath_0/flopenr_1x_8_0/inv_4x_0/y 7.1
-C controller_0/flopr_c_1x_0/ph2b Vdd! 4.3
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/slave Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/qbar Vdd! 3.9
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_6/a_5_5# Vdd! 2.8
-C adr4 Vdd! 2.3
-C ph2 datapath_0/regramarray_dp_0/invbuf_4x_0/s_out 3.0
-C datapath_0/alusrcb_1_ Vdd! 3.9
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/a_33_7# Vdd! 3.1
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1b 4.3
-C datapath_0/flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/masterinb Vdd! 4.4
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_20_71# Vdd! 4.2
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_2/s_out 7.1
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1b Vdd! 13.3
-C Vdd! datapath_0/regramarray_dp_0/r2_0_ 15.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/slave Vdd! 2.7
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/masterinb Vdd! 4.4
-C datapath_0/regramarray_dp_0/r2_7_ Vdd! 15.1
-C datapath_0/flop_1x_8_3/flop_dp_1x_6/q Vdd! 7.6
-C datapath_0/flop_1x_8_1/flop_dp_1x_5/master Vdd! 2.7
-C writedata0 Vdd! 5.4
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_5/a_5_5# Vdd! 2.8
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_6/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_3/data Vdd! 5.1
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_1/data 5.1
-C controller_0/flopr_c_1x_2/q Vdd! 3.5
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2b Vdd! 21.3
-C datapath_0/alusrca Vdd! 3.9
-C datapath_0/alu_0/or2_1x_8_0/y_2_ Vdd! 2.7
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/masterinb Vdd! 4.4
-C writedata3 Vdd! 5.4
-C datapath_0/funct_5_ Vdd! 12.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_0/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/masterinb Vdd! 4.4
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_6/data Vdd! 5.1
-C memdata6 writedata6 2.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_1/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_1/flop_dp_1x_4/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb 5.2
-C datapath_0/alu_0/adder_8_0/c_6_ Vdd! 10.4
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/master Vdd! 2.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_3/y 2.1
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/y Vdd! 3.0
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_3/a_5_5# Vdd! 2.8
-C datapath_0/flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_0/data Vdd! 5.1
-C datapath_0/funct_1_ Vdd! 15.1
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_76_6# Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/regramarray_dp_0/invbuf_4x_1/sb_out Vdd! 7.1
-C datapath_0/regramarray_dp_0/r1_2_ Vdd! 10.9
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[4]/y Vdd! 3.2
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_3/data 5.1
-C controller_0/flopr_c_1x_1/ph1b Vdd! 5.4
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/slave Vdd! 2.7
-C datapath_0/alu_0/result_7_ Vdd! 5.7
-C datapath_0/flopen_1x_8_2/inv_4x_1/y Vdd! 12.6
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_1/flop_dp_1x_2/master Vdd! 2.7
-C controller_0/flopr_c_1x_3/d Vdd! 2.4
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/regramarray_dp_0/r2_4_ Vdd! 15.1
-C ph1 Vdd! 22.5
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_2/data Vdd! 5.1
-C controller_0/flopr_c_1x_2/d Vdd! 3.6
-C controller_0/flopr_c_1x_0/slaveb Vdd! 4.2
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/y Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_4/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/qbar Vdd! 3.9
-C datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! 13.5
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_6/s_out 5.6
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_1/y Vdd! 3.3
-C datapath_0/alu_0/or2_1x_8_0/y_6_ Vdd! 2.7
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.4
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/qbar Vdd! 3.9
-C controller_0/flopr_c_1x_1/d Vdd! 2.5
-C datapath_0/flop_1x_8_2/flop_dp_1x_4/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C datapath_0/flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/flop_1x_8_0/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C datapath_0/pcsrc_1_ Vdd! 3.9
-C datapath_0/alu_0/b_1_ Vdd! 7.9
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/master Vdd! 2.7
-C datapath_0/flop_1x_8_0/flop_dp_1x_6/q Vdd! 3.5
-C datapath_0/pcen Vdd! 4.9
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/qbar Vdd! 3.9
-C datapath_0/irwrite_3_ Vdd! 6.9
-C controller_0/flopr_c_1x_3/slaveb Vdd! 4.2
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_20_71# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0 Vdd! 4.7
-C datapath_0/flopen_1x_8_2/inv_4x_1/y datapath_0/flopen_1x_8_2/inv_4x_0/y 7.0
-C memdata7 Vdd! 7.9
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C datapath_0/alu_0/adder_8_0/s_5_ Vdd! 2.9
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_6/data 5.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2b 4.5
-C datapath_0/flop_1x_8_1/flop_dp_1x_0/masterinb Vdd! 2.3
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi2b Vdd! 21.3
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.4
-C datapath_0/flop_1x_8_0/flop_dp_1x_5/masterinb Vdd! 2.3
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_0/a_5_5# Vdd! 2.8
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/flop_1x_8_0/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C datapath_0/irwrite_0_ Vdd! 3.9
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/master Vdd! 2.7
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/qbar Vdd! 3.9
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_5/data Vdd! 5.1
-C datapath_0/op_4_ Vdd! 6.0
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/flop_1x_8_3/flop_dp_1x_4/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/master Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_3/masterinb Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/q Vdd! 2.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2b Vdd! 21.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/master Vdd! 2.7
-C datapath_0/alu_0/a_1_ Vdd! 7.0
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/qbar Vdd! 3.9
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_1/d2 Vdd! 5.5
-C datapath_0/mux2_c_1x_2/d0 Vdd! 18.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/q Vdd! 2.1
-C controller_0/flopr_c_1x_1/masterinb Vdd! 5.6
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_0/data Vdd! 5.1
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/data 5.1
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2b 4.5
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/slave Vdd! 2.7
-C datapath_0/flop_1x_8_0/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C writedata1 Vdd! 5.4
-C datapath_0/flop_1x_8_3/flop_dp_1x_2/q Vdd! 7.6
-C memdata3 writedata3 2.1
-C datapath_0/alu_0/adder_8_0/b_1_ datapath_0/alu_0/a_1_ 2.2
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 2.6
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1b 4.3
 C datapath_0/flop_1x_8_0/flop_dp_1x_4/masterinb Vdd! 2.3
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_20_71# Vdd! 4.2
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/masterinb Vdd! 4.4
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/master Vdd! 2.7
-C ph2 datapath_0/regwrite 3.1
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_2/data 5.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/master Vdd! 2.7
-C controller_0/flopr_c_1x_0/ph1bb Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/b_5_ Vdd! 6.0
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/y Vdd! 3.0
-C datapath_0/flopen_1x_8_1/inv_4x_0/y datapath_0/flopen_1x_8_1/inv_4x_1/y 7.0
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_26_53# Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C adr1 Vdd! 2.3
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/q Vdd! 2.1
-C datapath_0/flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/alu_0/yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2b 4.5
-C datapath_0/flop_1x_8_0/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/qbar Vdd! 3.9
-C datapath_0/mux2_c_1x_1/y Vdd! 3.0
-C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb s 2.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/masterinb Vdd! 4.4
-C controller_0/flopr_c_1x_0/d Vdd! 2.5
-C datapath_0/flop_1x_8_0/flop_dp_1x_5/master Vdd! 2.7
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/master Vdd! 2.7
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_7/s_out 7.2
-C datapath_0/alu_0/a_5_ datapath_0/alu_0/adder_8_0/b_5_ 2.2
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_0/y 2.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/qbar Vdd! 3.9
-C controller_0/flopr_c_1x_2/ph2b Vdd! 4.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_6/masterinb Vdd! 2.3
-C datapath_0/alu_0/adder_8_0/b_2_ Vdd! 6.0
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[3]/a_5_5# Vdd! 3.0
-C datapath_0/op_0_ controller_0/controller_pla_0/out_5_ 6.4
-C controller_0/controller_pla_0/out_21_ Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram0_7/read2 Vdd! 2.1
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/data Vdd! 5.1
-C datapath_0/mux2_c_1x_1/d1 Vdd! 6.0
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_3/data Vdd! 5.1
-C Vdd! datapath_0/regramarray_dp_0/w_6_ 11.2
-C datapath_0/flop_1x_8_0/flop_dp_1x_0/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_5/masterinb Vdd! 2.3
-C datapath_0/alu_0/a_2_ Vdd! 7.0
-C datapath_0/flop_1x_8_2/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/regramarray_dp_0/invbuf_4x_2/sb_out Vdd! 6.8
-C memdata5 writedata5 2.1
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb s 2.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/q Vdd! 2.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_6/q Vdd! 3.4
-C datapath_0/alu_0/b_5_ Vdd! 7.9
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_5/data 5.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/a_33_7# Vdd! 3.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_4/q Vdd! 3.4
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2b 4.5
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/master Vdd! 2.7
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_0/flop_dp_1x_4/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/r1_7_ Vdd! 10.9
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 Vdd! 13.5
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/slave Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_3/masterinb Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_2/data Vdd! 5.1
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/qbar Vdd! 3.9
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[3]/y Vdd! 3.2
-C datapath_0/regramarray_dp_0/invbuf_4x_4/sb_out Vdd! 6.6
-C datapath_0/alu_0/b_2_ Vdd! 7.9
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/slave Vdd! 2.7
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/slave Vdd! 2.7
-C datapath_0/alu_0/result_5_ Vdd! 6.4
-C datapath_0/alu_0/or2_1x_8_0/y_4_ Vdd! 2.7
-C datapath_0/alu_0/b_4_ Vdd! 7.9
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_108_6# Vdd! 4.2
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/master Vdd! 2.7
-C datapath_0/flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/alu_0/adder_8_0/s_1_ Vdd! 2.9
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_4/data Vdd! 5.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/master Vdd! 2.7
-C datapath_0/flop_1x_8_2/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/invbuf_4x_2/s_out datapath_0/regramarray_dp_0/invbuf_4x_1/s_out 2.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/slave Vdd! 2.7
-C controller_0/flopr_c_1x_1/ph2bb Vdd! 3.9
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/masterinb Vdd! 4.4
-C datapath_0/regramarray_dp_0/invbuf_4x_6/sb_out Vdd! 5.9
-C writedata7 Vdd! 5.3
-C datapath_0/alu_0/adder_8_0/b_7_ Vdd! 6.0
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_3/flop_dp_1x_1/q Vdd! 7.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/slave Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_1/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/ra1_0_ Vdd! 5.2
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.4
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_2/masterinb Vdd! 2.3
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/slave Vdd! 2.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_1/y 2.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_1/q Vdd! 3.4
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1 datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1b 2.8
-C datapath_0/mux2_c_1x_2/d1 Vdd! 6.6
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2b Vdd! 21.3
-C datapath_0/flop_1x_8_2/flop_dp_1x_2/master Vdd! 2.7
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.9
-C datapath_0/alu_0/b_6_ Vdd! 7.9
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb 5.2
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2b 4.5
-C adr3 Vdd! 2.3
-C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! 13.5
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0 Vdd! 4.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/a_0_74# Vdd! 2.2
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/masterinb Vdd! 4.4
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/masterinb Vdd! 4.4
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C datapath_0/regdst datapath_0/mux2_c_1x_1/a_3_7# 2.2
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1b 4.3
-C ph2 ph1 5.7
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/slave Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_26_53# Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2b Vdd! 21.3
-C controller_0/a2o1_1x_0/b Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_0/data Vdd! 5.1
-C datapath_0/flop_1x_8_3/flop_dp_1x_6/a_108_6# Vdd! 3.9
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y 2.1
-C controller_0/flopr_c_1x_0/ph2bb Vdd! 3.9
-C controller_0/flopr_c_1x_2/slaveb Vdd! 4.2
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_7/y Vdd! 3.3
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C datapath_0/regramarray_dp_0/invbuf_4x_8/sb_out datapath_0/regramarray_dp_0/invbuf_4x_7/s_out 2.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/masterinb Vdd! 4.4
-C datapath_0/flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/q Vdd! 2.1
-C datapath_0/regramarray_dp_0/r2_3_ Vdd! 15.1
-C datapath_0/flop_1x_8_3/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_108_6# Vdd! 4.2
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_3/q Vdd! 3.5
-C datapath_0/flop_1x_8_3/flop_dp_1x_3/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_5/data Vdd! 5.1
-C datapath_0/alu_0/adder_8_0/c_5_ Vdd! 10.4
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/slave Vdd! 2.7
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/slave Vdd! 2.7
-C datapath_0/flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_8/s_out 7.6
-C memdata4 Vdd! 7.9
-C controller_0/controller_pla_0/out_22_ Vdd! 6.8
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/masterinb Vdd! 4.4
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/masterinb Vdd! 4.4
-C controller_0/flopr_c_1x_3/q Vdd! 3.0
-C controller_0/flopr_c_1x_1/ph2b Vdd! 4.3
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/masterinb Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/qbar Vdd! 3.9
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/masterinb Vdd! 4.4
-C datapath_0/alu_0/yzdetect_8_0/nor2_1x_2/b Vdd! 3.2
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi1b Vdd! 20.8
-C datapath_0/regramarray_dp_0/r2_5_ Vdd! 15.1
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_4/data Vdd! 5.1
-C datapath_0/alu_0/adder_8_0/b_3_ Vdd! 6.0
-C datapath_0/flop_1x_8_2/flop_dp_1x_0/masterinb Vdd! 2.3
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_108_6# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_1/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/data Vdd! 5.1
-C datapath_0/alu_0/or2_1x_8_0/y_7_ Vdd! 2.7
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_7/a_5_5# Vdd! 2.8
-C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_4/data 5.1
-C datapath_0/irwrite_1_ Vdd! 3.9
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/a_33_7# Vdd! 3.1
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_2/y Vdd! 3.3
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_76_6# Vdd! 2.7
-C memdata1 writedata1 2.1
-C datapath_0/mux2_c_1x_0/d0 Vdd! 7.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_6/master Vdd! 2.7
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/master Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_6/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_2/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_108_6# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_1/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/invbuf_4x_1/sb_out datapath_0/regwrite 2.1
-C memdata5 Vdd! 7.9
-C datapath_0/flop_1x_8_1/flop_dp_1x_1/master Vdd! 2.7
-C datapath_0/alu_0/result_6_ Vdd! 5.6
-C datapath_0/alu_0/or2_1x_8_0/or2_1x_1/a_5_5# Vdd! 2.8
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/q Vdd! 3.4
-C datapath_0/flop_1x_8_2/flop_dp_1x_3/masterinb Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb 5.2
-C datapath_0/op_5_ Vdd! 5.7
-C datapath_0/regramarray_dp_0/r1_3_ Vdd! 10.9
-C memdata4 writedata4 2.1
-C datapath_0/flopen_1x_8_3/inv_4x_0/y Vdd! 26.1
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_20_71# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1b 4.3
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/y Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
-C ph2 datapath_0/mux2_c_1x_2/d0 2.5
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/qbar Vdd! 3.9
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/y Vdd! 3.0
-C reset Vdd! 3.5
-C datapath_0/flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/memtoreg Vdd! 4.0
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s0 Vdd! 11.5
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_1/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb 5.2
-C datapath_0/flop_1x_8_3/flop_dp_1x_0/q Vdd! 7.6
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[1]/y Vdd! 3.2
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_2/flop_dp_1x_3/master Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_1/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_108_6# Vdd! 4.2
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/a_33_7# Vdd! 3.1
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C datapath_0/flop_1x_8_0/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[6]/y Vdd! 3.2
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_5/y 2.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/q Vdd! 2.1
-C datapath_0/flop_1x_8_1/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1b 4.3
-C adr7 Vdd! 2.3
-C datapath_0/irwrite_2_ Vdd! 3.9
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_1/flop_dp_1x_4/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_3/flop_dp_1x_4/q Vdd! 7.6
-C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram0_7/read1 Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph2 Vdd! 25.7
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/slave Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_5/data Vdd! 5.1
-C writedata5 Vdd! 5.4
-C datapath_0/regramarray_dp_0/r1_1 Vdd! 10.9
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[0]/y Vdd! 3.2
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_76_6# Vdd! 2.7
-C datapath_0/flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2b Vdd! 21.3
-C controller_0/aludec_0/inv_1x_0/y Vdd! 3.2
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1b 4.3
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C datapath_0/regramarray_dp_0/invbuf_4x_5/sb_out Vdd! 6.8
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_1/flop_dp_1x_2/masterinb Vdd! 2.3
-C datapath_0/regramarray_dp_0/r1_0_ Vdd! 10.9
-C controller_0/flopr_c_1x_0/master Vdd! 2.7
-C s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2.1
-C datapath_0/flop_1x_8_3/flop_dp_1x_3/q Vdd! 7.6
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/qbar Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_4/data Vdd! 5.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_2/flop_dp_1x_2/q Vdd! 3.4
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_3/data Vdd! 5.1
-C adr0 Vdd! 2.3
-C datapath_0/flop_1x_8_0/flop_dp_1x_6/masterinb Vdd! 2.3
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/slave Vdd! 2.7
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_0/d2 Vdd! 5.5
-C datapath_0/flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
-C datapath_0/regramarray_dp_0/invbuf_4x_3/sb_out Vdd! 5.9
-C controller_0/flopr_c_1x_3/ph1bb Vdd! 2.7
-C datapath_0/flop_1x_8_0/flop_dp_1x_1/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb 5.2
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_0/data Vdd! 5.1
 C datapath_0/alu_0/or2_1x_8_0/y_5_ Vdd! 2.7
-C Vdd! datapath_0/regramarray_dp_0/w_0_ 11.4
-C datapath_0/op_1_ Vdd! 7.3
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/a_33_7# Vdd! 3.1
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y Vdd! 3.0
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 2.6
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/slave Vdd! 2.7
-C datapath_0/alusrcb_0_ Vdd! 3.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/q Vdd! 8.4
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1b 4.3
-C datapath_0/flop_1x_8_2/flop_dp_1x_4/masterinb Vdd! 2.3
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 3.7
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_0/data Vdd! 5.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/qbar Vdd! 3.9
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s0b Vdd! 13.3
-C datapath_0/regramarray_dp_0/invbuf_4x_2/sb_out datapath_0/regramarray_dp_0/invbuf_4x_1/s_out 2.1
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/y Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/data Vdd! 5.1
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_1/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_5/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/flopen_1x_8_0/inv_4x_0/y Vdd! 26.1
-C datapath_0/flop_1x_8_0/flop_dp_1x_6/master Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/b_6_ Vdd! 6.0
-C datapath_0/op_3_ Vdd! 6.4
-C datapath_0/alucontrol_1_ Vdd! 4.5
-C datapath_0/flopen_1x_8_0/inv_4x_0/y datapath_0/flopen_1x_8_0/inv_4x_1/y 7.0
-C datapath_0/regramarray_dp_0/invbuf_4x_5/sb_out datapath_0/regramarray_dp_0/invbuf_4x_4/s_out 2.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/master Vdd! 2.7
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/slave Vdd! 2.7
+C datapath_0/regramarray_dp_0/invbuf_4x_2/sb_out Vdd! 6.8
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_5/data Vdd! 5.1
+C adr5 Vdd! 2.3
 C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_76_6# Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/data Vdd! 5.1
-C datapath_0/alu_0/a_4_ Vdd! 6.9
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_2/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/w_7_ Vdd! 11.2
-C datapath_0/zero Vdd! 6.2
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[4]/a_5_5# Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_4/data Vdd! 5.1
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/a_0_74# Vdd! 2.2
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/qbar Vdd! 3.9
+C datapath_0/alusrcb_1_ Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_4/data Vdd! 5.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/qbar Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_5/data Vdd! 5.1
+C test Vdd! 4.7
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_5/data Vdd! 5.1
 C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/y datapath_0/mux3_1x_8_0/mux3_dp_1x_7/a_33_7# 2.1
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/slave Vdd! 2.7
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/master Vdd! 2.7
-C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_6/data Vdd! 5.1
-C datapath_0/flopenr_1x_8_0/inv_4x_2/y Vdd! 22.4
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2 Vdd! 3.6
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_1/data Vdd! 5.1
-C Vdd! controller_0/flopr_c_1x_1/q 3.1
-C datapath_0/mux2_c_1x_0/a_3_7# datapath_0/regdst 2.2
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/master Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_4/masterinb Vdd! 2.3
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[2]/y Vdd! 3.2
-C datapath_0/alu_0/result_2_ Vdd! 5.6
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/masterinb Vdd! 4.4
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0 Vdd! 4.7
-C datapath_0/mux2_c_1x_1/a_23_7# Vdd! 2.9
-C datapath_0/flop_1x_8_0/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C datapath_0/flop_1x_8_2/flop_dp_1x_0/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/a_0_74# Vdd! 2.2
-C datapath_0/flop_1x_8_2/flop_dp_1x_5/master Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/b_3_ datapath_0/alu_0/a_3_ 2.2
-C datapath_0/alu_0/adder_8_0/c_4_ Vdd! 10.4
-C Vdd! datapath_0/regramarray_dp_0/w_4_ 11.2
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2b 4.5
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/q Vdd! 2.1
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/masterinb Vdd! 4.4
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/slave Vdd! 2.7
+C pcwrite Vdd! 3.0
+C controller_0/flopr_c_1x_0/master Vdd! 2.7
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_6/d0 Vdd! 4.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/master Vdd! 2.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_5/master Vdd! 2.7
+C datapath_0/alu_0/adder_8_0/c_6_ Vdd! 10.4
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/data Vdd! 5.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_2/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/adder_8_0/s_6_ Vdd! 2.9
+C datapath_0/regramarray_dp_0/w_7_ Vdd! 11.2
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/q Vdd! 2.1
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/slave Vdd! 2.7
+C controller_0/controller_pla_0/out_22_ Vdd! 6.8
+C adr6 Vdd! 2.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_2/flop_dp_1x_6/q Vdd! 3.4
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/qbar Vdd! 3.9
+C datapath_0/regramarray_dp_0/r2_4_ Vdd! 15.1
+C datapath_0/flop_1x_8_0/flop_dp_1x_6/master Vdd! 2.7
+C datapath_0/alu_0/adder_8_0/cout Vdd! 6.0
+C datapath_0/alucontrol_1_ Vdd! 4.5
+C datapath_0/flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_20_71# Vdd! 4.2
+C datapath_0/regramarray_dp_0/invbuf_4x_1/s_out Vdd! 6.9
+C controller_0/flopr_c_1x_0/masterinb Vdd! 5.6
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_5/q Vdd! 3.5
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_3/masterinb Vdd! 2.3
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.4
+C datapath_0/flop_1x_8_1/flop_dp_1x_4/master Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write Vdd! 16.8
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/slave Vdd! 2.7
+C datapath_0/flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_0/y Vdd! 3.3
+C datapath_0/funct_0_ Vdd! 17.3
 C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_3/data Vdd! 5.1
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[5]/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/invbuf_4x_4/sb_out Vdd! 6.6
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_3/data Vdd! 5.1
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/a_0_74# Vdd! 2.2
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_4/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/q Vdd! 2.1
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
+C datapath_0/mux2_c_1x_1/d1 Vdd! 6.0
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/masterinb Vdd! 4.4
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/master Vdd! 2.7
+C datapath_0/flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s0b Vdd! 13.3
+C datapath_0/flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/q Vdd! 3.4
+C datapath_0/alu_0/a_4_ Vdd! 6.9
+C adr3 Vdd! 2.3
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_5/y 2.1
+C controller_0/flopr_c_1x_2/master Vdd! 2.7
+C memdata5 Vdd! 7.9
+C controller_0/flopr_c_1x_3/masterinb Vdd! 5.6
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/regramarray_dp_0/r1_0_ Vdd! 10.9
+C datapath_0/alu_0/yzdetect_8_0/nor2_1x_0/y Vdd! 2.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/master Vdd! 2.7
+C controller_0/flopr_c_1x_2/ph2b Vdd! 4.3
+C datapath_0/alu_0/adder_8_0/b_1_ Vdd! 6.0
+C memdata0 Vdd! 8.0
+C datapath_0/flop_1x_8_0/flop_dp_1x_2/masterinb Vdd! 2.3
+C datapath_0/flop_1x_8_2/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_108_6# Vdd! 4.2
+C memdata4 writedata4 2.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/masterinb Vdd! 4.4
+C writedata3 Vdd! 5.4
+C datapath_0/flop_1x_8_2/flop_dp_1x_0/q Vdd! 3.4
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write Vdd! 16.8
+C datapath_0/flop_1x_8_3/flop_dp_1x_0/masterinb Vdd! 2.3
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/a_0_74# Vdd! 2.2
+C controller_0/flopr_c_1x_1/d Vdd! 2.5
+C writedata0 Vdd! 5.4
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/a_33_7# Vdd! 3.1
+C datapath_0/irwrite_0_ Vdd! 3.9
+C datapath_0/regramarray_dp_0/r1_2_ Vdd! 10.9
+C datapath_0/regramarray_dp_0/invbuf_4x_1/sb_out datapath_0/regwrite 2.1
+C datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_2/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/yzdetect_8_0/nor2_1x_1/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1b 4.3
+C datapath_0/flop_1x_8_0/flop_dp_1x_0/master Vdd! 2.7
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_1/y Vdd! 3.3
+C datapath_0/alu_0/a_7_ Vdd! 6.9
+C datapath_0/alu_0/adder_8_0/s_5_ Vdd! 2.9
+C datapath_0/regramarray_dp_0/invbuf_4x_2/s_out datapath_0/regramarray_dp_0/invbuf_4x_1/s_out 2.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/master Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/result_2_ Vdd! 5.6
+C datapath_0/op_0_ Vdd! 8.5
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1b Vdd! 20.8
+C controller_0/flopr_c_1x_0/ph2b Vdd! 4.3
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_20_71# Vdd! 4.2
+C datapath_0/alu_0/or2_1x_8_0/y_2_ Vdd! 2.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/masterinb Vdd! 4.4
+C controller_0/flopr_c_1x_3/ph2b Vdd! 4.3
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[6]/y Vdd! 3.2
+C datapath_0/flopenr_1x_8_0/inv_4x_1/y datapath_0/flopenr_1x_8_0/inv_4x_0/y 7.1
+C datapath_0/op_4_ Vdd! 6.0
+C datapath_0/flop_1x_8_0/flop_dp_1x_1/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1b 4.3
+C datapath_0/mux2_c_1x_0/a_23_7# Vdd! 2.9
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/master Vdd! 2.7
+C writedata1 Vdd! 5.4
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[7]/a_5_5# Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/invbuf_4x_0/sb_out Vdd! 5.3
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C datapath_0/regramarray_dp_0/invbuf_4x_0/s_out Vdd! 5.0
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_2/y 2.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/qbar Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/regramarray_dp_0/w_6_ Vdd! 11.2
+C adr1 Vdd! 2.3
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/master Vdd! 2.7
+C datapath_0/pcsrc_0 Vdd! 3.9
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_5/a_5_5# Vdd! 2.8
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/master Vdd! 2.7
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[3]/a_5_5# Vdd! 3.0
+C datapath_0/irwrite_3_ Vdd! 3.9
+C datapath_0/regramarray_dp_0/invbuf_4x_8/sb_out datapath_0/regramarray_dp_0/invbuf_4x_7/s_out 2.1
+C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s Vdd! 14.8
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_108_6# Vdd! 4.2
+C datapath_0/regramarray_dp_0/w_3_ Vdd! 11.2
+C datapath_0/flopen_1x_8_2/inv_4x_0/y Vdd! 26.1
+C datapath_0/flop_1x_8_0/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_5/y Vdd! 3.3
+C datapath_0/irwrite_2_ Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram0_7/read1 Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/b_3_ Vdd! 7.9
+C memdata4 Vdd! 7.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_6/masterinb Vdd! 2.3
+C datapath_0/funct_2_ Vdd! 15.0
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C datapath_0/flop_1x_8_1/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_20_71# Vdd! 4.2
+C datapath_0/alu_0/a_3_ Vdd! 7.0
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_0/d0 Vdd! 4.7
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_5/data Vdd! 5.1
+C datapath_0/alu_0/adder_8_0/b_3_ datapath_0/alu_0/a_3_ 2.2
+C datapath_0/flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/master Vdd! 2.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2b 4.5
+C datapath_0/flop_1x_8_0/flop_dp_1x_1/master Vdd! 2.7
+C datapath_0/flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/alu_0/a_4_ datapath_0/alu_0/adder_8_0/b_4_ 2.2
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_2/a_5_5# Vdd! 2.8
+C datapath_0/mux2_c_1x_0/a_3_7# datapath_0/regdst 2.2
+C datapath_0/regwrite Vdd! 10.6
+C controller_0/controller_pla_0/out_21_ Vdd! 3.0
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/a_0_74# Vdd! 2.2
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_1/d2 Vdd! 5.5
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[0]/a_5_5# Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C datapath_0/regramarray_dp_0/invbuf_4x_7/s_out Vdd! 7.2
+C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb 2.1
+C controller_0/flopr_c_1x_1/q Vdd! 3.1
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C ph2 ph1 5.7
+C datapath_0/mux2_c_1x_0/d0 Vdd! 7.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/masterinb Vdd! 2.3
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C Vdd! datapath_0/regramarray_dp_0/w_0_ 11.4
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/master Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2 Vdd! 14.6
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_4/data Vdd! 5.1
+C ph2 datapath_0/mux2_c_1x_2/d0 2.5
+C controller_0/flopr_c_1x_0/slaveb Vdd! 4.2
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_5/data Vdd! 5.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/q Vdd! 2.1
+C datapath_0/pcen Vdd! 4.9
+C datapath_0/alu_0/adder_8_0/c_3_ Vdd! 10.4
+C datapath_0/regramarray_dp_0/r2_5_ Vdd! 15.1
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/data Vdd! 5.1
+C datapath_0/iord Vdd! 3.9
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/flop_1x_8_1/flop_dp_1x_4/masterinb Vdd! 2.3
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/a_0_74# Vdd! 2.2
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[3]/y Vdd! 3.2
+C memdata5 writedata5 2.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/qbar Vdd! 3.9
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/slave Vdd! 2.7
+C datapath_0/alu_0/adder_8_0/b_0_ datapath_0/alu_0/a_0_ 2.2
+C datapath_0/flopen_1x_8_2/inv_4x_1/y Vdd! 12.6
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/slave Vdd! 2.7
+C datapath_0/flop_1x_8_3/flop_dp_1x_6/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/masterinb Vdd! 4.4
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2 Vdd! 14.6
+C controller_0/flopr_c_1x_1/ph2b Vdd! 4.3
+C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb Vdd! 13.5
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_26_53# Vdd! 2.7
 C datapath_0/alu_0/adder_8_0/s_4_ Vdd! 2.9
+C controller_0/flopr_c_1x_3/ph1bb Vdd! 2.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_1/flop_dp_1x_1/master Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/masterinb Vdd! 2.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/q Vdd! 8.4
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2 Vdd! 14.6
+C datapath_0/flop_1x_8_2/flop_dp_1x_1/master Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/master Vdd! 2.7
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/y Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C controller_0/flopr_c_1x_0/ph1bb Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/flop_1x_8_3/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/adder_8_0/b_6_ Vdd! 6.0
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_3/data Vdd! 5.1
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2b 4.5
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.9
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1b Vdd! 14.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2 Vdd! 14.6
+C controller_0/flopr_c_1x_0/q Vdd! 3.6
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_3/a_5_5# Vdd! 2.8
+C datapath_0/alu_0/b_4_ Vdd! 7.9
+C datapath_0/alu_0/or2_1x_8_0/y_0_ Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/flop_1x_8_1/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C datapath_0/regramarray_dp_0/invbuf_4x_3/sb_out Vdd! 5.9
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/master Vdd! 2.7
+C memdata1 Vdd! 8.0
+C memdata3 writedata3 2.1
+C datapath_0/funct_3_ Vdd! 14.4
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2 Vdd! 14.6
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[6]/a_5_5# Vdd! 3.0
+C datapath_0/alu_0/adder_8_0/s_2_ Vdd! 2.9
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_2/flop_dp_1x_4/masterinb Vdd! 2.3
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/masterinb Vdd! 4.4
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_76_6# Vdd! 2.7
+C controller_0/aludec_0/nor2_1x_0/y Vdd! 3.1
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/q Vdd! 3.5
+C datapath_0/flop_1x_8_2/flop_dp_1x_3/q Vdd! 3.4
+C datapath_0/flop_1x_8_3/flop_dp_1x_0/q Vdd! 7.6
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/q Vdd! 2.1
+C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s Vdd! 14.8
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/y Vdd! 3.0
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/a_0_74# Vdd! 2.2
+C datapath_0/alu_0/adder_8_0/s_7_ Vdd! 5.1
+C datapath_0/regramarray_dp_0/invbuf_4x_8/s_out Vdd! 7.6
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y 2.1
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb 5.2
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/writeb 5.2
+C datapath_0/regramarray_dp_0/r1_3_ Vdd! 10.9
+C datapath_0/regramarray_dp_0/ra1_1_ Vdd! 4.5
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/write Vdd! 16.8
+C controller_0/aludec_0/inv_1x_0/y Vdd! 3.2
+C datapath_0/flop_1x_8_0/flop_dp_1x_5/master Vdd! 2.7
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_6/y Vdd! 3.3
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_20_71# Vdd! 4.2
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/masterinb Vdd! 4.4
+C datapath_0/funct_4_ Vdd! 12.9
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/master Vdd! 2.7
+C writedata7 Vdd! 5.3
+C datapath_0/flop_1x_8_2/flop_dp_1x_3/master Vdd! 2.7
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/a_33_7# Vdd! 3.1
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/a_33_7# Vdd! 3.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2b 4.5
+C datapath_0/flop_1x_8_1/flop_dp_1x_2/masterinb Vdd! 2.3
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/regramarray_dp_0/w_1_ Vdd! 11.2
+C ph2 Vdd! 32.2
+C datapath_0/flop_1x_8_2/flop_dp_1x_2/masterinb Vdd! 2.3
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_1/master Vdd! 2.7
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_20_71# Vdd! 4.2
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/y Vdd! 3.0
+C datapath_0/regramarray_dp_0/invbuf_4x_2/sb_out datapath_0/regramarray_dp_0/invbuf_4x_1/s_out 2.1
+C datapath_0/flop_1x_8_2/flop_dp_1x_3/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/masterinb Vdd! 4.4
+C datapath_0/alusrca Vdd! 3.9
+C datapath_0/alu_0/a_1_ Vdd! 7.0
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1 datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1b 2.8
+C datapath_0/flop_1x_8_2/flop_dp_1x_1/q Vdd! 3.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_0/flop_dp_1x_2/q Vdd! 3.5
+C datapath_0/flop_1x_8_3/flop_dp_1x_4/q Vdd! 7.6
+C datapath_0/flop_1x_8_3/flop_dp_1x_2/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/master Vdd! 2.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_6/master Vdd! 2.7
+C datapath_0/alu_0/adder_8_0/b_0_ Vdd! 6.0
+C datapath_0/alu_0/a_6_ datapath_0/alu_0/adder_8_0/b_6_ 2.2
+C controller_0/flopr_c_1x_2/masterinb Vdd! 5.6
+C datapath_0/alu_0/b_1_ Vdd! 7.9
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C datapath_0/regdst datapath_0/mux2_c_1x_1/a_3_7# 2.2
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_20_71# Vdd! 4.2
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_76_6# Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/masterinb Vdd! 4.4
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/master Vdd! 2.7
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_2/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2 Vdd! 14.6
+C datapath_0/op_0_ controller_0/controller_pla_0/out_5_ 6.4
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1b 4.3
+C datapath_0/alu_0/a_7_ datapath_0/alu_0/adder_8_0/b_7_ 2.2
+C datapath_0/alu_0/a_5_ Vdd! 7.0
+C datapath_0/mux2_c_1x_1/a_23_7# Vdd! 2.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_26_53# Vdd! 2.7
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_7/y Vdd! 3.3
+C datapath_0/regdst datapath_0/mux2_c_1x_2/a_3_7# 2.2
+C controller_0/flopr_c_1x_2/ph2bb Vdd! 3.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/masterinb Vdd! 2.3
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_0/y 2.1
 C datapath_0/mux2_c_1x_0/d1 Vdd! 6.4
 C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/master Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_3/master Vdd! 2.7
-C datapath_0/alu_0/result_4_ Vdd! 5.0
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_4/y Vdd! 3.3
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[0]/a_5_5# Vdd! 3.0
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/masterinb Vdd! 4.4
-C memdata0 Vdd! 8.0
-C datapath_0/flop_1x_8_2/flop_dp_1x_5/masterinb Vdd! 2.3
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[5]/a_5_5# Vdd! 3.0
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write Vdd! 16.8
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_20_71# Vdd! 4.2
-C datapath_0/flop_1x_8_2/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C datapath_0/alu_0/yzdetect_8_0/nor2_1x_0/y Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_108_6# Vdd! 4.2
-C datapath_0/flopenr_1x_8_0/inv_4x_1/y datapath_0/flopenr_1x_8_0/inv_4x_2/y 4.0
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1b 4.3
-C datapath_0/flop_1x_8_0/flop_dp_1x_0/q Vdd! 3.5
-C controller_0/flopr_c_1x_0/q Vdd! 3.6
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/master Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1 Vdd! 12.4
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/master Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_6/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/q Vdd! 2.1
+C datapath_0/flop_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[1]/y Vdd! 3.2
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/slave Vdd! 2.7
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flop_1x_8_3/flop_dp_1x_3/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/slave Vdd! 2.7
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_2/d0 Vdd! 4.7
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 2.6
+C datapath_0/flop_1x_8_1/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/master Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write Vdd! 16.8
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_3/q Vdd! 3.5
+C datapath_0/alu_0/b_7_ Vdd! 7.8
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_3/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb 5.2
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2b 4.5
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1 Vdd! 12.4
+C reset Vdd! 3.5
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1 Vdd! 14.0
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_76_6# Vdd! 2.7
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y Vdd! 3.0
+C datapath_0/alu_0/adder_8_0/c_1_ Vdd! 10.4
+C datapath_0/flopen_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_2/master Vdd! 2.7
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.6
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/qbar Vdd! 3.9
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/masterinb Vdd! 4.4
+C controller_0/flopr_c_1x_1/master Vdd! 2.7
+C datapath_0/alu_0/mux4_1x_8_0/d0_0_ Vdd! 3.2
+C datapath_0/flopen_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C controller_0/flopr_c_1x_2/slaveb Vdd! 4.2
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2b 4.5
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_2/flop_dp_1x_6/master Vdd! 2.7
+C datapath_0/alu_0/a_2_ Vdd! 7.0
+C datapath_0/op_2_ Vdd! 6.9
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_4/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/w_2_ Vdd! 11.2
+C datapath_0/regramarray_dp_0/r2_2_ Vdd! 15.1
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_26_53# Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_5/data Vdd! 5.1
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1b 4.3
+C datapath_0/alusrcb_0_ Vdd! 3.9
+C datapath_0/alu_0/b_5_ Vdd! 7.9
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/data Vdd! 5.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/masterinb Vdd! 4.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_0/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_20_71# Vdd! 4.2
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/master Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_0/master Vdd! 2.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/masterinb Vdd! 4.4
+C ph1 Vdd! 22.5
+C datapath_0/alu_0/a_2_ datapath_0/alu_0/adder_8_0/b_2_ 2.2
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/master Vdd! 2.7
+C controller_0/flopr_c_1x_0/ph1b Vdd! 5.4
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/a_33_7# Vdd! 3.1
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C datapath_0/alu_0/a_0_ Vdd! 7.0
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_1/y 2.1
+C datapath_0/flop_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_26_53# Vdd! 2.7
+C datapath_0/mux2_c_1x_2/d0 Vdd! 18.6
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_0/flop_dp_1x_0/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_0/flop_dp_1x_4/q Vdd! 3.5
+C datapath_0/flop_1x_8_3/flop_dp_1x_3/master Vdd! 2.7
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/a_33_7# Vdd! 3.1
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
+C datapath_0/alu_0/adder_8_0/c_2_ Vdd! 10.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/inv_4x_2/y Vdd! 22.4
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[4]/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/invbuf_4x_1/sb_out Vdd! 7.1
+C datapath_0/regdst Vdd! 12.2
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/qbar Vdd! 3.9
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/y Vdd! 3.0
+C controller_0/flopr_c_1x_3/slaveb Vdd! 4.2
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/q Vdd! 2.1
+C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb Vdd! 13.5
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/slave Vdd! 2.7
+C datapath_0/regramarray_dp_0/r2_3_ Vdd! 15.1
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/invbuf_4x_5/sb_out Vdd! 6.8
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/masterinb Vdd! 4.4
+C writedata4 Vdd! 5.4
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/a_33_7# Vdd! 3.1
+C datapath_0/mux2_c_1x_2/y Vdd! 3.8
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_3/data Vdd! 5.1
+C memdata0 writedata0 2.1
 C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 3.7
 C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.6
-C datapath_0/regramarray_dp_0/r1_5_ Vdd! 10.9
-C datapath_0/flopen_1x_8_0/inv_4x_1/y Vdd! 12.6
-C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb Vdd! 16.4
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/slave Vdd! 2.7
-C controller_0/flopr_c_1x_2/ph1b Vdd! 5.4
-C datapath_0/pcsrc_0 Vdd! 3.9
-C datapath_0/alu_0/adder_8_0/s_2_ Vdd! 2.9
-C datapath_0/alu_0/or2_1x_8_0/y_0_ Vdd! 2.7
-C datapath_0/alu_0/result_3_ Vdd! 5.7
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_4/data Vdd! 5.1
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/master Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/b_1_ Vdd! 6.0
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_2/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_5/data Vdd! 5.1
-C datapath_0/flopen_1x_8_3/inv_4x_1/y datapath_0/flopen_1x_8_3/inv_4x_0/y 7.0
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/slave Vdd! 2.7
-C datapath_0/regramarray_dp_0/r2_2_ Vdd! 15.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/master Vdd! 2.7
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph1 datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi1b 4.1
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/masterinb Vdd! 4.4
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/flop_1x_8_1/flop_dp_1x_6/master Vdd! 2.7
-C Vdd! datapath_0/regramarray_dp_0/w_1_ 11.2
-C datapath_0/flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/a_33_7# Vdd! 3.1
-C datapath_0/alu_0/a_5_ Vdd! 7.0
-C adr6 Vdd! 2.3
-C datapath_0/flop_1x_8_2/flop_dp_1x_1/master Vdd! 2.7
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1b Vdd! 20.8
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/a_33_7# Vdd! 3.1
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read2b Vdd! 13.4
-C datapath_0/flop_1x_8_0/flop_dp_1x_7/q Vdd! 3.5
-C datapath_0/funct_2_ Vdd! 15.0
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/master Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
-C datapath_0/flopenr_1x_8_0/inv_4x_1/y Vdd! 13.7
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1 Vdd! 3.6
-C writedata6 Vdd! 5.4
-C datapath_0/flop_1x_8_3/flop_dp_1x_3/a_108_6# Vdd! 3.9
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/slave Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/s_7_ Vdd! 5.1
-C datapath_0/flopen_1x_8_2/inv_4x_0/y Vdd! 26.1
-C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2 Vdd! 14.6
-C writedata4 Vdd! 5.4
-C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_3/y Vdd! 3.3
-C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_20_71# Vdd! 4.2
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/qbar Vdd! 3.9
 C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/slave Vdd! 2.7
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/a_33_7# Vdd! 3.1
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/flopen_1x_8_0/flopen_dp_1x_0/master Vdd! 2.7
-C datapath_0/alu_0/adder_8_0/b_0_ Vdd! 6.0
-C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_4/s_out 6.7
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/slave Vdd! 2.7
-C datapath_0/alu_0/a_7_ datapath_0/alu_0/adder_8_0/b_7_ 2.2
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1b Vdd! 14.8
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[1]/a_5_5# Vdd! 3.0
-C datapath_0/flop_1x_8_1/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/a_0_74# Vdd! 2.2
-C datapath_0/flop_1x_8_2/flop_dp_1x_3/q Vdd! 3.4
-C datapath_0/alu_0/adder_8_0/cout Vdd! 6.0
-C datapath_0/regdst Vdd! 12.2
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/qbar Vdd! 3.9
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/masterinb Vdd! 4.4
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_5/data Vdd! 5.1
-C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/slave Vdd! 2.7
 C datapath_0/flop_1x_8_0/flop_dp_1x_7/masterinb Vdd! 2.3
-C datapath_0/alu_0/adder_8_0/s_0_ Vdd! 2.9
-C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_0/data Vdd! 5.1
-C datapath_0/regramarray_dp_0/r2_6_ Vdd! 15.1
-C datapath_0/flop_1x_8_3/flop_dp_1x_2/a_108_6# Vdd! 3.9
-C Vdd! datapath_0/regramarray_dp_0/w_5_ 11.2
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/masterinb Vdd! 4.4
 C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_26_53# Vdd! 2.7
-C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb s 2.1
-C controller_0/aludec_0/nor2_1x_0/y Vdd! 3.1
-C datapath_0/alu_0/adder_8_0/s_6_ Vdd! 2.9
-C datapath_0/alu_0/result_0_ Vdd! 5.6
-C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.1
-C controller_0/flopr_c_1x_3/ph1b Vdd! 5.4
-C memdata2 Vdd! 7.9
-C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_2/data Vdd! 5.1
-C controller_0/flopr_c_1x_3/masterinb Vdd! 5.6
-C datapath_0/flop_1x_8_2/flop_dp_1x_4/a_108_6# Vdd! 3.9
-C datapath_0/flop_1x_8_2/flop_dp_1x_5/q Vdd! 3.4
-C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[7]/a_5_5# Vdd! 3.0
-C datapath_0/regramarray_dp_0/invbuf_4x_0/sb_out Vdd! 5.3
-C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2 Vdd! 14.6
-C datapath_0/flop_1x_8_3/flop_dp_1x_5/master Vdd! 2.7
-C datapath_0/flop_1x_8_1/flop_dp_1x_0/master Vdd! 2.7
-C datapath_0/mux2_c_1x_0/y Vdd! 2.5
-C datapath_0/regramarray_dp_0/invbuf_4x_8/sb_out Vdd! 7.2
-C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/qbar Vdd! 3.9
-C datapath_0/flop_1x_8_1/flop_dp_1x_5/masterinb Vdd! 2.3
-C datapath_0/flop_1x_8_2/flop_dp_1x_2/masterinb Vdd! 2.3
-C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
-C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb 5.2
-C datapath_0/regramarray_dp_0/r1_4_ Vdd! 10.9
-C datapath_0/regramarray_dp_0/ra1_2_ Vdd! 3.6
-C controller_0/inv_1x_0/y Vdd! 11.9
-C datapath_0/flop_1x_8_3/flop_dp_1x_7/a_108_6# Vdd! 3.9
-C controller_0/flopr_c_1x_1/ph1bb Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/master Vdd! 2.7
 C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_26_53# Vdd! 2.7
+C memdata2 writedata2 2.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/slave Vdd! 2.7
+C writedata2 Vdd! 5.4
+C datapath_0/flop_1x_8_1/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s1b Vdd! 13.3
+C datapath_0/flop_1x_8_2/flop_dp_1x_2/q Vdd! 3.4
+C memdata7 writedata7 2.1
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2b 4.5
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/masterinb Vdd! 4.4
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_0/masterinb Vdd! 2.3
 C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_1/a_108_6# Vdd! 4.2
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_4/a_76_6# Vdd! 2.7
+C datapath_0/alu_0/result_7_ Vdd! 5.7
+C datapath_0/regramarray_dp_0/invbuf_4x_5/s_out Vdd! 7.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/masterinb Vdd! 4.4
+C datapath_0/regramarray_dp_0/r2_6_ Vdd! 15.1
+C datapath_0/flop_1x_8_0/flop_dp_1x_4/master Vdd! 2.7
+C datapath_0/alu_0/or2_1x_8_0/y_1_ Vdd! 2.7
+C datapath_0/regramarray_dp_0/r1_6_ Vdd! 10.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_2/a_76_6# Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2 datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2b 4.5
+C datapath_0/flopen_1x_8_0/inv_4x_0/y Vdd! 26.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/master Vdd! 2.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_1/d0 Vdd! 4.7
+C datapath_0/alucontrol_2_ Vdd! 17.9
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_3/d0 Vdd! 4.7
+C datapath_0/flop_1x_8_3/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C datapath_0/regramarray_dp_0/invbuf_4x_8/sb_out Vdd! 7.2
+C datapath_0/flopen_1x_8_1/inv_4x_0/y Vdd! 26.1
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_108_6# Vdd! 4.2
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 Vdd! 41.4
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.4
+C adr4 Vdd! 2.3
 C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/a_6_74# Vdd! 2.1
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/a_0_74# Vdd! 2.2
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write Vdd! 16.8
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write Vdd! 16.8
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/master Vdd! 2.7
+C controller_0/inv_1x_0/y Vdd! 11.9
+C datapath_0/flopen_1x_8_3/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/flop_1x_8_1/flop_dp_1x_0/master Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_6/q Vdd! 3.5
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[5]/a_5_5# Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram_zipper_0/nand5_1x_0/y Vdd! 5.8
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_108_6# Vdd! 4.2
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi2b Vdd! 21.3
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s Vdd! 14.8
+C datapath_0/alu_0/yzdetect_8_0/nor2_1x_4/y Vdd! 2.5
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/zero Vdd! 6.2
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_108_6# Vdd! 4.2
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[0]/y Vdd! 3.2
+C datapath_0/flopen_1x_8_1/inv_4x_0/y datapath_0/flopen_1x_8_1/inv_4x_1/y 7.0
+C datapath_0/flop_1x_8_2/flop_dp_1x_4/a_108_6# Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_6/q Vdd! 7.6
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_5/master Vdd! 2.7
+C datapath_0/alu_0/result_3_ Vdd! 5.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_3/master Vdd! 2.7
+C datapath_0/flop_1x_8_0/flop_dp_1x_6/a_108_6# Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C Vdd! datapath_0/regramarray_dp_0/invbuf_4x_3/s_out 5.6
+C datapath_0/memtoreg Vdd! 4.0
+C datapath_0/flop_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_5/q Vdd! 7.6
+C datapath_0/alu_0/b_6_ Vdd! 7.9
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/writeb 5.2
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C memdata2 Vdd! 7.9
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s0b datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.1
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_1/y Vdd! 3.0
+C datapath_0/alu_0/adder_8_0/b_3_ Vdd! 6.0
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/qbar Vdd! 3.9
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[1]/a_5_5# Vdd! 3.0
+C datapath_0/flopen_1x_8_2/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C controller_0/flopr_c_1x_2/ph1bb Vdd! 2.7
+C datapath_0/pcsrc_1_ Vdd! 3.9
+C datapath_0/mux2_c_1x_1/y Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 2.6
+C datapath_0/alu_0/adder_8_0/b_5_ datapath_0/alu_0/a_5_ 2.2
+C datapath_0/flop_1x_8_2/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_4/data Vdd! 5.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_1/qbar Vdd! 3.9
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/masterinb Vdd! 4.4
+C datapath_0/alu_0/adder_8_0/b_2_ Vdd! 6.0
+C datapath_0/flopen_1x_8_1/inv_4x_1/y Vdd! 12.6
+C datapath_0/funct_0_ datapath_0/flop_1x_8_3/flop_dp_1x_7/q 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_6/masterinb Vdd! 4.4
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_4/a_5_5# Vdd! 2.8
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb 2.1
+C controller_0/flopr_c_1x_3/master Vdd! 2.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_1/masterinb Vdd! 2.3
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/alu_0/or2_1x_8_0/y_6_ Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/slave Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_1/masterinb Vdd! 2.3
+C datapath_0/flop_1x_8_3/flop_dp_1x_3/q Vdd! 7.6
+C datapath_0/flop_1x_8_3/flop_dp_1x_0/master Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_5/master Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_2/qbar Vdd! 3.9
+C datapath_0/funct_1_ Vdd! 15.1
+C datapath_0/flop_1x_8_1/clkinvbufdual_4x_0/clkinvbuf_4x_0/a_7_7# Vdd! 2.3
+C controller_0/flopr_c_1x_3/ph2bb Vdd! 3.9
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_3/y Vdd! 3.3
+C datapath_0/alu_0/adder_8_0/s_1_ Vdd! 2.9
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_3/data Vdd! 5.1
+C datapath_0/flopen_1x_8_0/inv_4x_0/y datapath_0/flopen_1x_8_0/inv_4x_1/y 7.0
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/master Vdd! 2.7
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_7/a_5_5# Vdd! 2.8
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1b 4.3
+C memdata6 Vdd! 7.9
+C datapath_0/flopen_1x_8_3/inv_4x_0/y Vdd! 26.1
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1b 4.3
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! 13.5
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1b 2.1
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 Vdd! 13.5
+C datapath_0/flop_1x_8_3/flop_dp_1x_2/q Vdd! 7.6
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/inv_4x_1/y datapath_0/flopenr_1x_8_0/inv_4x_2/y 4.0
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/qbar Vdd! 3.9
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_2/y Vdd! 3.3
+C datapath_0/regramarray_dp_0/invbuf_4x_7/sb_out Vdd! 7.0
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read2 Vdd! 3.6
+C Vdd! datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/data 5.1
+C datapath_0/alu_0/yzdetect_8_0/nor2_1x_2/a Vdd! 3.9
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[2]/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/invbuf_4x_2/s_out Vdd! 7.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_3/q Vdd! 2.1
+C datapath_0/alu_0/a_6_ Vdd! 7.0
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_4/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_4/data Vdd! 5.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_4/qbar Vdd! 3.9
+C controller_0/flopr_c_1x_1/masterinb Vdd! 5.6
+C datapath_0/alu_0/b_2_ Vdd! 7.9
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_5/data Vdd! 5.1
+C Vdd! datapath_0/regramarray_dp_0/r2_0_ 15.1
+C controller_0/flopr_c_1x_2/ph1b Vdd! 5.4
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_3/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_1/q Vdd! 7.6
+C datapath_0/alu_0/yzdetect_8_0/nor2_1x_2/b Vdd! 3.2
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_1/master Vdd! 2.7
+C datapath_0/op_5_ Vdd! 5.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_5/slave Vdd! 2.7
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/masterinb Vdd! 4.4
+C datapath_0/alu_0/adder_8_0/s_0_ Vdd! 2.9
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/data Vdd! 5.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/master Vdd! 2.7
+C adr0 Vdd! 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/slave Vdd! 2.7
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/flop_1x_8_2/flop_dp_1x_4/master Vdd! 2.7
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_0/a_5_5# Vdd! 2.8
+C datapath_0/regramarray_dp_0/w_5_ Vdd! 11.2
+C datapath_0/op_1_ Vdd! 7.3
+C datapath_0/flop_1x_8_0/flop_dp_1x_5/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_0/inv_4x_1/y Vdd! 12.6
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_0/d2 Vdd! 5.5
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_2/qbar Vdd! 3.9
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/flop_1x_8_1/flop_dp_1x_0/a_108_6# Vdd! 3.9
+C controller_0/flopr_c_1x_2/d Vdd! 3.6
+C datapath_0/irwrite_1_ Vdd! 3.9
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/master Vdd! 2.7
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_0/a_108_6# Vdd! 4.2
+C datapath_0/mux2_c_1x_0/y Vdd! 2.5
+C datapath_0/flop_1x_8_3/flop_dp_1x_1/masterinb Vdd! 2.3
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_4/d0 Vdd! 4.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/slave Vdd! 2.7
+C datapath_0/flop_1x_8_3/flop_dp_1x_2/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s Vdd! 14.8
+C datapath_0/regramarray_dp_0/ra1_2_ Vdd! 3.6
+C datapath_0/alu_0/or2_1x_8_0/y_3_ Vdd! 2.7
+C datapath_0/op_3_ Vdd! 6.4
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/slave Vdd! 2.7
+C datapath_0/flop_1x_8_0/flop_dp_1x_2/master Vdd! 2.7
+C datapath_0/regramarray_dp_0/r1_1 Vdd! 10.9
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 5.5
+C datapath_0/regramarray_dp_0/invbuf_4x_5/sb_out datapath_0/regramarray_dp_0/invbuf_4x_4/s_out 2.1
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_6/slave Vdd! 2.7
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/y Vdd! 3.0
+C datapath_0/alu_0/result_1_ Vdd! 5.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_0/masterinb Vdd! 4.4
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1 Vdd! 13.5
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[2]/a_5_5# Vdd! 3.0
+C datapath_0/alu_0/adder_8_0/c_5_ Vdd! 10.4
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/alu_0/adder_8_0/b_4_ Vdd! 6.0
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_2/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_0/data Vdd! 5.1
+C datapath_0/flopen_1x_8_3/inv_4x_1/y Vdd! 12.6
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_4/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_3/flop_dp_1x_5/masterinb Vdd! 2.3
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_3/data Vdd! 5.1
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_4/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_4/y 2.1
+C datapath_0/flopen_1x_8_2/inv_4x_0/y datapath_0/flopen_1x_8_2/inv_4x_1/y 7.0
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph1 datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi1b 4.1
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/slave Vdd! 2.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C datapath_0/flop_1x_8_0/flop_dp_1x_0/q Vdd! 3.5
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/a_33_7# Vdd! 3.1
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_20_71# Vdd! 4.2
+C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb 2.1
+C datapath_0/flop_1x_8_2/flop_dp_1x_5/master Vdd! 2.7
+C datapath_0/flopenr_1x_8_0/clkinvbufdual_4x_0/clkinvbuf_4x_1/a_7_7# Vdd! 2.3
+C datapath_0/regramarray_dp_0/invbuf_4x_5/s_out datapath_0/regramarray_dp_0/invbuf_4x_4/s_out 2.1
+C datapath_0/alu_0/a_1_ datapath_0/alu_0/adder_8_0/b_1_ 2.2
+C memdata1 writedata1 2.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_6/q Vdd! 2.1
+C datapath_0/alu_0/result_5_ Vdd! 6.4
+C controller_0/flopr_c_1x_3/d Vdd! 2.4
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/regramarray_dp_0/r2_1_ Vdd! 15.1
+C writedata6 Vdd! 5.4
+C datapath_0/alu_0/or2_1x_8_0/y_7_ Vdd! 2.7
+C datapath_0/regramarray_dp_0/ra1_0_ Vdd! 5.2
+C datapath_0/flopenr_1x_8_0/inv_4x_0/y datapath_0/flopenr_1x_8_0/inv_4x_2/y 4.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/slave Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_5/masterinb Vdd! 2.3
+C writedata5 Vdd! 5.4
+C datapath_0/regramarray_dp_0/invbuf_4x_6/sb_out Vdd! 5.9
+C datapath_0/regramarray_dp_0/invbuf_4x_6/s_out Vdd! 5.6
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_0/qbar Vdd! 3.9
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/slave Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/read1 Vdd! 3.6
+C datapath_0/flop_1x_8_2/flop_dp_1x_5/q Vdd! 3.4
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi1b Vdd! 20.8
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_5/d0 Vdd! 4.7
+C controller_0/flopr_c_1x_0/ph2bb Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_3/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b Vdd! 43.4
+C datapath_0/flopenr_1x_8_0/inv_4x_1/y Vdd! 13.7
+C datapath_0/flop_1x_8_3/flop_dp_1x_4/masterinb Vdd! 2.3
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_1/a_5_5# Vdd! 2.8
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_2/masterinb Vdd! 4.4
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_0/a_0_74# Vdd! 2.2
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb 5.2
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/writeb 5.2
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/write datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb 5.2
+C adr7 Vdd! 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/slave Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_4/q Vdd! 3.4
+C datapath_0/alu_0/result_6_ Vdd! 5.6
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_108_6# Vdd! 4.2
+C datapath_0/alu_0/adder_8_0/c_7_ Vdd! 10.4
+C datapath_0/regramarray_dp_0/regramvector_dp_1/regram_8_0/regram_dp_7/read1b Vdd! 14.8
+C datapath_0/regramarray_dp_0/regramvector_dp_5/regram_8_0/regram_dp_7/write Vdd! 16.8
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2 Vdd! 14.6
+C datapath_0/regramarray_dp_0/r1_4_ Vdd! 10.9
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_5/a_0_74# Vdd! 2.2
+C memdata7 Vdd! 7.9
+C controller_0/a2o1_1x_0/b Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/flopen_1x_8_3/inv_4x_0/y datapath_0/flopen_1x_8_3/inv_4x_1/y 7.0
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1 datapath_0/flop_1x_8_3/flop_dp_1x_7/ph1b 4.3
+C controller_0/flopr_c_1x_3/q Vdd! 3.0
+C ph2 datapath_0/regramarray_dp_0/invbuf_4x_0/s_out 3.0
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/y Vdd! 3.0
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_0/y Vdd! 4.6
+C datapath_0/flop_1x_8_0/flop_dp_1x_3/masterinb Vdd! 2.3
+C datapath_0/alu_0/condinv_0/inv_1x_8_0/inv_1x_4/y Vdd! 3.3
+C datapath_0/alu_0/adder_8_0/s_3_ Vdd! 2.9
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_3/master Vdd! 2.7
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph2 Vdd! 14.6
+C memdata3 Vdd! 7.9
+C datapath_0/alu_0/or2_1x_8_0/or2_1x_6/a_5_5# Vdd! 2.8
+C datapath_0/mux2_c_1x_2/d1 Vdd! 6.6
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flop_1x_8_0/flop_dp_1x_1/q Vdd! 3.5
+C datapath_0/flop_1x_8_1/flop_dp_1x_6/masterinb Vdd! 2.3
+C datapath_0/alu_0/result_0_ Vdd! 5.6
+C controller_0/flopr_c_1x_1/slaveb Vdd! 4.2
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[5]/y Vdd! 3.2
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_3/flop_dp_1x_5/master Vdd! 2.7
+C datapath_0/flop_1x_8_2/flop_dp_1x_7/a_108_6# Vdd! 3.9
+C datapath_0/flop_1x_8_1/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_26_53# Vdd! 2.7
+C datapath_0/regramarray_dp_0/invbuf_4x_4/s_out Vdd! 6.7
+C memdata6 writedata6 2.1
+C controller_0/flopr_c_1x_1/ph2bb Vdd! 3.9
+C datapath_0/flop_1x_8_2/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/result_4_ Vdd! 5.0
+C datapath_0/flop_1x_8_3/flop_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/alu_0/and2_1x_8_0/and2_1x_0[4]/a_5_5# Vdd! 3.0
+C datapath_0/mux4_1x_8_0/mux4_dp_1x_7/s1b Vdd! 7.8
+C datapath_0/regramarray_dp_0/r1_5_ Vdd! 10.9
+C controller_0/flopr_c_1x_2/q Vdd! 3.5
+C datapath_0/alu_0/yzdetect_8_0/nor2_1x_3/y Vdd! 3.3
+C datapath_0/alu_0/adder_8_0/b_5_ Vdd! 6.0
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_7/writeb Vdd! 16.4
+C datapath_0/flop_1x_8_2/flop_dp_1x_6/masterinb Vdd! 2.3
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_5/a_26_53# Vdd! 2.7
+C datapath_0/flop_1x_8_0/flop_dp_1x_3/master Vdd! 2.7
+C datapath_0/regramarray_dp_0/r2_7_ Vdd! 15.1
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/r1_7_ Vdd! 10.9
+C datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s1 datapath_0/alu_0/mux4_1x_8_0/mux4_dp_1x_7/s0b 3.7
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_1/qbar Vdd! 3.9
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_3/a_76_6# Vdd! 2.7
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_zipper_0/nand5_1x_0/y Vdd! 5.6
+C datapath_0/regramarray_dp_0/w_4_ Vdd! 11.2
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_1/masterinb Vdd! 4.4
+C datapath_0/memtoreg controller_0/controller_pla_0/out_5_ 2.2
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_4/masterinb Vdd! 4.4
+C datapath_0/flop_1x_8_1/flop_dp_1x_5/masterinb Vdd! 2.3
+C datapath_0/flop_1x_8_2/flop_dp_1x_0/masterinb Vdd! 2.3
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_4/master Vdd! 2.7
+C datapath_0/flopen_1x_8_1/flopen_dp_1x_2/qbar Vdd! 3.9
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph2 datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/phi2b 7.9
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/q Vdd! 2.1
+C datapath_0/flop_1x_8_3/flop_dp_1x_4/master Vdd! 2.7
+C datapath_0/regramarray_dp_0/invbuf_4x_8/s_out datapath_0/regramarray_dp_0/invbuf_4x_7/s_out 2.1
+C controller_0/flopr_c_1x_3/ph1b Vdd! 5.4
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_5/slave Vdd! 2.7
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_2/a_33_7# Vdd! 3.1
+C controller_0/flopr_c_1x_0/d Vdd! 2.5
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_7/master Vdd! 2.7
+C datapath_0/flopenr_1x_8_0/inv_4x_0/y Vdd! 26.6
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_6/data Vdd! 5.1
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1 datapath_0/flopen_1x_8_2/flopen_dp_1x_7/ph1b 4.3
+C datapath_0/funct_5_ Vdd! 12.9
+C datapath_0/alu_0/or2_1x_8_0/y_4_ Vdd! 2.7
+C ph2 datapath_0/regwrite 3.1
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_3/a_33_7# datapath_0/mux3_1x_8_0/mux3_dp_1x_3/y 2.1
+C datapath_0/alu_0/adder_8_0/b_7_ Vdd! 6.0
+C adr2 Vdd! 2.3
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_6/slave Vdd! 2.7
+C controller_0/flopr_c_1x_1/ph1b Vdd! 5.4
+C datapath_0/regramarray_dp_0/regramvector_dp_2/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_8_0/regram_dp_1/data Vdd! 5.1
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph2b Vdd! 21.3
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_76_6# Vdd! 2.7
+C datapath_0/alu_0/adder_8_0/c_4_ Vdd! 10.4
+C datapath_0/alu_0/b_0_ Vdd! 7.9
+C datapath_0/regramarray_dp_0/regramvector_dp_3/regram_8_0/regram_dp_7/read2b Vdd! 13.4
+C datapath_0/flop_1x_8_1/flop_dp_1x_2/master Vdd! 2.7
+C datapath_0/flop_1x_8_0/flop_dp_1x_5/a_108_6# Vdd! 3.9
+C controller_0/flopr_c_1x_1/ph1bb Vdd! 2.7
+C datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/ph2 Vdd! 25.7
+C datapath_0/regramarray_dp_0/regramvector_dp_0/regram_zipper_0/nand3_1x_1/y Vdd! 3.2
+C datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2 datapath_0/flop_1x_8_0/flop_dp_1x_7/ph2b 4.5
+C datapath_0/flopen_1x_8_0/flopen_dp_1x_7/ph1 Vdd! 12.4
+C datapath_0/flopen_1x_8_2/flopen_dp_1x_3/masterinb Vdd! 4.4
+C datapath_0/regramarray_dp_0/regramvector0_dp_0/regram0_7/read2 Vdd! 2.1
+C datapath_0/mux2_c_1x_2/a_23_7# Vdd! 2.9
+C datapath_0/flopen_1x_8_3/flopen_dp_1x_0/master Vdd! 2.7
+C datapath_0/flop_1x_8_1/flop_dp_1x_7/ph1b Vdd! 20.8
+C datapath_0/mux3_1x_8_0/mux3_dp_1x_7/s0 Vdd! 11.5
+C datapath_0/flop_1x_8_3/flop_dp_1x_1/a_108_6# Vdd! 3.9
+C datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb Vdd! 13.5
+C datapath_0/regramarray_dp_0/regramvector_dp_4/regram_8_0/regram_dp_7/read2 Vdd! 3.6
 C reset GND 53.3
 R reset 1825
 R controller_0/flopr_c_1x_0/a_127_8# 103
@@ -5823,6 +5827,8 @@ C controller_0/controller_pla_0/a_215_230# GND 11.4
 R controller_0/controller_pla_0/a_215_230# 853
 R controller_0/a2o1_1x_0/a_7_26# 164
 R controller_0/a2o1_1x_0/a_0_57# 668
+C pcwrite GND 20.4
+R pcwrite 817
 C controller_0/a2o1_1x_0/b GND 20.2
 R controller_0/a2o1_1x_0/b 816
 R controller_0/a2o1_1x_0/a_12_26# 1218
@@ -5871,6 +5877,8 @@ C datapath_0/mux2_c_1x_2/a_3_7# GND 3.3
 R datapath_0/mux2_c_1x_2/a_3_7# 1314
 C datapath_0/mux2_c_1x_2/d1 GND 6.5
 R datapath_0/mux2_c_1x_2/d1 1341
+C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s GND 31.5
+R datapath_0/mux2_1x_8_0/mux2_dp_1x_7/s 8952
 C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb GND 42.3
 R datapath_0/mux2_1x_8_0/mux2_dp_1x_7/sb 8820
 C datapath_0/iord GND 58.8
@@ -5939,8 +5947,8 @@ R datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_25_74# 316
 R datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_12_74# 316
 C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# GND 2.2
 R datapath_0/mux2_1x_8_0/mux2_dp_1x_7/a_17_7# 1123
-C datapath_0/irwrite_3_ GND 69.4
-R datapath_0/irwrite_3_ 2676
+C datapath_0/irwrite_3_ GND 49.0
+R datapath_0/irwrite_3_ 1199
 C datapath_0/flopen_1x_8_0/inv_4x_1/y GND 42.6
 R datapath_0/flopen_1x_8_0/inv_4x_1/y 9129
 C datapath_0/flopen_1x_8_0/inv_4x_0/y GND 38.0
@@ -6676,6 +6684,8 @@ R datapath_0/flop_1x_8_0/flop_dp_1x_7/masterb 1174
 R datapath_0/flop_1x_8_0/flop_dp_1x_7/master 1151
 C memdata0 GND 7.0
 R memdata0 4770
+C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s GND 31.5
+R datapath_0/mux2_1x_8_1/mux2_dp_1x_7/s 8952
 C datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb GND 42.4
 R datapath_0/mux2_1x_8_1/mux2_dp_1x_7/sb 8820
 C datapath_0/memtoreg GND 24.2
@@ -7152,6 +7162,8 @@ R datapath_0/flop_1x_8_2/flop_dp_1x_7/masterb 1174
 R datapath_0/flop_1x_8_2/flop_dp_1x_7/master 1151
 C datapath_0/regramarray_dp_0/r1_0_ GND 28.7
 R datapath_0/regramarray_dp_0/r1_0_ 6290
+C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s GND 31.7
+R datapath_0/mux2_1x_8_2/mux2_dp_1x_7/s 8952
 C datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb GND 42.5
 R datapath_0/mux2_1x_8_2/mux2_dp_1x_7/sb 8820
 C datapath_0/alusrca GND 73.2
@@ -7629,8 +7641,8 @@ R datapath_0/flopenr_1x_8_0/flopenr_dp_1x_6/a_26_53# 2287
 C datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y GND 2.4
 R datapath_0/mux3_1x_8_0/mux3_dp_1x_6/y 1181
 R datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_103_8# 103
-C datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 GND 7.7
-R datapath_0/mux2_1x_8_0/mux2_dp_1x_7/d0 2201
+C test GND 7.7
+R test 2201
 R datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_71_8# 103
 R datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_37_15# 164
 R datapath_0/flopenr_1x_8_0/flopenr_dp_1x_7/a_103_79# 132
@@ -7670,8 +7682,8 @@ R datapath_0/alu_0/yzdetect_8_0/nand2_1x_1/a_7_7# 329
 C datapath_0/alu_0/yzdetect_8_0/nor2_1x_4/y GND 7.2
 R datapath_0/alu_0/yzdetect_8_0/nor2_1x_4/y 1332
 R datapath_0/alu_0/yzdetect_8_0/nor2_1x_4/a_7_67# 561
-C s GND 126.3
-R s 37177
+C datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s GND 31.5
+R datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/s 8952
 C datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb GND 42.3
 R datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_7/sb 8820
 R datapath_0/alu_0/condinv_0/mux2_1x_8_0/mux2_dp_1x_0/a_25_7# 164
@@ -8802,8 +8814,8 @@ C datapath_0/regramarray_dp_0/invbuf_4x_1/s_out GND 11.6
 R datapath_0/regramarray_dp_0/invbuf_4x_1/s_out 5017
 C datapath_0/regramarray_dp_0/invbuf_4x_2/s_out GND 19.9
 R datapath_0/regramarray_dp_0/invbuf_4x_2/s_out 5106
-C Vdd! GND 5458.1
-R Vdd! 2101443
+C Vdd! GND 5425.8
+R Vdd! 2096205
 R datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/a_12_7# 438
 R datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/a_7_7# 438
 C datapath_0/regramarray_dp_0/regramvector_dp_6/regram_zipper_0/nand3_1x_0/y GND 7.6

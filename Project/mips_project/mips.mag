@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493661823
+timestamp 1493667000
 << metal2 >>
 rect -33 1621 -27 1622
 rect -33 1617 -32 1621
@@ -91,8 +91,10 @@ rect -63 1572 -19 1573
 rect -63 1568 -24 1572
 rect -20 1568 -19 1572
 rect -63 1567 -19 1568
+rect 1449 1498 1454 1502
+rect 201 27 206 32
 use controller  controller_0
-timestamp 1492976468
+timestamp 1493666962
 transform 1 0 0 0 1 1450
 box -243 -172 2788 368
 use datapath  datapath_0
@@ -128,4 +130,6 @@ rlabel m3contact -16 168 -12 172 1 adr1
 rlabel m3contact -16 78 -12 82 1 memdata0
 rlabel m3contact -16 68 -12 72 1 writedata0
 rlabel m3contact -16 58 -12 62 1 adr0
+rlabel metal3 201 27 206 32 1 test
+rlabel metal3 1449 1498 1454 1502 1 pcwrite
 << end >>
