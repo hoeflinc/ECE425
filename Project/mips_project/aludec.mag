@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1493745683
+timestamp 1493749612
 << metal1 >>
 rect 30 425 850 440
 rect 55 400 825 415
@@ -2054,4 +2054,6 @@ flabel metal2 300 1 300 1 4 FreeSans 26 0 0 0 funct[4]
 flabel metal2 44 1 44 1 4 FreeSans 26 0 0 0 funct[0]
 flabel metal2 100 1 100 1 4 FreeSans 26 0 0 0 funct[1]
 flabel metal2 172 1 172 1 4 FreeSans 26 0 0 0 funct[2]
+rlabel metal1 492 433 492 433 1 Vdd!
+rlabel metal1 491 404 491 404 1 Gnd!
 << end >>

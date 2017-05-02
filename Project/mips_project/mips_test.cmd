@@ -13,7 +13,6 @@ analyzer reset ph1 ph2 adr memdata writedata memwrite
 h reset
 c 2
 l reset
-c 1
 
 #Load 0x5 into v0 (80020044)
 #First 4 clocks we cycle in the instruction
