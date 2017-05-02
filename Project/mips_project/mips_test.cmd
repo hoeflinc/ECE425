@@ -237,7 +237,7 @@ c 1
 #r type ending
 c 1
 
-#dd 0x01 and 0xb into a3 (0xc) (00c53820)
+#add 0x01 and 0xb into a3 (0xc) (00c53820)
 #First 4 clocks we cycle in the instruction
 assert adr 00101100
 setvector memdata 0x00
