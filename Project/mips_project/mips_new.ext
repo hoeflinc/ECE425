@@ -1,4 +1,4 @@
-timestamp 1493750859
+timestamp 1493754735
 version 8.1
 tech scmos
 style AMI0.5um(amic5)from:T24H
@@ -7,7 +7,6 @@ resistclasses 82200 105200 808000 808000 1 22000 40300 40300 90 90 50
 use mips_fsm mips_fsm_0 1 0 965 0 1 1517
 use aludec aludec_0 1 0 1921 0 1 1849
 use datapath_new datapath_new_0 1 0 -279 0 1 32
-node "pc0" 0 182.4 1887 60 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
 node "adr0" 0 182.4 230 90 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
 node "writedata0" 0 182.4 230 100 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
 node "memdata0" 0 182.4 230 110 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
@@ -32,23 +31,21 @@ node "memdata6" 0 182.4 230 770 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
 node "adr7" 0 182.4 233 860 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
 node "writedata7" 0 182.4 233 870 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
 node "memdata7" 0 182.4 233 880 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16
-node "m3_551_1369#" 15 45500.4 551 1369 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10734 3590
 node "m2_1409_1064#" 12 35523.6 1409 1064 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 146 7458 2510
 node "m2_1391_1067#" 12 34588.8 1391 1067 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 146 7242 2426
 node "m2_2290_1410#" 25 61683.9 2290 1410 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1798 910 10668 3568
 node "m2_2218_1400#" 24 60056.4 2218 1400 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1824 920 10206 3414
 node "m2_2154_1390#" 24 58378.8 2154 1390 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1848 932 9726 3254
 node "m2_2090_1380#" 24 56966.4 2090 1380 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1892 954 9288 3108
-node "m2_2048_1340#" 10 16309.2 2048 1340 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1740 878 0 0
-node "m2_2019_1370#" 11 18144.9 2019 1370 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1922 978 0 0
+node "m2_2019_1370#" 23 55830.9 2019 1370 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1922 978 8838 2958
 node "m2_1962_1360#" 22 51728.4 1962 1360 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1976 996 7752 2596
 node "m2_1366_1516#" 9 22272 1366 1516 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 724 378 3462 1166
 node "m2_1335_1506#" 8 18534.4 1335 1506 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 707 374 2640 892
-node "m2_1295_1496#" 8 18062.7 1295 1496 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 694 372 2544 860
+node "pcsrc1" 8 18062.7 1295 1496 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 694 372 2544 860
 node "m2_1231_1486#" 8 18858.1 1231 1486 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 681 370 2736 924
 node "m2_1199_1476#" 7 15897.2 1199 1476 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 693 382 2016 684
-node "m2_1167_1466#" 6 12007.7 1167 1466 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 675 378 1152 396
-node "m2_1135_1456#" 6 11883.9 1135 1456 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 654 372 1152 396
+node "alusrcb1" 6 12007.7 1167 1466 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 675 378 1152 396
+node "alusrcb0" 6 11883.9 1135 1456 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 654 372 1152 396
 node "m2_966_1420#" 8 18370.8 966 1420 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 636 326 2820 964
 node "m2_950_1340#" 9 18591.6 950 1340 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1236 626 1554 542
 node "reset" 12 28346.4 265 1343 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1040 536 4242 1438
@@ -58,562 +55,551 @@ node "aluop1" 12 24225.6 1914 1575 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1504 7
 node "m2_1819_1809#" 27 50764.8 1819 1809 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3992 2020 3144 1072
 node "m2_1787_1829#" 30 57162 1787 1829 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4188 2118 4242 1438
 node "m2_1752_1790#" 30 56608.8 1752 1790 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4208 2128 3978 1350
-node "m2_1705_1771#" 22 46105.2 1705 1771 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2692 1362 4824 1632
+node "m2_1705_1771#" 32 62414.4 1705 1771 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4432 2240 4824 1632
 node "m2_1678_1752#" 33 65590.8 1678 1752 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4484 2266 5436 1836
 node "m2_1653_1733#" 40 83311.2 1653 1733 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4708 2386 9186 3098
 node "m2_1631_1716#" 41 85267.2 1631 1716 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4780 2422 9492 3200
 node "aluop0" 15 29923.2 1884 1907 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2128 1072 2268 780
-node "m2_250_1376#" 18 38676 250 1376 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1932 990 4698 1602
+node "irwrite0" 18 38676 250 1376 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1932 990 4698 1602
 node "m2_241_1344#" 17 37802.4 241 1344 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2020 1018 4350 1462
-node "m2_303_2512#" 24 47979.6 303 2512 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3220 1626 4014 1362
-node "m2_671_2521#" 20 35889.6 671 2521 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2976 1504 1806 626
-node "m2_487_2530#" 22 42702 487 2530 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3172 1602 2916 996
-node "m2_431_2539#" 6 17510.4 431 2539 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 122 3486 1174
-node "m2_439_2548#" 7 18110.4 439 2548 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236 134 3582 1206
+node "irwrite3" 24 47979.6 303 2512 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3220 1626 4014 1362
+node "irwrite1" 20 35889.6 671 2521 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2976 1504 1806 626
+node "irwrite2" 22 42702 487 2530 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3172 1602 2916 996
+node "op5" 6 17510.4 431 2539 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 122 3486 1174
+node "op4" 7 18110.4 439 2548 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236 134 3582 1206
 node "m2_487_2552#" 0 276 487 2552 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
-node "m2_447_2557#" 7 19082.4 447 2557 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 272 152 3726 1254
-node "m2_455_2566#" 7 20230.8 455 2566 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 320 176 3876 1304
-node "m2_463_2575#" 8 21272.4 463 2575 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 344 188 4062 1366
-node "m2_471_2584#" 8 22240.8 471 2584 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 380 206 4206 1414
+node "op3" 7 19082.4 447 2557 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 272 152 3726 1254
+node "op2" 7 20230.8 455 2566 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 320 176 3876 1304
+node "op1" 8 21272.4 463 2575 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 344 188 4062 1366
+node "op0" 8 22240.8 471 2584 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 380 206 4206 1414
 node "m2_383_2594#" 9 22292.4 383 2594 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 668 350 3570 1214
 node "ph1" 0 444 287 2769 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16
 node "ph2" 0 628.8 273 1340 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
 node "memwrite" 0 628.8 1295 2494 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
-cap "aluop0" "m2_1705_1771#" 409.44
-cap "m2_2218_1400#" "m2_1631_1716#" 818.88
-cap "m2_922_1442#" "m2_1787_1829#" 409.44
-cap "m3_551_1369#" "m2_1295_1496#" 409.44
-cap "m2_383_2594#" "m2_463_2575#" 409.44
-cap "m2_1653_1733#" "m3_551_1369#" 409.44
-cap "m2_1787_1829#" "aluop1" 409.44
-cap "m2_2154_1390#" "m2_1678_1752#" 409.44
-cap "aluop0" "m2_1631_1716#" 409.44
-cap "m2_431_2539#" "m2_383_2594#" 409.44
-cap "m2_922_1442#" "m2_1199_1476#" 409.44
-cap "m2_1678_1752#" "m2_1962_1360#" 409.44
-cap "m2_2090_1380#" "m2_1335_1506#" 409.44
-cap "m2_2218_1400#" "m2_1135_1456#" 409.44
-cap "m2_241_1344#" "m2_303_2512#" 409.44
-cap "m2_1819_1809#" "m3_551_1369#" 409.44
-cap "m2_2154_1390#" "m2_2290_1410#" 409.44
-cap "m2_2154_1390#" "m2_1295_1496#" 409.44
-cap "m2_1631_1716#" "m2_1678_1752#" 409.44
-cap "m2_2048_1340#" "m2_2218_1400#" 409.44
-cap "m2_2154_1390#" "m2_1653_1733#" 818.88
-cap "m2_2290_1410#" "m2_1962_1360#" 409.44
-cap "m2_1366_1516#" "m2_2218_1400#" 409.44
-cap "m2_455_2566#" "m2_383_2594#" 409.44
-cap "m2_1962_1360#" "m2_1295_1496#" 409.44
-cap "reset" "m2_950_1340#" 409.44
-cap "m3_551_1369#" "m2_942_1350#" 409.44
-cap "m2_2290_1410#" "m2_1631_1716#" 818.88
-cap "m2_1653_1733#" "m2_1962_1360#" 409.44
+cap "m2_1962_1360#" "m2_1787_1829#" 409.44
+cap "m2_2019_1370#" "m2_1962_1360#" 409.44
+cap "m2_2019_1370#" "m2_1366_1516#" 409.44
 cap "m2_922_1442#" "m2_1335_1506#" 409.44
-cap "m2_1787_1829#" "m3_551_1369#" 409.44
-cap "m2_2154_1390#" "m2_1819_1809#" 409.44
-cap "m2_966_1420#" "m2_942_1350#" 409.44
-cap "m2_1653_1733#" "m2_1631_1716#" 409.44
-cap "m2_439_2548#" "m2_487_2552#" 180.24
-cap "m2_2154_1390#" "m2_2090_1380#" 409.44
-cap "m2_1819_1809#" "m2_1962_1360#" 409.44
-cap "m2_2090_1380#" "m2_1962_1360#" 409.44
-cap "m2_922_1442#" "m2_966_1420#" 409.44
-cap "m3_551_1369#" "m2_1199_1476#" 409.44
-cap "m2_2154_1390#" "m2_942_1350#" 409.44
-cap "m2_1819_1809#" "m2_1631_1716#" 409.44
-cap "m2_2290_1410#" "m2_1135_1456#" 409.44
-cap "m2_2090_1380#" "m2_1631_1716#" 818.88
-cap "m2_2154_1390#" "m2_1787_1829#" 409.44
-cap "m2_2290_1410#" "m2_2048_1340#" 409.44
-cap "m2_942_1350#" "m2_1962_1360#" 409.44
-cap "m2_2290_1410#" "m2_1366_1516#" 409.44
-cap "m2_2154_1390#" "m2_922_1442#" 409.44
-cap "m2_1653_1733#" "m2_2048_1340#" 409.44
-cap "m2_1787_1829#" "m2_1962_1360#" 409.44
-cap "m2_1231_1486#" "m2_2218_1400#" 409.44
-cap "m2_2218_1400#" "m2_950_1340#" 409.44
-cap "m2_922_1442#" "m2_1962_1360#" 409.44
-cap "m2_2154_1390#" "m2_1199_1476#" 409.44
-cap "m2_1705_1771#" "aluop1" 409.44
-cap "m2_1787_1829#" "m2_1631_1716#" 409.44
-cap "m2_1335_1506#" "m3_551_1369#" 409.44
-cap "m2_1167_1466#" "m2_2218_1400#" 409.44
-cap "m2_1752_1790#" "m2_2019_1370#" 409.44
-cap "m2_922_1442#" "m2_1631_1716#" 409.44
-cap "m2_2090_1380#" "m2_1135_1456#" 409.44
-cap "m2_1752_1790#" "m2_2218_1400#" 409.44
-cap "m2_2019_1370#" "m2_2218_1400#" 409.44
-cap "m2_1199_1476#" "m2_1962_1360#" 409.44
-cap "m2_2090_1380#" "m2_2048_1340#" 409.44
-cap "m2_1631_1716#" "aluop1" 409.44
-cap "m2_2090_1380#" "m2_1366_1516#" 409.44
-cap "aluop0" "m2_1752_1790#" 409.44
-cap "m2_2154_1390#" "m2_1335_1506#" 409.44
-cap "m2_447_2557#" "m2_487_2552#" 134.4
-cap "m2_922_1442#" "m2_1135_1456#" 409.44
-cap "m2_1335_1506#" "m2_1962_1360#" 409.44
-cap "m2_922_1442#" "m2_2048_1340#" 409.44
-cap "m2_2290_1410#" "m2_1231_1486#" 409.44
-cap "m2_2019_1370#" "m2_1678_1752#" 409.44
-cap "m2_2290_1410#" "m2_950_1340#" 409.44
-cap "m2_922_1442#" "m2_1366_1516#" 409.44
-cap "m2_487_2530#" "m2_671_2521#" 409.44
-cap "m2_250_1376#" "m2_487_2530#" 409.44
-cap "m2_2218_1400#" "m2_1678_1752#" 409.44
-cap "m2_2290_1410#" "m2_1167_1466#" 409.44
-cap "m3_551_1369#" "m2_1962_1360#" 409.44
-cap "reset" "m2_942_1350#" 409.44
-cap "m2_1752_1790#" "m2_2290_1410#" 409.44
-cap "m2_2290_1410#" "m2_2019_1370#" 409.44
-cap "m2_1631_1716#" "m3_551_1369#" 409.44
-cap "aluop0" "m2_1678_1752#" 409.44
-cap "m2_2290_1410#" "m2_2218_1400#" 409.44
-cap "m2_2218_1400#" "m2_1295_1496#" 409.44
-cap "m2_1752_1790#" "m2_1653_1733#" 409.44
-cap "m2_1653_1733#" "m2_2019_1370#" 409.44
-cap "m2_439_2548#" "m2_383_2594#" 409.44
-cap "m2_922_1442#" "reset" 409.44
-cap "m2_1653_1733#" "m2_2218_1400#" 818.88
-cap "m2_2090_1380#" "m2_1231_1486#" 409.44
-cap "m2_2090_1380#" "m2_950_1340#" 409.44
-cap "m2_2154_1390#" "m2_1962_1360#" 409.44
-cap "m2_1705_1771#" "m2_1962_1360#" 409.44
-cap "m2_2090_1380#" "m2_1167_1466#" 409.44
-cap "m2_1819_1809#" "m2_2019_1370#" 409.44
-cap "m2_2154_1390#" "m2_1631_1716#" 818.88
-cap "aluop0" "m2_1653_1733#" 409.44
-cap "m2_1135_1456#" "m3_551_1369#" 409.44
-cap "m2_1752_1790#" "m2_2090_1380#" 409.44
-cap "m2_1819_1809#" "m2_2218_1400#" 409.44
-cap "m2_2019_1370#" "m2_2090_1380#" 409.44
-cap "m2_2048_1340#" "m3_551_1369#" 409.44
-cap "m2_2290_1410#" "m2_1678_1752#" 409.44
-cap "m2_2090_1380#" "m2_2218_1400#" 409.44
-cap "m2_1631_1716#" "m2_1962_1360#" 409.44
-cap "m2_1366_1516#" "m3_551_1369#" 409.44
-cap "m2_922_1442#" "m2_1231_1486#" 409.44
-cap "m2_922_1442#" "m2_950_1340#" 409.44
-cap "m2_1653_1733#" "m2_1678_1752#" 409.44
-cap "aluop0" "m2_1819_1809#" 409.44
-cap "m2_2218_1400#" "m2_942_1350#" 409.44
-cap "m2_922_1442#" "m2_1167_1466#" 409.44
-cap "m2_471_2584#" "m2_383_2594#" 409.44
-cap "m2_2019_1370#" "m2_1787_1829#" 409.44
-cap "m2_2290_1410#" "m2_1295_1496#" 409.44
-cap "m2_2154_1390#" "m2_1135_1456#" 409.44
-cap "m2_1752_1790#" "m2_922_1442#" 409.44
-cap "m2_1787_1829#" "m2_2218_1400#" 409.44
-cap "m2_922_1442#" "m2_2019_1370#" 409.44
-cap "m2_2154_1390#" "m2_2048_1340#" 409.44
-cap "m2_1653_1733#" "m2_2290_1410#" 818.88
-cap "m2_922_1442#" "m2_2218_1400#" 409.44
-cap "m2_2048_1340#" "m2_1705_1771#" 363.6
-cap "m2_1135_1456#" "m2_1962_1360#" 409.44
-cap "m2_2154_1390#" "m2_1366_1516#" 409.44
-cap "m2_1752_1790#" "aluop1" 409.44
-cap "m2_2090_1380#" "m2_1678_1752#" 409.44
-cap "m2_250_1376#" "m2_671_2521#" 409.44
-cap "aluop0" "m2_1787_1829#" 409.44
-cap "m2_241_1344#" "m2_487_2530#" 409.44
-cap "m2_2218_1400#" "m2_1199_1476#" 409.44
-cap "m2_1366_1516#" "m2_1962_1360#" 409.44
-cap "m2_2290_1410#" "m2_1819_1809#" 409.44
-cap "m2_447_2557#" "m2_383_2594#" 409.44
-cap "m2_2048_1340#" "m2_1631_1716#" 409.44
-cap "m2_2290_1410#" "m2_2090_1380#" 409.44
-cap "m2_2090_1380#" "m2_1295_1496#" 409.44
-cap "aluop0" "aluop1" 409.44
-cap "m2_1653_1733#" "m2_1819_1809#" 409.44
-cap "m2_922_1442#" "m2_1678_1752#" 409.44
-cap "m2_1653_1733#" "m2_2090_1380#" 818.88
-cap "m2_1231_1486#" "m3_551_1369#" 409.44
-cap "m3_551_1369#" "m2_950_1340#" 409.44
-cap "m2_2290_1410#" "m2_942_1350#" 409.44
-cap "m2_1167_1466#" "m3_551_1369#" 409.44
-cap "m2_1335_1506#" "m2_2218_1400#" 409.44
-cap "aluop1" "m2_1678_1752#" 409.44
-cap "m2_250_1376#" "m2_303_2512#" 409.44
-cap "m2_2290_1410#" "m2_1787_1829#" 409.44
-cap "m2_966_1420#" "m2_950_1340#" 409.44
-cap "m2_2290_1410#" "m2_922_1442#" 409.44
-cap "m2_1752_1790#" "m3_551_1369#" 409.44
-cap "m2_2019_1370#" "m3_551_1369#" 363.6
-cap "m2_1819_1809#" "m2_2090_1380#" 409.44
-cap "m2_922_1442#" "m2_1295_1496#" 409.44
-cap "m2_1653_1733#" "m2_1787_1829#" 409.44
-cap "m2_1653_1733#" "m2_922_1442#" 409.44
-cap "m2_2154_1390#" "m2_1231_1486#" 409.44
-cap "m2_250_1376#" "reset" 409.44
-cap "m2_2290_1410#" "m2_1199_1476#" 409.44
-cap "m2_2154_1390#" "m2_950_1340#" 409.44
-cap "m2_1653_1733#" "aluop1" 409.44
-cap "m2_2090_1380#" "m2_942_1350#" 409.44
-cap "m2_1231_1486#" "m2_1962_1360#" 409.44
-cap "m2_2154_1390#" "m2_1167_1466#" 409.44
-cap "m2_1819_1809#" "m2_1787_1829#" 409.44
-cap "m2_1962_1360#" "m2_950_1340#" 409.44
-cap "m2_2154_1390#" "m2_1752_1790#" 409.44
-cap "m2_1819_1809#" "m2_922_1442#" 409.44
-cap "m2_2090_1380#" "m2_1787_1829#" 409.44
-cap "m2_2154_1390#" "m2_2019_1370#" 409.44
-cap "m2_2019_1370#" "m2_1705_1771#" 409.44
-cap "m2_1167_1466#" "m2_1962_1360#" 409.44
-cap "m2_2154_1390#" "m2_2218_1400#" 409.44
-cap "m2_922_1442#" "m2_2090_1380#" 409.44
-cap "m2_1819_1809#" "aluop1" 409.44
-cap "m3_551_1369#" "m2_1678_1752#" 409.44
-cap "m2_1752_1790#" "m2_1962_1360#" 409.44
-cap "m2_2290_1410#" "m2_1335_1506#" 409.44
-cap "m2_2218_1400#" "m2_1962_1360#" 409.44
-cap "m2_241_1344#" "m2_671_2521#" 409.44
-cap "m2_2090_1380#" "m2_1199_1476#" 409.44
-cap "m2_922_1442#" "m2_942_1350#" 409.44
+cap "m2_1787_1829#" "m2_2290_1410#" 409.44
 cap "m2_1752_1790#" "m2_1631_1716#" 409.44
-cap "m2_2019_1370#" "m2_1631_1716#" 409.44
+cap "m2_1653_1733#" "m2_1678_1752#" 409.44
+cap "m2_2019_1370#" "m2_2290_1410#" 409.44
+cap "m2_942_1350#" "m2_966_1420#" 409.44
+cap "m2_1653_1733#" "m2_1705_1771#" 409.44
+cap "m2_1819_1809#" "m2_922_1442#" 409.44
+cap "m2_1631_1716#" "aluop1" 409.44
+cap "m2_1653_1733#" "m2_2090_1380#" 818.88
+cap "m2_2154_1390#" "m2_922_1442#" 409.44
+cap "m2_2090_1380#" "alusrcb0" 409.44
+cap "pcsrc1" "m2_2090_1380#" 409.44
+cap "m2_1787_1829#" "m2_1631_1716#" 409.44
+cap "m2_2019_1370#" "m2_1631_1716#" 818.88
+cap "op4" "m2_383_2594#" 409.44
+cap "m2_1678_1752#" "aluop1" 409.44
+cap "m2_2090_1380#" "m2_1752_1790#" 409.44
+cap "m2_2218_1400#" "m2_1653_1733#" 818.88
+cap "m2_922_1442#" "m2_1962_1360#" 409.44
+cap "m2_2218_1400#" "alusrcb0" 409.44
+cap "m2_1366_1516#" "m2_922_1442#" 409.44
+cap "m2_2154_1390#" "m2_1335_1506#" 409.44
+cap "m2_1705_1771#" "aluop1" 409.44
+cap "m2_2090_1380#" "m2_1231_1486#" 409.44
+cap "m2_2218_1400#" "pcsrc1" 409.44
+cap "m2_1678_1752#" "m2_2019_1370#" 409.44
+cap "m2_2019_1370#" "m2_1199_1476#" 409.44
+cap "aluop0" "m2_1631_1716#" 409.44
+cap "m2_922_1442#" "m2_2290_1410#" 409.44
+cap "m2_241_1344#" "irwrite1" 409.44
+cap "m2_1819_1809#" "m2_2154_1390#" 409.44
+cap "op3" "m2_383_2594#" 409.44
+cap "m2_2218_1400#" "m2_1752_1790#" 409.44
+cap "m2_2019_1370#" "m2_1705_1771#" 409.44
+cap "m2_2019_1370#" "alusrcb1" 409.44
+cap "m2_2090_1380#" "m2_2019_1370#" 409.44
+cap "m2_2019_1370#" "m2_950_1340#" 409.44
+cap "m2_2090_1380#" "m2_1787_1829#" 409.44
+cap "m2_1962_1360#" "m2_1335_1506#" 409.44
+cap "m2_2218_1400#" "m2_1231_1486#" 409.44
+cap "aluop0" "m2_1678_1752#" 409.44
+cap "m2_1819_1809#" "m2_1962_1360#" 409.44
+cap "m2_2290_1410#" "m2_1335_1506#" 409.44
+cap "m2_922_1442#" "m2_1631_1716#" 409.44
+cap "aluop0" "m2_1705_1771#" 409.44
+cap "m2_2154_1390#" "m2_1962_1360#" 409.44
+cap "m2_2218_1400#" "m2_2019_1370#" 409.44
+cap "m2_2218_1400#" "m2_1787_1829#" 409.44
+cap "m2_2154_1390#" "m2_1366_1516#" 409.44
+cap "m2_1819_1809#" "m2_2290_1410#" 409.44
+cap "m2_2154_1390#" "m2_2290_1410#" 409.44
+cap "m2_1678_1752#" "m2_922_1442#" 409.44
+cap "m2_922_1442#" "m2_1199_1476#" 409.44
+cap "m2_1366_1516#" "m2_1962_1360#" 409.44
+cap "m2_922_1442#" "m2_1705_1771#" 409.44
+cap "op2" "m2_383_2594#" 409.44
+cap "alusrcb1" "m2_922_1442#" 409.44
+cap "m2_2090_1380#" "m2_922_1442#" 409.44
+cap "m2_922_1442#" "m2_950_1340#" 409.44
+cap "m2_1819_1809#" "m2_1631_1716#" 409.44
+cap "m2_1962_1360#" "m2_2290_1410#" 409.44
+cap "m2_2019_1370#" "m2_942_1350#" 409.44
+cap "op0" "m2_383_2594#" 409.44
+cap "m2_1366_1516#" "m2_2290_1410#" 409.44
+cap "m2_2154_1390#" "m2_1631_1716#" 818.88
+cap "irwrite2" "irwrite1" 409.44
+cap "m2_2218_1400#" "m2_922_1442#" 409.44
+cap "m2_2090_1380#" "m2_1335_1506#" 409.44
+cap "m2_2154_1390#" "m2_1199_1476#" 409.44
+cap "m2_1678_1752#" "m2_2154_1390#" 409.44
+cap "m2_1962_1360#" "m2_1631_1716#" 409.44
+cap "m2_922_1442#" "reset" 409.44
+cap "m2_2090_1380#" "m2_1819_1809#" 409.44
+cap "m2_1653_1733#" "m2_1752_1790#" 409.44
+cap "m2_2154_1390#" "m2_1705_1771#" 409.44
+cap "m2_2154_1390#" "alusrcb1" 409.44
+cap "m2_2090_1380#" "m2_2154_1390#" 409.44
+cap "m2_2154_1390#" "m2_950_1340#" 409.44
+cap "m2_2290_1410#" "m2_1631_1716#" 818.88
+cap "m2_2218_1400#" "m2_1335_1506#" 409.44
+cap "m2_1653_1733#" "aluop1" 409.44
+cap "irwrite0" "irwrite2" 409.44
+cap "m2_1678_1752#" "m2_1962_1360#" 409.44
+cap "m2_1962_1360#" "m2_1199_1476#" 409.44
+cap "m2_922_1442#" "m2_942_1350#" 409.44
+cap "m2_922_1442#" "m2_966_1420#" 409.44
+cap "m2_2218_1400#" "m2_1819_1809#" 409.44
+cap "m2_1962_1360#" "m2_1705_1771#" 409.44
+cap "alusrcb1" "m2_1962_1360#" 409.44
+cap "m2_2218_1400#" "m2_2154_1390#" 409.44
+cap "m2_1653_1733#" "m2_2019_1370#" 818.88
+cap "m2_1653_1733#" "m2_1787_1829#" 409.44
+cap "m2_1678_1752#" "m2_2290_1410#" 409.44
+cap "m2_2090_1380#" "m2_1962_1360#" 409.44
+cap "m2_2290_1410#" "m2_1199_1476#" 409.44
+cap "m2_1962_1360#" "m2_950_1340#" 409.44
+cap "m2_2090_1380#" "m2_1366_1516#" 409.44
+cap "m2_2019_1370#" "alusrcb0" 409.44
+cap "m2_1752_1790#" "aluop1" 409.44
+cap "m2_2290_1410#" "m2_1705_1771#" 409.44
+cap "pcsrc1" "m2_2019_1370#" 409.44
+cap "alusrcb1" "m2_2290_1410#" 409.44
+cap "m2_2090_1380#" "m2_2290_1410#" 409.44
+cap "m2_2290_1410#" "m2_950_1340#" 409.44
+cap "m2_2019_1370#" "m2_1752_1790#" 409.44
+cap "m2_2218_1400#" "m2_1962_1360#" 409.44
+cap "m2_1653_1733#" "aluop0" 409.44
+cap "m2_2218_1400#" "m2_1366_1516#" 409.44
+cap "m2_1678_1752#" "m2_1631_1716#" 409.44
+cap "m2_2019_1370#" "m2_1231_1486#" 409.44
+cap "m2_1787_1829#" "aluop1" 409.44
+cap "m2_2154_1390#" "m2_942_1350#" 409.44
+cap "m2_2218_1400#" "m2_2290_1410#" 409.44
+cap "m2_1631_1716#" "m2_1705_1771#" 409.44
+cap "m2_2090_1380#" "m2_1631_1716#" 818.88
+cap "aluop0" "m2_1752_1790#" 409.44
+cap "m2_2019_1370#" "m2_1787_1829#" 409.44
+cap "m2_1653_1733#" "m2_922_1442#" 409.44
+cap "aluop0" "aluop1" 409.44
+cap "m2_1962_1360#" "m2_942_1350#" 409.44
+cap "m2_922_1442#" "alusrcb0" 409.44
+cap "m2_2218_1400#" "m2_1631_1716#" 818.88
+cap "pcsrc1" "m2_922_1442#" 409.44
+cap "m2_2090_1380#" "m2_1199_1476#" 409.44
+cap "m2_2090_1380#" "m2_1678_1752#" 409.44
+cap "irwrite0" "irwrite3" 409.44
+cap "m2_942_1350#" "m2_2290_1410#" 409.44
+cap "aluop0" "m2_1787_1829#" 409.44
+cap "m2_241_1344#" "irwrite2" 409.44
+cap "m2_2090_1380#" "m2_1705_1771#" 409.44
+cap "m2_1752_1790#" "m2_922_1442#" 409.44
+cap "m2_2090_1380#" "alusrcb1" 409.44
+cap "op4" "m2_487_2552#" 180.24
+cap "m2_2090_1380#" "m2_950_1340#" 409.44
+cap "op1" "m2_383_2594#" 409.44
+cap "m2_1231_1486#" "m2_922_1442#" 409.44
+cap "op5" "m2_383_2594#" 409.44
+cap "m2_2218_1400#" "m2_1199_1476#" 409.44
+cap "m2_2218_1400#" "m2_1678_1752#" 409.44
+cap "m2_1653_1733#" "m2_1819_1809#" 409.44
+cap "m2_2218_1400#" "m2_1705_1771#" 409.44
+cap "m2_1653_1733#" "m2_2154_1390#" 818.88
+cap "m2_2218_1400#" "alusrcb1" 409.44
+cap "m2_2218_1400#" "m2_2090_1380#" 409.44
+cap "m2_2218_1400#" "m2_950_1340#" 409.44
+cap "m2_922_1442#" "m2_1787_1829#" 409.44
+cap "m2_2019_1370#" "m2_922_1442#" 409.44
+cap "m2_2154_1390#" "alusrcb0" 409.44
+cap "m2_487_2552#" "op3" 134.4
+cap "pcsrc1" "m2_2154_1390#" 409.44
+cap "m2_950_1340#" "reset" 409.44
+cap "m2_2154_1390#" "m2_1752_1790#" 409.44
+cap "m2_1653_1733#" "m2_1962_1360#" 409.44
+cap "m2_1819_1809#" "aluop1" 409.44
+cap "m2_1962_1360#" "alusrcb0" 409.44
+cap "m2_2019_1370#" "m2_1335_1506#" 409.44
+cap "m2_2154_1390#" "m2_1231_1486#" 409.44
+cap "pcsrc1" "m2_1962_1360#" 409.44
+cap "m2_1653_1733#" "m2_2290_1410#" 818.88
+cap "m2_2090_1380#" "m2_942_1350#" 409.44
+cap "m2_966_1420#" "m2_950_1340#" 409.44
+cap "m2_2290_1410#" "alusrcb0" 409.44
+cap "m2_1819_1809#" "m2_2019_1370#" 409.44
+cap "m2_1819_1809#" "m2_1787_1829#" 409.44
+cap "m2_1752_1790#" "m2_1962_1360#" 409.44
+cap "pcsrc1" "m2_2290_1410#" 409.44
+cap "m2_2019_1370#" "m2_2154_1390#" 409.44
+cap "m2_2154_1390#" "m2_1787_1829#" 409.44
+cap "irwrite0" "irwrite1" 409.44
+cap "m2_1231_1486#" "m2_1962_1360#" 409.44
+cap "m2_2218_1400#" "m2_942_1350#" 409.44
+cap "m2_241_1344#" "irwrite3" 409.44
+cap "m2_1752_1790#" "m2_2290_1410#" 409.44
+cap "m2_1653_1733#" "m2_1631_1716#" 409.44
+cap "m2_1231_1486#" "m2_2290_1410#" 409.44
+cap "irwrite0" "reset" 409.44
+cap "aluop0" "m2_1819_1809#" 409.44
+cap "m2_942_1350#" "reset" 409.44
 cap "m2_1409_1064#" "datapath_new_0/alusrca" 73.44
 cap "datapath_new_0/pcsrc_0" "m2_1409_1064#" 73.44
-cap "datapath_new_0/pcen" "m2_1409_1064#" 73.44
 cap "datapath_new_0/pcsrc_1_" "m2_1409_1064#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/reset" 73.44
+cap "m2_1409_1064#" "datapath_new_0/pcen" 73.44
+cap "datapath_new_0/reset" "m2_1409_1064#" 73.44
 cap "m2_1409_1064#" "datapath_new_0/op6" 73.44
-cap "m2_1409_1064#" "datapath_new_0/zero" 73.44
+cap "datapath_new_0/zero" "m2_1409_1064#" 73.44
 cap "datapath_new_0/op2" "m2_1409_1064#" 73.44
-cap "datapath_new_0/op3" "m2_1409_1064#" 73.44
+cap "m2_1409_1064#" "datapath_new_0/op4" 73.44
+cap "m2_1409_1064#" "datapath_new_0/op3" 73.44
 cap "datapath_new_0/op5" "m2_1409_1064#" 73.44
-cap "datapath_new_0/op4" "m2_1409_1064#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/op0" 73.44
+cap "datapath_new_0/op0" "m2_1409_1064#" 73.44
 cap "m2_1409_1064#" "datapath_new_0/op1" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a7" "m2_1409_1064#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/a_7_7#" 17.82
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a5" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" 36.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/b" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a2" 73.44
 cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/A" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a6" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/rightb" "m2_1409_1064#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n41_812#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y" 31.86
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Gnd!" "m2_1409_1064#" 5.94
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a3" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a4" "m2_1409_1064#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n10_763#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/z12" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/a_7_7#" 17.82
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/d1" 4.86
-cap "datapath_new_0/shifter_0/z10" "m2_1409_1064#" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/z11" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/s2b" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/b" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/A" 9.72
-cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/Gnd!" "m2_1409_1064#" 50.76
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y" "m2_1409_1064#" 31.86
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/A" "m2_1409_1064#" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/Y" 31.86
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/b" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/z9" 73.44
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/a_7_7#" 17.82
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a2" 73.44
 cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" 36.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/xor2_2x_1/b" 9.72
-cap "datapath_new_0/shifter_0/xor2_2x_1/a_13_46#" "m2_1409_1064#" 26.55
-cap "datapath_new_0/shifter_0/xor2_2x_1/a" "m2_1409_1064#" 14.58
-cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/a_12_7#" "m2_1409_1064#" 11.88
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/s" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/xor2_2x_1/a_13_46#" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/m2_78_988#" 73.44
-cap "datapath_new_0/shifter_0/xor2_2x_1/b" "m2_1409_1064#" 9.72
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a6" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Y" 31.86
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a4" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/b" 9.72
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a7" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/a_7_7#" "m2_1409_1064#" 17.82
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n41_812#" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a5" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/a3" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/rightb" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_0/Gnd!" 5.94
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/A" 9.72
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/b" 9.72
+cap "datapath_new_0/shifter_0/z12" "m2_1409_1064#" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/z10" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/Y" "m2_1409_1064#" 31.86
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/a_7_7#" "m2_1409_1064#" 17.82
+cap "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" "m2_1409_1064#" 36.72
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/s2b" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/Y" "m2_1409_1064#" 31.86
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/a_7_7#" "m2_1409_1064#" 17.82
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_1/b" 9.72
+cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/d1" "m2_1409_1064#" 4.86
+cap "datapath_new_0/shifter_0/z9" "m2_1409_1064#" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[3]/nand2_1x_2/A" "m2_1409_1064#" 9.72
+cap "datapath_new_0/shifter_0/z11" "m2_1409_1064#" 73.44
+cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/Gnd!" "m2_1409_1064#" 50.76
+cap "datapath_new_0/shifter_0/shift_source_gen_0/m2_n10_763#" "m2_1409_1064#" 73.44
 cap "datapath_new_0/shifter_0/xor2_2x_1/Gnd!" "m2_1409_1064#" 77.76
+cap "datapath_new_0/shifter_0/xor2_2x_1/a_17_8#" "m2_1409_1064#" 14.85
+cap "datapath_new_0/shifter_0/xor2_2x_1/a_13_46#" "m2_1409_1064#" 9.72
+cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/a_17_7#" "m2_1409_1064#" 9.72
+cap "datapath_new_0/shifter_0/m2_78_988#" "m2_1409_1064#" 73.44
+cap "datapath_new_0/shifter_0/log_shifter_0/m1_n66_1032#" "m2_1409_1064#" 73.44
+cap "datapath_new_0/shifter_0/xor2_2x_1/b" "m2_1409_1064#" 9.72
+cap "datapath_new_0/shifter_0/xor2_2x_1/a" "m2_1409_1064#" 14.58
 cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/sb" 4.86
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/xor2_2x_1/yb" 75.78
-cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/y" "m2_1409_1064#" 30.87
-cap "datapath_new_0/shifter_0/xor2_2x_1/a_2_8#" "m2_1409_1064#" 9.72
 cap "datapath_new_0/shifter_0/xor2_2x_1/a_30_8#" "m2_1409_1064#" 14.85
 cap "datapath_new_0/shifter_0/xor2_2x_1/a_2_8#" "m2_1409_1064#" 79.11
-cap "datapath_new_0/shifter_0/xor2_2x_1/a_17_8#" "m2_1409_1064#" 14.85
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/m1_n66_1032#" 73.44
 cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/d0" "m2_1409_1064#" 9.72
-cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/s2" 73.44
+cap "datapath_new_0/shifter_0/xor2_2x_1/b" "m2_1409_1064#" 9.72
 cap "datapath_new_0/shifter_0/log_shifter_0/m1_n66_1142#" "m2_1409_1064#" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/xor2_2x_1/yb" 75.78
+cap "datapath_new_0/shifter_0/log_shifter_0/s2" "m2_1409_1064#" 73.44
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/xor2_2x_1/a_13_46#" 26.55
 cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/a_17_7#" "m2_1409_1064#" 33.84
-cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/a_17_7#" "m2_1409_1064#" 9.72
-cap "datapath_new_0/s0" "datapath_new_0/shifter_0/xor2_2x_1/yb" 9.72
-cap "datapath_new_0/shifter_0/xor2_2x_1/Gnd!" "datapath_new_0/s0" 66.42
-cap "datapath_new_0/s0" "datapath_new_0/shifter_0/m2_n2_1524#" 73.44
-cap "datapath_new_0/shifter_0/xor2_2x_1/a_13_46#" "datapath_new_0/s0" 61.2
+cap "m2_1409_1064#" "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/a_12_7#" 11.88
+cap "datapath_new_0/shifter_0/xor2_2x_1/a_2_8#" "m2_1409_1064#" 9.72
+cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/s" "m2_1409_1064#" 9.72
+cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_5/y" "m2_1409_1064#" 30.87
 cap "datapath_new_0/shifter_0/xor2_2x_1/y" "datapath_new_0/s0" 79.38
+cap "datapath_new_0/s0" "datapath_new_0/shifter_0/m2_n2_1524#" 73.44
+cap "datapath_new_0/s0" "datapath_new_0/shifter_0/xor2_2x_1/Gnd!" 66.42
+cap "datapath_new_0/shifter_0/xor2_2x_1/a_13_46#" "datapath_new_0/s0" 61.2
+cap "datapath_new_0/s0" "datapath_new_0/shifter_0/xor2_2x_1/yb" 9.72
 cap "datapath_new_0/Vdd!" "m2_1391_1067#" 80.64
-cap "m2_1391_1067#" "datapath_new_0/Gnd!" 10.8
+cap "datapath_new_0/Gnd!" "m2_1391_1067#" 10.8
 cap "m2_1391_1067#" "datapath_new_0/Gnd!" 108
 cap "datapath_new_0/alusrca" "m2_1391_1067#" 73.44
 cap "datapath_new_0/Gnd!" "m2_1391_1067#" 103.68
+cap "m2_1391_1067#" "datapath_new_0/Gnd!" 103.68
 cap "m2_1391_1067#" "datapath_new_0/pcsrc_0" 73.44
-cap "m2_1391_1067#" "datapath_new_0/Gnd!" 103.68
-cap "m2_1391_1067#" "datapath_new_0/Gnd!" 99.36
-cap "datapath_new_0/pcsrc_1_" "m2_1391_1067#" 73.44
 cap "m2_1391_1067#" "datapath_new_0/pcen" 73.44
+cap "m2_1391_1067#" "datapath_new_0/pcsrc_1_" 73.44
+cap "m2_1391_1067#" "datapath_new_0/Gnd!" 99.36
+cap "datapath_new_0/Gnd!" "m2_1391_1067#" 103.68
 cap "m2_1391_1067#" "datapath_new_0/reset" 73.44
-cap "m2_1391_1067#" "datapath_new_0/Gnd!" 103.68
+cap "m2_1391_1067#" "datapath_new_0/Gnd!" 99.36
 cap "m2_1391_1067#" "datapath_new_0/op6" 73.44
 cap "m2_1391_1067#" "datapath_new_0/zero" 73.44
-cap "m2_1391_1067#" "datapath_new_0/Gnd!" 99.36
-cap "m2_1391_1067#" "datapath_new_0/Gnd!" 90.72
-cap "m2_1391_1067#" "datapath_new_0/op2" 73.44
-cap "m2_1391_1067#" "datapath_new_0/op3" 73.44
-cap "m2_1391_1067#" "datapath_new_0/op4" 73.44
-cap "m2_1391_1067#" "datapath_new_0/op5" 73.44
+cap "datapath_new_0/op3" "m2_1391_1067#" 73.44
+cap "datapath_new_0/op4" "m2_1391_1067#" 73.44
+cap "datapath_new_0/op2" "m2_1391_1067#" 73.44
+cap "datapath_new_0/Gnd!" "m2_1391_1067#" 90.72
+cap "datapath_new_0/op5" "m2_1391_1067#" 73.44
 cap "datapath_new_0/op0" "m2_1391_1067#" 73.44
 cap "datapath_new_0/Gnd!" "m2_1391_1067#" 103.68
-cap "datapath_new_0/op1" "m2_1391_1067#" 73.44
+cap "m2_1391_1067#" "datapath_new_0/op1" 73.44
 cap "datapath_new_0/Gnd!" "m2_1391_1067#" 103.68
+cap "datapath_new_0/shifter_0/shift_source_gen_0/a3" "m2_1391_1067#" 73.44
 cap "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" "m2_1391_1067#" 36.72
+cap "datapath_new_0/shifter_0/shift_source_gen_0/rightb" "m2_1391_1067#" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/a4" "m2_1391_1067#" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/m2_n41_812#" "m2_1391_1067#" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/a6" "m2_1391_1067#" 73.44
+cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Gnd!" "m2_1391_1067#" 75.6
 cap "datapath_new_0/shifter_0/shift_source_gen_0/a5" "m2_1391_1067#" 73.44
 cap "datapath_new_0/shifter_0/shift_source_gen_0/a7" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[4]/nand2_1x_0/Gnd!" "m2_1391_1067#" 75.6
-cap "datapath_new_0/shifter_0/shift_source_gen_0/rightb" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a6" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a3" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/m2_n41_812#" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a4" "m2_1391_1067#" 73.44
-cap "m2_1391_1067#" "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_6/Gnd!" 79.92
-cap "datapath_new_0/shifter_0/shift_source_gen_0/m2_n10_763#" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/z13" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" "m2_1391_1067#" 36.72
-cap "datapath_new_0/shifter_0/z10" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/log_shifter_0/s2b" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/z12" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/z11" "m2_1391_1067#" 73.44
-cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_6/Gnd!" "datapath_new_0/s1" 91.8
-cap "datapath_new_0/shifter_0/log_shifter_0/s2" "datapath_new_0/s1" 73.44
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/log_shifter_0/s2b" 73.44
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/z10" 73.44
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" 36.72
+cap "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_6/Gnd!" "m2_1391_1067#" 79.92
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/z13" 73.44
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/z12" 73.44
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n10_763#" 73.44
+cap "m2_1391_1067#" "datapath_new_0/shifter_0/z11" 73.44
 cap "datapath_new_0/shifter_0/m2_n2_1524#" "datapath_new_0/s1" 73.44
+cap "datapath_new_0/s1" "datapath_new_0/shifter_0/log_shifter_0/mux2_dp_1x_6/Gnd!" 91.8
 cap "datapath_new_0/shifter_0/log_shifter_0/m1_n66_1142#" "datapath_new_0/s1" 73.44
-cap "datapath_new_0/irwrite_0_" "datapath_new_0/ph2" 73.44
-cap "datapath_new_0/irwrite_0_" "datapath_new_0/ph1" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a5" "m3_551_1369#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a6" "m3_551_1369#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a7" "m3_551_1369#" 73.44
-cap "datapath_new_0/s2" "datapath_new_0/shifter_0/m2_n2_1524#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/s1" "m2_922_1442#" 36.72
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/s0" "m2_922_1442#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Vdd!" "m2_922_1442#" 144
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a6" "m2_922_1442#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/a7" "m2_922_1442#" 73.44
-cap "datapath_new_0/shifter_0/shift_source_gen_0/m2_n41_812#" "m2_922_1442#" 73.44
-cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" 36.72
-cap "m2_922_1442#" "datapath_new_0/shifter_0/m2_n2_1524#" 73.44
-cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n10_763#" 73.44
-cap "m2_922_1442#" "datapath_new_0/shifter_0/z13" 73.44
-cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Vdd!" 275.4
+cap "datapath_new_0/shifter_0/log_shifter_0/s2" "datapath_new_0/s1" 73.44
+cap "datapath_new_0/ph1" "datapath_new_0/irwrite_0_" 73.44
+cap "datapath_new_0/ph2" "datapath_new_0/irwrite_0_" 73.44
+cap "datapath_new_0/shifter_0/m2_n2_1524#" "datapath_new_0/s2" 73.44
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/s1" 36.72
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n41_812#" 73.44
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/a6" 73.44
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[7]/s0" 73.44
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_0/Vdd!" 144
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/a7" 73.44
 cap "m2_922_1442#" "datapath_new_0/shifter_0/z14" 73.44
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/Gnd!" "reset" 7.56
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/rightandarith" 36.72
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/m2_n10_763#" 73.44
+cap "m2_922_1442#" "datapath_new_0/shifter_0/m2_n2_1524#" 73.44
+cap "m2_922_1442#" "datapath_new_0/shifter_0/shift_source_gen_0/nandnandnand_1x_0[6]/nand2_1x_1/Vdd!" 275.4
+cap "m2_922_1442#" "datapath_new_0/shifter_0/z13" 73.44
+cap "datapath_new_0/ph2" "irwrite0" 73.44
 cap "datapath_new_0/ph1" "reset" 73.44
 cap "datapath_new_0/ph2" "reset" 73.44
-cap "m2_250_1376#" "datapath_new_0/ph1" 73.44
-cap "datapath_new_0/ph2" "m2_250_1376#" 73.44
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_95_8#" "m2_250_1376#" 14.85
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph2b" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterb" "m2_250_1376#" 26.82
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/slave" "m2_250_1376#" 26.82
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph1b" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph1" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterinb" "m2_250_1376#" 23.85
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/d" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_29_8#" "m2_250_1376#" 8.91
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/Gnd!" "m2_250_1376#" 105.03
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/Gnd!" "reset" 7.56
+cap "datapath_new_0/ph1" "irwrite0" 73.44
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/qbar" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterb" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph1" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph1b" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterb" 26.82
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_95_8#" 14.85
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/slave" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_13_8#" "irwrite0" 18.9
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_29_8#" 8.91
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph2b" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/Gnd!" 105.03
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterinb" "irwrite0" 23.85
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/enb" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/d" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/master" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/en" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/master" 26.82
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_63_8#" 14.85
 cap "reset" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/Gnd!" 108
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_63_8#" "m2_250_1376#" 14.85
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/enb" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterinb" "m2_250_1376#" 18.9
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/master" "m2_250_1376#" 26.82
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/a_13_8#" "m2_250_1376#" 18.9
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/qbar" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/en" "m2_250_1376#" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterb" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/slave" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph2" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/master" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "m2_250_1376#" 80.19
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/q" 15.93
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_13_8#" 18.9
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/qbar" 23.85
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/qbar" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/d" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/en" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/slave" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/ph2" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/slave" 26.82
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/masterinb" "irwrite0" 18.9
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/qbar" "irwrite0" 23.85
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "irwrite0" 80.19
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/d" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_13_8#" "irwrite0" 18.9
 cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "reset" 108
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/q" "irwrite0" 15.93
+cap "irwrite0" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/qbar" 8.1
+cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_7/slave" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/en" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/slave" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/master" "irwrite0" 8.1
 cap "reset" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" 108
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/enb" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/qbar" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/slave" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/master" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph1" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_29_8#" "m2_250_1376#" 8.91
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/slave" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterb" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_63_8#" "m2_250_1376#" 14.85
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/slave" 26.82
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterinb" "m2_250_1376#" 23.85
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph1b" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/qbar" "m2_250_1376#" 23.85
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph2" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/master" "m2_250_1376#" 26.82
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "m2_250_1376#" 105.03
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph2b" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterinb" "m2_250_1376#" 18.9
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_95_8#" "m2_250_1376#" 14.85
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterb" "m2_250_1376#" 26.82
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph1b" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterb" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterb" "irwrite0" 26.82
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterinb" "irwrite0" 18.9
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_29_8#" "irwrite0" 8.91
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/qbar" "irwrite0" 23.85
+cap "irwrite0" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/qbar" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph2" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/enb" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph2b" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/Gnd!" "irwrite0" 105.03
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_95_8#" "irwrite0" 14.85
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/a_63_8#" "irwrite0" 14.85
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/masterinb" "irwrite0" 23.85
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/master" "irwrite0" 26.82
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/slave" "irwrite0" 26.82
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/ph1" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/slave" "irwrite0" 8.1
 cap "reset" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" 82.08
-cap "datapath_new_0/m1_887_2201#" "m2_250_1376#" 73.44
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_29_8#" 8.91
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_13_8#" "m2_250_1376#" 18.9
-cap "m2_250_1376#" "datapath_new_0/m1_887_2091#" 73.44
-cap "m2_250_1376#" "datapath_new_0/m1_887_2311#" 73.44
-cap "datapath_new_0/m1_887_2201#" "reset" 73.44
-cap "m2_250_1376#" "datapath_new_0/m1_887_1651#" 73.44
-cap "m2_250_1376#" "datapath_new_0/m1_887_1541#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/slave" "m2_250_1376#" 8.1
-cap "reset" "datapath_new_0/m1_887_2091#" 73.44
-cap "reset" "datapath_new_0/m1_887_2311#" 73.44
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/q" "m2_250_1376#" 15.93
+cap "datapath_new_0/m1_887_1541#" "irwrite0" 73.44
+cap "datapath_new_0/m1_887_2091#" "reset" 73.44
+cap "datapath_new_0/m1_887_2311#" "irwrite0" 73.44
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/enb" "irwrite0" 8.1
+cap "datapath_new_0/m1_887_1761#" "reset" 73.44
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/en" "irwrite0" 8.1
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_13_8#" "irwrite0" 18.9
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/q" "irwrite0" 15.93
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "irwrite0" 67.23
 cap "reset" "datapath_new_0/m1_887_1651#" 73.44
-cap "datapath_new_0/m1_887_1761#" "m2_250_1376#" 73.44
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/d" 8.1
-cap "reset" "datapath_new_0/m1_887_1541#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterinb" "m2_250_1376#" 18.9
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/en" "m2_250_1376#" 8.1
-cap "reset" "datapath_new_0/m1_887_1761#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/enb" "m2_250_1376#" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/qbar" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" 67.23
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/master" "m2_250_1376#" 26.82
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph2b" "m2_250_1376#" 8.1
+cap "reset" "datapath_new_0/m1_887_2201#" 73.44
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterinb" "irwrite0" 18.9
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/d" "irwrite0" 8.1
+cap "datapath_new_0/m1_887_2091#" "irwrite0" 73.44
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/slave" "irwrite0" 8.1
+cap "datapath_new_0/m1_887_1761#" "irwrite0" 73.44
+cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_7/qbar" "irwrite0" 8.1
+cap "datapath_new_0/m1_887_1541#" "reset" 73.44
+cap "datapath_new_0/m1_887_1651#" "irwrite0" 73.44
+cap "datapath_new_0/m1_887_2201#" "irwrite0" 73.44
+cap "datapath_new_0/m1_887_2311#" "reset" 73.44
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_29_8#" "irwrite0" 8.91
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph2b" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_95_8#" 14.85
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph1b" 8.1
 cap "reset" "datapath_new_0/m1_1071_2091#" 18.36
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph2" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph1b" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/master" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/qbar" "m2_250_1376#" 8.1
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/qbar" "m2_250_1376#" 23.85
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterb" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterinb" 23.85
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph1" 8.1
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterb" "m2_250_1376#" 26.82
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "m2_250_1376#" 111.51
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_95_8#" "m2_250_1376#" 14.85
-cap "m2_250_1376#" "datapath_new_0/m1_1071_2091#" 18.36
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/slave" 26.82
-cap "reset" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" 106.92
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/q" 15.93
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/slave" 8.1
-cap "m2_250_1376#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_63_8#" 14.85
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/qbar" "m2_250_1376#" 8.1
-cap "datapath_new_0/m1_1071_1981#" "m2_250_1376#" 73.44
-cap "datapath_new_0/m1_1071_2091#" "reset" 55.08
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "reset" 8.64
-cap "m2_250_1376#" "datapath_new_0/m1_1071_1871#" 73.44
-cap "datapath_new_0/m1_1071_1981#" "reset" 73.44
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "irwrite0" 111.51
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/slave" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph2" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterinb" 23.85
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/qbar" 23.85
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/master" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/qbar" 8.1
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "reset" 106.92
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/slave" 26.82
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/ph1" 8.1
+cap "irwrite0" "datapath_new_0/m1_1071_2091#" 18.36
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/master" "irwrite0" 26.82
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/q" 15.93
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterb" "irwrite0" 26.82
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/qbar" "irwrite0" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/masterb" 8.1
+cap "irwrite0" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/a_63_8#" 14.85
+cap "reset" "datapath_new_0/m1_1071_1981#" 73.44
+cap "irwrite0" "datapath_new_0/m1_1071_1981#" 73.44
 cap "reset" "datapath_new_0/m1_1071_1871#" 73.44
-cap "datapath_new_0/m1_1071_2091#" "m2_250_1376#" 55.08
-cap "m2_250_1376#" "datapath_new_0/shamt2" 73.44
+cap "datapath_new_0/m1_1071_2091#" "reset" 55.08
+cap "irwrite0" "datapath_new_0/m1_1071_1871#" 73.44
+cap "datapath_new_0/m1_1071_2091#" "irwrite0" 55.08
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_7/Gnd!" "reset" 8.64
+cap "datapath_new_0/shamt2" "irwrite0" 73.44
 cap "datapath_new_0/memdata0" "m2_241_1344#" 73.44
 cap "datapath_new_0/memdata1" "m2_241_1344#" 73.44
-cap "m2_241_1344#" "datapath_new_0/ph2" 73.44
-cap "m2_241_1344#" "datapath_new_0/ph1" 73.44
-cap "m2_241_1344#" "datapath_new_0/memdata2" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_5/Vdd!" 14.04
 cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_5/enb" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_5/Vdd!" 14.04
+cap "m2_241_1344#" "datapath_new_0/ph1" 73.44
+cap "m2_241_1344#" "datapath_new_0/ph2" 73.44
+cap "m2_241_1344#" "datapath_new_0/memdata2" 73.44
 cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/m1_40_868#" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/m2_72_54#" 73.44
 cap "datapath_new_0/flopen_1x_8_0/m1_96_868#" "m2_241_1344#" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/m2_104_54#" 18.36
-cap "datapath_new_0/flopen_1x_8_0/m1_32_918#" "m2_241_1344#" 73.44
-cap "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_5/Vdd!" "m2_241_1344#" 239.04
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/flopen_dp_1x_5/Vdd!" 239.04
+cap "datapath_new_0/flopen_1x_8_0/m2_104_54#" "m2_241_1344#" 18.36
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/m1_32_918#" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/m2_72_54#" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_0/m2_104_54#" 55.08
 cap "m2_241_1344#" "datapath_new_0/op_0_" 73.44
-cap "datapath_new_0/flopen_1x_8_1/m1_32_918#" "m2_241_1344#" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/m1_16_918#" 73.44
-cap "datapath_new_0/flopen_1x_8_0/m2_104_54#" "m2_241_1344#" 55.08
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/m1_32_918#" 73.44
 cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" 176.4
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/m1_16_918#" 73.44
+cap "datapath_new_0/flopen_1x_8_1/m1_96_868#" "m2_241_1344#" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/m2_72_54#" 73.44
 cap "datapath_new_0/flopen_1x_8_1/m2_104_54#" "m2_241_1344#" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/m1_96_868#" 73.44
-cap "datapath_new_0/flopen_1x_8_1/m2_72_54#" "m2_241_1344#" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" 241.92
 cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_1/m1_40_868#" 73.44
-cap "datapath_new_0/flopen_1x_8_1/flopen_dp_1x_5/Vdd!" "m2_241_1344#" 241.92
-cap "m2_241_1344#" "datapath_new_0/m1_887_2311#" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/m1_16_918#" 73.44
+cap "datapath_new_0/flopen_1x_8_2/m1_16_918#" "m2_241_1344#" 73.44
+cap "datapath_new_0/m1_887_2311#" "m2_241_1344#" 73.44
+cap "datapath_new_0/m1_887_2091#" "m2_241_1344#" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/m1_32_918#" 73.44
 cap "m2_241_1344#" "datapath_new_0/m1_887_2201#" 73.44
-cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" 176.4
-cap "m2_241_1344#" "datapath_new_0/m1_887_2091#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/m1_32_918#" "m2_241_1344#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/m2_104_54#" "m2_241_1344#" 73.44
-cap "m2_241_1344#" "datapath_new_0/m1_1071_2091#" 18.36
+cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" "m2_241_1344#" 176.4
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/m1_96_868#" 73.44
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/m2_104_54#" 73.44
 cap "datapath_new_0/flopen_1x_8_2/m2_72_54#" "m2_241_1344#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/m1_40_868#" "m2_241_1344#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/m1_96_868#" "m2_241_1344#" 73.44
-cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" "m2_241_1344#" 239.04
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/m1_40_868#" 73.44
+cap "datapath_new_0/m1_1071_2091#" "m2_241_1344#" 18.36
+cap "m2_241_1344#" "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" 239.04
+cap "datapath_new_0/m1_1071_1871#" "m2_241_1344#" 73.44
+cap "datapath_new_0/m1_1071_2091#" "m2_241_1344#" 55.08
 cap "m2_241_1344#" "datapath_new_0/m1_1071_1981#" 73.44
-cap "m2_241_1344#" "datapath_new_0/m1_1071_1871#" 73.44
-cap "m2_241_1344#" "datapath_new_0/m1_1071_2091#" 55.08
 cap "datapath_new_0/flopen_1x_8_2/flopen_dp_1x_5/Vdd!" "m2_241_1344#" 8.64
 cap "datapath_new_0/irwrite_3_" "datapath_new_0/ph1" 73.44
-cap "datapath_new_0/op_3_" "datapath_new_0/irwrite_2_" 73.44
-cap "datapath_new_0/op_3_" "datapath_new_0/op_0_" 73.44
-cap "datapath_new_0/op_2_" "m2_383_2594#" 73.44
+cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_3_" 73.44
 cap "m2_383_2594#" "datapath_new_0/op_1_" 73.44
-cap "datapath_new_0/op_2_" "datapath_new_0/op_4_" 73.44
-cap "datapath_new_0/irwrite_2_" "m2_383_2594#" 73.44
-cap "datapath_new_0/op_4_" "m2_303_2512#" 73.44
-cap "m2_383_2594#" "datapath_new_0/op_0_" 73.44
-cap "datapath_new_0/op_1_" "datapath_new_0/op_4_" 73.44
-cap "datapath_new_0/op_3_" "datapath_new_0/op_5_" 73.44
-cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_4_" 61.2
-cap "datapath_new_0/op_0_" "datapath_new_0/op_4_" 73.44
-cap "datapath_new_0/op_2_" "m2_303_2512#" 73.44
-cap "datapath_new_0/op_1_" "m2_303_2512#" 73.44
-cap "datapath_new_0/op_2_" "datapath_new_0/op_1_" 73.44
-cap "datapath_new_0/op_5_" "m2_383_2594#" 73.44
-cap "datapath_new_0/irwrite_2_" "m2_303_2512#" 73.44
-cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_2_" 73.44
-cap "datapath_new_0/op_0_" "m2_303_2512#" 73.44
-cap "datapath_new_0/op_2_" "datapath_new_0/op_0_" 73.44
-cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_1_" 73.44
-cap "datapath_new_0/op_0_" "datapath_new_0/op_1_" 73.44
-cap "datapath_new_0/op_5_" "datapath_new_0/op_4_" 73.44
-cap "datapath_new_0/op_3_" "m2_383_2594#" 73.44
-cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_0_" 73.44
-cap "datapath_new_0/op_3_" "datapath_new_0/op_4_" 73.44
-cap "datapath_new_0/op_5_" "m2_303_2512#" 73.44
-cap "datapath_new_0/op_5_" "datapath_new_0/op_2_" 73.44
-cap "datapath_new_0/op_5_" "datapath_new_0/op_1_" 73.44
+cap "m2_383_2594#" "datapath_new_0/op_2_" 73.44
 cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_5_" 73.44
+cap "datapath_new_0/op_4_" "irwrite3" 73.44
+cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_4_" 61.2
+cap "datapath_new_0/op_2_" "datapath_new_0/op_0_" 73.44
+cap "datapath_new_0/op_0_" "datapath_new_0/op_1_" 73.44
+cap "m2_383_2594#" "datapath_new_0/irwrite_2_" 73.44
+cap "datapath_new_0/op_0_" "irwrite3" 73.44
+cap "datapath_new_0/op_3_" "datapath_new_0/op_5_" 73.44
+cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_0_" 73.44
+cap "datapath_new_0/op_4_" "datapath_new_0/op_3_" 73.44
+cap "datapath_new_0/op_2_" "datapath_new_0/op_1_" 73.44
+cap "datapath_new_0/op_4_" "datapath_new_0/op_5_" 73.44
+cap "m2_383_2594#" "datapath_new_0/op_3_" 73.44
+cap "m2_383_2594#" "datapath_new_0/op_5_" 73.44
+cap "datapath_new_0/op_1_" "irwrite3" 73.44
+cap "datapath_new_0/op_2_" "irwrite3" 73.44
+cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_2_" 73.44
+cap "datapath_new_0/irwrite_2_" "datapath_new_0/op_1_" 73.44
 cap "m2_383_2594#" "datapath_new_0/op_4_" 73.44
-cap "datapath_new_0/op_5_" "datapath_new_0/op_0_" 73.44
-cap "datapath_new_0/op_3_" "m2_303_2512#" 73.44
-cap "datapath_new_0/op_3_" "datapath_new_0/op_2_" 73.44
+cap "datapath_new_0/op_3_" "datapath_new_0/op_0_" 73.44
+cap "datapath_new_0/op_0_" "datapath_new_0/op_5_" 73.44
+cap "datapath_new_0/irwrite_2_" "irwrite3" 73.44
+cap "datapath_new_0/op_4_" "datapath_new_0/op_0_" 73.44
+cap "m2_383_2594#" "datapath_new_0/op_0_" 73.44
 cap "datapath_new_0/op_3_" "datapath_new_0/op_1_" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_431_2539#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_303_2512#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_487_2530#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_463_2575#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_439_2548#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_447_2557#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_455_2566#" 73.44
-cap "datapath_new_0/irwrite_1_" "m2_471_2584#" 73.44
+cap "datapath_new_0/op_3_" "datapath_new_0/op_2_" 73.44
+cap "datapath_new_0/op_1_" "datapath_new_0/op_5_" 73.44
+cap "datapath_new_0/op_2_" "datapath_new_0/op_5_" 73.44
+cap "datapath_new_0/op_3_" "irwrite3" 73.44
+cap "datapath_new_0/op_4_" "datapath_new_0/op_1_" 73.44
+cap "datapath_new_0/op_4_" "datapath_new_0/op_2_" 73.44
+cap "irwrite3" "datapath_new_0/op_5_" 73.44
 cap "datapath_new_0/irwrite_1_" "m2_383_2594#" 73.44
+cap "datapath_new_0/irwrite_1_" "irwrite2" 73.44
+cap "datapath_new_0/irwrite_1_" "op2" 73.44
+cap "datapath_new_0/irwrite_1_" "op4" 73.44
+cap "op0" "datapath_new_0/irwrite_1_" 73.44
+cap "datapath_new_0/irwrite_1_" "irwrite3" 73.44
+cap "datapath_new_0/irwrite_1_" "op1" 73.44
+cap "datapath_new_0/irwrite_1_" "op5" 73.44
+cap "datapath_new_0/irwrite_1_" "op3" 73.44
 merge "mips_fsm_0/zero" "datapath_new_0/zero" -5650.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13 -22 -1200 -400
 merge "datapath_new_0/zero" "m2_1366_1516#"
-merge "datapath_new_0/flopenr_1x_8_0/flopenr_dp_1x_7/q" "pc0" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/writedata6" "writedata6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/ph1" "mips_fsm_0/clk" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "mips_fsm_0/clk" "m2_383_2594#"
 merge "m2_383_2594#" "ph1"
 merge "mips_fsm_0/regwrite" "datapath_new_0/regwrite" -9363 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -200 -1230 -432
 merge "datapath_new_0/regwrite" "m2_950_1340#"
-merge "datapath_new_0/op_4_" "mips_fsm_0/op[4]" -15231.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -3372 -1130
-merge "mips_fsm_0/op[4]" "m2_439_2548#"
 merge "datapath_new_0/memdata1" "memdata1" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "datapath_new_0/op_4_" "mips_fsm_0/op[4]" -15231.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -3372 -1130
+merge "mips_fsm_0/op[4]" "op4"
+merge "mips_fsm_0/pcsrc[1]" "datapath_new_0/pcsrc_1_" -2085.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13 -29 -506 -111
+merge "datapath_new_0/pcsrc_1_" "pcsrc1"
 merge "mips_fsm_0/iord" "datapath_new_0/iord" -34467.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1796 -910 -3960 -1336
 merge "datapath_new_0/iord" "m2_241_1344#"
 merge "datapath_new_0/writedata7" "writedata7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "mips_fsm_0/alusrcb[1]" "datapath_new_0/alusrcb_1_" -7252.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -294 -166 -948 -322
-merge "datapath_new_0/alusrcb_1_" "m2_1167_1466#"
+merge "mips_fsm_0/alusrcb[1]" "datapath_new_0/alusrcb_1_" -2245.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2610 -239 60 -196
+merge "datapath_new_0/alusrcb_1_" "alusrcb1"
 merge "datapath_new_0/memdata2" "memdata2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/ph2" "ph2" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
 merge "mips_fsm_0/pcen" "datapath_new_0/pcen" -5574.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -18 -1200 -400
@@ -629,50 +615,51 @@ merge "datapath_new_0/op0" "m2_1819_1809#"
 merge "datapath_new_0/memdata3" "memdata3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/s1" "datapath_new_0/shamt1" -30804.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 -86 -6640 -2226
 merge "datapath_new_0/shamt1" "m2_1391_1067#"
-merge "mips_fsm_0/alusrca" "datapath_new_0/alusrca" -3083.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 -26 -600 -200
+merge "mips_fsm_0/alusrca" "datapath_new_0/alusrca" -5759.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 -26 -1194 -404
 merge "datapath_new_0/alusrca" "m2_1199_1476#"
 merge "datapath_new_0/op_3_" "mips_fsm_0/op[3]" -15024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -3324 -1114
-merge "mips_fsm_0/op[3]" "m2_447_2557#"
-merge "datapath_new_0/op_0_" "mips_fsm_0/op[0]" -17030.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -3780 -1266
-merge "mips_fsm_0/op[0]" "m2_471_2584#"
+merge "mips_fsm_0/op[3]" "op3"
 merge "datapath_new_0/irwrite_1_" "mips_fsm_0/irwrite[1]" -34852.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2916 -1470 -1674 -580
-merge "mips_fsm_0/irwrite[1]" "m2_671_2521#"
+merge "mips_fsm_0/irwrite[1]" "irwrite1"
 merge "datapath_new_0/memdata4" "memdata4" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "datapath_new_0/shamt2" "datapath_new_0/s2" -18757.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -184 -104 -3814 -1288
+merge "datapath_new_0/shamt2" "datapath_new_0/s2" -21434.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -184 -104 -4408 -1492
 merge "datapath_new_0/s2" "m2_922_1442#"
 merge "datapath_new_0/memdata5" "memdata5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "aludec_0/funct[3]" "datapath_new_0/funct_3_" -26756.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 -4059 -2216
+merge "aludec_0/funct[3]" "datapath_new_0/funct_3_" -26311.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 -3564 -2216
 merge "datapath_new_0/funct_3_" "m2_2154_1390#"
-merge "aludec_0/alucontrol[3]" "m2_1705_1771#" -418.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -24 0 0
-merge "aludec_0/funct[1]" "m2_2019_1370#" -294.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -18 0 0
+merge "aludec_0/alucontrol[3]" "datapath_new_0/op3" -5974.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43 -40 -1200 -400
+merge "datapath_new_0/op3" "m2_1705_1771#"
 merge "datapath_new_0/memdata6" "memdata6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
+merge "aludec_0/funct[1]" "datapath_new_0/funct_1_" -26698.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -18 -6012 -2022
+merge "datapath_new_0/funct_1_" "m2_2019_1370#"
 merge "datapath_new_0/adr0" "adr0" -160.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -16
 merge "datapath_new_0/memdata7" "memdata7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/op_1_" "mips_fsm_0/op[1]" -17241.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -3828 -1282
-merge "mips_fsm_0/op[1]" "m2_463_2575#"
+merge "mips_fsm_0/op[1]" "op1"
 merge "datapath_new_0/adr1" "adr1" -224.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20
 merge "datapath_new_0/adr2" "adr2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "mips_fsm_0/memwrite" "memwrite" -190.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0
-merge "datapath_new_0/op_5_" "mips_fsm_0/op[5]" -12947.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -30 -2820 -946
-merge "mips_fsm_0/op[5]" "m2_431_2539#"
+merge "datapath_new_0/op_0_" "mips_fsm_0/op[0]" -17030.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -3780 -1266
+merge "mips_fsm_0/op[0]" "op0"
 merge "aludec_0/alucontrol[1]" "datapath_new_0/op1" -21030 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -948 -492 -2730 -916
 merge "datapath_new_0/op1" "m2_1787_1829#"
 merge "datapath_new_0/adr3" "adr3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "aludec_0/alucontrol[2]" "datapath_new_0/op2" -1863.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 -24 670 -200
 merge "datapath_new_0/op2" "m2_1752_1790#"
+merge "datapath_new_0/op_5_" "mips_fsm_0/op[5]" -12947.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -30 -2820 -946
+merge "mips_fsm_0/op[5]" "op5"
 merge "datapath_new_0/adr4" "adr4" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "aludec_0/funct[0]" "datapath_new_0/funct_0_" -21400.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -16 -4812 -1616
 merge "datapath_new_0/funct_0_" "m2_1962_1360#"
-merge "datapath_new_0/op3" "m2_2048_1340#" -276 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "datapath_new_0/adr5" "adr5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "aludec_0/alucontrol[4]" "datapath_new_0/op4" -8291.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -22 -1800 -600
 merge "datapath_new_0/op4" "m2_1678_1752#"
-merge "datapath_new_0/adr5" "adr5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "aludec_0/aluop[1]" "mips_fsm_0/aluop[1]" -3930 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -200 0 -20
 merge "mips_fsm_0/aluop[1]" "aluop1"
 merge "datapath_new_0/adr6" "adr6" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "mips_fsm_0/alusrcb[0]" "datapath_new_0/alusrcb_0_" -5925.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -243 -140 -756 -258
-merge "datapath_new_0/alusrcb_0_" "m2_1135_1456#"
 merge "datapath_new_0/writedata0" "writedata0" -224.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20
+merge "mips_fsm_0/irwrite[0]" "datapath_new_0/irwrite_0_" -32400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1288 -824 -3846 -1342
+merge "datapath_new_0/irwrite_0_" "irwrite0"
 merge "mips_fsm_0/regdst" "datapath_new_0/regdst" -12065.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 -200 -1806 -640
 merge "datapath_new_0/regdst" "m2_942_1350#"
 merge "aludec_0/alucontrol[6]" "datapath_new_0/op8" -6063.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -37 -50 -1200 -400
@@ -680,33 +667,30 @@ merge "datapath_new_0/op8" "datapath_new_0/op6"
 merge "datapath_new_0/op6" "m2_1631_1716#"
 merge "datapath_new_0/irwrite_2_" "m2_487_2552#" -40103.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2968 -1504 -2723 -930
 merge "m2_487_2552#" "mips_fsm_0/irwrite[2]"
-merge "mips_fsm_0/irwrite[2]" "m2_487_2530#"
+merge "mips_fsm_0/irwrite[2]" "irwrite2"
 merge "datapath_new_0/adr7" "adr7" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "aludec_0/alucontrol[5]" "datapath_new_0/op7" -7622.55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -51 -600 -600
 merge "datapath_new_0/op7" "datapath_new_0/op5"
 merge "datapath_new_0/op5" "m2_1653_1733#"
 merge "datapath_new_0/writedata1" "writedata1" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "datapath_new_0/irwrite_3_" "mips_fsm_0/irwrite[3]" -43663.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2868 -1452 -3710 -1276
-merge "mips_fsm_0/irwrite[3]" "m2_303_2512#"
 merge "datapath_new_0/writedata2" "writedata2" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "aludec_0/funct[4]" "datapath_new_0/funct_4_" -25424.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -421 -220 -3746 -1723
+merge "aludec_0/funct[4]" "datapath_new_0/funct_4_" -26962.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -421 -220 -4241 -1827
 merge "datapath_new_0/funct_4_" "m2_2218_1400#"
+merge "datapath_new_0/irwrite_3_" "mips_fsm_0/irwrite[3]" -43663.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2868 -1452 -3710 -1276
+merge "mips_fsm_0/irwrite[3]" "irwrite3"
 merge "datapath_new_0/writedata3" "writedata3" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/op_2_" "mips_fsm_0/op[2]" -14952.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -30 -3276 -1098
-merge "mips_fsm_0/op[2]" "m2_455_2566#"
+merge "mips_fsm_0/op[2]" "op2"
 merge "datapath_new_0/writedata4" "writedata4" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "mips_fsm_0/irwrite[0]" "datapath_new_0/irwrite_0_" -32400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1288 -824 -3846 -1342
-merge "datapath_new_0/irwrite_0_" "m2_250_1376#"
 merge "datapath_new_0/writedata5" "writedata5" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
 merge "datapath_new_0/memdata0" "memdata0" -182.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16
-merge "datapath_new_0/funct_1_" "m3_551_1369#" -35295.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8052 -2708
-merge "mips_fsm_0/pcsrc[0]" "datapath_new_0/pcsrc_0" -2862.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 -600 -200
+merge "mips_fsm_0/pcsrc[0]" "datapath_new_0/pcsrc_0" -5539.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 -1194 -404
 merge "datapath_new_0/pcsrc_0" "m2_1231_1486#"
 merge "mips_fsm_0/reset" "datapath_new_0/reset" -22050.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -512 -268 -3991 -1288
 merge "datapath_new_0/reset" "reset"
-merge "aludec_0/funct[5]" "datapath_new_0/funct_5_" -16002 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 776 -230 -2982 -1024
+merge "aludec_0/funct[5]" "datapath_new_0/funct_5_" -18678.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 776 -230 -3576 -1228
 merge "datapath_new_0/funct_5_" "m2_2290_1410#"
 merge "aludec_0/funct[2]" "datapath_new_0/funct_2_" -26294.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 -14 -5934 -2014
 merge "datapath_new_0/funct_2_" "m2_2090_1380#"
-merge "mips_fsm_0/pcsrc[1]" "datapath_new_0/pcsrc_1_" -2535.75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -16 -200 -200
-merge "datapath_new_0/pcsrc_1_" "m2_1295_1496#"
+merge "mips_fsm_0/alusrcb[0]" "datapath_new_0/alusrcb_0_" 292.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4121 -233 508 -196
+merge "datapath_new_0/alusrcb_0_" "alusrcb0"
