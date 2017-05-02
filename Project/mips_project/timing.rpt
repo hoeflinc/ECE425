@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : aludec
+Version: L-2016.03-SP5-2
+Date   : Tue May  2 10:48:19 2017
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: aluop[0] (input port)
+  Endpoint: alucontrol[5]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  aluop[0] (in)                            0.00       0.00 r
+  U9/Y (INVX2)                             0.08       0.08 f
+  U43/Y (NAND3X1)                          0.22       0.30 r
+  U42/Y (NOR2X1)                           0.31       0.61 f
+  U41/Y (NAND2X1)                          0.29       0.90 r
+  U20/Y (AOI21X1)                          0.19       1.09 f
+  U6/Y (INVX2)                             0.09       1.18 r
+  U19/Y (OAI21X1)                          0.09       1.27 f
+  U18/Y (OR2X1)                            0.12       1.39 f
+  alucontrol[5] (out)                      0.00       1.39 f
+  data arrival time                                   1.39
+
+  max_delay                               25.00      25.00
+  output external delay                    0.00      25.00
+  data required time                                 25.00
+  -----------------------------------------------------------
+  data required time                                 25.00
+  data arrival time                                  -1.39
+  -----------------------------------------------------------
+  slack (MET)                                        23.61
+
+
+1
