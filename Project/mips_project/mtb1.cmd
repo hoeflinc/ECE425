@@ -90,7 +90,7 @@ assert adr 01001000
 #writeback
 c 1
 
-#Or 0x3 and 0x5 into a0 (00e22025)
+#Or 0x3 and 0x5 into a0 (0x7) (00e22025)
 #First 4 clocks we cycle in the instruction
 setvector memdata 0x25
 c 1
