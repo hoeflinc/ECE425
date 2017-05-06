@@ -8,7 +8,8 @@ vector writedata writedata7 writedata6 writedata5 writedata4 writedata3 writedat
 clock ph1 1 0 0 0
 clock ph2 0 0 1 0
 vector op op5 op4 op3 op2 op1 op0
-analyzer reset ph1 ph2 adr memdata writedata memwrite op
+vector result datapath_new_0/result7 datapath_new_0/result6 datapath_new_0/result5 datapath_new_0/result4 datapath_new_0/result3 datapath_new_0/result2 datapath_new_0/result1 datapath_new_0/result0
+analyzer reset ph1 ph2 adr memdata writedata memwrite op result
 
 #reset everything
 h reset
@@ -108,10 +109,11 @@ assert adr 00001111
 c 1
 #execution
 c 1
+assert result 00000111
 #r type ending
 c 1
 
-#And 0xc and 0x7 into a0 (0x7) (00642824)
+#And 0xc and 0x7 into a0 (0x4) (00642824)
 #First 4 clocks we cycle in the instruction
 setvector memdata 0x24
 c 1
@@ -129,6 +131,7 @@ assert adr 00010011
 c 1
 #execution
 c 1
+assert result 00000100
 #r type ending
 c 1
 
@@ -150,6 +153,7 @@ assert adr 00010111
 c 1
 #execution
 c 1
+assert result 00001011
 #r type ending
 c 1
 
@@ -174,23 +178,155 @@ c 1
 #branch not taken, so just continue to next instruction address
 assert adr 00011100
 
-#If v1<a0 (0xc<0x7) then set a2, a2=0x0 (0064302a)
+#If v1<a0 (0xc<0x4) then set a2, a2=0x0 (0064302a)
 #First 4 clocks we cycle in the instruction
-setvector memdata 0x00
+setvector memdata 0x2a
 c 1
 assert adr 00011100
-setvector memdata 0x64
-c 1
-assert adr 00011101
 setvector memdata 0x30
 c 1
+assert adr 00011101
+setvector memdata 0x64
+c 1
 assert adr 00011110
-setvector memdata 0x2a
+setvector memdata 0x00
 c 1
 assert adr 00011111
 #instruction decode
 c 1
 #execution
 c 1
+assert result 00000000
 #r type ending
 c 1
+
+#If a2=0, goto branch1 (taken) (10c00001)
+#First 4 clocks we cycle in the instruction
+setvector memdata 0x01
+c 1
+assert adr 00100000
+setvector memdata 0x00
+c 1
+assert adr 00100001
+setvector memdata 0xc0
+c 1
+assert adr 00100010
+setvector memdata 0x10
+c 1
+assert adr 00100011
+#instruction decode
+c 1
+#branch completion
+c 1
+#branch taken, just continue to next instruction address (0x28)
+
+#If a3<v0 (0x3<0x5) then set a2, a2=0x1 (00e2302a)
+#First 4 clocks we cycle in the instruction
+setvector memdata 0x2a
+c 1
+assert adr 00101000
+setvector memdata 0x30
+c 1
+assert adr 00101001
+setvector memdata 0xe2
+c 1
+assert adr 00101010
+setvector memdata 0x00
+c 1
+assert adr 00101011
+#instruction decode
+c 1
+#execution
+c 1
+assert result 00000001
+#r type ending
+c 1
+
+#add 0x01 and 0xb into a3 (0xc) (00c53820)
+#First 4 clocks we cycle in the instruction
+setvector memdata 0x20
+c 1
+assert adr 00101100
+setvector memdata 0x38
+c 1
+assert adr 00101101
+setvector memdata 0xc5
+c 1
+assert adr 00101110
+setvector memdata 0x00
+c 1
+assert adr 00101111
+#instruction decode
+c 1
+#execution
+c 1
+assert result 00001100
+#r type ending
+c 1
+
+#Sub 0x5 from 0xc into a3 (0x7) (00e23822)
+#First 4 clocks we cycle in the instruction
+setvector memdata 0x22
+c 1
+assert adr 00110000
+setvector memdata 0x38
+c 1
+assert adr 00110001
+setvector memdata 0xe2
+c 1
+assert adr 00110010
+setvector memdata 0x00
+c 1
+assert adr 00110011
+#instruction decode
+c 1
+#execution
+c 1
+assert result 00000111
+#r type ending
+c 1
+
+# Jump (0800000f)
+#First 4 clocks we cycle in the instruction
+setvector memdata 0x0f
+c 1
+assert adr 00110100
+setvector memdata 0x00
+c 1
+assert adr 00110101
+setvector memdata 0x00
+c 1
+assert adr 00110110
+setvector memdata 0x08
+c 1
+assert adr 00110111
+#instruction decode
+c 1
+#jump completion
+c 1
+#Jump taken
+
+#Set address 0x4c to 0x7
+#First 4 clocks we cycle in the instruction
+setvector memdata 0x47
+c 1
+assert adr 00111100
+setvector memdata 0x00
+c 1
+assert adr 00111101
+setvector memdata 0x47
+c 1
+assert adr 00111110
+setvector memdata 0xa0
+c 1
+assert adr 00111111
+#instruction decode
+c 1
+#mem address computed
+c 1
+#memory access
+c 1
+#write 0x7 to 0x4c
+assert adr 01001100
+assert memwrite 1
+assert writedata 00000111
