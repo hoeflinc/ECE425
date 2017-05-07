@@ -109,41 +109,20 @@ assert result 10100000
 #r type ending
 c 1
 
-#If a2 = 0? (no, don't branch) (10C50050)
-#First 4 clocks we cycle in the instruction
-setvector memdata 0x50
-c 1
-assert adr 00010000
-setvector memdata 0x00
-c 1
-assert adr 00010001
-setvector memdata 0xc5
-c 1
-assert adr 00010010
-setvector memdata 0x10
-c 1
-assert adr 00010011
-#instruction decode
-c 1
-#branch completion
-c 1
-#branch not taken, continue to next address
-assert adr 00010100
-
 #shift right arithmetic a1 by 4 (0xfa) (00052903)
 #First 4 clocks we cycle in the instruction
 setvector memdata 0x03
 c 1
-assert adr 00010100
+assert adr 00010000
 setvector memdata 0x29
 c 1
-assert adr 00010101
+assert adr 00010001
 setvector memdata 0x05
 c 1
-assert adr 00010110
+assert adr 00010010
 setvector memdata 0x00
 c 1
-assert adr 00010111
+assert adr 00010011
 #instruction decode
 c 1
 #execution
@@ -156,16 +135,16 @@ c 1
 #First 4 clocks we cycle in the instruction
 setvector memdata 0x00
 c 1
-assert adr 00011000
+assert adr 00010100
 setvector memdata 0x00
 c 1
-assert adr 00011001
+assert adr 00010101
 setvector memdata 0xa4
 c 1
-assert adr 00011010
+assert adr 00010110
 setvector memdata 0xa0
 c 1
-assert adr 00011011
+assert adr 00010111
 #instruction decode
 c 1
 #mem address computed
