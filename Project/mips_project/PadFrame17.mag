@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1491676833
+timestamp 1494257474
 use PADFC  PADFC_0
 timestamp 949001400
 transform 1 0 0 0 1 4000
@@ -81,8 +81,8 @@ use PADINC  memdata2
 timestamp 1084294328
 transform 0 -1 1000 1 0 1600
 box -6 -3 303 1000
-use PADOUT  memdata1
-timestamp 1084294529
+use PADINC  PADINC_1
+timestamp 1084294328
 transform 0 -1 1000 1 0 1300
 box -6 -3 303 1000
 use PADVDD  PADVDD_0
@@ -121,8 +121,8 @@ use PADNC  PADNC_3
 timestamp 1084294400
 transform 0 1 4000 1 0 1300
 box -3 -3 303 1000
-use PADOUT  memdata0
-timestamp 1084294529
+use PADINC  PADINC_0
+timestamp 1084294328
 transform 0 -1 1000 1 0 1000
 box -6 -3 303 1000
 use PADFC  PADFC_2

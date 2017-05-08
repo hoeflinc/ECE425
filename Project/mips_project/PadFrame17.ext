@@ -1,4 +1,4 @@
-timestamp 1491676833
+timestamp 1494257474
 version 8.1
 tech scmos
 style AMI0.5um(amic5)from:T24H
@@ -24,7 +24,7 @@ use PADINC memdata5 0 -1 1000 1 0 2500
 use PADINC memdata4 0 -1 1000 1 0 2200
 use PADINC memdata3 0 -1 1000 1 0 1900
 use PADINC memdata2 0 -1 1000 1 0 1600
-use PADOUT memdata1 0 -1 1000 1 0 1300
+use PADINC PADINC_1 0 -1 1000 1 0 1300
 use PADVDD PADVDD_0 0 1 4000 -1 0 3997
 use PADGND PADGND_0 0 1 4000 -1 0 3698
 use PADNC PADNC_9 0 1 4000 1 0 3100
@@ -34,7 +34,7 @@ use PADNC PADNC_6 0 1 4000 1 0 2200
 use PADNC PADNC_5 0 1 4000 1 0 1900
 use PADNC PADNC_4 0 1 4000 1 0 1600
 use PADNC PADNC_3 0 1 4000 1 0 1300
-use PADOUT memdata0 0 -1 1000 1 0 1000
+use PADINC PADINC_0 0 -1 1000 1 0 1000
 use PADFC PADFC_2 0 -1 1000 1 0 0
 use PADOUT writedata0 -1 0 1300 0 -1 1000
 use PADOUT writedata1 -1 0 1600 0 -1 1000
@@ -73,41 +73,41 @@ cap "PADNC_2/w_11_11#" "PADNC_2/w_n3_n3#" -151.2
 cap "PADNC_2/w_11_11#" "PADNC_2/w_n3_n3#" -504
 cap "PADNC_0/w_n3_n3#" "PADNC_0/w_11_11#" -4.54747e-13
 cap "PADNC_1/w_n3_n3#" "PADNC_1/w_11_11#" -498.96
-cap "PADGND_0/w_n3_n3#" "PADNC_9/w_11_11#" -498.96
+cap "PADNC_9/w_11_11#" "PADGND_0/w_n3_n3#" -498.96
 cap "PADGND_0/w_n3_n3#" "PADNC_9/w_11_11#" -504
 cap "PADGND_0/w_n3_n3#" "PADNC_9/w_11_11#" -151.2
 cap "PADGND_0/w_17_429#" "PADGND_0/gnd" -302.4
 cap "PADGND_0/w_17_429#" "PADGND_0/gnd" -504
 cap "PADGND_0/gnd" "PADGND_0/w_17_429#" -352.8
-cap "PADVDD_0/w_11_11#" "PADVDD_0/w_n3_n3#" -249.48
+cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_11_11#" -249.48
 cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_11_11#" -252
 cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_11_11#" -75.6
-cap "PADVDD_0/w_n3_340#" "PADVDD_0/w_n3_n3#" -151.2
-cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_n3_340#" -252
+cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_n3_340#" -151.2
+cap "PADVDD_0/w_n3_340#" "PADVDD_0/w_n3_n3#" -252
 cap "PADVDD_0/w_n3_n3#" "PADVDD_0/w_n3_340#" -176.4
 cap "PADFC_0/m2_769_0#" "PADFC_0/w_670_n3#" -4.54747e-13
 cap "reset/Gnd2" "adr0/Vdd" -4.54747e-13
-cap "PADFC_3/w_670_n3#" "PADFC_3/m2_769_0#" -4.54747e-13
-cap "PADFC_0/w_670_n3#" "reset/Gnd2" -5.68434e-14
+cap "PADFC_3/m2_769_0#" "PADFC_3/w_670_n3#" -4.54747e-13
+cap "reset/Gnd2" "PADFC_0/w_670_n3#" -5.68434e-14
 cap "reset/DI" "reset/Gnd" 7.10543e-15
 cap "reset/Gnd" "adr0/Vdd" 5.68434e-14
 cap "adr0/Gnd" "adr0/a_248_269#" 7.10543e-15
-cap "adr0/Gnd" "adr1/Vdd" 5.68434e-14
+cap "adr1/Vdd" "adr0/Gnd" 5.68434e-14
 cap "adr1/Gnd" "adr1/a_248_269#" 7.10543e-15
-cap "adr1/Gnd" "adr2/Vdd" 5.68434e-14
-cap "adr2/Gnd" "adr2/a_248_269#" 7.10543e-15
+cap "adr2/Vdd" "adr1/Gnd" 5.68434e-14
+cap "adr2/a_248_269#" "adr2/Gnd" 7.10543e-15
 cap "adr3/Vdd" "adr2/Gnd" 5.68434e-14
 cap "adr3/a_248_269#" "adr3/Gnd" 7.10543e-15
 cap "adr3/Gnd" "adr4/Vdd" 5.68434e-14
-cap "adr4/a_248_269#" "adr4/Gnd" 7.10543e-15
+cap "adr4/Gnd" "adr4/a_248_269#" 7.10543e-15
 cap "adr4/Gnd" "adr5/Vdd" 5.68434e-14
 cap "adr5/Gnd" "adr5/a_248_269#" 7.10543e-15
-cap "adr5/Gnd" "adr6/Vdd" 5.68434e-14
+cap "adr6/Vdd" "adr5/Gnd" 5.68434e-14
 cap "adr6/Gnd" "adr6/a_248_269#" 7.10543e-15
 cap "adr7/Vdd" "adr6/Gnd" 5.68434e-14
 cap "adr7/Gnd" "adr7/a_248_269#" 7.10543e-15
-cap "MemWrite/Vdd" "adr7/Gnd" 5.68434e-14
-cap "PADFC_0/w_327_n3#" "PADFC_0/m2_330_0#" -4.54747e-13
+cap "adr7/Gnd" "MemWrite/Vdd" 5.68434e-14
+cap "PADFC_0/m2_330_0#" "PADFC_0/w_327_n3#" -4.54747e-13
 merge "PADFC_3/m2_330_0#" "MemWrite/Vdd2" -437989 -328 -8676 0 0 -17679 -5637 0 0 0 0 0 0 0 0 0 0 -59 -8668 -11 -12248 0 0
 merge "MemWrite/Vdd2" "adr7/Vdd2"
 merge "adr7/Vdd2" "adr6/Vdd2"
@@ -141,10 +141,10 @@ merge "writedata2/Vdd2" "writedata1/Vdd2"
 merge "writedata1/Vdd2" "writedata0/Vdd2"
 merge "writedata0/Vdd2" "PADFC_2/m2_330_0#"
 merge "PADFC_2/m2_330_0#" "PADFC_1/m2_330_0#"
-merge "PADFC_1/m2_330_0#" "memdata0/Vdd2"
-merge "memdata0/Vdd2" "PADNC_1/w_17_429#"
-merge "PADNC_1/w_17_429#" "memdata1/Vdd2"
-merge "memdata1/Vdd2" "PADNC_3/w_17_429#"
+merge "PADFC_1/m2_330_0#" "PADINC_0/Vdd2"
+merge "PADINC_0/Vdd2" "PADNC_1/w_17_429#"
+merge "PADNC_1/w_17_429#" "PADINC_1/Vdd2"
+merge "PADINC_1/Vdd2" "PADNC_3/w_17_429#"
 merge "PADNC_3/w_17_429#" "memdata2/Vdd2"
 merge "memdata2/Vdd2" "PADNC_4/w_17_429#"
 merge "PADNC_4/w_17_429#" "memdata3/Vdd2"
@@ -172,10 +172,10 @@ merge "writedata3/Vdd" "writedata2/Vdd"
 merge "writedata2/Vdd" "writedata1/Vdd"
 merge "writedata1/Vdd" "writedata0/Vdd"
 merge "writedata0/Vdd" "PADFC_2/w_670_n3#"
-merge "PADFC_2/w_670_n3#" "memdata0/Vdd"
-merge "memdata0/Vdd" "PADNC_1/w_n3_n3#"
-merge "PADNC_1/w_n3_n3#" "memdata1/Vdd"
-merge "memdata1/Vdd" "PADNC_3/w_n3_n3#"
+merge "PADFC_2/w_670_n3#" "PADINC_0/Vdd"
+merge "PADINC_0/Vdd" "PADNC_1/w_n3_n3#"
+merge "PADNC_1/w_n3_n3#" "PADINC_1/Vdd"
+merge "PADINC_1/Vdd" "PADNC_3/w_n3_n3#"
 merge "PADNC_3/w_n3_n3#" "memdata2/Vdd"
 merge "memdata2/Vdd" "PADNC_4/w_n3_n3#"
 merge "PADNC_4/w_n3_n3#" "memdata3/Vdd"
@@ -226,10 +226,10 @@ merge "writedata2/Gnd" "writedata1/Gnd"
 merge "writedata1/Gnd" "writedata0/Gnd"
 merge "writedata0/Gnd" "PADFC_2/w_327_n3#"
 merge "PADFC_2/w_327_n3#" "PADFC_1/w_327_n3#"
-merge "PADFC_1/w_327_n3#" "memdata0/Gnd"
-merge "memdata0/Gnd" "PADNC_1/w_n3_340#"
-merge "PADNC_1/w_n3_340#" "memdata1/Gnd"
-merge "memdata1/Gnd" "PADNC_3/w_n3_340#"
+merge "PADFC_1/w_327_n3#" "PADINC_0/Gnd"
+merge "PADINC_0/Gnd" "PADNC_1/w_n3_340#"
+merge "PADNC_1/w_n3_340#" "PADINC_1/Gnd"
+merge "PADINC_1/Gnd" "PADNC_3/w_n3_340#"
 merge "PADNC_3/w_n3_340#" "memdata2/Gnd"
 merge "memdata2/Gnd" "PADNC_4/w_n3_340#"
 merge "PADNC_4/w_n3_340#" "memdata3/Gnd"
@@ -255,10 +255,10 @@ merge "writedata3/Gnd2" "writedata2/Gnd2"
 merge "writedata2/Gnd2" "writedata1/Gnd2"
 merge "writedata1/Gnd2" "writedata0/Gnd2"
 merge "writedata0/Gnd2" "PADFC_2/m2_769_0#"
-merge "PADFC_2/m2_769_0#" "memdata0/Gnd2"
-merge "memdata0/Gnd2" "PADNC_1/w_11_11#"
-merge "PADNC_1/w_11_11#" "memdata1/Gnd2"
-merge "memdata1/Gnd2" "PADNC_3/w_11_11#"
+merge "PADFC_2/m2_769_0#" "PADINC_0/Gnd2"
+merge "PADINC_0/Gnd2" "PADNC_1/w_11_11#"
+merge "PADNC_1/w_11_11#" "PADINC_1/Gnd2"
+merge "PADINC_1/Gnd2" "PADNC_3/w_11_11#"
 merge "PADNC_3/w_11_11#" "memdata2/Gnd2"
 merge "memdata2/Gnd2" "PADNC_4/w_11_11#"
 merge "PADNC_4/w_11_11#" "memdata3/Gnd2"
